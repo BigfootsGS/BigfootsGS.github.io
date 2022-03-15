@@ -1,5 +1,51 @@
 <!DOCTYPE html>
 <html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet">
+<style>
+body {font-family:Press Start 2P;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+</style>
+<body>
+
+<h2>Responsive Navigation Bar with Icons</h2>
+<p>Try to resize the browser window to see the responsive effect.</p>
+
+<div class="navbar">
+  <a href="/">Home</a> 
+  <a href="/about-us">About Us</a> 
+  <a href="/games">Games</a>
+</div>
+
+</body>
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>

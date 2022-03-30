@@ -2,7 +2,6 @@
     padding: 10px;
     background-image: url('bkgrnd.jpg');
     background-size: 100% 100%;
-    background-repeat: repeat-x;
     background-attachment: fixed;
     width: 100%;
     display: flex;

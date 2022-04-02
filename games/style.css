@@ -1,9 +1,6 @@
 /*style for games.html*/
 .list {
     padding: 10px;
-    background-image: url('bkgrnd.png');
-    background-size: 100% 100%;
-    background-attachment: fixed;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -70,4 +67,8 @@
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
- 
+body {
+    background-image: url('bkgrnd.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}

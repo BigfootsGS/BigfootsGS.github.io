@@ -1,4 +1,3 @@
-	<script language="JavaScript">
 var r_text = new Array ();
 r_text[0] = "Infinite Possibilities";
 r_text[1] = "But did she like me?";

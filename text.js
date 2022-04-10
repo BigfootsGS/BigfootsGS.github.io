@@ -26,4 +26,4 @@ r_text[23] = "Grapes light up in flames in the microwave"
 r_text[24] = "Did you know that Mcdonalds made buble gum flavored broccoli?"
 var i = Math.floor(24*Math.random())
 
-document.write('<span style="font-weight: 1000;font-style: normal; text-align:center; color:White; padding: 100px;">' + r_text[i] + '</span>');
+document.write('<span style="font-weight: 1000;font-style: normal; text-align:center; color:White; padding: 100px; font-family: "Press Start 2P";>' + r_text[i] + '</span>');

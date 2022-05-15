@@ -1,4 +1,5 @@
-let inFrame
+//Stop script for testing
+/*let inFrame
 
 try {
     inFrame = window !== top

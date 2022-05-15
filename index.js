@@ -1,5 +1,5 @@
 //Stop script for testing
-/*let inFrame
+let inFrame
 
 try {
     inFrame = window !== top
@@ -84,4 +84,4 @@ document.addEventListener('keypress', function (e) {
       doc1.body.appendChild(iframe1);
     }
 });
-*/
+

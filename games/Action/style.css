@@ -1,5 +1,4 @@
-/*style for games.html*/
-.list {
+a {
     width: 100%;
     display: flex;
     flex-direction: column;

@@ -1,0 +1,41 @@
+  .footer {
+  text-align: center; /* Center text*/
+  padding: 40px; /* Some padding */
+  color:#FFFFFF;
+  background-color: #000000; /* Black background */
+  font-family: 'Press Start 2P';
+	  }
+	  h {
+		  font-size:35px;
+		  font-family: 'Press Start 2P';  
+	  }
+	  h2 {
+	  	font-size:10px;
+	  }	 
+	  .textjs {
+		  font-family: 'Press Start 2P';  
+	  }
+	  a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+  

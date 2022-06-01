@@ -5,6 +5,6 @@
 
 Email the Devs at Bigfoot@bigfoot9999.tk or Anthony@bigfoot9999.tk.
 ### Contributors 
-<img src="https://contrib.rocks/image?repo=bigfoot9999/website"/>
+<img src="https://contrib.rocks/image?repo=bigfoot9999/website/"/>
 
 

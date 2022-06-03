@@ -1,5 +1,4 @@
-//Stop script for testing
-/*
+
 let inFrame
 
 try {
@@ -86,4 +85,4 @@ document.addEventListener('keypress', function (e) {
     }
 });
 
-*/
+

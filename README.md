@@ -1,6 +1,5 @@
 # Bigfoot's Game Shack
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Bigfoot9999/website)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBigfoot9999%2Fwebsite)
+
 <div align='center'>
 
 ![GitHub issues](https://img.shields.io/github/issues/bigfoot9999/bigfoot9999.github.io?logo=github&style=flat-square) 
@@ -15,4 +14,5 @@ Email the Devs at Bigfoot@bigfoot9999.tk or Anthony@bigfoot9999.tk.
 ### Contributors 
 <img src="https://contrib.rocks/image?repo=bigfoot9999/website"/>
 
-
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Bigfoot9999/website)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBigfoot9999%2Fwebsite)

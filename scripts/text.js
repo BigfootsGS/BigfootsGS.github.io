@@ -27,7 +27,7 @@ r_text[24] = "Did you know that Mcdonalds made buble gum flavored broccoli?";
 var i = Math.floor(25 * Math.random());
 
 document.write(
-  '<span class="textjs"; padding-top:1000px;style="font-weight: 1000;font-style: normal; text-align:center; color: white; font-family: "Press Start 2P";>' +
+  '<span class="textjs";style="font-weight: 1000;font-style: normal; text-align:center; color: white; font-family: "Press Start 2P";>' +
     r_text[i] +
     "</span>"
 );

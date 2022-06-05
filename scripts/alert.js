@@ -31,7 +31,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         location.replace("https://google.com")
     }
 }
-
+//made by Bigfoot9999
 function clockTime(){
     var date = new Date();
     var h = date.getHours(); // 0 - 23

@@ -24,6 +24,7 @@ r_text[21] = "Time is irrelevant like everything else except this website...";
 r_text[22] = "Did you know the three dots are called elipses...";
 r_text[23] = "Grapes light up in flames in the microwave...";
 r_text[24] = "Did you know that Mcdonalds made buble gum flavored broccoli?";
+r_text[25] = "Will you marry me?";
 var i = Math.floor(25 * Math.random());
 
 document.write(

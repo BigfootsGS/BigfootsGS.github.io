@@ -25,8 +25,8 @@ r_text[22] = "Did you know the three dots are called elipses...";
 r_text[23] = "Grapes light up in flames in the microwave...";
 r_text[24] = "Did you know that Mcdonalds made buble gum flavored broccoli?";
 r_text[25] = "Will you marry me?";
-var i = Math.floor(25 * Math.random());
-
+var i = Math.floor(26 * Math.random());
+//number next to math.floor needs to be one more than the last number added
 document.write(
   '<span class="textjs";style="font-weight: 1000;font-style: normal; text-align:center; color: white; font-family: "Press Start 2P";>' +
     r_text[i] +

@@ -1,7 +1,8 @@
 
 
 <div align='center'>
-  
+  <img src="https://raw.githubusercontent.com/BigfootsGS/BigfootsGS.github.io/main/images/1.png"/>
+
 # Bigfoot's Game Shack
   
 ![GitHub issues](https://img.shields.io/github/issues/bigfoot9999/bigfoot9999.github.io?logo=github&style=flat-square) 
@@ -19,5 +20,4 @@ Email the Devs at Bigfoot@bigfoot9999.tk or Anthony@bigfoot9999.tk.
   [![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/bigfoot9999/bigfoot9999.github.io)
 ### Contributors 
 <img src="https://contrib.rocks/image?repo=bigfoot9999/website"/>
-<img src="https://raw.githubusercontent.com/BigfootsGS/BigfootsGS.github.io/main/images/1.png"/>
   

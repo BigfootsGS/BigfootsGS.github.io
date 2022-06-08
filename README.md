@@ -20,4 +20,4 @@ Email the Devs at Bigfoot@bigfoot9999.tk or Anthony@bigfoot9999.tk.
 ###  Github Contributors 
 <img src="https://contrib.rocks/image?repo=bigfoot9999/website"/>
   
-<a href="https://v3.bigfoootgaming.tk" > <img src="https://raw.githubusercontent.com/BigfootsGS/BigfootsGS.github.io/main/images/1.png"/></a>
+<a style="padding-top: 10px;" href="https://v3.bigfoootgaming.tk" > <img src="https://raw.githubusercontent.com/BigfootsGS/BigfootsGS.github.io/main/images/1.png"/></a>

@@ -82,5 +82,5 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  text-decoration: underline;
 }

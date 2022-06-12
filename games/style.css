@@ -9,6 +9,7 @@ button {
 }
 html{
   font-family: "Press Start 2P";
+  
 }
 .footer {
   text-align: center; /* Center text*/
@@ -20,6 +21,10 @@ html{
 h {
   font-size: 35px;
   font-family: "Press Start 2P";
+}
+h1 {
+font-family: "Press Start 2P";
+font-size: 3vh;
 }
 h2 {
   font-size: 10px;

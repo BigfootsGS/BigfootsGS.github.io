@@ -1,9 +1,10 @@
 button {
   padding:14px;
-  background:#141414;
-  color:white;
+  background:white;
+  color:black;
   border:none;
   border-radius:5px;
+  -webkit-font-smoothing: antialiased;
   
 }
   .footer {

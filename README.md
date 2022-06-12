@@ -15,9 +15,9 @@
 
 Email the Devs at Bigfoot@bigfoot9999.tk or Anthony@bigfoot9999.tk.
   
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Bigfoot9999/website)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy repository=https://github.com/BigfootsGS/BigfootsGS.github.io)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBigfoot9999%2Fwebsite)
-  [![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/bigfoot9999/bigfoot9999.github.io)
+  [![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/BigfootsGS/BigfootsGS.github.io)
 ### Contributors 
 <img src="https://contrib.rocks/image?repo=bigfoot9999/website"/>
   

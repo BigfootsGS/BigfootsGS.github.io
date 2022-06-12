@@ -7,6 +7,9 @@ button {
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
 }
+html{
+  font-family: "Press Start 2P";
+}
 .footer {
   text-align: center; /* Center text*/
   padding: 40px; /* Some padding */

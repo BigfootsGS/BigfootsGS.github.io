@@ -36,49 +36,15 @@
         <li>
           <a href="https://stars.gq/" class="right">Interstellar Games</a>
         </li>
-    </div>
-      <div class= "blankk">
-      <script>
-          function blank() {
-          var urlObj = new window.URL(window.location.href);
-          var url = link[1];
-          if (url) {
-            var win;
-            document.querySelector('button').onclick = function() {
-              if (win) {
-                win.focus();
-              } else {
-                win = window.open();
-                win.document.body.style.margin = '0';
-                win.document.body.style.height = '100vh';
-                var iframe = win.document.createElement('iframe');
-                iframe.style.border = 'none';
-                iframe.style.width = '100%';
-                iframe.style.height = '100%';
-                iframe.style.margin = '0';
-                iframe.src = url;
-                win.document.body.appendChild(iframe);
-              }
-              document.querySelector('button').style.background = '#00000';
-            };
-          }
-          }
-        </script>
-        <script>
-        const link = [];
-        link[0] = "https://verynicesite.com";
-        link[1] = "https://verynicesite.com";
-      </script>
-      </div>
+        </div>
     <!--Start Games List-->
     <div class="gameslist">
       <h1>Action Games</h1>
-      <!--<a href='Action/Slope Game/index.html'><button>Slope Game</button></a><br>-->
-      <a>
-       <!-- <button onclick="blank();" type="button">Woriar</button>-->
-        <a onclick="blank();" href="#"><button>Game Name here</button></a>
-        
-      </a>
+            <p id="slopegame">Slope Game</p>
+      <script>
+document.getElementById("slopegame").addEventListener("click", blank);
+</script>
+      
       <h1>Puzzle & Strategy Games</h1>
       <h1>Skill Games</h1>
       <h1>Retro</h1>

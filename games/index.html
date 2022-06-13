@@ -37,21 +37,9 @@
           <a href="https://stars.gq/" class="right">Interstellar Games</a>
         </li>
     </div>
-    <!--Start Games List-->
-    <div class="gameslist">
+      <div class= "blankk">
       <script>
-        const link = [];
-        link[0] = "https://verynicesite.com";
-        link[1] = "https://verynicesite.com";
-      </script>
-      <h style="text-color:#FFFFFF;font-family: 'Press Start 2P';">Click a Game Category</h>
-      <br>
-      <h1>Action Games</h1>
-      <!--<a href='Action/Slope Game/index.html'><button>Slope Game</button></a><br>-->
-      <a>
-        <button type="button">Woriar</button>
-        <script>
-          function blank(){
+          function blank() {
           var urlObj = new window.URL(window.location.href);
           var url = link[1];
           if (url) {
@@ -76,6 +64,19 @@
           }
           }
         </script>
+        <script>
+        const link = [];
+        link[0] = "https://verynicesite.com";
+        link[1] = "https://verynicesite.com";
+      </script>
+      </div>
+    <!--Start Games List-->
+    <div class="gameslist">
+      <h1>Action Games</h1>
+      <!--<a href='Action/Slope Game/index.html'><button>Slope Game</button></a><br>-->
+      <a>
+        <button onclick="blank();" type="button">Woriar</button>
+        
       </a>
       <h1>Puzzle & Strategy Games</h1>
       <h1>Skill Games</h1>

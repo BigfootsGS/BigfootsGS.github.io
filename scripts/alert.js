@@ -18,7 +18,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         const style = iframe.style
         const link = doc.createElement("link")
 
-        doc.title = "404 Wrong Url | BGS"
+        doc.title = "Google | BGS"
         link.rel = "icon";
         link.href = "https://raw.githubusercontent.com/Bigfoot9999/website/main/favicon.ico";
         iframe.src = location.href

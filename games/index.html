@@ -54,7 +54,7 @@
   function reply_click(clicked_id)
   {
       console.log(clicked_id);
-              var urlObj = new window.URL(window.location.href);
+          var urlObj = new window.URL(window.location.href);
           var url = clicked_id;
           if (url) {
             var win;
@@ -70,7 +70,7 @@
                 iframe.style.width = '100%';
                 iframe.style.height = '100%';
                 iframe.style.margin = '0';
-                iframe.src = clicked_id;
+                iframe.src = url;
                 win.document.body.appendChild(iframe);
               }
               document.querySelector('button').style.background = '#00000';

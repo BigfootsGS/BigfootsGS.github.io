@@ -1,15 +1,4 @@
-const gamelink = [
-                  "https://krunker.io", 
-                  "https://v3.bigfootgaming.tk",
-                  "https://bigfoot9999.github.io/Slope-Game/"
-                 ];
-let krunker = gamelink[0];
-let bgs = gamelink[1];
-let slope = gamelink[2];
-
-
-function blank() {
-          var urlObj = new window.URL(window.location.href);
+         /* var urlObj = new window.URL(window.location.href);
           var url = slope;
           if (url) {
             var win;
@@ -31,4 +20,5 @@ function blank() {
               document.querySelector('button').style.background = '#00000';
             };
           }
-          }
+          
+*/

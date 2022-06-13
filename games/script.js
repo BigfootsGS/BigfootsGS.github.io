@@ -1,13 +1,16 @@
-const gamelink = ["https://krunker.io", "https://v3.bigfootgaming.tk","https://bigfoot9999.github.io/Slope-Game/"];
+const gamelink = [
+                  "https://krunker.io", 
+                  "https://v3.bigfootgaming.tk",
+                  "https://bigfoot9999.github.io/Slope-Game/"
+                 ];
 let krunker = gamelink[0];
-let BGS = gamelink[1];
+let bgs = gamelink[1];
 let slope = gamelink[2];
-alert(slope);
-//
+
 
 function blank() {
           var urlObj = new window.URL(window.location.href);
-          var url = document.getElementById("slopegame").addEventListener("click");
+          var url = slope;
 /*GET THE NAME OF THE BUTTON THE USER CLICKED*/;
           if (url) {
             var win;

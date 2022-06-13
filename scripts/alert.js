@@ -18,7 +18,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         const style = iframe.style
         const link = doc.createElement("link")
 
-        doc.title = "Bigfoot's Game Shack"
+        doc.title = "404 Wrong Url | BGS"
         link.rel = "icon";
         link.href = "https://raw.githubusercontent.com/Bigfoot9999/website/main/favicon.ico";
         iframe.src = location.href

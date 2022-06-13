@@ -11,7 +11,6 @@ let slope = gamelink[2];
 function blank() {
           var urlObj = new window.URL(window.location.href);
           var url = slope;
-/*GET THE NAME OF THE BUTTON THE USER CLICKED*/;
           if (url) {
             var win;
             document.querySelector('button').onclick = function() {

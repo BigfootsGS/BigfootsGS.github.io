@@ -40,44 +40,39 @@
         </li>
         </div>
     <!--Start Games List-->
-    <div class="gameslist">
-      <h1>Action Games</h1>
-      <button id="https://theadvancedsociety-tam.tbt.mx/tam-run3/" onClick="reply_click(this.id)">Run 3</button><br>
-      <button id="https://bigfoot9999.github.io/Slope-Game/" onClick="reply_click(this.id)">Slope Game</button><br>
-  
-      <h1>Puzzle & Strategy Games</h1>
-      <h1>Skill Games</h1>
-      <h1>Retro</h1>
-      <h1>Shooter Games</h1>
-      <h1>Other</h1>
-      <script type="text/javascript">
-  function reply_click(clicked_id){
-      console.log(clicked_id);
-          var urlObj = new window.URL(window.location.href);
-          var url = clicked_id;
-          if (url) {
-            var win;
-            document.querySelector('button').onclick = function() {
-              if (win) {
-                win.focus();
-              } else {
-                win = window.open();
-                win.document.body.style.margin = '0';
-                win.document.body.style.height = '100vh';
-                var iframe = win.document.createElement('iframe');
-                iframe.style.border = 'none';
-                iframe.style.width = '100%';
-                iframe.style.height = '100%';
-                iframe.style.margin = '0';
-                iframe.src = url;
-                win.document.body.appendChild(iframe);
-              }
-              document.querySelector('button').style.background = '#00000';
-            };
-          }  
-  }
-</script>      
-    </div>
+   <div class="gameslist">
+  <h1>Action Games</h1>
+  <button onClick="openGame('https://theadvancedsociety-tam.tbt.mx/tam-run3/')">Run 3</button>
+  <br>
+  <button onClick="openGame('https://bigfoot9999.github.io/Slope-Game/')">Slope Game</button>
+  <br>
+  <h1>Puzzle & Strategy Games</h1>
+  <h1>Skill Games</h1>
+  <h1>Retro</h1>
+  <h1>Shooter Games</h1>
+  <h1>Other</h1>
+  <script type="text/javascript">
+    let win;
+
+    function openGame(url) {
+      if (win) {
+        win.focus();
+        return;
+      }
+
+      win = window.open();
+      win.document.body.style.margin = '0';
+      win.document.body.style.height = '100vh';
+      const iframe = win.document.createElement('iframe');
+      iframe.style.border = 'none';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.margin = '0';
+      iframe.src = url;
+      win.document.body.appendChild(iframe);
+    }
+  </script>
+</div>
     <!--Footer-->
     <div class="footer">
       <h>Bigfoot's Game Shack</h>

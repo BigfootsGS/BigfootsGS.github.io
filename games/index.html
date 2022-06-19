@@ -72,12 +72,21 @@
   <h1>Shooter Games</h1>
   <h1>Other</h1>
   <script type="text/javascript">
-    //start url data
-    const game = {
-"title": "Slope Game",
-"link": "https://bigfoot9999.github.io/Slope-Game/"
-}
-    //end game
+    //start game code
+    var buttonArr = [
+					{ "name":"foo","url":"http://"},
+					{ "name":"bar","url":"http://"}
+]
+
+var buttonHTML ="";
+
+buttonArr.forEach(function (arrayItem) {
+    console.log(arrayItem.name);
+	console.log(arrayItem.url);
+	
+	buttonHTML.push("<button onClick='openGame('arrayItem.url')>arrayItem.name</button>"
+});
+    //end game code
     let win;
 
     function openGame(url) {

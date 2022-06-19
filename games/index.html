@@ -71,6 +71,10 @@
   <h1>Retro</h1>
   <h1>Shooter Games</h1>
   <h1>Other</h1>
+
+	   <h3>buttondivhere</h3>
+   <div class="buttonDiv"></div>
+	   
   <script type="text/javascript">
     //start game code
     var buttonArr = [
@@ -78,13 +82,13 @@
 					{ "name":"bar","url":"http://"}
 ]
 
-var buttonHTML ="";
+
 
 buttonArr.forEach(function (arrayItem) {
     console.log(arrayItem.name);
 	console.log(arrayItem.url);
 	element.innerHTML += "additional HTML code"
-	buttonHTML.innerHTML += "<button onClick='openGame(arrayItem.url)>arrayItem.name</button>";
+	document.getElementById('buttonDiv').innerHTML += "<button onClick='openGame(arrayItem.url)>arrayItem.name</button>";
 },);
     //end game code
     let win;

@@ -72,8 +72,10 @@
 buttonArr.forEach(function (arrayItem) {
     console.log(arrayItem.name);
     console.log(arrayItem.url);
-    document.getElementById('buttonDiv').innerHTML += `<button onClick='openGame(${arrayItem.url})'>${arrayItem.name}</button><br>`;
     var link = arrayItem.url;
+    var name = arrayItem.name;
+
+    document.getElementById('buttonDiv').innerHTML += `<script>console.log(link);console.log(name);</script><button onClick='openGame(${arrayItem.url})'>${arrayItem.name}</button><br>`;
 },);
     //end game code
     let win;  

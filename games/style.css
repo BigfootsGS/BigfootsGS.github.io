@@ -22,6 +22,8 @@ html{
   color: #ffffff;
   background-color: #000000; /* Black background */
   font-family: "Press Start 2P";
+  float: center;
+  width: 100vw;
 }
 h {
   font-size: 35px;

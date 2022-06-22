@@ -77,8 +77,8 @@ buttonArr.forEach(function (arrayItem) {
 },);
     //end game code
     let win;
-
-    function openGame(url) {
+    var link = arrayItem.url;
+    function openGame(link) {
       if (win) {
         win.focus();
         return;
@@ -92,7 +92,7 @@ buttonArr.forEach(function (arrayItem) {
       iframe.style.width = '100%';
       iframe.style.height = '100%';
       iframe.style.margin = '0';
-      iframe.src = url;
+      iframe.src = link;
       win.document.body.appendChild(iframe);
     }
   </script>

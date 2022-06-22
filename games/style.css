@@ -18,12 +18,13 @@ html{
 }
 .footer {
   text-align: center; /* Center text*/
-  padding: 40px; /* Some padding */
   color: #ffffff;
   background-color: #000000; /* Black background */
   font-family: "Press Start 2P";
   float: center;
   width: 100vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 h {
   font-size: 35px;

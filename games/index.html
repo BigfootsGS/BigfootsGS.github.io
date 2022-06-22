@@ -74,10 +74,10 @@ buttonArr.forEach(function (arrayItem) {
     console.log(arrayItem.name);
     console.log(arrayItem.url);
     document.getElementById('buttonDiv').innerHTML += `<button onClick='openGame(${arrayItem.url})'>${arrayItem.name}</button>`;
+    var link = arrayItem.url;
 },);
     //end game code
-    let win;
-    var link = arrayItem.url;
+    let win;  
     function openGame(link) {
       if (win) {
         win.focus();

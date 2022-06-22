@@ -72,7 +72,7 @@
 buttonArr.forEach(function (arrayItem) {
     console.log(arrayItem.name);
     console.log(arrayItem.url);
-    document.getElementById('buttonDiv').innerHTML += `<button onClick='openGame(${arrayItem.url})'>${arrayItem.name}</button>`;
+    document.getElementById('buttonDiv').innerHTML += `<button onClick='openGame(${arrayItem.url})'>${arrayItem.name}</button><br>`;
     var link = arrayItem.url;
 },);
     //end game code
@@ -96,8 +96,8 @@ buttonArr.forEach(function (arrayItem) {
       console.log(link);
     }
   </script>
-  <h1>Strategy & Puzzle Games</h1>
-  <h1>Action</h1>
+  <h1>Strategy & Puzzle Games</h1><br>
+  <h1>Action</h1><br>
 </div>
     <!--Footer-->
     <div class="footer">

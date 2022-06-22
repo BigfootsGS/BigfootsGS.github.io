@@ -4,10 +4,7 @@
   color:#FFFFFF;
   background-color: #000000; /* Black background */
   font-family: 'Press Start 2P';
-	  html {
-  -webkit-font-smoothing: antialiased;
-		  background: black;
-}
+
 	  }
 	  h {
 		  font-size:35px;

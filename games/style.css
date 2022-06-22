@@ -1,12 +1,15 @@
 button {
-  padding: 14px;
+  padding: 10vw;
   padding-left: 20%;
-  background: white;
+  background: rgba(255, 255, 255, 0);
   color: black;
   border: none;
   border-radius: 5px;
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
+  padding: 20px;
+  float: left;
+  width: 20%;
 }
 html{
   font-family: "Press Start 2P";

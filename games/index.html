@@ -69,8 +69,6 @@
                     "url": "https://bigfoot9999.github.io/Slope-Game/"
                 }]
                 buttonArr.forEach(function(arrayItem) {
-                    console.log(arrayItem.name);
-                    console.log(arrayItem.url);
                     var link = arrayItem.url;
                     var name = arrayItem.name;
                     document.getElementById('buttonDiv').innerHTML += `<button onClick='openGame(${arrayItem.url})'>${arrayItem.name}</button><br>`;

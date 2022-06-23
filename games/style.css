@@ -1,12 +1,14 @@
 button {
-  padding: 14px;
+  padding: 10vw;
   padding-left: 20%;
-  background: white;
+  background: rgba(255, 255, 255, 0);
   color: black;
   border: none;
   border-radius: 5px;
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
+  padding: 20px;
+  width: 20%;
 }
 html{
   font-family: "Press Start 2P";
@@ -15,10 +17,13 @@ html{
 }
 .footer {
   text-align: center; /* Center text*/
-  padding: 40px; /* Some padding */
   color: #ffffff;
   background-color: #000000; /* Black background */
   font-family: "Press Start 2P";
+  float: center;
+  width: 100vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 h {
   font-size: 35px;

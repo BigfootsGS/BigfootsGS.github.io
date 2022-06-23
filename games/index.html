@@ -59,7 +59,7 @@
 
   <h1>Strategy & Puzzle Games</h1><br>
 
-  <div id="'${arrayItem.category}'"></div>
+  <div id=type></div>
        
   <script type="text/javascript">
     //start game code
@@ -75,6 +75,7 @@ buttonArr.forEach(function (arrayItem) {
     console.log(arrayItem.url);
     var link = arrayItem.url;
     var name = arrayItem.name;
+    var type = arrayItem.category
 
     //document.getElementById('buttonDiv').innerHTML += `<button onClick='openGame(${arrayItem.url})'>${arrayItem.name}</button><br>`;
     document.getElementById(${arrayItem.category}).innerHTML += `<button onClick='console.log(${arrayItem.url});'>test button</button><br>`;
@@ -101,6 +102,7 @@ buttonArr.forEach(function (arrayItem) {
       console.log(link);
     }
   </script>
+    <div id=type></div>
   <h1>Action</h1><br>
 </div>
     <!--Footer-->

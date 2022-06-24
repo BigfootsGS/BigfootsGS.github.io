@@ -71,7 +71,7 @@
                 buttonArr.forEach(function(arrayItem) {
                     var link = arrayItem.url;
                     var name = arrayItem.name;
-                    document.getElementById('buttonDiv').innerHTML += `<button onClick=`openGame(${arrayItem.url})`>${arrayItem.name}</button><br>`;
+                    document.getElementById('buttonDiv').innerHTML += `<button onClick='openGame(${arrayItem.url})'>${arrayItem.name}</button><br>`;
                 } );
                 //end game code
                 let win;

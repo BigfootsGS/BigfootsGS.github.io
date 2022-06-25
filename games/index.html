@@ -74,9 +74,10 @@
                 }]
                 //end array for game links
                 buttonArr.forEach(function(arrayItem) {
-                    let link = arrayItem.url;
-                    let name = arrayItem.name;
-                    document.getElementById('buttonDiv').innerHTML += `<button onClick='openGame(link)'>${arrayItem.name}</button><br>`;
+                     link = arrayItem.url;
+                    var name = arrayItem.name;
+                   // document.getElementById('buttonDiv').innerHTML += `<button onClick='openGame(${link})'>${arrayItem.name}</button><br>`;
+                    document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><br>`;
                 } );
                 //end game code
                 let win;

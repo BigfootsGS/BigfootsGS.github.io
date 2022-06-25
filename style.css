@@ -3,18 +3,18 @@
   padding: 40px; /* Some padding */
   color:#FFFFFF;
   background-color: #000000; /* Black background */
-  font-family: 'Press Start 2P';
+  font-family: 'Anton', sans-serif;
 
 	  }
 	  h {
 		  font-size:35px;
-		  font-family: 'Press Start 2P';  
+		  font-family: 'Anton', sans-serif;  
 	  }
 	  h2 {
 	  	font-size:10px;
 	  }	 
 	  .textjs {
-		  font-family: 'Press Start 2P';  
+		  font-family: 'Anton', sans-serif;  
 	  }
 	  a:link {
   color: white;

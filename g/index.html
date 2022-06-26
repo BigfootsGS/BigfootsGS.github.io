@@ -13,6 +13,7 @@
         <script src="script.js"></script>
         <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../scripts/fonts/remixicon.css"> 
     </head>
     <body>
         
@@ -92,7 +93,7 @@
                      link = arrayItem.url;
                     var name = arrayItem.name;
                     var category = arrayItem.category;
-                    document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><br>`;
+                    document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><i class="ri-computer-line"></i><br>`;
                 } );
                 //end game code
                 let win;

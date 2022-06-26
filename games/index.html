@@ -46,11 +46,14 @@
   <!--START ANNOUNCEMENT BANNER-->
   <div style="padding-top:7vh;"class="alert alert-info">
     Welcome Bigfoot's Game Shack v3!
+    <a class="close">&times;</a>
+
 </div>
+
 <!--END ANNOUNCEMENT BANNER-->
         <!--Start Games List-->
         <div class="gameslist">
-            <h1>Strategy & Puzzle Games</h1>
+            <h1>Action, Adventure, and Skill Games</h1>
             <br>
             <div id="buttonDiv"></div>
             <script type="text/javascript">
@@ -65,14 +68,35 @@
                     "url": "https://bigfoot9999.github.io/Slope-Game/"
                 }, {
                     "category": "Action",
-                    "name": "Slope Game",
-                    "url": "https://bigfoot9999.github.io/Slope-Game/"
-                }]
+                    "name": "Run 3",
+                    "url": "https://theadvancedsociety-tam.tbt.mx/tam-run3/"
+                }, 
+                {
+                    "category": "Action",
+                    "name": "Burrito Bison",
+                    "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html"
+                },
+                {
+                    "category": "Action",
+                    "name": "Google doodle champion island",
+                    "url": "https://bigfoot9999.github.io/html5-games/games/google-kitsune/"
+                },
+                { 
+                    "category": "Action",
+                    "name": "",
+                    "url": ""
+                },
+                {
+                    "category": "Action",
+                    "name": "",
+                    "url": ""
+                },
+            ]
                 //end array for game links
                 buttonArr.forEach(function(arrayItem) {
                      link = arrayItem.url;
                     var name = arrayItem.name;
-                   // document.getElementById('buttonDiv').innerHTML += `<button onClick='openGame(${link})'>${arrayItem.name}</button><br>`;
+                    var category = arrayItem.category;
                     document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><br>`;
                 } );
                 //end game code
@@ -95,7 +119,7 @@
                     win.document.body.appendChild(iframe);
                 }
             </script>
-            <h1>Action</h1>
+            <h1>Puzzle & Strategy Games</h1>
             <br>
         </div>
         <!--Footer-->

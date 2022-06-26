@@ -1,6 +1,5 @@
 button {
-  padding: 10vw;
-  padding-left: 20%;
+  
   background: rgba(255, 255, 255, 0);
   color: black;
   border: none;
@@ -9,6 +8,7 @@ button {
   cursor: pointer;
   padding: 20px;
   width: 20%;
+  text-align: left;
 }
 html{
   font-family: 'Anton', sans-serif;

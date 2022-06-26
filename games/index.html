@@ -11,33 +11,11 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="Navbar">
-            <!--NAVBAR-->
-            <ul style="font-family: 'Press Start 2P'; display: flex; justify-content: center;">
-                <li>
-                    <a href="../">Home</a>
-                </li>
-                <li>
-                    <a href="#">Games</a>
-                </li>
-                <li>
-                    <a href="../about-us/info.html">Info</a>
-                </li>
-                <li>
-                    <a href="../other/">Other</a>
-                </li>
-                <li>
-                    <a href="../apps/">Apps</a>
-                </li>
-                <li>
-                    <a href="../proxies/">Proxies</a>
-                </li>
-                <li>
-                    <a href="https://stars.gq/" class="right">Interstellar Games</a>
-                </li>
-        </div>
+        
          <!--LINKS
     https://theadvancedsociety-tam.tbt.mx/tam-run3/
     https://bigfoot9999.github.io/Slope-Game/
@@ -52,9 +30,30 @@
     https://mazahacka2017.github.io/papa-taco-mia/
     https://bigfoot9999.github.io/html5-games/games/templerun2/
   -->
+  <!--START NEW NAVBAR-->
+  <div class="navbar navbar-fixed-top">
+  <ul class="nav">
+    <a style="margin: auto;" class="brand" href="#">Bigfoot's Game Shack</a>
+    <li><a href="../">Home</a></li>
+    <li><a class="active" href="#">Games</a></li>
+    <li><a href="../about-us/info.html">Info</a></li>
+    <li><a href="../apps/">Apps</a></li>
+    <li><a href="../proxies/">Proxies</a></li>
+    <li><a href="https://stars.gq/" class="right">Interstellar Games</a></li>
+  </ul>
+  </div>
+  <!--END NEW NAVBAR-->
+  <!--START ANNOUNCEMENT BANNER-->
+  <div style="padding-top:7vh;"class="alert alert-info">
+    Welcome Bigfoot's Game Shack v3!
+    <a class="close">&times;</a>
+
+</div>
+
+<!--END ANNOUNCEMENT BANNER-->
         <!--Start Games List-->
         <div class="gameslist">
-            <h1>Strategy & Puzzle Games</h1>
+            <h1>Action, Adventure, and Skill Games</h1>
             <br>
             <div id="buttonDiv"></div>
             <script type="text/javascript">
@@ -67,12 +66,38 @@
                     "category": "Action",
                     "name": "Slope Game",
                     "url": "https://bigfoot9999.github.io/Slope-Game/"
-                }]
+                }, {
+                    "category": "Action",
+                    "name": "Run 3",
+                    "url": "https://theadvancedsociety-tam.tbt.mx/tam-run3/"
+                }, 
+                {
+                    "category": "Action",
+                    "name": "Burrito Bison",
+                    "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html"
+                },
+                {
+                    "category": "Action",
+                    "name": "Google doodle champion island",
+                    "url": "https://bigfoot9999.github.io/html5-games/games/google-kitsune/"
+                },
+                { 
+                    "category": "Action",
+                    "name": "",
+                    "url": ""
+                },
+                {
+                    "category": "Action",
+                    "name": "",
+                    "url": ""
+                },
+            ]
                 //end array for game links
                 buttonArr.forEach(function(arrayItem) {
-                    var link = arrayItem.url;
+                     link = arrayItem.url;
                     var name = arrayItem.name;
-                    document.getElementById('buttonDiv').innerHTML += `<button onClick='openGame(${arrayItem.url})'>${arrayItem.name}</button><br>`;
+                    var category = arrayItem.category;
+                    document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><br>`;
                 } );
                 //end game code
                 let win;
@@ -92,28 +117,16 @@
                     iframe.style.margin = '0';
                     iframe.src = link;
                     win.document.body.appendChild(iframe);
-                    console.log(link);
                 }
             </script>
-            <h1>Action</h1>
+            <h1>Puzzle & Strategy Games</h1>
             <br>
         </div>
         <!--Footer-->
         <div class="footer">
-            <h>Bigfoot's Game Shack</h>
-            <br>
-            <p>
-                <a href="mailto:Bigfoot@officialbigfoot.tk">Bigfoot@officialbigfoot.tk</a>
-                <br>
-            </p>
-            <a href="mailto:Anthony@officialbigfoot.tk">Anthony@officialbigfoot.tk</a>
-            <br>
-            <p>
-                <a href="mailto:Tadashi@officialbigfoot.tk">Tadashi@officialbigfoot.tk</a>
-                <br>
-            </p>
-            <a href="https://forms.gle/JbytV3nmABMm1GSm9">Request Games</a>
-            <br>
+            <img class="center"src="../images/bgslogo.png" alt="BGS LOGO" width="500" height="600">
+                
+                
             <h2>Copyright (c) 2022 Bigfoot9999</h2>
             <br>
             <h4 class="privacypolicy">

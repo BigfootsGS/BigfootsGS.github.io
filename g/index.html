@@ -17,18 +17,7 @@
     </head>
     <body>
         
-         <!--LINKS
-    https://theadvancedsociety-tam.tbt.mx/tam-run3/
-    https://bigfoot9999.github.io/Slope-Game/
-    https://www.panda2.io/content/games/woriar/
-    https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html
-    https://bigfoot9999.github.io/html5-games/games/google-kitsune/
-    https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_past
-    https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_minish
-    https://t-rexrunner.github.io/GBA-Games/launcher.html#marioparty
-    https://t-rexrunner.github.io/GBA-Games/launcher.html#mortal_kombat
-    https://www.panda2.io/content/games/kurupanda/
-    https://mazahacka2017.github.io/papa-taco-mia/
+         <!--LINKS TO ADD TO ACTION
     https://bigfoot9999.github.io/html5-games/games/templerun2/
   -->
   <!--START NEW NAVBAR-->
@@ -40,7 +29,7 @@
     <li><a href="../about-us/info.html">Info</a></li>
     <li><a href="../apps/">Apps</a></li>
     <li><a href="../proxies/">Proxies</a></li>
-    <li><a href="https://stars.gq/" class="right">Interstellar Games</a></li>
+    <li><a href="https://stars.gq/" class="right">Interstellar Games<i class="ri-advertisement-fill"></i></a></li>
   </ul>
   </div>
   <!--END NEW NAVBAR-->
@@ -50,13 +39,19 @@
     <a class="close">&times;</a>
 
 </div>
-
+<!--ARRAY FORMAT {
+                    "category": "",
+                    "name": "",
+                    "url": ""
+                },
+            -->
 <!--END ANNOUNCEMENT BANNER-->
         <!--Start Games List-->
         <div class="gameslist">
             <h1>Action, Adventure, and Skill Games</h1>
             <br>
             <div id="buttonDiv"></div>
+            <!--ACTION SKILL ADVENTURE GAMES BELOW-->
             <script type="text/javascript">
                 //start game code
                 var buttonArr = [{
@@ -82,6 +77,37 @@
                     "name": "Google doodle champion island",
                     "url": "https://bigfoot9999.github.io/html5-games/games/google-kitsune/"
                 },
+                {
+                    "category": "Action",
+                    "name": "The Legend of Zelda: Link to the Past",
+                    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_past"
+                },
+                {
+                    "category": "Action",
+                    "name": "The Legend of Zelda: Minish Cap",
+                    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_minish"
+                },
+                {
+                    "category": "Action",
+                    "name": "Mario Party",
+                    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#marioparty"
+                },
+                {
+                    "category": "Action",
+                    "name": "Mortal Kombat",
+                    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#mortal_kombat"
+                },
+                {
+                    "category": "Action",
+                    "name": "Kuru Panda",
+                    "url": "https://www.panda2.io/content/games/kurupanda/"
+                },
+                {
+                    "category": "Action",
+                    "name": "Pappa's Taco Mia",
+                    "url": "https://mazahacka2017.github.io/papa-taco-mia/"
+                },
+                
             
             ]
 
@@ -90,10 +116,10 @@
                 buttonArr.forEach(function(arrayItem) {
 
                     searchArr.push(arrayItem.name);
-                     link = arrayItem.url;
-                    var name = arrayItem.name;
-                    var category = arrayItem.category;
-                    document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><i class="ri-computer-line"></i><br>`;
+                    let link = arrayItem.url;
+                    let name = arrayItem.name;
+                    let category = arrayItem.category;
+                    document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><br>`;
                 } );
                 //end game code
                 let win;
@@ -115,14 +141,59 @@
                     win.document.body.appendChild(iframe);
                 }
             </script>
+<!--END ACTION SKILL AND ADVENTURE GAMES-->
+            <h1>Puzzle & Strategy Games</h1>
+            <div id="puzzlediv"></div>
+            <!--PUZZLE GAMES BELOW
+            <script type="text/javascript">
+                //start game code
+                let buttonArrp = [{
+                    "category": "Puzzle",
+                    "name": "Temple Run 2",
+                    "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/"
+                },
+            ]
 
-            <h1>More Games Coming soon...</h1>
+                
+                //end array for game links
+                buttonArrp.forEach(function(arrayItem) {
+
+                    searchArr.push(arrayItem.name);
+                     link = arrayItem.url;
+                    let name = arrayItem.name;
+                    let category = arrayItem.category;
+                    document.getElementById('puzzlediv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><i class="ri-computer-line"></i><br>`;
+                } );
+                //end game code
+                let winn;
+
+                function openGame(link) {
+                    if (winn) {
+                        win.focus();
+                        return;
+                    }
+                    winn = window.open();
+                    winn.document.body.style.margin = '0';
+                    winn.document.body.style.height = '100vh';
+                    const iframe = win.document.createElement('iframe');
+                    iframe.style.border = 'none';
+                    iframe.style.width = '100%';
+                    iframe.style.height = '100%';
+                    iframe.style.margin = '0';
+                    iframe.src = link;
+                    win.document.body.appendChild(iframe);
+                }
+            </script>
+END PUZLLE GAMES-->
             <br>
         </div>
         <!--Footer-->
         <div class="footer">
             <img class="center"src="../images/bgslogo.png" alt="BGS LOGO" width="500" height="600">
-                
+            <div>
+                <i class="ri-discord-line"></i></i><i class="ri-github-line"></i><i class="ri-twitter-line"></i>
+
+            </div>
                 
             <h2>Copyright (c) 2022 Bigfoot9999</h2>
             <br>
@@ -135,6 +206,7 @@
             <h4 class="contact">
                 <a href="../contact.html">Contact Us</a>
             </h4>
+            
         </div>
         <!--END FOOTER-->
     </body>

@@ -13,7 +13,6 @@
         <script src="script.js"></script>
         <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-        <script src="../scripts/bootstrap-typeahead.js"></script>
     </head>
     <body>
         
@@ -84,8 +83,12 @@
                 },
             
             ]
+
+                var searchArr = [];
                 //end array for game links
                 buttonArr.forEach(function(arrayItem) {
+
+                    searchArr.push(arrayItem.name);
                      link = arrayItem.url;
                     var name = arrayItem.name;
                     var category = arrayItem.category;
@@ -111,6 +114,7 @@
                     win.document.body.appendChild(iframe);
                 }
             </script>
+
             <h1>More Games Coming soon...</h1>
             <br>
         </div>

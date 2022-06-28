@@ -11,6 +11,7 @@ button {
 html {
   font-family: 'Anton', sans-serif;
   overflow-x: hidden;
+ background: linear-gradient(to bottom, #ffffff 0%, #b3b3b3 100%)
   
 }
 p {

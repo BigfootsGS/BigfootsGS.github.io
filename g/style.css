@@ -17,6 +17,9 @@ html {
 p {
   font-family: 'Anton', sans-serif;
 }
+.ri-computer-line:before {
+  padding-left: 20px;
+}
 .footer {
   text-align: center; /* Center text*/
   color: #ffffff;

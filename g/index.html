@@ -10,7 +10,6 @@
         <link rel="icon" type="image/x-icon" href="../favicon.ico">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
         <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../scripts/fonts/remixicon.css"> 
@@ -29,12 +28,12 @@
     <li><a href="../about-us/info.html">Info</a></li>
     <li><a href="../apps/">Apps</a></li>
     <li><a href="../proxies/">Proxies</a></li>
-    <li><a href="https://stars.gq/" class="right">Interstellar Games<i class="ri-advertisement-fill"></i></a></li>
+    <li><a href="https://stars.gq/" class="right">Interstellar Games</a></li>
   </ul>
   </div>
   <!--END NEW NAVBAR-->
   <!--START ANNOUNCEMENT BANNER-->
-  <div style="padding-top:7vh;"class="alert alert-info">
+  <div style="padding-top:7vh;" class="alert alert-info">
     Welcome Bigfoot's Game Shack v3!
     <a class="close">&times;</a>
 
@@ -48,80 +47,94 @@
 <!--END ANNOUNCEMENT BANNER-->
         <!--Start Games List-->
         <div class="gameslist">
-            <h2>Icons</h2>
-            <i class="ri-device-line"></i>
+            
             <h2>Action, Adventure, and Skill Games</h2>
             <br>
             <div id="buttonDiv"></div>
             <!--ACTION SKILL ADVENTURE GAMES BELOW-->
             <script type="text/javascript">
                 //start game code
+                let mobile = "<i class='ri-device-line'></i>";
+                let computer = "<i class='ri-computer-line'></i>"
                 var buttonArr = [{
+                    "icon": computer,
                     "category": "Action",
                     "name": "Temple Run 2",
-                    "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/"
+                    "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
                 }, {
                     "category": "Action",
                     "name": "Slope Game",
-                    "url": "https://bigfoot9999.github.io/Slope-Game/"
+                    "url": "https://bigfoot9999.github.io/Slope-Game/",
+                    "icon": computer,
                 }, {
                     "category": "Action",
                     "name": "Run 3",
-                    "url": "https://theadvancedsociety-tam.tbt.mx/tam-run3/"
+                    "url": "https://theadvancedsociety-tam.tbt.mx/tam-run3/",
+                    "icon": computer,
                 }, 
                 {
                     "category": "Action",
                     "name": "Burrito Bison",
-                    "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html"
+                    "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html",
+                    "icon": computer,
                 },
                 {
                     "category": "Action",
                     "name": "Google doodle champion island",
-                    "url": "https://bigfoot9999.github.io/html5-games/games/google-kitsune/"
+                    "url": "https://bigfoot9999.github.io/html5-games/games/google-kitsune/",
+                    "icon": computer,
                 },
                 {
                     "category": "Action",
                     "name": "The Legend of Zelda: Link to the Past",
-                    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_past"
+                    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_past",
+                    "icon": computer,
                 },
                 {
                     "category": "Action",
                     "name": "The Legend of Zelda: Minish Cap",
-                    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_minish"
+                    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_minish",
+                    "icon": computer,
                 },
                 {
                     "category": "Action",
                     "name": "Mario Party",
-                    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#marioparty"
+                    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#marioparty",
+                    "icon": computer,
                 },
                 {
                     "category": "Action",
                     "name": "Mortal Kombat",
-                    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#mortal_kombat"
+                    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#mortal_kombat",
+                    "icon": computer,
                 },
                 {
                     "category": "Action",
                     "name": "Kuru Panda",
-                    "url": "https://www.panda2.io/content/games/kurupanda/"
+                    "url": "https://www.panda2.io/content/games/kurupanda/",
+                    "icon": computer,
                 },
                 {
                     "category": "Action",
                     "name": "Pappa's Taco Mia",
-                    "url": "https://mazahacka2017.github.io/papa-taco-mia/"
+                    "url": "https://mazahacka2017.github.io/papa-taco-mia/",
+                    "icon": computer,
                 },
                 
             
             ]
-
-                var searchArr = [];
                 //end array for game links
+    
                 buttonArr.forEach(function(arrayItem) {
 
-                    searchArr.push(arrayItem.name);
+                    //searchArr.push(arrayItem.name);
                     let link = arrayItem.url;
                     let name = arrayItem.name;
                     let category = arrayItem.category;
                     document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><br>`;
+                    document.getElementById('buttonDiv').innerHTML += `${arrayItem.icon}`;
+
+                    
                 } );
                 //end game code
                 let win;
@@ -154,7 +167,7 @@
 
             </div>
                 
-            <h2>Copyright (c) 2022 Bigfoot9999</h2>
+            <h3>Copyright (c) 2022 Bigfoot9999</h3>
             <br>
             <div class="footerlinks">
             <h4 class="privacypolicy">

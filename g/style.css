@@ -20,6 +20,9 @@ p {
 .ri-computer-line:before {
   padding-left: 20px;
 }
+.ri-device-line:before {
+  padding-left: 20px;
+}
 .footer {
   text-align: center; /* Center text*/
   color: #ffffff;

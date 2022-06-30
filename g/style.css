@@ -8,14 +8,20 @@ button {
   padding: 20px;
   text-align: left;
 }
-html{
+html {
   font-family: 'Anton', sans-serif;
-  overflow: visible;
-
+  overflow-x: hidden;
+ background: linear-gradient(to bottom, #ffffff 0%, #b3b3b3 100%)
   
 }
 p {
   font-family: 'Anton', sans-serif;
+}
+.ri-computer-line:before {
+  padding-left: 20px;
+}
+.ri-device-line:before {
+  padding-left: 20px;
 }
 .footer {
   text-align: center; /* Center text*/
@@ -39,7 +45,7 @@ padding: 4vw;
 }
 h2 {
   font-size: 10px;
-    padding: 14px;
+    padding: 7vh 14px 0px 14px;
 
 }
 .textjs {

@@ -33,9 +33,7 @@
   </div>
   <!--END NEW NAVBAR-->
   <!--START ANNOUNCEMENT BANNER-->
-  <div style="padding-top:7vh;" class="alert alert-info">
-    Welcome Bigfoot's Game Shack v3!
-    <a class="close">&times;</a>
+  <!--ANNOUNCEMENT BANNER END!!-->
 
 </div>
 <!--ARRAY FORMAT {
@@ -44,8 +42,11 @@
                     "url": ""
                 },
             -->
-<!--END ANNOUNCEMENT BANNER-->
-        <!--Start Games List-->
+<!--END ANNOUNCEMENT BANNER-->       
+<div class="row">
+    <div class="span4">
+   
+   
         <div class="gameslist">
             
             <h2>Action, Adventure, and Skill Games</h2>
@@ -57,7 +58,7 @@
                 let mobile = "<i class='ri-device-line'></i>";
                 let computer = "<i class='ri-computer-line'></i>"
                 var buttonArr = [{
-                    "icon": computer,
+                    "icon": mobile,
                     "category": "Action",
                     "name": "Temple Run 2",
                     "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
@@ -131,8 +132,9 @@
                     let link = arrayItem.url;
                     let name = arrayItem.name;
                     let category = arrayItem.category;
-                    document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><br>`;
                     document.getElementById('buttonDiv').innerHTML += `${arrayItem.icon}`;
+                    document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><br>`;
+    
 
                     
                 } );
@@ -157,8 +159,125 @@
                 }
             </script>
 <!--END ACTION SKILL AND ADVENTURE GAMES-->
-            <h2>Puzzle & Strategy Games</h2>
-        </div>
+</div>
+</div>
+<div class="span4">
+<!---->
+    <h2>Puzzle & Strategy Games</h2>
+    <div id="buttonDiv1"></div>
+
+    <script type="text/javascript">
+        //start game code
+        let mobile1 = "<i class='ri-device-line'></i>";
+        let computer1 = "<i class='ri-computer-line'></i>"
+        var buttonArr1 = [{
+            "icon": computer1,
+            "category": "Puzzle",
+            "name": "Cookie Clicker",
+            "url": "https://bigfoot9999.github.io/cc/",
+        }, 
+        {
+            "icon": computer1,
+            "category": "Puzzle",
+            "name": "OvO",
+            "url": "https://dedragames.com/games/ovo/1.4/",
+        }, 
+    
+    ]
+        //end array for game links
+
+        buttonArr1.forEach(function(arrayItem1) {
+
+            //searchArr.push(arrayItem.name);
+            let link1 = arrayItem1.url;
+            let name1 = arrayItem1.name;
+            let category1 = arrayItem1.category;
+            document.getElementById('buttonDiv1').innerHTML += `${arrayItem1.icon}`;
+            document.getElementById('buttonDiv1').innerHTML += `<button onClick="openGame('${link1}')">${arrayItem1.name}</button><br>`;
+
+
+            
+        } );
+        //end game code
+        let win1;
+
+        function openGame(link1) {
+            if (win1) {
+                win1.focus();
+                return;
+            }
+            win1 = window.open();
+            win1.document.body.style.margin = '0';
+            win1.document.body.style.height = '100vh';
+            const iframe = win1.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = link1;
+            win1.document.body.appendChild(iframe);
+        }
+    </script>
+    </div>
+<!---->
+    
+    <!--START SHOOTER CATEGORY-->
+    <div class="span4">
+        <h2>Shooter Games</h2>
+    <div id="buttonDiv2"></div>
+
+    <script type="text/javascript">
+        //start game code
+        let mobile2 = "<i class='ri-device-line'></i>";
+        let computer2 = "<i class='ri-computer-line'></i>"
+        var buttonArr2 = [{
+            "icon": computer2,
+            "category": "Shooter",
+            "name": "1v1.lol",
+            "url": "https://advanced-channeler.02.gz-associates.com/?t=tam-1v1-lol",
+        }, 
+    
+    
+    ]
+        //end array for game links
+
+        buttonArr2.forEach(function(arrayItem2) {
+
+            //searchArr.push(arrayItem.name);
+            let link2 = arrayItem2.url;
+            let name2 = arrayItem2.name;
+            let category2 = arrayItem2.category;
+            document.getElementById('buttonDiv2').innerHTML += `${arrayItem2.icon}`;
+            document.getElementById('buttonDiv2').innerHTML += `<button onClick="openGame('${link2}')">${arrayItem2.name}</button><br>`;
+
+
+            
+        } );
+        //end game code
+        let win2;
+
+        function openGame(link2) {
+            if (win2) {
+                win2.focus();
+                return;
+            }
+            win2 = window.open();
+            win2.document.body.style.margin = '0';
+            win2.document.body.style.height = '100vh';
+            const iframe = win2.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = link2;
+            win2.document.body.appendChild(iframe);
+        }
+    </script>
+    </div>
+    </div>
+    <!--END SHOOTER CATEGORY-->
+</div>
+
          <!--Footer-->
          <div class="footer">
             <img class="center"src="../images/bgslogo.png" alt="BGS LOGO" width="500" height="600">

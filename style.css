@@ -55,6 +55,48 @@ a:visited {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "Uni Sans Heavy CAPS";
+  src: url(https://cdn.jsdelivr.net/gh/JoshMerlino/photoncss/fonts/UniSansHeavyCaps/3029259ef4f4389d799fe57da6f29158.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url(https://cdn.jsdelivr.net/gh/JoshMerlino/photoncss/fonts/Google_Sans/pxicypQkot1TnFhsFMOfGShd5PSbS2lBkm8.woff2) format('woff2');
+}
+
+.DiscordInvite-badge::before {
+position: absolute;
+height: 8px;
+left: -12px;
+width: 8px;
+border-radius: 50%;
+content: "";
+background-color: #747f8d;
+}
+
+.DiscordInvite-badge:first-child::before {
+background-color: #3ba55c;
+}
+
+@media only screen and (max-width: 600px) {
+.DiscordInvite-root {
+    width: 354px!important;
+}
+.DiscordInvite-content {
+    flex: none;
+    width: calc(100% - 64px);
+}
+.DiscordInvite-joinLink {
+    margin: 0;
+    margin-top: 62px;
+    margin-left: calc(-100% - 2px)!important;
+    width: 100%;
+    text-align: center;
+    display: block!important;
+}
+}
+
 a:hover {
   color: white;
   background-color: transparent;

@@ -16,10 +16,27 @@
         <link rel="stylesheet" href="scripts/fonts/remixicon.css">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6938276368216011" crossorigin="anonymous"></script>
     </head>
-    
-    <!--END index.js script-->
-    <body>
+    <script>
+        document.onkeydown = function(e) {
+        if(event.keyCode == 123) {
+        return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+        return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+        return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+        return false;
+        }
+        }
+        </script>
+    <body oncontextmenu="return false;">
+<!--lock script-->
 
+
+<!---->
         <div>
             <!--Start Adsense script-->
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6938276368216011" crossorigin="anonymous"></script>
@@ -46,6 +63,7 @@
     </div>
     
             <!--END BODY-->
+        
             <!--Footer-->
         <div class="footer">
             <img class="center"src="images/bgslogo.png" alt="BGS LOGO" width="500" height="600">

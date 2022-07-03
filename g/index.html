@@ -144,11 +144,13 @@
                     if (checkbox.checked) {                                            
                             document.getElementById('buttonDiv').innerHTML += `${arrayItem.icon}`;
                             document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${proxiedlink}')">${arrayItem.name}</button><br>`;
-                } else {
-                         console.log('Url Unproxied');
-                         }
+                } else{
+                            document.getElementById('buttonDiv').innerHTML += `${arrayItem.icon}`;
+                            document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><br>`;
+                }
                      });
                      });
+                     
                     } );
                 
                 let win;

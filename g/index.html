@@ -14,12 +14,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../scripts/fonts/remixicon.css"> 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6938276368216011" crossorigin="anonymous"></script>
+        <script src="../scripts/ap.js"></script>
     </head>
     <body oncontextmenu="return false;">
-  <!--START NEW NAVBAR-->
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span6">
+                  <h3>This website uses AutoProxy<i class="ri-trademark-fill"></i></h3><br>
+                  <p3>AutoProxy<i class="ri-trademark-fill"></i> is a feature that launches games, automatically proxied through Womginx. <i>Made by Bigfoot9999</i><br></p3>
+                    <div style="padding-top: 10px;">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+                    <!--<div class="span6"><button id="autoproxy">AutoProxy</button></div>-->
+                    
+            </div>
+        </div>      
+        <!--START  NAVBAR-->
   <div class="navbar navbar-fixed-top">
   <ul class="nav">
-    <a style="margin: auto;" class="brand" href="#">Bigfoot's Game Shack</a>
+    <a style="margin: auto; text-align: center;" class="brand" href="#">Bigfoot's Game Shack</a>
     <li><a href="../">Home</a></li>
     <li><a class="active" href="#">Games</a></li>
     <li><a href="../about-us/info.html">Info</a></li>
@@ -28,19 +45,8 @@
     <li><a href="https://stars.gq/" class="right">Interstellar Games</a></li>
   </ul>
   </div>
-  <!--END NEW NAVBAR-->
-  <!--START ANNOUNCEMENT BANNER-->
-  <!--ANNOUNCEMENT BANNER END!!-->
-
 </div>
-<!--ARRAY FORMAT {
-                    "icon": computer3,
-                    "category": "",
-                    "name": "",
-                    "url": ""
-                },
-            -->
-<!--END ANNOUNCEMENT BANNER-->       
+<!--end navbar-->
 <div class="row">
     <div class="span3">
    
@@ -130,15 +136,22 @@
                     let link = arrayItem.url;
                     let name = arrayItem.name;
                     let category = arrayItem.category;
-                    document.getElementById('buttonDiv').innerHTML += `${arrayItem.icon}`;
-                    document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><br>`;
-    
-
+                    let proxiedlink = ''+ arrayItem.url;
                     
-                } );
-                //end game code
+                    document.addEventListener('DOMContentLoaded', function () {
+                    var checkbox = document.querySelector('input[type="checkbox"]');
+                    checkbox.addEventListener('change', function () {
+                    if (checkbox.checked) {                                            
+                            document.getElementById('buttonDiv').innerHTML += `${arrayItem.icon}`;
+                            document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${proxiedlink}')">${arrayItem.name}</button><br>`;
+                } else {
+                         console.log('Url Unproxied');
+                         }
+                     });
+                     });
+                    } );
+                
                 let win;
-
                 function openGame(link) {
                     if (win) {
                         win.focus();

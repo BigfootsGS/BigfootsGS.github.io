@@ -14,9 +14,25 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../scripts/fonts/remixicon.css"> 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6938276368216011" crossorigin="anonymous"></script>
-        <script src="../scripts/ap.js"></script>
-        <script src="../scripts/app.js"></script>
+       <!-- <script src="../scripts/ap.js"></script>
+        <script src="../scripts/app.js"></script>-->
     </head>
+    <script>
+        document.onkeydown = function(e) {
+        if(event.keyCode == 123) {
+        return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+        return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+        return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+        return false;
+        }
+        }
+        </script>
     <body oncontextmenu="return false;">
         <div class="container-fluid">
             <div class="row-fluid">
@@ -185,13 +201,16 @@
         "url": "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/593675271171586975/modern_blocky_paint_.html",
     }, 
 ]
+gameslist.forEach(function(gameslist) {
 //End Arrays 
 let link = gameslist.url;
 let name = gameslist.name;
 let buttondivID = gameslist.category;
 let proxiedlink = 'https://megaspaces.x-g-x.repl.co/main/'+ gameslist.url;
-document.getElementById(`${gameslist.category}`).innerHTML += `${gameslist.icon}`;
-document.getElementById(`${gameslist.category}`).innerHTML += `<button onClick="openGame('${link}')">${gameslist.name}</button><br>`;
+document.getElementById('buttonDiv').innerHTML += `${gameslist.icon}`;
+document.getElementById('buttonDiv1').innerHTML += `<button onClick="openGame('${link}')">${gameslist.name}</button><br>`;
+
+
 let win;
 function openGame(link) {
 if (win) {
@@ -209,6 +228,7 @@ iframe.style.margin = '0';
 iframe.src = link;
 win.document.body.appendChild(iframe);
     }
+})
 }
 buildgames();
 function clear(){

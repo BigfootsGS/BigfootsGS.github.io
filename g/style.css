@@ -23,6 +23,15 @@ p {
 .ri-device-line:before {
   padding-left: 20px;
 }
+.ri-checkbox-circle-fill:before{
+  padding-left: 20px;
+
+}
+.ri-close-circle-line:before{
+  padding-left: 20px;
+
+}
+
 .footer {
   text-align: center; /* Center text*/
   color: #ffffff;

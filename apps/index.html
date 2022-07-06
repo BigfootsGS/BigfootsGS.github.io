@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../scripts/fonts/remixicon.css"> 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6938276368216011" crossorigin="anonymous"></script>
+		<meta http-equiv="refresh" content="3" />
     </head>
     <script>
         document.onkeydown = function(e) {
@@ -49,66 +50,89 @@
   <!--ANNOUNCEMENT BANNER END!!-->
 
 </div>
- 
+<h1>Bigfoot's Game Shack / Apps</h1>
 <div class="row">
     <div class="span3">
-   
-   
-        <div class="gameslist">
-            
-            <h2>All Apps</h2>
-            <br>
-            <div id="buttonDiv"></div>
-            <!--ACTION SKILL ADVENTURE GAMES BELOW-->
-            <script type="text/javascript">
-                //start game code
-                let yes = "<i class='ri-checkbox-circle-fill'></i>";
-                let no = "<i class='ri-close-circle-line'></i>"
-                var buttonArr = [{
-                    "icon": no,
-                    "category": "Action",
-                    "name": "Temple Run 2",
-                    "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
-                }, 
-            
-            ]
-                //end array for game links
-    
-                buttonArr.forEach(function(arrayItem) {
+		<h2>Discord</h2>
+		<div id="buttonDiv"></div>
+	
+		<script type="text/javascript">
+			let yes = "<i class='ri-checkbox-circle-fill'></i>";
+			let no = "<i class='ri-close-circle-line'></i>"
+			var buttonArr1 = [
+			{
+				"icon": yes,
+				"name": "Server 1",
+				"url": "https://supernova-web.ml/g/disc.html",
+			}, 
+			{
+				"icon": yes,
+				"name": "Server 2",
+				"url": "https://supernova-v2.akabubbo.repl.co/g/disc.html",
+			}, 
+			{
+				"icon": yes,
+				"name": "Server 3",
+				"url": "https://ed1bbef7-61e2-4acf-b985-b3c3b5f91b3d.id.repl.co/g/disc.html",
+			}, 
+			{
+				"icon": yes,
+				"name": "Server 4",
+				"url": "https://supernova-web.ml/g/disc.html",
+			}, 
+			{
+				"icon": yes,
+				"name": "BGS Server 1",
+				"url": "https://e.widgetbot.io/channels/829117322223812658/829117322223812660",
+			},
+			{
+				"icon": yes,
+				"name": "BGS Server 2",
+				"url": "https://ultravioletschools.gq/service/hvtrs8%2F-e%2Cwkdeevbmt%2Cim%2Fahcnlens-80931530202183245%3A%2F%3A2%3B137120203%3A10640",
+			},
+			{
+				"icon": yes,
+				"name": "BGS Server 3",
+				"url": "https://science.lonelytab.ga/?url=https://e.widgetbot.io/channels/829117322223812658/829117322223812660",
+			},
 
-                    //searchArr.push(arrayItem.name);
-                    let link = arrayItem.url;
-                    let name = arrayItem.name;
-                    let category = arrayItem.category;
-                    document.getElementById('buttonDiv').innerHTML += `${arrayItem.icon}`;
-                    document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayItem.name}</button><br>`;
-    
-
-                    
-                } );
-                //end game code
-                let win;
-
-                function openGame(link) {
-                    if (win) {
-                        win.focus();
-                        return;
-                    }
-                    win = window.open();
-                    win.document.body.style.margin = '0';
-                    win.document.body.style.height = '100vh';
-                    const iframe = win.document.createElement('iframe');
-                    iframe.style.border = 'none';
-                    iframe.style.width = '100%';
-                    iframe.style.height = '100%';
-                    iframe.style.margin = '0';
-                    iframe.src = link;
-                    win.document.body.appendChild(iframe);
-                }
-            </script>
-<!--END ACTION SKILL AND ADVENTURE GAMES-->
-</div>
-</div>
+		]
+			//end array for game links
+			
+			buttonArr1.forEach(function(arrayItem1) {
+	
+				//searchArr.push(arrayItem.name);
+				let link1 = arrayItem1.url;
+				let name1 = arrayItem1.name;
+				let category1 = arrayItem1.category;
+				document.getElementById('buttonDiv').innerHTML += `${arrayItem1.icon}`;
+				document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link1}')">${arrayItem1.name}</button><br>`;
+	
+	
+				
+			} );
+			//end game code
+			let win1;
+	
+			function openGame(link1) {
+				if (win1) {
+					win1.focus();
+					return;
+				}
+				win1 = window.open();
+				win1.document.body.style.margin = '0';
+				win1.document.body.style.height = '100vh';
+				const iframe = win1.document.createElement('iframe');
+				iframe.style.border = 'none';
+				iframe.style.width = '100%';
+				iframe.style.height = '100%';
+				iframe.style.margin = '0';
+				iframe.src = link1;
+				win1.document.body.appendChild(iframe);
+			}
+		</script>
+		</div>
+		<div id="buttonDiv"></div>
 </div>
 
   <!--Footer-->

@@ -38,7 +38,7 @@
             <div class="row-fluid">
                 <div class="span6">
                   <h3>This website uses AutoProxy<i class="ri-trademark-fill"></i></h3><br>
-                  <p3>AutoProxy<i class="ri-trademark-fill"></i> is a feature that launches games, automatically proxied through Womginx. <i>Made by Bigfoot9999</i><br></p3>
+                  <p3>AutoProxy<i class="ri-trademark-fill"></i> is a feature that launches games, automatically proxied through a UV<i>Made by Bigfoot9999</i><br></p3>
                     <div style="padding-top: 10px;">
                         <label class="switch">
                             <input type="checkbox">
@@ -63,7 +63,6 @@
 </div>
 <!--end navbar-->
 <script>//buttonDiv Games Array
-    function buildgames(){
     let mobile = "<i class='ri-device-line'></i>";
     let computer = "<i class='ri-computer-line'></i>"
     var gameslist = [{
@@ -201,14 +200,14 @@
         "url": "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/593675271171586975/modern_blocky_paint_.html",
     }, 
 ]
-gameslist.forEach(function(gameslist) {
+gameslist.forEach(function(arrayitems) {
 //End Arrays 
-let link = gameslist.url;
-let name = gameslist.name;
-let buttondivID = gameslist.category;
-let proxiedlink = 'https://megaspaces.x-g-x.repl.co/main/'+ gameslist.url;
-document.getElementById('buttonDiv').innerHTML += `${gameslist.icon}`;
-document.getElementById('buttonDiv1').innerHTML += `<button onClick="openGame('${link}')">${gameslist.name}</button><br>`;
+let link = arrayitems.url;
+let name = arrayitems.name;
+let buttondivID = arrayitems.category;
+let proxiedlink = 'https://megaspaces.x-g-x.repl.co/main/'+ arrayitems.url;
+document.getElementById('buttonDiv').innerHTML += `${arrayitems.icon}`;
+document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayitems.name}</button><br>`;
 
 
 let win;
@@ -229,27 +228,15 @@ iframe.src = link;
 win.document.body.appendChild(iframe);
     }
 })
-}
-buildgames();
-function clear(){
-document.getElementById('buttonDiv').innerHTML = "";
 
-document.getElementById('buttonDiv1').innerHTML = "";
-
-document.getElementById('buttonDiv2').innerHTML = "";
-
-document.getElementById('buttonDiv3').innerHTML = "";
-
-document.getElementById('buttonDiv4').innerHTML = "";
-
-}
 </script>
 <div class="row">
     <div class="span3">
         <div class="gameslist">
         <h2>Action, Adventure, and Skill Games</h2><br>
-        <div id="buttonDiv"></div>
     </div>
+    <div id="buttonDiv"></div>
+
 </div>
 <div class="span3">
     <h2>Puzzle & Strategy Games</h2>
@@ -264,6 +251,7 @@ document.getElementById('buttonDiv4').innerHTML = "";
     <div id="buttonDiv2"></div>
     </div>
     </div>
+</div>
 </div>
 </div>
 

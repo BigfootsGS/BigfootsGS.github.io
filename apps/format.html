@@ -1,0 +1,50 @@
+<div class="span3">
+    <h2>Discord</h2>
+    <div id="buttonDiv1"></div>
+
+    <script type="text/javascript">
+        let yes = "<i class='ri-checkbox-circle-fill'></i>";
+        let no = "<i class='ri-close-circle-line'></i>"
+        var buttonArr1 = [
+        {
+            "icon": computer1,
+            "category": "Puzzle",
+            "name": "Cookie Clicker",
+            "url": "https://bigfoot9999.github.io/cc/",
+        }, 
+    ]
+        //end array for game links
+        
+        buttonArr1.forEach(function(arrayItem1) {
+
+            //searchArr.push(arrayItem.name);
+            let link1 = arrayItem1.url;
+            let name1 = arrayItem1.name;
+            let category1 = arrayItem1.category;
+            document.getElementById('buttonDiv1').innerHTML += `${arrayItem1.icon}`;
+            document.getElementById('buttonDiv1').innerHTML += `<button onClick="openGame('${link1}')">${arrayItem1.name}</button><br>`;
+
+
+            
+        } );
+        //end game code
+        let win1;
+
+        function openGame(link1) {
+            if (win1) {
+                win1.focus();
+                return;
+            }
+            win1 = window.open();
+            win1.document.body.style.margin = '0';
+            win1.document.body.style.height = '100vh';
+            const iframe = win1.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = link1;
+            win1.document.body.appendChild(iframe);
+        }
+    </script>
+    </div>

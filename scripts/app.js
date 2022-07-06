@@ -1,4 +1,4 @@
-//buttonDiv Games Array
+/*//buttonDiv Games Array
                 function buildgames(){
                 let mobile = "<i class='ri-device-line'></i>";
                 let computer = "<i class='ri-computer-line'></i>"
@@ -175,3 +175,4 @@ function clear(){
     document.getElementById('buttonDiv4').innerHTML = "";
 
 }
+*/

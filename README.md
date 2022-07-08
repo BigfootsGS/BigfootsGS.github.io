@@ -2,7 +2,6 @@
 
 <div align='center'>
   ![Video](https://user-images.githubusercontent.com/80417201/172915567-b5ed2245-a00b-493c-aa80-50142835efb5.gif)
-The Bigfoot's Game Shack team asks that in case you use our software, that you give us credit! Thank you!
 
   
 ![GitHub issues](https://img.shields.io/github/issues/BigfootsGS/BigfootsGS.github.io?logo=github&style=flat-square) 
@@ -11,6 +10,7 @@ The Bigfoot's Game Shack team asks that in case you use our software, that you g
 ![GitHub forks](https://img.shields.io/github/forks/BigfootsGS/BigfootsGS.github.io?label=Forks&logo=github&style=flat-square) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/BigfootsGS/BigfootsGS.github.io?color=yellow&label=Stars&logo=github&style=flat-square) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BigfootsGS/BigfootsGS.github.io?label=Repo%20size&logo=github&style=flat-square) 
+The Bigfoot's Game Shack team asks that in case you use our software, that you give us credit! Thank you!
 
 
 Email the Devs at Bigfoot@bigfoot9999.tk or Anthony@bigfoot9999.tk

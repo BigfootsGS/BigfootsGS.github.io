@@ -85,71 +85,70 @@
         "name": "Slope Game",
         "url": "https://bigfoot9999.github.io/Slope-Game/",
         "icon": computer,
-        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+        "img": "thumbnails/img1.jpg",
     }, {
         "category": "buttonDiv",
         "name": "Run 3",
         "url": "https://theadvancedsociety-tam.tbt.mx/tam-run3/",
         "icon": computer,
-        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+        "img": "thumbnails/img2.jpg",
     }, 
     {
         "category": "buttonDiv",
         "name": "Burrito Bison",
         "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html",
         "icon": computer,
-        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+        "img": "thumbnails/img3.png",
     },
     {
         "category": "buttonDiv",
         "name": "Google doodle champion island",
         "url": "https://bigfoot9999.github.io/html5-games/games/google-kitsune/",
         "icon": computer,
-        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+        "img": "thumbnails/img4.jpg",
     },
     {
         "category": "buttonDiv",
         "name": "The Legend of Zelda: Link to the Past",
         "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_past",
         "icon": computer,
-        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+        "img": "thumbnails/img5.jpg",
     },
     {
         "category": "buttonDiv",
         "name": "The Legend of Zelda: Minish Cap",
         "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_minish",
         "icon": computer,
-        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+        "img": "thumbnails/img6.jpg",
     },
     {
         "category": "buttonDiv",
         "name": "Mario Party",
         "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#marioparty",
         "icon": computer,
-        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+        "img": "thumbnails/img7.jpg",
     },
     {
         "category": "buttonDiv",
         "name": "Mortal Kombat",
         "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#mortal_kombat",
         "icon": computer,
-        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+        "img": "thumbnails/img8.jpg",
     },
     {
         "category": "buttonDiv",
         "name": "Kuru Panda",
         "url": "https://www.panda2.io/content/games/kurupanda/",
         "icon": computer,
-        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+        "img": "thumbnails/img9.png",
     },
     {
         "category": "buttonDiv",
         "name": "Pappa's Taco Mia",
         "url": "https://mazahacka2017.github.io/papa-taco-mia/",
         "icon": computer,
-        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+        "img": "thumbnails/img10.png",
     },
-            
         
         ]
             //end array for game links
@@ -160,13 +159,9 @@
                 let category = arrayItem.category;
                 //document.getElementById('buttonDiv').innerHTML += `${arrayItem.icon}`;
                 document.getElementById('buttonDiv').innerHTML += `<div class="span1"><div class="card"><img src="${arrayItem.img}" alt="${arrayItem.name}+.png" style="width:100%"><button onClick="openGame('${link}')">${arrayItem.name}</button></div></div>`;
- 
-
-                
             } );
             //end game code
             let win;
-
             function openGame(link) {
                 if (win) {
                     win.focus();

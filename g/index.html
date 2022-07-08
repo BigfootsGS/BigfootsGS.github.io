@@ -14,8 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../scripts/fonts/remixicon.css"> 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6938276368216011" crossorigin="anonymous"></script>
-       <!-- <script src="../scripts/ap.js"></script>
-        <script src="../scripts/app.js"></script>-->
+        
     </head>
     <script>
         document.onkeydown = function(e) {
@@ -36,9 +35,9 @@
     <body oncontextmenu="return false;">
         <div class="container-fluid">
             <div class="row-fluid">
-                <div class="span6">
+                <div class="span12">
                   <h3>This website uses AutoProxy<i class="ri-trademark-fill"></i></h3><br>
-                  <p3>AutoProxy<i class="ri-trademark-fill"></i> is a feature that launches games, automatically proxied through a UV<i>Made by Bigfoot9999</i><br></p3>
+                  <p3>AutoProxy<i class="ri-trademark-fill"></i> is a feature that launches games, automatically proxied through UltraViolet Proxy Servers. <i>Made by Bigfoot9999</i><br></p3>
                     <div style="padding-top: 10px;">
                         <label class="switch">
                             <input type="checkbox">
@@ -62,198 +61,503 @@
   </div>
 </div>
 <!--end navbar-->
-<script>//buttonDiv Games Array
-    let mobile = "<i class='ri-device-line'></i>";
-    let computer = "<i class='ri-computer-line'></i>"
-    var gameslist = [{
+<script>
+    document.onkeydown = function(e) {
+    if(event.keyCode == 123) {
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+    return false;
+    }
+    }
+    </script>
+<body oncontextmenu="return false;">
+<!--START NEW NAVBAR-->
+<div class="navbar navbar-fixed-top">
+<ul class="nav">
+<a style="margin: auto;" class="brand" href="#">Bigfoot's Game Shack</a>
+<li><a href="../">Home</a></li>
+<li><a class="active" href="#">Games</a></li>
+<li><a href="../about-us/info.html">Info</a></li>
+<li><a href="../apps/">Apps</a></li>
+<li><a href="../proxies/">Proxies</a></li>
+<li><a href="https://stars.gq/" class="right">Interstellar Games</a></li>
+</ul>
+</div>
+<!--END NEW NAVBAR-->
+<!--START ANNOUNCEMENT BANNER-->
+<!--ANNOUNCEMENT BANNER END!!-->
+
+</div>
+<!--ARRAY FORMAT {
+                "category": "",
+                "name": "",
+                "url": "",
+                "img": "",
+            },
+        -->
+<!--END ANNOUNCEMENT BANNER-->       
+
+<div class="row">
+
+
+    <div class="gameslist">
+        
+        <h2>Action, Adventure, and Skill Games</h2>
+        <br>
+        <div style="padding-left: 20px"id="buttonDiv"></div>
+        <!--ACTION SKILL ADVENTURE GAMES BELOW-->
+        <script type="text/javascript">
+            //start game code
+            let mobile = "<i class='ri-device-line'></i>";
+            let computer = "<i class='ri-computer-line'></i>"
+            var buttonArr = [{
         //Action games 
         "icon": mobile,
         "category": "buttonDiv",
         "name": "Temple Run 2",
         "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
+        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
     }, {
         "category": "buttonDiv",
         "name": "Slope Game",
         "url": "https://bigfoot9999.github.io/Slope-Game/",
         "icon": computer,
+        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
     }, {
         "category": "buttonDiv",
         "name": "Run 3",
         "url": "https://theadvancedsociety-tam.tbt.mx/tam-run3/",
         "icon": computer,
+        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
     }, 
     {
         "category": "buttonDiv",
         "name": "Burrito Bison",
         "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html",
         "icon": computer,
+        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
     },
     {
         "category": "buttonDiv",
         "name": "Google doodle champion island",
         "url": "https://bigfoot9999.github.io/html5-games/games/google-kitsune/",
         "icon": computer,
+        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
     },
     {
         "category": "buttonDiv",
         "name": "The Legend of Zelda: Link to the Past",
         "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_past",
         "icon": computer,
+        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
     },
     {
         "category": "buttonDiv",
         "name": "The Legend of Zelda: Minish Cap",
         "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_minish",
         "icon": computer,
+        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
     },
     {
         "category": "buttonDiv",
         "name": "Mario Party",
         "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#marioparty",
         "icon": computer,
+        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
     },
     {
         "category": "buttonDiv",
         "name": "Mortal Kombat",
         "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#mortal_kombat",
         "icon": computer,
+        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
     },
     {
         "category": "buttonDiv",
         "name": "Kuru Panda",
         "url": "https://www.panda2.io/content/games/kurupanda/",
         "icon": computer,
+        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
     },
     {
         "category": "buttonDiv",
         "name": "Pappa's Taco Mia",
         "url": "https://mazahacka2017.github.io/papa-taco-mia/",
         "icon": computer,
+        "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
     },
-    //start retro games
+            
+        
+        ]
+            //end array for game links
+
+            buttonArr.forEach(function(arrayItem) {
+                let link = arrayItem.url;
+                let name = arrayItem.name;
+                let category = arrayItem.category;
+                //document.getElementById('buttonDiv').innerHTML += `${arrayItem.icon}`;
+                document.getElementById('buttonDiv').innerHTML += `<div class="card" style=""><img src="${arrayItem.img}" alt="${arrayItem.name}" style="width:100%"><div class="container"><button onClick="openGame('${link}')">${arrayItem.name}</button></div></div>`;
+
+
+                
+            } );
+            //end game code
+            let win;
+
+            function openGame(link) {
+                if (win) {
+                    win.focus();
+                    return;
+                }
+                win = window.open();
+                win.document.body.style.margin = '0';
+                win.document.body.style.height = '100vh';
+                const iframe = win.document.createElement('iframe');
+                iframe.style.border = 'none';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.style.margin = '0';
+                iframe.src = link;
+                win.document.body.appendChild(iframe);
+            }
+        </script>
+<!--END ACTION SKILL AND ADVENTURE GAMES-->
+    </div>
+</div>
+<div class="row">
+<div class="span12">
+<!---->
+<h2>Puzzle & Strategy Games</h2>
+<div id="buttonDiv1"></div>
+
+<script type="text/javascript">
+    //start game code
+    let mobile1 = "<i class='ri-device-line'></i>";
+    let computer1 = "<i class='ri-computer-line'></i>"
+    var buttonArr1 = [
     {
-        "icon": computer,
+        "icon": computer1,
+        "category": "Puzzle",
+        "name": "Cookie Clicker",
+        "url": "https://bigfoot9999.github.io/cc/",
+        "img": "",
+    }, 
+    {
+        "icon": computer1,
+        "category": "Puzzle",
+        "name": "OvO",
+        "url": "https://dedragames.com/games/ovo/1.4/",
+        "img": "",
+    }, {
+        "icon": computer1,
+        "category": "Puzzle",
+        "name": "Slither.io",
+        "url": "https://www.julgames.com/games/slither-snakes/",
+        "img": "",
+    },
+
+]
+    //end array for game links
+    
+    buttonArr1.forEach(function(arrayItem1) {
+
+        //searchArr.push(arrayItem.name);
+        let link1 = arrayItem1.url;
+        let name1 = arrayItem1.name;
+        let category1 = arrayItem1.category;
+        document.getElementById('buttonDiv1').innerHTML += `${arrayItem1.icon}`;
+        document.getElementById('buttonDiv1').innerHTML += `<button onClick="openGame('${link1}')">${arrayItem1.name}</button>`;
+
+
+        
+    } );
+    //end game code
+    let win1;
+
+    function openGame(link1) {
+        if (win1) {
+            win1.focus();
+            return;
+        }
+        win1 = window.open();
+        win1.document.body.style.margin = '0';
+        win1.document.body.style.height = '100vh';
+        const iframe = win1.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = link1;
+        win1.document.body.appendChild(iframe);
+    }
+</script>
+</div>
+</div>
+
+<!---->
+<div class="row">
+<div class="span12">
+<h2>Retro Games</h2>
+<div id="buttonDiv3"></div>
+
+<script type="text/javascript">
+    //start game code
+    let mobile3 = "<i class='ri-device-line'></i>";
+    let computer3 = "<i class='ri-computer-line'></i>"
+    var buttonArr3 = [
+    {
+        "icon": computer3,
         "category": "buttonDiv1",
         "name": "Celeste",
-        "url": "https://rga-bigfoot9999.vercel.app/src/celeste/celeste.html"
+        "url": "https://rga-bigfoot9999.vercel.app/src/celeste/celeste.html",
+        "img": "",
     },{
-        "icon": computer,
+        "icon": computer3,
         "category": "buttonDiv1",
         "name": "Chroma",
-        "url": "https://rga-bigfoot9999.vercel.app/src/chroma/index.html"
+        "url": "https://rga-bigfoot9999.vercel.app/src/chroma/index.html",
+        "img": "",
     },{
-        "icon": computer,
+        "icon": computer3,
         "category": "buttonDiv1",
         "name": "Doodle Jump",
-        "url": "https://rga-bigfoot9999.vercel.app/src/doodle-jump/index.html"
+        "url": "https://rga-bigfoot9999.vercel.app/src/doodle-jump/index.html",
+        "img": "",
     },{
-        "icon": computer,
+        "icon": computer3,
         "category": "buttonDiv1",
         "name": "Economical",
-        "url": "https://rga-bigfoot9999.vercel.app/src/economical/index.html"
+        "url": "https://rga-bigfoot9999.vercel.app/src/economical/index.html",
+        "img": "",
     },{
-        "icon": computer,
+        "icon": computer3,
         "category": "buttonDiv1",
         "name": "Economical 2",
-        "url": "https://rga-bigfoot9999.vercel.app/src/economical2/index.html"
+        "url": "https://rga-bigfoot9999.vercel.app/src/economical2/index.html",
+        "img": "",
     },
-    //start shooter games
-    {
-        "icon": computer,
+
+]
+    //end array for game links
+    
+    buttonArr3.forEach(function(arrayItem3) {
+
+        //searchArr.push(arrayItem.name);
+        let link3 = arrayItem3.url;
+        let name3 = arrayItem3.name;
+        let category3 = arrayItem3.category;
+        document.getElementById('buttonDiv3').innerHTML += `${arrayItem3.icon}`;
+        document.getElementById('buttonDiv3').innerHTML += `<button onClick="openGame('${link3}')">${arrayItem3.name}</button>`;
+
+
+        
+    } );
+    //end game code
+    let win3;
+
+    function openGame(link3) {
+        if (win3) {
+            win3.focus();
+            return;
+        }
+        win3 = window.open();
+        win3.document.body.style.margin = '0';
+        win3.document.body.style.height = '300vh';
+        const iframe = win3.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '300%';
+        iframe.style.height = '300%';
+        iframe.style.margin = '0';
+        iframe.src = link3;
+        win3.document.body.appendChild(iframe);
+    }
+</script>
+</div>
+</div>
+<!---->
+<!---->
+
+<!--START SHOOTER CATEGORY-->
+<div class="row">
+<div class="span12">
+    <h2>Shooter Games</h2>
+<div id="buttonDiv2"></div>
+
+<script type="text/javascript">
+    //start game code
+    let mobile2 = "<i class='ri-device-line'></i>";
+    let computer2 = "<i class='ri-computer-line'></i>"
+    var buttonArr2 = [{
+        "icon": computer2,
         "category": "buttonDiv2",
         "name": "1v1.lol",
         "url": "https://advanced-channeler.02.gz-associates.com/?t=tam-1v1-lol",
+        "img": "",
     }, {
-        "icon": computer,
+        "icon": computer2,
         "category": "buttonDiv2",
         "name": "Zombs Royale",
         "url": "https://theadvancedsociety-tam.tbt.mx/tmm-zombsroyale/",
+        "img": "",
     }, 
     {
-        "icon": computer,
+        "icon": computer2,
         "category": "buttonDiv2",
         "name": "Shell Shockers",
         "url": "https://tam-shellshockers.arfotoarte.com/",
+        "img": "",
     }, 
     {
-        "icon": computer,
+        "icon": computer2,
         "category": "buttonDiv2",
         "name": "Blockpost.io",
         "url": "https://ikatchelo.github.io/blockpost/",
+        "img": "",
     }, 
     {
-        "icon": computer,
+        "icon": computer2,
         "category": "buttonDiv2",
         "name": "Rooftop Snipers",
         "url": "https://bigfoot9999.github.io/3kh0.github.io/projects/rooftop-snipers/",
+        "img": "",
     }, 
     {
-        "icon": computer,
+        "icon": computer2,
         "category": "buttonDiv2",
         "name": "Pixel Combat 2",
         "url": "https://grandcanyonshuttles.com/uploads/5/0/5/6/5056555/custom_themes/607463927942590340/pixel-combat2.html",
+        "img": "",
     }, 
     {
-        "icon": computer,
+        "icon": computer2,
         "category": "buttonDiv2",
         "name": "Modern Blocky Paint",
         "url": "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/593675271171586975/modern_blocky_paint_.html",
-    }, 
+        "img": "",
+    },
+
 ]
-gameslist.forEach(function(arrayitems) {
-//End Arrays 
-let link = arrayitems.url;
-let name = arrayitems.name;
-let buttondivID = arrayitems.category;
-let proxiedlink = 'https://megaspaces.x-g-x.repl.co/main/'+ arrayitems.url;
-document.getElementById('buttonDiv').innerHTML += `${arrayitems.icon}`;
-document.getElementById('buttonDiv').innerHTML += `<button onClick="openGame('${link}')">${arrayitems.name}</button><br>`;
+    //end array for game links
+
+    buttonArr2.forEach(function(arrayItem2) {
+
+        //searchArr.push(arrayItem.name);
+        let link2 = arrayItem2.url;
+        let name2 = arrayItem2.name;
+        let category2 = arrayItem2.category;
+        document.getElementById('buttonDiv2').innerHTML += `${arrayItem2.icon}`;
+        document.getElementById('buttonDiv2').innerHTML += `<button onClick="openGame('${link2}')">${arrayItem2.name}</button>`;
 
 
-let win;
-function openGame(link) {
-if (win) {
-win.focus();
-return;
-}
-win = window.open();
-win.document.body.style.margin = '0';
-win.document.body.style.height = '100vh';
-const iframe = win.document.createElement('iframe');
-iframe.style.border = 'none';
-iframe.style.width = '100%';
-iframe.style.height = '100%';
-iframe.style.margin = '0';
-iframe.src = link;
-win.document.body.appendChild(iframe);
+        
+    } );
+    //end game code
+    let win2;
+
+    function openGame(link2) {
+        if (win2) {
+            win2.focus();
+            return;
+        }
+        win2 = window.open();
+        win2.document.body.style.margin = '0';
+        win2.document.body.style.height = '100vh';
+        const iframe = win2.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = link2;
+        win2.document.body.appendChild(iframe);
     }
-})
-
 </script>
-<div class="row">
-    <div class="span3">
-        <div class="gameslist">
-        <h2>Action, Adventure, and Skill Games</h2><br>
-    </div>
-    <div id="buttonDiv"></div>
+</div>
+</div>
 
-</div>
-<div class="span3">
-    <h2>Puzzle & Strategy Games</h2>
-    <div id="buttonDiv1"></div>
-    </div>
-<div class="span3">
-    <h2>Retro Games</h2>
-    <div id="buttonDiv3"></div>
-    </div>
-    <div class="span3">
+<!--END SHOOTER CATEGORY-->
+<!--START SHOOTER CATEGORY-->
+<div class="row">
+    <div class="span12">
         <h2>Shooter Games</h2>
-    <div id="buttonDiv2"></div>
+    <div id="buttonDiv4"></div>
+    
+    <script type="text/javascript">
+        //start game code
+        let mobile4 = "<i class='ri-device-line'></i>";
+        let computer4 = "<i class='ri-computer-line'></i>"
+        var buttonArr4 = [{
+            "icon": computer4,
+            "name": "Drift Hunters",
+            "url": "https://rga-bigfoot9999.vercel.app/src/drift-hunters/index.html",
+            "img": "",
+        }, 
+        {
+            "icon": computer4,
+            "name": "Fire Truck Dash",
+            "url": "https://rga-bigfoot9999.vercel.app/src/fire-truck-dash/index.html",
+            "img": "",
+        }, 
+        {
+            "icon": computer4,
+            "name": "Super Car Police Parking",
+            "url": "https://files.vitalitygames.com/games/webgl/2017/09/11/supercar-police-parking-2/index.html",
+            "img": "",
+        }, 
+        {
+            "icon": computer4,
+            "name": "Mandalin Stunt Cars",
+            "url": "https://cookieduck-dev.github.io/games/stuntcars/index.html",
+            "img": "",
+        }, 
+    
+    ]
+        //end array for game links
+    
+        buttonArr4.forEach(function(arrayItem4) {
+    
+            //searchArr.push(arrayItem.name);
+            let link4 = arrayItem4.url;
+            let name4 = arrayItem4.name;
+            document.getElementById('buttonDiv4').innerHTML += `${arrayItem4.icon}`;
+            document.getElementById('buttonDiv4').innerHTML += `<button onClick="openGame('${link4}')">${arrayItem4.name}</button>`;
+    
+    
+            
+        } );
+        //end game code
+        let win4;
+    
+        function openGame(link4) {
+            if (win4) {
+                win4.focus();
+                return;
+            }
+            win4 = window.open();
+            win4.document.body.style.margin = '0';
+            win4.document.body.style.height = '100vh';
+            const iframe = win4.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = link4;
+            win4.document.body.appendChild(iframe);
+        }
+    </script>
     </div>
     </div>
+    
+    <!--END Racing CATEGORY-->
 </div>
 </div>
-</div>
+
 
          <!--Footer-->
          <div class="footer">

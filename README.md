@@ -14,6 +14,7 @@
 
 
 Email the Devs at Bigfoot@bigfoot9999.tk or Anthony@bigfoot9999.tk.
+The Bigfoot's Game Shack team asks that in case you use our software, that you give us credit! Thank you!
   
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/BigfootsGS/BigfootsGS.github.io)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/BigfootsGS/BigfootsGS.github.io)

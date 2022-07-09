@@ -9,11 +9,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/BigfootsGS/BigfootsGS.github.io?label=Forks&logo=github&style=flat-square) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/BigfootsGS/BigfootsGS.github.io?color=yellow&label=Stars&logo=github&style=flat-square) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BigfootsGS/BigfootsGS.github.io?label=Repo%20size&logo=github&style=flat-square) 
-
-  The Bigfoot's Game Shack team asks that in case you use our software, that you give us credit! Thank you!
-
-
-Email the Devs at Bigfoot@bigfoot9999.tk or Anthony@bigfoot9999.tk
+The Bigfoot's Game Shack team asks that in case you use our software, that you give us credit! For copyright issues and claims please contact Bigfoot#9033 on Discord. We understand that all copyrights are the property of their respective owners, we do not take credit for any of the games provided by Bigfoot's Game Shack. 
 
   
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/BigfootsGS/BigfootsGS.github.io)

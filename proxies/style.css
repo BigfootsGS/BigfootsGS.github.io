@@ -270,26 +270,4 @@ button {
   body {
     text-align: center;
   }
-  .footerlinks {
-    a:link {
-        color: black;
-        background-color: transparent;
-        text-decoration: none;
-      }
-      
-      a:visited {
-        color: rgb(255, 255, 255);
-        background-color: transparent;
-        text-decoration: none;
-      }
-      
-      a:hover {
-        color: rgb(255, 255, 255);
-        background-color: transparent;
-      }
-      
-      a:active {
-        color: grey;
-        background-color: transparent;
-      }
-  }
+  

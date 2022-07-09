@@ -1,76 +1,295 @@
-/*style for games.html*/
-.list {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.glow-on-hover {
-    width: 220px;
-    height: 50px;
+button {
+    background: rgba(255, 255, 255, 0);
+    color: black;
     border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
+    border-radius: 5px;
+    -webkit-font-smoothing: antialiased;
     cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-}
-
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
-
-.glow-on-hover:active {
-    color: #000
-}
-
-.glow-on-hover:active:after {
-    background: transparent;
-}
-
-.glow-on-hover:hover:before {
-    opacity: 1;
-}
-
-.glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border: 3px;
+  }
+  html {
+    font-family: 'Anton', sans-serif;
+    overflow-x: hidden;
+   background: linear-gradient(to bottom, #ffffff 0%, #b3b3b3 100%)
+    
+  }
+  p {
+    font-family: 'Anton', sans-serif;
+  }
+  .ri-computer-line:before {
+    padding-left: 20px;
+  }
+  .ri-device-line:before {
+    padding-left: 20px;
+  }
+  .ri-checkbox-circle-fill:before{
+    padding-left: 20px;
+  
+  }
+  .ri-close-circle-line:before{
+    padding-left: 20px;
+  
+  }
+  
+  .footer {
+    text-align: center; /* Center text*/
+    color: #ffffff;
+    background-color: #000000; /* Black background */
+    font-family: 'Anton', sans-serif;
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+  }
+  h {
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+    
+  }
+  h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 3vh;
+  padding-top: 4vw;
+  padding-left: 20px;
+  }
+  h2 {
+    font-size: 10px;
+      padding: 7vh 14px 0px 14px;
+  
+  }
+  .textjs {
+    font-family: 'Anton', sans-serif;
+  }
+  a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: transparent;
+  }
+  
+  a:active {
+    color: grey;
+    background-color: transparent;
+  }
+  video {
+    object-fit: cover;
     width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
+    height: 98vh;
+    position: relative;
     top: 0;
-    border-radius: 10px;
-}
-
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
-}
-body {
-    background-image: url('bkgrnd.png');
-    background-size: 100% 100%;
-    background-attachment: fixed;
-}
-h {
-    color:#FFFFFF;
-}
+    left: 0;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  @media (max-width: 480px) {}
+  
+  @media (max-width: 768px) {}
+  
+  @media (min-width: 768px) and (max-width: 980px){}
+  
+  @media (min-width: 1200px) {}
+  
+  @font-face {
+    font-family: "Uni Sans Heavy CAPS";
+    src: url(https://cdn.jsdelivr.net/gh/JoshMerlino/photoncss/fonts/UniSansHeavyCaps/3029259ef4f4389d799fe57da6f29158.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: 'Google Sans';
+    src: url(https://cdn.jsdelivr.net/gh/JoshMerlino/photoncss/fonts/Google_Sans/pxicypQkot1TnFhsFMOfGShd5PSbS2lBkm8.woff2) format('woff2');
+  }
+  
+  .DiscordInvite-badge::before {
+  position: absolute;
+  height: 8px;
+  left: -12px;
+  width: 8px;
+  border-radius: 50%;
+  content: "";
+  background-color: #747f8d;
+  }
+  
+  .DiscordInvite-badge:first-child::before {
+  background-color: #3ba55c;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .DiscordInvite-root {
+      width: 354px!important;
+  }
+  .DiscordInvite-content {
+      flex: none;
+      width: calc(100% - 64px);
+  }
+  .DiscordInvite-joinLink {
+      margin: 0;
+      margin-top: 62px;
+      margin-left: calc(-100% - 2px)!important;
+      width: 100%;
+      text-align: center;
+      display: block!important;
+  }
+  }
+  h3 {
+    padding-top: 45px
+  }
+  /*Start Switch code*/
+  /* The switch - the box around the slider */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 150px;
+    margin-top: 32px;
+  
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  .card {
+    transition: transform .2s;
+    margin: 10 auto;
+  }
+  
+  .card:hover {
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  body {
+    text-align: center;
+  }
+  .footerlinks {
+    a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+      }
+      
+      a:active {
+        color: grey;
+        background-color: transparent;
+      }
+  }

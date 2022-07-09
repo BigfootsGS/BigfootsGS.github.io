@@ -156,6 +156,109 @@
         "icon": computer,
         "img": "thumbnails/img11.jpg",
     },
+    {
+        "name": "Fire Boy and Water Girl",
+        "url": "https://rga-bigfoot9999.vercel.app/src/fireboy-and-watergirl-forest-temple/index.html",
+        "icon": computer,
+        "img": "thumbnails/img12.png",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+    {
+        "name": "",
+        "url": "",
+        "icon": computer,
+        "img": "thumbnails/",
+    },
+
         
         ]
             //end array for game links
@@ -164,8 +267,8 @@
                 let link = arrayItem.url;
                 let name = arrayItem.name;
                 let category = arrayItem.category;
-                //document.getElementById('buttonDiv').innerHTML += `${arrayItem.icon}`;
-                document.getElementById('buttonDiv').innerHTML += `<div class="span1"><div class="card"><img src="${arrayItem.img}" alt="${arrayItem.name}+.png" style="width:100%"><button onClick="openGame('${link}')">${arrayItem.name}</button></div></div>`;
+                
+                document.getElementById('buttonDiv').innerHTML += `<div class="span1"><div class="card"><a onclick="openGame('${arrayItem.url}')" href="javascript:void(0);"><img src="${arrayItem.img}" alt="${arrayItem.name}+.png" style="width:100%"><button onClick="openGame('${link}')">${arrayItem.name}</button></a></div></div>`;
             } );
             //end game code
             let win;
@@ -300,6 +403,13 @@
         "category": "buttonDiv1",
         "name": "Economical 2",
         "url": "https://rga-bigfoot9999.vercel.app/src/economical2/index.html",
+        "img": "",
+    },
+    {
+        "icon": computer3,
+        "category": "buttonDiv1",
+        "name": "Flappy Bird",
+        "url": "https://rga-bigfoot9999.vercel.app/src/flappybird/index.html",
         "img": "",
     },
 

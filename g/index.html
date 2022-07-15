@@ -491,13 +491,12 @@
 </div>
 </body>
 <!---->
-<!---->
-
-<!--START SHOOTER CATEGORY-->
-<div class="row">
-    <h2>Shooter Games</h2>
-<div id="buttonDiv2"></div>
-
+<div class="gameslist">
+        
+    <h2>Shooter & FPS Games</h2>
+    <br><div class="row">
+    <div style="padding-left: 20px" id="buttonDiv2"></div>
+    </div>
 <script type="text/javascript">
     //start game code
     let mobile2 = "<i class='ri-device-line'></i>";
@@ -507,48 +506,48 @@
         "category": "buttonDiv2",
         "name": "1v1.lol",
         "url": "https://advanced-channeler.02.gz-associates.com/?t=tam-1v1-lol",
-        "img": "",
+        "img": "thumbnails/img46.jpg",
     }, {
         "icon": computer2,
         "category": "buttonDiv2",
         "name": "Zombs Royale",
         "url": "https://theadvancedsociety-tam.tbt.mx/tmm-zombsroyale/",
-        "img": "",
+        "img": "thumbnails/img47.png",
     }, 
     {
         "icon": computer2,
         "category": "buttonDiv2",
         "name": "Shell Shockers",
         "url": "https://tam-shellshockers.arfotoarte.com/",
-        "img": "",
+        "img": "thumbnails/img48.png",
     }, 
     {
         "icon": computer2,
         "category": "buttonDiv2",
         "name": "Blockpost.io",
         "url": "https://ikatchelo.github.io/blockpost/",
-        "img": "",
+        "img": "thumbnails/img45.png",
     }, 
     {
         "icon": computer2,
         "category": "buttonDiv2",
         "name": "Rooftop Snipers",
         "url": "https://bigfoot9999.github.io/3kh0.github.io/projects/rooftop-snipers/",
-        "img": "",
+        "img": "thumbnails/img49.png",
     }, 
     {
         "icon": computer2,
         "category": "buttonDiv2",
         "name": "Pixel Combat 2",
         "url": "https://grandcanyonshuttles.com/uploads/5/0/5/6/5056555/custom_themes/607463927942590340/pixel-combat2.html",
-        "img": "",
+        "img": "thumbnails/img50.jpg",
     }, 
     {
         "icon": computer2,
         "category": "buttonDiv2",
         "name": "Modern Blocky Paint",
         "url": "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/593675271171586975/modern_blocky_paint_.html",
-        "img": "",
+        "img": "thumbnails/img51.jpg",
     },
 
 ]
@@ -561,8 +560,7 @@
         let name2 = arrayItem2.name;
         let category2 = arrayItem2.category;
         //shooter games btw
-        document.getElementById('buttonDiv2').innerHTML += `${arrayItem2.icon}`;
-        document.getElementById('buttonDiv2').innerHTML += `<button onClick="openGame('${link2}')">${arrayItem2.name}</button>`;
+        document.getElementById('buttonDiv2').innerHTML += `<div class="span1"><div class="card"><a onclick="openGame('${arrayItem2.url}')" href="javascript:void(0);"><img src="${arrayItem2.img}" alt="${arrayItem2.name}.png" style="width:100%"></a><p3>${arrayItem2.name}</p3></div></div>`;
 
 
         

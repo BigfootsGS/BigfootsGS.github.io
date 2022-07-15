@@ -49,7 +49,7 @@
         </div>      
         
 <body oncontextmenu="return false;">
-<!--START NEW NAVBAR-->
+<!--START NAVBAR-->
 <div class="navbar navbar-fixed-top">
 <ul class="nav">
 <a style="margin: auto;" class="brand" href="#">Bigfoot's Game Shack</a>
@@ -66,7 +66,7 @@
         <h2>Action, Adventure, and Skill Games</h2>
         <div class="row">
         <div style="padding-left: 20px"id="buttonDiv"></div>
-        <!--ACTION SKILL ADVENTURE GAMES BELOW-->
+        <!---->
         <script type="text/javascript">
             //start game code
             let mobile = "<i class='ri-device-line'></i>";
@@ -279,6 +279,13 @@
         "url": "https://www.panda2.io/content/games/woriar/",
         "img": "thumbnails/img38.png",
     },
+    {   
+        "icon": computer,
+        "category": "Action",
+        "name": "lets Surf!",
+        "url": "https://bigfoot9999.github.io/html5-games/games/edge-surf/",
+        "img": "thumbnails/img52.jpg",
+        }
 
         
         ]
@@ -313,7 +320,7 @@
         </div>        </div>
 
 
-<!--END ACTION SKILL AND ADVENTURE GAMES-->
+<!---->
 <div class="gameslist">
         
     <h2>Strategy & Puzzle Games</h2>
@@ -586,13 +593,16 @@
     }
 </script>
 </div>
+</div>
+<!---->
+<div class="gameslist">
+        
+    <h2>Racing & Car Games</h2>
+    <br><div class="row">
+    <div style="padding-left: 20px; padding-bottom: 20px;" id="buttonDiv4"></div>
+    </div>
+    <!---->
 
-<!--END SHOOTER CATEGORY-->
-<!--START SHOOTER CATEGORY-->
-<div class="row">
-        <h2>Racing Games</h2>
-    <div id="buttonDiv4"></div>
-    
     <script type="text/javascript">
         //start game code
         let mobile4 = "<i class='ri-device-line'></i>";
@@ -601,26 +611,26 @@
             "icon": computer4,
             "name": "Drift Hunters",
             "url": "https://rga-bigfoot9999.vercel.app/src/drift-hunters/index.html",
-            "img": "",
+            "img": "thumbnails/img53.png",
         }, 
         {
             "icon": computer4,
             "name": "Fire Truck Dash",
             "url": "https://rga-bigfoot9999.vercel.app/src/fire-truck-dash/index.html",
-            "img": "",
+            "img": "thumbnails/img54.png",
         }, 
         {
             "icon": computer4,
             "name": "Super Car Police Parking",
             "url": "https://files.vitalitygames.com/games/webgl/2017/09/11/supercar-police-parking-2/index.html",
-            "img": "",
+            "img": "thumbnails/",
         }, 
         
         {
             "icon": computer4,
             "name": "Russian Taz Driving 2",
             "url": "https://rga-bigfoot9999.vercel.app/src/russian-taz-magmes/index.html",
-            "img": "",
+            "img": "thumbnails/",
            },
     
     ]
@@ -631,8 +641,9 @@
             //searchArr.push(arrayItem.name);
             let link4 = arrayItem4.url;
             let name4 = arrayItem4.name;
-            document.getElementById('buttonDiv4').innerHTML += `${arrayItem4.icon}`;
-            document.getElementById('buttonDiv4').innerHTML += `<button onClick="openGame('${link4}')">${arrayItem4.name}</button>`;
+            //racing games 
+            document.getElementById('buttonDiv4').innerHTML += `<div class="span1"><div class="card"><a onclick="openGame('${arrayItem4.url}')" href="javascript:void(0);"><img src="${arrayItem4.img}" alt="${arrayItem4.name}.png" style="width:100%"></a><p3>${arrayItem4.name}</p3></div></div>`;
+
     
     
             
@@ -658,9 +669,7 @@
         }
     </script>
     </div>
-    
-    <!--END Racing CATEGORY-->
-</div>
+    </div>
 
 
          <!--Footer-->

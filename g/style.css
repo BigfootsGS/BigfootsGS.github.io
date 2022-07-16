@@ -249,6 +249,7 @@ input:checked + .slider:before {
   transition: 0.3s;
   width: 150px;
   margin-top: 32px;
+  background-color: white;
 
 }
 

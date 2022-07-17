@@ -41,7 +41,7 @@ button {
     width: 100vw;
     padding-top: 20px;
     padding-bottom: 40px;
-    margin-top: 10px;
+    
   }
   h {
     font-size: 35px;
@@ -63,19 +63,19 @@ button {
     font-family: 'Anton', sans-serif;
   }
   a:link {
-    color: white;
+    color: black;
     background-color: transparent;
     text-decoration: none;
   }
   
   a:visited {
-    color: white;
+    color: black;
     background-color: transparent;
     text-decoration: none;
   }
   
   a:hover {
-    color: white;
+    color: black;
     background-color: transparent;
   }
   
@@ -270,3 +270,4 @@ button {
   body {
     text-align: center;
   }
+  

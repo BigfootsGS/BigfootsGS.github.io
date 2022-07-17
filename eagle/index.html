@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bigfoot's Game Shack \\ Eagler Craft</title>
+        <meta charset="UTF-8">
+        <meta name="title" content="Bigfoot's Game Shack">
+        <meta name="description" content="The best place to do your math homework!">
+        <meta name="keywords" content="Bigfoot's Shack, Bigfoot9999, bgs.pages.dev, bigfoots, bigfoot999, Eagler">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="../favicon.ico">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
+        <link rel="stylesheet" href="g/style.css">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../scripts/fonts/remixicon.css"> 
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6938276368216011" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <div class="navbar navbar-fixed-top">
+            <ul class="nav">
+            <a style="margin: auto;" class="brand" href="#">Bigfoot's Game Shack</a>
+            <li><a href="../">Home</a></li>
+            <li><a class="active" href="#">Games</a></li>
+            <li><a class="disabled" href="../about-us/info.html">Info</a></li>
+            <li><a href="../apps/">Apps</a></li>
+            <li><a href="../p/">p</a></li>
+            <li><a href="https://stars.gq/" class="right">Interstellar Games</a></li>
+            </ul>
+            </div>
+        <!--end navbar-->
+        <!---->
+<div class="gameslist">
+        
+    <h2>Retro Games</h2>
+    <br><div class="row">
+    <div style="padding-left: 20px" id="buttonDiv3"></div>
+    </div>
+
+<script type="text/javascript">
+    //start game code
+    //TADASHI! make sure that each server has a proxied link - Bigfoot
+    var buttonArr3 = [
+    {
+        "name": "Server 1",
+        "url": "",
+        "img": "thumbnails/",
+    },
+    {
+        "name": "Server 2",
+        "url": "",
+        "img": "thumbnails/",
+    },
+    {
+        "name": "Server 3",
+        "url": "",
+        "img": "thumbnails/",
+    },
+    {
+        "name": "Server 4",
+        "url": "",
+        "img": "thumbnails/",
+    },
+    {
+        "name": "Server 5",
+        "url": "",
+        "img": "thumbnails/",
+    },
+]
+    //end array for game links
+    
+    buttonArr3.forEach(function(arrayItem3) {
+
+        //searchArr.push(arrayItem.name);
+        let link3 = arrayItem3.url;
+        let name3 = arrayItem3.name;
+        document.getElementById('buttonDiv3').innerHTML += `<div class="span1"><div class="card"><a onclick="openGame('${arrayItem3.url}')" href="javascript:void(0);"><img src="${arrayItem3.img}" alt="${arrayItem3.name}.png" style="width:100%"></a><p3>${arrayItem3.name}</p3></div></div>`;
+
+
+        
+    } );
+    //end game code
+    let win3;
+
+    function openGame(link3) {
+        if (win3) {
+            win3.focus();
+            return;
+        }
+        win3 = window.open();
+        win3.document.body.style.margin = '0';
+        win3.document.body.style.height = '300vh';
+        const iframe = win3.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '300%';
+        iframe.style.height = '300%';
+        iframe.style.margin = '0';
+        iframe.src = link3;
+        win3.document.body.appendChild(iframe);
+    }
+</script>
+</div>
+        <!--Footer-->
+        <div class="footer">
+            <img class="center"src="images/bgslogo.png" alt="BGS LOGO" width="500" height="600">
+            <div>
+                <a href="https://discord.gg/JYQ4n8DBKM"><i class="ri-discord-line"></i></a></i><a href="https://github.com/bigfoot9999"><i class="ri-github-line"></i></a><a href="https://twitter.com/Bigfoot99991"><i class="ri-twitter-line"></i></a>
+
+            </div>
+                
+            <h2>Copyright (c) 2022 Bigfoot9999</h2>
+            <br>
+            <div class="footerlinks">
+            <h4 class="privacypolicy">
+                <a href="../privacy-policy.html">Privacy Policy</a>
+            </h4>
+            <h4 class="tos">
+                <a href="../tos.html">TOS</a>
+            </h4>
+            <h4 class="contact">
+                <a href="../contact.html">Contact Us</a>
+            </h4>
+            </div>
+        </div>
+        <!--END FOOTER-->
+    </body>

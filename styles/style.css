@@ -202,7 +202,7 @@ li a:hover:not(.active) {
 }
 img, 
 figure {
-  max-width: 100%;
+max-width: 100%;
 }
 /**/
 a:link {
@@ -220,4 +220,32 @@ a:visited {
   color: white;  
   background-color: transparent;
   text-decoration: none;
+}
+
+ .twoarrowimg {    
+  width: 49px;
+  height: 25px;
+  position: absolute;
+  bottom: -858px;
+  margin-left: 50%;
+  margin-right: 50%;
+  display: block;
+}
+.threearrowimg {    
+  width: 49px;
+  height: 25px;
+  position: absolute;
+  bottom: -1516px;
+  margin-left: 50%;
+  margin-right: 50%;
+  display: block;
+}
+.fourarrowimg {    
+  width: 49px;
+  height: 25px;
+  position: absolute;
+  bottom: -2740px;
+  margin-left: 50%;
+  margin-right: 50%;
+  display: block;
 }

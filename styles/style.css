@@ -188,9 +188,10 @@ li a:hover:not(.active) {
 }
 .ct-btn-scroll {
   width: 49px;
-  height: 314px;
-  position: absolute;
-  bottom: 30px;
+    height: 46px;
+    position: absolute;
+    bottom: 270px;
+
   left: 0;
   right: 0;
   margin: auto;

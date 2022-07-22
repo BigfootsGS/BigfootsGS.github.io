@@ -13,7 +13,8 @@ button {
 html{
   font-family: 'Anton', sans-serif;
   /*overflow-x: hidden;*/
-
+  scroll-behavior:smooth;
+  background-color: #000000;
   
 }
 .footer {
@@ -32,8 +33,7 @@ h {
 }
 h1 {
 font-family: 'Anton', sans-serif;
-font-size: 3vh;
-padding: 44px;
+
 }
 h2 {
   font-size: 10px;
@@ -43,13 +43,13 @@ h2 {
 .textjs {
   font-family: 'Anton', sans-serif;
 }
-a:link {
+.footer a:link {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:visited {
+.footer a:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
@@ -97,12 +97,12 @@ background-color: #3ba55c;
 }
 }
 
-a:hover {
+.footer a:hover {
   color: white;
   background-color: transparent;
 }
 
-a:active {
+.footer a:active {
   color: grey;
   background-color: transparent;
 }
@@ -148,4 +148,76 @@ li a:hover:not(.active) {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+/*START SCROLL CSS*/
+.separator-type, .title-type, .intro-type, .content-type .intro-type p {
+    position: relative;
+    max-height: 98vh;
+    height: 90000px;
+}
+.intro-type .container {
+  padding: 107px 0px 102px 0px !important;
+}
+
+.jumbo {
+  margin-top: 50px;
+}
+.seo-header, .product-header, 
+.intro-type .container h1.white, 
+.company-heading h1 {
+  font-weight: 100 !important;
+  text-transform: capitalize;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.parallax {
+  background-attachment: inherit !important;
+}
+.parallax {
+  background-attachment: inherit !important;
+}
+.parallax {
+  background-attachment: inherit !important;
+  background-repeat: repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  z-index: -10;
+}
+.ct-btn-scroll {
+  width: 49px;
+  height: 314px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 500px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+img, 
+figure {
+  max-width: 100%;
+}
+/**/
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;  
+  background-color: transparent;
+  text-decoration: none;
 }

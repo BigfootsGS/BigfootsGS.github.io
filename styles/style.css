@@ -233,9 +233,9 @@ a:visited {
  }
 }
 .slider {
-  background: white;
+  background: black;
   /*box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);*/
-  height: 100px;
+  height: 300px;
   margin: auto;
   overflow: hidden;
   position: relative;

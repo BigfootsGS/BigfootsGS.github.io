@@ -333,12 +333,7 @@ a:visited {
   color: #666b7d;
 }
 .wrapper {
-  width: 320px;
-  height: 540px;
-  background: #fdfeff;
-  transition: background 0.6s ease;
   border-radius: 10px;
-  padding: 20px 20px 20px 20px;
 }
 .wrapper .top-icons i {
   color: #080911;

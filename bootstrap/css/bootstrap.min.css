@@ -33,7 +33,7 @@ body{overflow-x: hidden;margin:0;font-size:13px;line-height:18px;color:#333333;t
 .span7{width:540px;}
 .span6{width:460px;}
 .span5{width:380px;}
-.span4{width:200px;}
+.span4{width: 212px;}
 .span3{width:372px;}
 .span2{width:31vw;min-width: 125px;padding-top: 820px;}
 .span1{width: 150px;}
@@ -69,7 +69,7 @@ body{overflow-x: hidden;margin:0;font-size:13px;line-height:18px;color:#333333;t
 .container:after{clear:both;}
 .container-fluid{padding-left:20px;padding-right:20px;*zoom:1;}.container-fluid:before,.container-fluid:after{display:table;content:"";}
 .container-fluid:after{clear:both;}
-p{margin:0 0 9px;font-size:13px;line-height:18px;}p small{font-size:11px;color:#999999;}
+p{font-size:13px;line-height:18px;}p small{font-size:11px;color:#999999;}
 .lead{margin-bottom:18px;font-size:20px;font-weight:200;line-height:27px;}
 h1,h2,h3,h4,h5,h6{margin:0;font-family:inherit;font-weight:bold;color:inherit;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;color:#999999;}
 h1{font-size:30px;line-height:36px;}h1 small{font-size:18px;}
@@ -618,7 +618,7 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini{*padding-top:1px;*padding-
 .thumbnails{margin-left:-20px;list-style:none;*zoom:1;}.thumbnails:before,.thumbnails:after{display:table;content:"";}
 .thumbnails:after{clear:both;}
 .thumbnails>li{float:left;margin:0 0 18px 20px;}
-.thumbnail{display:block;padding:4px;line-height:1;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);}
+.thumbnail{display:block;line-height:1;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);}
 a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);-moz-box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);}
 .thumbnail>img{display:block;max-width:100%;margin-left:auto;margin-right:auto;}
 .thumbnail .caption{padding:9px;}

@@ -235,6 +235,8 @@ a:visited {
  }
 }
 .slider {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
   background: black;
   /*box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);*/
   height: 300px;
@@ -242,6 +244,22 @@ a:visited {
   overflow: hidden;
   position: relative;
   width: 100%;
+}
+.profile:hover {
+  transition: 0.3s;
+  box-shadow: 0 8px 50px 0 rgba(0,0,0,0.2);
+}
+.profile {
+  transition: transform .2s;
+  margin: 10 auto;
+}
+
+.profile:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.btn:hover {
+  transition: 0.3s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .slider::before, .slider::after {
   background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
@@ -349,15 +367,20 @@ a:visited {
   padding-right: 0.8em;
 }
 .wrapper .profile {
-  margin-top: 2.2em;
+  margin-top: 5.199999999999999em;
   position: relative;
+  max-height: 309px;
+  border-radius: 15px 15px 15px 15px;
+  background: #0000004a;
+  padding-top: 10px;
+  padding: 20px;
+  padding-bottom: 81px;
+  height: 323px;
+
 }
 .wrapper .profile:after {
   width: 100%;
   height: 1px;
-  content: '
-  '
- ;
   display: block;
   margin-top: 1.3em;
   background: #e9eff6;
@@ -385,10 +408,10 @@ a:visited {
   margin-right: auto;
   margin-bottom: 1.5em;
   border-radius: 100%;
-  box-shadow: 0 13px 26px rgba(0, 0, 0, .2), 0 3px 6px rgba(0, 0, 0, .2);
+  box-shadow: 0 13px 26px rgb(187 187 187 / 39%), 0 3px 6px rgb(255 255 255 / 99%);
 }
 .wrapper .profile .name {
-  color: #2d354a;
+  color: #363636;
   font-size: 24px;
   font-weight: 600;
   text-align: center;
@@ -404,19 +427,17 @@ a:visited {
   text-transform: uppercase;
 }
 .wrapper .profile .description {
-  color: #080911;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 300;
   text-align: center;
   margin-bottom: 1.3em;
-  text-shadow: 0px 0px 5px rgb(255, 255, 255);
 }
 .wrapper .profile .btn {
   color: #fff;
   width: 130px;
   height: 42px;
   outline: none;
-  border: none;
   display: block;
   cursor: pointer;
   font-weight: 300;
@@ -424,8 +445,13 @@ a:visited {
   margin-right: auto;
   border-radius: 70px;
   box-shadow: 0 13px 26px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .16);
-  background: linear-gradient(to bottom right, #4508ff, #ff48a0);  left: 10%;
+  background: linear-gradient(to bottom right, #4508ff, #ff48a0);  
+  position: absolute;
+  left: auto;
+  right: auto;
   bottom: 5px;
+  left: 20%;
+
 }
 .wrapper .social-icons {
   display: flex;
@@ -465,15 +491,4 @@ a:visited {
 .wrapper .social-icons .icon p {
   color: #666b7d;
   font-size: 12px;
-}
-.concept {
-  position: absolute;
-  bottom: 25px;
-  color: #aab0c4;
-  font-size: 0.9em;
-  font-weight: 400;
-}
-.concept a {
-  color: rgba(172, 25, 102, 1);
-  text-decoration: none;
 }

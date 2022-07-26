@@ -270,6 +270,9 @@ input:checked + .slider:before {
 body {
   text-align: center;
 }
+img {
+  height: auto;max-height: 990px;width: 145px;border: 0;-ms-interpolation-mode: bicubic;vertical-align: middle;border-radius: 25px;padding: 5px;
+}
 /*Scroll effect*/
 
 

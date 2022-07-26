@@ -250,7 +250,7 @@ input:checked + .slider:before {
   width: 150px;
   margin-top: 32px;
   background-color: white;
-
+  
 }
 
 .card:hover {

@@ -17,6 +17,7 @@
         <script src="scripts/alert.js"></script>
         <script src="scripts/hide.js"></script>
         <script src="scripts/scroll.js"></script>
+        <script src="scripts/reveal.js"></script>
           
   <!-- GetResponse Analytics -->
   <script type="text/javascript">
@@ -31,12 +32,31 @@
     </script>
     <!-- End GetResponse Analytics -->
     </head>
-    <body>
+    <body onload="myFunction()">
         <div>
             <!--Start Adsense script-->
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6938276368216011" crossorigin="anonymous"></script>
             <!--End Script-->
         </div>
+        
+        <div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+<div class="container reveal fade-bottom">
         <div class="row">
             <div class="one">
                 <section class="company-heading intro-type" id="parallax-one" style="text-align: center;display: flex;justify-content: center;">
@@ -72,6 +92,7 @@
                     </div>
             </div>
         </div>
+    </div>
         <div class="col-md-12">
             <a class="ct-btn-scroll ct-js-btn-scroll" href="#section2">
                 <img alt="Arrow Down Icon" src="images/arrow.png">
@@ -357,6 +378,7 @@
             </div>
         </div>
         <!--END FOOTER-->
+        </div>
         </div>
     </body>
 </html>

@@ -449,10 +449,10 @@ a:visited {
   box-shadow: 0 13px 26px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .16);
   background: linear-gradient(to bottom right, #4508ff, #ff48a0);  
   position: absolute;
-  left: auto;
-  right: auto;
+  /* left: auto; */
+  right: 61px;
   bottom: 5px;
-  left: 20%;
+  align-items: center;
 
 }
 .wrapper .social-icons {

@@ -4,7 +4,7 @@
         <title>Bigfoot's Game Shack</title>
         <meta charset="UTF-8">
         <meta name="title" content="Bigfoot's Game Shack">
-        <meta name="description" content="The best place to do your math homework!">
+        <meta name="description" content="Bigfoot's Game Shack, The BEST place to learn about math! ">
         <meta name="keywords" content="Bigfoot's Shack, Bigfoot9999, bgs.pages.dev, bigfoots, bigfoot999">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../scripts/fonts/remixicon.css"> 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6938276368216011" crossorigin="anonymous"></script>
+        <script src="../scripts/reveal.js"></script>
         
     </head>
     <script>
@@ -33,7 +34,7 @@
         }
         </script>
     <body oncontextmenu="return false;">
-        <div class="container-fluid">
+        <!--<div class=" -fluid">
             <div class="row-fluid">
                 <div class="span12">
                   <h3>This website uses AutoProxy<i class="ri-trademark-fill"></i> (BETA)</h3><br>
@@ -46,7 +47,7 @@
                     </div>
                 </div>                    
             </div>
-        </div>      
+        </div>   -->   
         
 <!--START NAVBAR-->
 <div class="navbar navbar-fixed-top">
@@ -57,11 +58,12 @@
 <li><a class="disabled" href="../about-us/info.html">Info</a></li>
 <li><a href="../apps/">Apps</a></li>
 <li><a href="../p/">Proxies</a></li>
+<li><a class="active" href="../eagle/index.html">Eagler Craft</a></li>
 <li><a href="https://stars.gq/" class="right">Interstellar Games</a></li>
 </ul>
 </div>
     <div class="gameslist">
-        <h2>Action, Adventure, and Skill Games</h2>
+        <div class="reveal fade-bottom"><h2>Action, Adventure, and Skill Games</h2></div>
         <div class="row">
         <div style="padding-left: 20px"id="buttonDiv"></div>
         <!---->
@@ -308,7 +310,7 @@
                 let name = arrayItem.name;
                 let category = arrayItem.category;
                 
-                document.getElementById('buttonDiv').innerHTML += `<div class="span1"><div class="card"><a onclick="openGame('${arrayItem.url}')" href="javascript:void(0);"><img src="${arrayItem.img}" class="img-rounded" alt="${arrayItem.name}.png" style="width:100%"></a><p3>${arrayItem.name}</p3></div></div>`;
+                document.getElementById('buttonDiv').innerHTML += `<div class="span1"><div style="border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem.url}')" href="javascript:void(0);"><img src="${arrayItem.img}" style="border-radius: 25px;" alt="${arrayItem.name}.png" style="width:100%"></a><p3>${arrayItem.name}</p3></div></div>`;
             } );
             //end game code
             let win;
@@ -334,30 +336,70 @@
 <!---->
 <div class="gameslist">
         
-    <h2>Top Rated Games</h2>
+    <div class="reveal fade-bottom"><h2>Top Rated Games</h2></div>
     <br><div class="row">
     <div style="padding-left: 20px"id="buttonDiv7"></div>
     </div>
 
 <script type="text/javascript">
     //start game code
+    //https://science.lonelytab.ga/?url=
     var buttonArr7 = [
     {
-        "name": "Cookie Clicker",
-        "url": "https://bigfoot9999.github.io/cc/",
-        "img": "thumbnails/img29.png",
+        "name": "Piano Master",
+        "url": "html5.gamemonetize.co/q0mrnyr9ucvgdqgooq9cq0y7fntuwzjj/",
+        "img": "thumbnails/img61.jpg",
     }, 
+    {
+        "name": "Bob The Robber",
+        "url": "https://html5.gamemonetize.co/axjqhwihwo843nmu8hb30fqil40alqtu/",
+        "img": "thumbnails/img63",
+    },
+    {
+        "name": "Piano Master",
+        "url": "html5.gamemonetize.co/q0mrnyr9ucvgdqgooq9cq0y7fntuwzjj/",
+        "img": "thumbnails/img61.jpg",
+    }, 
+    {
+        "name": "Piano Master",
+        "url": "html5.gamemonetize.co/q0mrnyr9ucvgdqgooq9cq0y7fntuwzjj/",
+        "img": "thumbnails/img61.jpg",
+    }, 
+    {
+        "name": "Piano Master",
+        "url": "html5.gamemonetize.co/q0mrnyr9ucvgdqgooq9cq0y7fntuwzjj/",
+        "img": "thumbnails/img61.jpg",
+    }, 
+    {
+        "name": "Piano Master",
+        "url": "html5.gamemonetize.co/q0mrnyr9ucvgdqgooq9cq0y7fntuwzjj/",
+        "img": "thumbnails/img61.jpg",
+    }, 
+    {
+        "name": "Piano Master",
+        "url": "html5.gamemonetize.co/q0mrnyr9ucvgdqgooq9cq0y7fntuwzjj/",
+        "img": "thumbnails/img61.jpg",
+    }, 
+    {
+        "name": "Piano Master",
+        "url": "html5.gamemonetize.co/q0mrnyr9ucvgdqgooq9cq0y7fntuwzjj/",
+        "img": "thumbnails/img61.jpg",
+    }, 
+    {
+        "name": "Piano Master",
+        "url": "html5.gamemonetize.co/q0mrnyr9ucvgdqgooq9cq0y7fntuwzjj/",
+        "img": "thumbnails/img61.jpg",
+    }, 
+
     
 ]
     //end array for game links
     
     buttonArr7.forEach(function(arrayItem7) {
-
-        //searchArr.push(arrayItem.name);
-        let link7 = arrayItem7.url;
+        let link7 = 'https://science.lonelytab.ga/?url='+arrayItem7.url;
         let name7 = arrayItem7.name;
         let category7 = arrayItem7.category;
-        document.getElementById('buttonDiv7').innerHTML += `<div class="span7"><div class="card"><a onclick="openGame('${arrayItem7.url}')" href="javascript:void(0);"><img class="img-rounded"" src="${arrayItem7.img}" alt="${arrayItem7.name}.png" style="width:100%"></a><p3>${arrayItem7.name}</p3></div></div>`;
+        document.getElementById('buttonDiv7').innerHTML += `<div class=" reveal fade-bottom"><div class="span1"><div style="border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${link7}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem7.img}" alt="${arrayItem7.name}.png" style="width:100%"></a><p3>${arrayItem7.name}</p3></div></div></div>`;
 
 
         
@@ -372,11 +414,11 @@
         }
         win7 = window.open();
         win7.document.body.style.margin = '0';
-        win7.document.body.style.height = '700vh';
+        win7.document.body.style.height = '100vh';
         const iframe = win7.document.createElement('iframe');
         iframe.style.border = 'none';
-        iframe.style.width = '700%';
-        iframe.style.height = '700%';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
         iframe.style.margin = '0';
         iframe.src = link7;
         win7.document.body.appendChild(iframe);
@@ -388,7 +430,7 @@
 <!---->
 <div class="gameslist">
         
-    <h2>Strategy & Puzzle Games</h2>
+    <div class="reveal fade-bottom"><h2>Strategy & Puzzle Games</h2></div>
     <br><div class="row">
     <div style="padding-left: 20px"id="buttonDiv1"></div>
     </div>
@@ -447,7 +489,7 @@
         let link1 = arrayItem1.url;
         let name1 = arrayItem1.name;
         let category1 = arrayItem1.category;
-        document.getElementById('buttonDiv1').innerHTML += `<div class="span1"><div class="card"><a onclick="openGame('${arrayItem1.url}')" href="javascript:void(0);"><img class="img-rounded"" src="${arrayItem1.img}" alt="${arrayItem1.name}.png" style="width:100%"></a><p3>${arrayItem1.name}</p3></div></div>`;
+        document.getElementById('buttonDiv1').innerHTML += `<div class=" reveal fade-bottom"><div class="span1"><div style="border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem1.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem1.img}" alt="${arrayItem1.name}.png" style="width:100%"></a><p3>${arrayItem1.name}</p3></div></div></div>`;
 
 
         
@@ -477,7 +519,7 @@
 <!---->
 <div class="gameslist">
         
-    <h2>Retro Games</h2>
+    <div class="reveal fade-bottom"><h2>Arcade & Retro Games</h2></div>
     <br><div class="row">
     <div style="padding-left: 20px" id="buttonDiv3"></div>
     </div>
@@ -540,7 +582,7 @@
         let link3 = arrayItem3.url;
         let name3 = arrayItem3.name;
         let category3 = arrayItem3.category;
-        document.getElementById('buttonDiv3').innerHTML += `<div class="span1"><div class="card"><a onclick="openGame('${arrayItem3.url}')" href="javascript:void(0);"><img class="img-rounded"" src="${arrayItem3.img}" alt="${arrayItem3.name}.png" style="width:100%"></a><p3>${arrayItem3.name}</p3></div></div>`;
+        document.getElementById('buttonDiv3').innerHTML += `<div class=" reveal fade-bottom"><div class="span1"><div style="border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem3.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem3.img}" alt="${arrayItem3.name}.png" style="width:100%"></a><p3>${arrayItem3.name}</p3></div></div></div>`;
 
 
         
@@ -570,7 +612,7 @@
 <!---->
 <div class="gameslist">
         
-    <h2>Shooter & FPS Games</h2>
+    <div class="reveal fade-bottom"><h2>Shooter & FPS Games</h2></div>
     <br><div class="row">
     <div style="padding-left: 20px" id="buttonDiv2"></div>
     </div>
@@ -626,10 +668,16 @@
         "url": "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/593675271171586975/modern_blocky_paint_.html",
         "img": "thumbnails/img51.jpg",
     },
+    {
+        "icon": computer2,
+        "category": "buttonDiv2",
+        "name": "Block Combat Swat",
+        "url": "https://html5.gamemonetize.co/z4ajge69b989gm67dq59mkgv20ed6zg6/",
+        "img": "thumbnails/img62",
+    },
 
 ]
     //end array for game links
-
     buttonArr2.forEach(function(arrayItem2) {
 
         //searchArr.push(arrayItem.name);
@@ -637,7 +685,7 @@
         let name2 = arrayItem2.name;
         let category2 = arrayItem2.category;
         //shooter games btw
-        document.getElementById('buttonDiv2').innerHTML += `<div class="span1"><div class="card"><a onclick="openGame('${arrayItem2.url}')" href="javascript:void(0);"><img class="img-rounded"" src="${arrayItem2.img}" alt="${arrayItem2.name}.png" style="width:100%"></a><p3>${arrayItem2.name}</p3></div></div>`;
+        document.getElementById('buttonDiv2').innerHTML += `<div class=" reveal fade-bottom"><div class="span1"><div style="border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem2.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem2.img}" alt="${arrayItem2.name}.png" style="width:100%"></a><p3>${arrayItem2.name}</p3></div></div></div>`;
 
 
         
@@ -667,7 +715,7 @@
 <!---->
 <div class="gameslist">
         
-    <h2>Racing & Car Games</h2>
+    <div class="reveal fade-bottom"><h2>Racing & Car Games</h2></div>
     <br><div class="row">
     <div style="padding-left: 20px; padding-bottom: 20px;" id="buttonDiv4"></div>
     </div>
@@ -712,7 +760,7 @@
             let link4 = arrayItem4.url;
             let name4 = arrayItem4.name;
             //racing games 
-            document.getElementById('buttonDiv4').innerHTML += `<div class="span1"><div class="card"><a onclick="openGame('${arrayItem4.url}')" href="javascript:void(0);"><img class="img-rounded"" src="${arrayItem4.img}" alt="${arrayItem4.name}.png" style="width:100%"></a><p3>${arrayItem4.name}</p3></div></div>`;
+            document.getElementById('buttonDiv4').innerHTML += `<div class=" reveal fade-bottom"><div class="span1"><div style="border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem4.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem4.img}" alt="${arrayItem4.name}.png" style="width:100%"></a><p3>${arrayItem4.name}</p3></div></div></div>`;
 
     
     

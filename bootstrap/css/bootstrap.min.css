@@ -19,7 +19,7 @@ textarea{overflow:auto;vertical-align:top;}
 .clearfix:after{clear:both;}
 .hide-text{overflow:hidden;text-indent:100%;white-space:nowrap;}
 .input-block-level{display:block;width:100%;min-height:28px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
-body{overflow-x: hidden;margin:0;font-size:13px;line-height:18px;color:#333333;text-align: center;align-items: center;}
+body{overflow-x: hidden;margin:0;line-height:18px;color:#333333;text-align: center;align-items: center;}
 
 .row{*zoom:1;margin-left: -15px}.row:before,.row:after{display:table;content:"";}
 .row:after{clear:both;}
@@ -34,7 +34,7 @@ body{overflow-x: hidden;margin:0;font-size:13px;line-height:18px;color:#333333;t
 .span5{width:380px;}
 .span4{width: 250px;}
 .span3{width:372px;}
-.span2{width:31vw;min-width: 125px;padding-top: 820px;}
+.span2{text-align: center;width:10%;min-width: 237px;padding-top: 850px;}
 .span1{width: 150px;}
 .offset12{margin-left:980px;}
 .offset11{margin-left:900px;}

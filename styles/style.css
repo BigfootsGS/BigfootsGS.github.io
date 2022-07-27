@@ -15,9 +15,10 @@ html{
   font-family: 'Anton', sans-serif;
   /*overflow-x: hidden;*/
   scroll-behavior:smooth;
-  background-color: #000000;
-  
+  background-color: rgb(45, 28, 14);
 }
+  
+
 .footer {
   text-align: center; /* Center text*/
   color: #ffffff;
@@ -133,7 +134,7 @@ li a:hover:not(.active) {
   width: 49px;
   height: 46px;
   position: absolute;
-  bottom: 174px;
+  bottom: 848px;
   left: 0;
   right: 0;
   margin: auto;
@@ -161,12 +162,14 @@ a:visited {
   text-decoration: none;
 }
 
-
+img {
+  width: 100vw;
+}
  .twoarrowimg {    
   width: 49px;
   height: 25px;
   position: absolute;
-  bottom: -1150px;
+  bottom: -1000px;
   margin-left: 50%;
   margin-right: 50%;
   display: block;
@@ -465,3 +468,46 @@ a:visited {
   color: #666b7d;
   font-size: 12px;
 }
+.middle
+		{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.container1
+		{
+			position: relative;
+			display: inline-block;
+			padding: 0 40px;
+			cursor: pointer;
+		}
+
+		.text
+		{
+			font-size: 100px;
+			text-transform: uppercase;
+			font-weight: 900;
+			position: relative;
+			color: #34495e; 
+		}
+
+	
+
+		.container1::before
+		{
+			content: "";
+			width: 0%;
+			height: 100%;
+			position: absolute;
+			background: #2980b9;
+			right: 0;
+			top: 0;
+			transition: 0.6s;
+		}
+
+		.container1:hover .text::before,.container1:hover::before
+		{
+			width: 100%;
+		}

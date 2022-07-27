@@ -32,9 +32,9 @@ body{overflow-x: hidden;margin:0;line-height:18px;color:#333333;text-align: cent
 .span7{width:540px;}
 .span6{width:460px;}
 .span5{width:380px;}
-.span4{width: 250px;}
+.span4{width: 249px;}
 .span3{width:372px;}
-.span2{text-align: center;width:10%;min-width: 237px;padding-top: 850px;}
+.span2{text-align: center;width:10%;min-width: 30px;}
 .span1{width: 150px;}
 .offset12{margin-left:980px;}
 .offset11{margin-left:900px;}
@@ -71,7 +71,7 @@ body{overflow-x: hidden;margin:0;line-height:18px;color:#333333;text-align: cent
 p{font-size:13px;line-height:18px;}p small{font-size:11px;color:#999999;}
 .lead{margin-bottom:18px;font-size:20px;font-weight:200;line-height:27px;}
 h1,h2,h3,h4,h5,h6{margin:0;font-family:inherit;font-weight:bold;color:inherit;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;color:#999999;}
-h1{font-size:30px;line-height:36px;}h1 small{font-size:18px;}
+h1{color: black;font-size:30px;line-height:36px;}h1 small{font-size:18px;}
 h2{font-size:24px;line-height:36px;}h2 small{font-size:18px;}
 h3{line-height:27px;font-size:18px;}h3 small{font-size:14px;}
 h4,h5,h6{line-height:18px;}

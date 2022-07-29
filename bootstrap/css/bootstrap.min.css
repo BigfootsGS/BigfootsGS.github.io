@@ -19,7 +19,7 @@ textarea{overflow:auto;vertical-align:top;}
 .clearfix:after{clear:both;}
 .hide-text{overflow:hidden;text-indent:100%;white-space:nowrap;}
 .input-block-level{display:block;width:100%;min-height:28px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
-body{overflow-x: hidden;margin:0;line-height:18px;color:#333333;text-align: center;align-items: center;}
+body{overflow-x: hidden;margin:0;line-height:18px;color:#1f1f1f;text-align: center;align-items: center;}
 
 .row{*zoom:1;margin-left: -15px}.row:before,.row:after{display:table;content:"";}
 .row:after{clear:both;}

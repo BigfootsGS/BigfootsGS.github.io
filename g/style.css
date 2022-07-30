@@ -53,8 +53,7 @@ h {
 h1 {
 font-family: 'Anton', sans-serif;
 font-size: 3vh;
-padding-top: 4vw;
-padding-left: 20px;
+
 }
 h2 {
   font-size: 10px;
@@ -323,3 +322,46 @@ img {
     opacity: 1;
   }
 }
+.middle
+		{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.container1
+		{
+			position: relative;
+			display: inline-block;
+			padding: 0 40px;
+			cursor: pointer;
+		}
+
+		.text
+		{
+			font-size: 100px;
+			text-transform: uppercase;
+			font-weight: 900;
+			position: relative;
+			color: #34495e; 
+		}
+
+	
+
+		.container1::before
+		{
+			content: "";
+			width: 0%;
+			height: 100%;
+			position: absolute;
+      background: rgb(86 54 28 / 75%);			right: 0;
+			top: 0;
+			transition: 0.6s;
+      color: white;
+		}
+
+		.container1:hover .text::before,.container1:hover::before
+		{
+			width: 100%;
+		}

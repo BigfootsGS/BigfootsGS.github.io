@@ -20,7 +20,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
 
         doc.title = "Google | BGS"
         link.rel = "icon";
-        link.href = "https://raw.githubusercontent.com/Bigfoot9999/website/main/favicon.ico";
+        link.href = "https://raw.githubusercontent.com/BigfootsGS/BigfootsGS.github.io/main/images/favicon.ico";
         iframe.src = location.href
         style.position = "fixed"
         style.top = style.bottom = style.left = style.right = 0

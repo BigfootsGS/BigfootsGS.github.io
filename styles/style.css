@@ -252,70 +252,6 @@ img {
   width: calc(250px * 14);
 }
 
-.customSlider {
-  opacity: 0;
-  display: none;
-}
-.customSlider + label {
-  position: relative;
-  top: 35px;
-  left: 15px;
-  cursor: pointer;
-}
-.customSlider + label:before, .customSlider + label:after {
-  background: #fff;
-  position: absolute;
-  content: '
- 
- 
-}
-.customSlider + label:before {
-  top: -90px;
-  left: -60px;
-  width: 80px;
-  height: 40px;
-  background: #ccc;
-  border-radius: 20px;
-  transition: background 0.75s;
-}
-.customSlider + label:after {
-  height: 34px;
-  width: 34px;
-  top: -87px;
-  left: -55px;
-  border-radius: 50%;
-  transition: all 0.5s;
-}
-.customSlider:checked + label:after {
-  height: 34px;
-  width: 34px;
-  top: -87px;
-  left: -19px;
-  border-radius: 50%;
-}
-.customSlider:checked ~ .wrapper {
-  color: #fff;
-  transition: background 0.6s ease;
-  background: #31394d;
-}
-.customSlider:checked ~ .wrapper .top-icons i {
-  color: #fff;
-}
-.customSlider:checked ~ .wrapper .profile .name {
-  color: #fdfeff;
-}
-.customSlider:checked ~ .wrapper .profile .title {
-  color: #7c8097;
-}
-.customSlider:checked ~ .wrapper .profile .description {
-  color: #fdfeff;
-}
-.customSlider:checked ~ .wrapper .icon h4 {
-  color: #fff;
-}
-.customSlider:checked ~ .wrapper .icon p {
-  color: #666b7d;
-}
 .wrapper {
   border-radius: 10px;
 }
@@ -881,4 +817,15 @@ div.shadow{
 	-ms-transform: rotate(135deg); 	
 	-webkit-transform: rotate(135deg); 
 	transform: rotate(135deg);		
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: RoyalBlue;
 }

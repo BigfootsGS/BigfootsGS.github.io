@@ -829,3 +829,23 @@ div.shadow{
 .btn:hover {
   background-color: RoyalBlue;
 }
+@media screen and (max-width: 946px) {
+  .contentbelownav {
+    display: none;
+    background-color: white;
+  }
+  html {
+    background-color: white;
+  }
+  .span2.logonav{
+    margin-left: 45vw;
+    width: auto;
+    margin-right: 45vw;
+    
+  }
+  .span2.navlink{
+    margin-left: 45vw;
+    width: auto;
+    margin-right: 45vw;
+  }
+}

@@ -68,71 +68,9 @@
 </div>
 <!--End nav-->
         <!---->
-<div class="gameslist">
-        
-     <h2 style="color:white;">Servers</h2>
-    <br><div class="row">
-    <div style="padding-left: 20px" id="buttonDiv3"></div>
-    </div>
-
-<script type="text/javascript">
-    //start game code
-    //TADASHI! make sure that each server has a proxied link - Bigfoot
-    var buttonArr3 = [
-    {
-        "name": "Server 1",
-        "url": "https://webclient.prismarine.js.org/",
-        "img": "../images/grass.png",
-    },
-    {
-        "name": "Server 2",
-        "url": "https://science.lonelytab.ga/?url=https://webclient.prismarine.js.org/",
-        "img": "../images/grass.png",
-    },
-    {
-        "name": "Server 3",
-        "url": "https://integralsolver.lol/mc/?server=wss://mc.integralsolver.lol",
-        "img": "../images/grass.png",
-    },
-    {
-        "name": "Server 4",
-        "url": "https://science.lonelytab.ga/?url=https://integralsolver.lol/mc/?server=wss://mc.integralsolver.lol",
-        "img": "../images/grass.png",
-    },
-    
-]
-    //end array for game links
-    
-    buttonArr3.forEach(function(arrayItem3) {
-
-        //searchArr.push(arrayItem.name);
-        let link3 = arrayItem3.url;
-        let name3 = arrayItem3.name;
-        document.getElementById('buttonDiv3').innerHTML += `<div class="span1"><div class="card"><a onclick="openGame('${arrayItem3.url}')" href="javascript:void(0);"><img src="${arrayItem3.img}" alt="${arrayItem3.name}.png" style="width:100%"></a><p3>${arrayItem3.name}</p3></div></div>`;
-
-
-        
-    } );
-    //end game code
-    let win3;
-
-    function openGame(link3) {
-        if (win3) {
-            win3.focus();
-            return;
-        }
-        win3 = window.open();
-        win3.document.body.style.margin = '0';
-        win3.document.body.style.height = '100vh';
-        const iframe = win3.document.createElement('iframe');
-        iframe.style.border = 'none';
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.style.margin = '0';
-        iframe.src = link3;
-        win3.document.body.appendChild(iframe);
-    }
-</script>
+<div style="margin-top: 80vh;">
+    <a href="g/index.html"><h2>Minecraft has been moved to the games section!</h2></a>
+</div>
 <h2 style="color: white;">DM Bigfoot on Discord with your server link, and we will add it to our website!</h2>
 </div>
         <!--Footer-->

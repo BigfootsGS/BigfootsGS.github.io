@@ -366,9 +366,9 @@ img {
 		{
 			width: 100%;
 		}
-  /* Dropdown Button */
+  /* START W3 Dropdown Button CSS because im too lazy to code my own dropdown button*/
 .dropbtn {
-  background-color: #04AA6D;
+  background-color:rgb(45, 28, 14);
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -400,10 +400,10 @@ img {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: rgb(45, 28, 14);}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: rgb(45, 28, 14);}

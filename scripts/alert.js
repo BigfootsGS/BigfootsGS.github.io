@@ -80,7 +80,7 @@ document.addEventListener('keypress', function (e) {
       style1.width = style1.height = '100%';
 
       link1.rel = 'icon';
-      link1.href = 'https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png';
+      link1.href = 'https://raw.githubusercontent.com/BigfootsGS/BigfootsGS.github.io/main/images/favicon.ico';
       
       doc1.body.appendChild(iframe1);
     }

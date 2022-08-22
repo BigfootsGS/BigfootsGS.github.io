@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bigfoot's Game Shack</title>
+        <meta charset="UTF-8">
+        <meta name="title" content="Bigfoot's Game Shack \\ Games">
+        <meta name="description" content="Bigfoot's Game Shack, The BEST place to learn about math! ">
+        <meta name="keywords" content="Bigfoot's Shack, Bigfoot9999, bgs.pages.dev, bigfoots, bigfoot999">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../scripts/fonts/remixicon.css"> 
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6938276368216011" crossorigin="anonymous"></script>
+        <script src="../scripts/reveal.js"></script>
+        
+    </head>
+    <script>
+        document.onkeydown = function(e) {
+        if(event.keyCode == 123) {
+        return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+        return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+        return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+        return false;
+        }
+        }
+        </script>
+    <body oncontextmenu="return false;">
+        <!--<div class=" -fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                  <h3>This website uses AutoProxy<i class="ri-trademark-fill"></i> (BETA)</h3><br>
+                  <p3>AutoProxy<i class="ri-trademark-fill"></i> is a feature that launches games, automatically proxied through UltraViolet Proxy Servers. <i>Made by Bigfoot9999</i><br></p3>
+                    <div style="padding-top: 10px;">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>                    
+            </div>
+        </div>   -->   
+        
+<!--START NAVBAR-->
+<!--<div class="navbar">
+<ul class="nav">
+<a style="margin: auto;" class="brand" href="#">Bigfoot's Game Shack</a>
+<li><a href="../">Home</a></li>
+<li><a class="active" href="#">Games</a></li>
+<li><a class="disabled" href="../about-us/info.html">Info</a></li>
+<li><a href="../apps/">Apps</a></li>
+<li><a href="../p/">Proxies</a></li>
+<li><a class="active" href="../eagle/index.html">Minecraft 1.18.2</a></li>
+<li><a href="https://stars.gq/" class="right">Interstellar Games</a></li>
+</ul>
+</div>
+-->
+\
+    <div class="gameslist">
+        <div class="row">
+        <div style="padding-left: 20px"id="buttonDiv"></div>
+        <!---->
+        <script type="text/javascript">
+            //start game code
+            let mobile = "<i class='ri-device-line'></i>";
+            let computer = "<i class='ri-computer-line'></i>"
+            var buttonArr = [{
+        //Action games 
+        "icon": mobile,
+        "category": "buttonDiv",
+        "name": "Temple Run 2",
+        "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
+        "img": "thumbnails/img58.png",
+    }, {
+        "category": "buttonDiv",
+        "name": "Slope Game",
+        "url": "https://https://slope.xboxcontroller.tk/",
+        "icon": computer,
+        "img": "thumbnails/img1.jpg",
+    },
+    {
+        "name": "Slope 2",
+        "url": "https://rga-bigfoot9999.vercel.app/src/slope-2/index.html",
+        "icon": computer,
+        "img": "thumbnails/img15.jpg",
+    }, {
+        "category": "buttonDiv",
+        "name": "Run 3",
+        "url": "https://theadvancedsociety-tam.tbt.mx/tam-run3/",
+        "icon": computer,
+        "img": "thumbnails/img2.jpg",
+    }, 
+    {
+        "category": "buttonDiv",
+        "name": "Burrito Bison",
+        "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html",
+        "icon": computer,
+        "img": "thumbnails/img4.jpg",
+    },
+    {
+        "category": "buttonDiv",
+        "name": "Champion island",
+        "url": "https://bigfoot9999.github.io/html5-games/games/google-kitsune/",
+        "icon": computer,
+        "img": "thumbnails/img3.png",
+    },
+    {
+        "category": "buttonDiv",
+        "name": "LZ: Link to the Past",
+        "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_past",
+        "icon": computer,
+        "img": "thumbnails/img5.jpg",
+    },
+    {
+        "category": "buttonDiv",
+        "name": "LZ: Minish Cap",
+        "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_minish",
+        "icon": computer,
+        "img": "thumbnails/img6.jpg",
+    },
+    {
+        "category": "buttonDiv",
+        "name": "Mario Party",
+        "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#marioparty",
+        "icon": computer,
+        "img": "thumbnails/img7.jpg",
+    },
+    {
+        "category": "buttonDiv",
+        "name": "Mortal Kombat",
+        "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#mortal_kombat",
+        "icon": computer,
+        "img": "thumbnails/img8.jpg",
+    },
+    {
+        "category": "buttonDiv",
+        "name": "Kuru Panda",
+        "url": "https://www.panda2.io/content/games/kurupanda/",
+        "icon": computer,
+        "img": "thumbnails/img9.png",
+    },
+    {
+        "category": "buttonDiv",
+        "name": "Pappa's Taco Mia",
+        "url": "https://mazahacka2017.github.io/papa-taco-mia/",
+        "icon": computer,
+        "img": "thumbnails/img10.png",
+    },
+    {
+        "category": "buttonDiv",
+        "name": "Space Company",
+        "url": "https://spacecompany.ga/",
+        "icon": computer,
+        "img": "thumbnails/img11.jpg",
+    },
+    {
+        "name": "Fire Boy and Water Girl",
+        "url": "https://rga-bigfoot9999.vercel.app/src/fireboy-and-watergirl-forest-temple/index.html",
+        "icon": computer,
+        "img": "thumbnails/img12.png",
+    },
+    
+    {
+        "name": "Rolling Sky",
+        "url": "https://rga-bigfoot9999.vercel.app/src/webgl-rollingsky/index.html",
+        "icon": computer,
+        "img": "thumbnails/img14.png",
+    },
+    {
+        "name": "Tank Trouble",
+        "url": "https://rga-bigfoot9999.vercel.app/src/tanktrouble/index.html",
+        "icon": computer,
+        "img": "thumbnails/img16.jpg",
+    },
+    {
+        "name": "Vex 3",
+        "url": "https://rga-bigfoot9999.vercel.app/src/vex3/index.html",
+        "icon": computer,
+        "img": "thumbnails/img17.jpg",
+    },
+    {
+        "name": "Vex 4",
+        "url": "https://rga-bigfoot9999.vercel.app/src/vex4/index.html",
+        "icon": computer,
+        "img": "thumbnails/img18.png",
+    },
+    {
+        "name": "Zombotron",
+        "url": "https://rga-bigfoot9999.vercel.app/src/zombotron/index.html",
+        "icon": computer,
+        "img": "thumbnails/img19.jpg",
+    },
+    {
+        "name": "Zombotron 2",
+        "url": "https://rga-bigfoot9999.vercel.app/src/zombotron-2-time-machine/index.html",
+        "icon": computer,
+        "img": "thumbnails/img20.png",
+    },
+    {
+        "name": "Insanity",
+        "url": "https://insanity.netlify.app/",
+        "icon": computer,
+        "img": "thumbnails/img21.png",
+    },
+    {
+        "name": "Insanity 2",
+        "url": "https://insanity2.netlify.app/",
+        "icon": computer,
+        "img": "thumbnails/img22.png",
+    },
+    {
+        "name": "Bottle Flip 3d",
+        "url": "https://grandcanyonshuttles.com/uploads/5/0/5/6/5056555/custom_themes/664718197367015386/bottle-flip.html",
+        "icon": computer,
+        "img": "thumbnails/img23.jpg",
+    },
+    {
+        "name": "Grand Action Simulator",
+        "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/850704625817689097/gas2.html",
+        "icon": computer,
+        "img": "thumbnails/img24.jpg",
+    },
+    {
+        "name": "CurveBall",
+        "url": "https://www2.engineering.com/content/g13/curve23.html",
+        "icon": computer,
+        "img": "thumbnails/img25.jpg",
+    },
+    {
+        "name": "N gon",
+        "url": "https://bigfoot9999.github.io/n-gon/",
+        "icon": computer,
+        "img": "thumbnails/img26.png",
+    },
+    {
+        "name": "Headless.gg",
+        "url": "https://headless.gg/",
+        "icon": computer,
+        "img": "thumbnails/img27.png",
+    },
+    {
+        "icon": computer,
+        "category": "Action",
+        "name": "OvO",
+        "url": "https://dedragames.com/games/ovo/1.4/",
+        "img": "thumbnails/img30.png",
+    },
+    {
+        "icon": computer,
+        "category": "Puzzle",
+        "name": "Slither.io",
+        "url": "https://www.julgames.com/games/slither-snakes/",
+        "img": "thumbnails/img31.png",
+    },
+    {
+        "icon": computer,
+        "category": "Puzzle",
+        "name": "Geometry Dash",
+        "url": "https://rga-bigfoot9999.vercel.app/src/geometry/index.html",
+        "img": "thumbnails/img33.png",
+    },
+    {
+        "icon": computer,
+        "category": "Puzzle",
+        "name": "Woriar",
+        "url": "https://www.panda2.io/content/games/woriar/",
+        "img": "thumbnails/img38.png",
+    },
+    {   
+        "icon": computer,
+        "category": "Action",
+        "name": "lets Surf!",
+        "url": "https://bigfoot9999.github.io/html5-games/games/edge-surf/",
+        "img": "thumbnails/img52.jpg",
+        },
+         {
+        "icon": computer,
+        "category": "Action",
+        "name": "Roblox",
+        "url": "https://now.gg/apps/roblox-corporation/5349/roblox.html",
+        "img": "thumbnails/img59.png",
+    },
+    {
+        "category": "buttonDiv",
+        "name": "Tower Building",
+        "url": "https://fracital.org/g/tower-building/index.html",
+        "icon": computer,
+        "img": "thumbnails/img60.png",
+    }, 
+    {
+        "name": "Eagler Server 1",
+        "url": "https://integralsolver.lol/mc/?server=wss://mc.integralsolver.lol",
+        "img": "../images/grass.png",
+    },
+    {
+        "name": "Eagler Server 2",
+        "url": "https://science.lonelytab.ga/?url=https://integralsolver.lol/mc/?server=wss://mc.integralsolver.lol",
+        "img": "../images/grass.png",
+    },
+    {
+        "name": "Arch MC Server",
+        "url": "https://web.arch.lol/?",
+        "img": "../images/archmc",
+    },
+ 
+
+        
+        ]
+            //end array for game links
+
+            buttonArr.forEach(function(arrayItem) {
+                let link = arrayItem.url;
+                let name = arrayItem.name;
+                let category = arrayItem.category;
+                
+                document.getElementById('buttonDiv').innerHTML += `<div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem.url}')" href="javascript:void(0);"><img src="${arrayItem.img}" style="border-radius: 25px;" alt="${arrayItem.name}.png" style="width:100%"></a><p3>${arrayItem.name}</p3></div></div>`;
+            } );
+            //end game code
+            let win;
+            function openGame(link) {
+                if (win) {
+                    win.focus();
+                    return;
+                }
+                win = window.open();
+                win.document.body.style.margin = '0';
+                win.document.body.style.height = '100vh';
+                const iframe = win.document.createElement('iframe');
+                iframe.style.border = 'none';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.style.margin = '0';
+                iframe.src = link;
+                win.document.body.appendChild(iframe);
+            }
+        </script>
+        </div>        </div>
+
+<!---->
+<div class="gameslist">
+    <span class="container1"><div class="reveal fade-bottom"><div class="text" data-text="effect"><h2 style="color:white;">Top Rated</h2></div></div></span>
+    <br><div class="row">
+    <div style="padding-left: 20px"id="buttonDiv7"></div>
+    </div>
+
+<script type="text/javascript">
+    //start game code
+    //https://science.lonelytab.ga/?url=
+    var buttonArr7 = [
+    {
+        "name": "Piano Master",
+        "url": "play.gamemonetize.co/q0mrnyr9ucvgdqgooq9cq0y7fntuwzjj/",
+        "img": "thumbnails/img61.jpg",
+    }, 
+    {
+        "name": "Bob The Robber",
+        "url": "play.gamemonetize.co/axjqhwihwo843nmu8hb30fqil40alqtu/",
+        "img": "thumbnails/img63",
+    },
+    {
+        "name": "Papas Burgeria",
+        "url": "play.gamemonetize.co/uw4s71zy0s3jxo6hckel04mw9rbopba8/",
+        "img": "thumbnails/img64",
+    },
+    {
+        "name": "Driving in the City",
+        "url": "play.gamemonetize.co/5e7ehppi0cufmsfktf2yy5sb6u3d1nwf/",
+        "img": "thumbnails/img67.jpg",
+    },
+ 
+    
+    
+]
+    //end array for game links
+    
+    buttonArr7.forEach(function(arrayItem7) {
+        let link7 = 'https://science.lonelytab.ga/?url='+arrayItem7.url;
+        let name7 = arrayItem7.name;
+        let category7 = arrayItem7.category;
+        document.getElementById('buttonDiv7').innerHTML += `<div class=" reveal fade-bottom"><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${link7}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem7.img}" alt="${arrayItem7.name}.png" style="width:100%"></a><p3>${arrayItem7.name}</p3></div></div></div>`;
+
+
+        
+    } );
+    //end game code
+    let win7;
+
+    function openGame(link7) {
+        if (win7) {
+            win7.focus();
+            return;
+        }
+        win7 = window.open();
+        win7.document.body.style.margin = '0';
+        win7.document.body.style.height = '100vh';
+        const iframe = win7.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = link7;
+        win7.document.body.appendChild(iframe);
+    }
+</script>
+</div>
+
+<!---->
+<!---->
+<div class="gameslist">
+        
+    <span class="container1"><div class="reveal fade-bottom"><div class="text" data-text="effect"><h2 style="color:white;">Strategy & Puzzle</h2></div></div></span>
+    <br><div class="row">
+    <div style="padding-left: 20px"id="buttonDiv1"></div>
+    </div>
+
+<script type="text/javascript">
+    //start game code
+    let mobile1 = "<i class='ri-device-line'></i>";
+    let computer1 = "<i class='ri-computer-line'></i>"
+    var buttonArr1 = [
+    {
+        "icon": computer1,
+        "category": "Puzzle",
+        "name": "Cookie Clicker",
+        "url": "https://bigfoot9999.github.io/cc/",
+        "img": "thumbnails/img29.png",
+    }, 
+    {
+        "icon": computer1,
+        "category": "Puzzle",
+        "name": "Flappy 2048",
+        "url": "https://rga-bigfoot9999.vercel.app/src/flappy-2048/index.html",
+        "img": "thumbnails/img32.png",
+    }, 
+    {
+        "icon": computer1,
+        "category": "Puzzle",
+        "name": "Google Solitaire",
+        "url": "https://rga-bigfoot9999.vercel.app/src/google-solitaire/index.html",
+        "img": "thumbnails/img34.png",
+    }, 
+     {
+        "icon": computer1,
+        "category": "Puzzle",
+        "name": "Hextris",
+        "url": "https://rga-bigfoot9999.vercel.app/src/hextris/index.html",
+        "img": "thumbnails/img35.jpg",
+    }, {
+        "icon": computer1,
+        "category": "Puzzle",
+        "name": "Uno",
+        "url": "https://rga-bigfoot9999.vercel.app/src/uno/index.html",
+        "img": "thumbnails/img36.jpg",
+    }, {
+        "icon": computer1,
+        "category": "Puzzle",
+        "name": "There is no Game",
+        "url": "https://rga-bigfoot9999.vercel.app/src/there-is-no-game/index.html",
+        "img": "thumbnails/img37.jpg",
+    }, 
+    {
+        "icon": computer1,
+        "category": "Puzzle",
+        "name": "MS Jewel",
+        "url": "https://bigfoot9999.github.io/html5-games/games/ms-jewel/",
+        "img": "thumbnails/img85.png",
+    }, 
+]
+    //end array for game links
+    
+    buttonArr1.forEach(function(arrayItem1) {
+
+        //searchArr.push(arrayItem.name);
+        let link1 = arrayItem1.url;
+        let name1 = arrayItem1.name;
+        let category1 = arrayItem1.category;
+        document.getElementById('buttonDiv1').innerHTML += `<div class=" reveal fade-bottom"><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem1.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem1.img}" alt="${arrayItem1.name}.png" style="width:100%"></a><p3>${arrayItem1.name}</p3></div></div></div>`;
+
+
+        
+    } );
+    //end game code
+    let win1;
+
+    function openGame(link1) {
+        if (win1) {
+            win1.focus();
+            return;
+        }
+        win1 = window.open();
+        win1.document.body.style.margin = '0';
+        win1.document.body.style.height = '100vh';
+        const iframe = win1.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = link1;
+        win1.document.body.appendChild(iframe);
+    }
+</script>
+</div>
+
+<!---->
+<div class="gameslist">
+        
+    <span class="container1"><div class="reveal fade-bottom"><div class="text" data-text="effect"><h2 style="color:white;">Arcade & Retro</h2></div></div></span>
+    <br><div class="row">
+    <div style="padding-left: 20px" id="buttonDiv3"></div>
+    </div>
+
+<script type="text/javascript">
+    //start game code
+    let mobile3 = "<i class='ri-device-line'></i>";
+    let computer3 = "<i class='ri-computer-line'></i>"
+    var buttonArr3 = [
+    {
+        "icon": computer3,
+        "category": "buttonDiv1",
+        "name": "Celeste",
+        "url": "https://rga-bigfoot9999.vercel.app/src/celeste/celeste.html",
+        "img": "thumbnails/img44.jpg",
+    },{
+        "icon": computer3,
+        "category": "buttonDiv1",
+        "name": "Chroma",
+        "url": "https://rga-bigfoot9999.vercel.app/src/chroma/index.html",
+        "img": "thumbnails/img43.png",
+    },{
+        "icon": computer3,
+        "category": "buttonDiv1",
+        "name": "Doodle Jump",
+        "url": "https://rga-bigfoot9999.vercel.app/src/doodle-jump/index.html",
+        "img": "thumbnails/img39.png",
+    },{
+        "icon": computer3,
+        "category": "buttonDiv1",
+        "name": "Economical",
+        "url": "https://rga-bigfoot9999.vercel.app/src/economical/index.html",
+        "img": "thumbnails/img41.gif",
+    },{
+        "icon": computer3,
+        "category": "buttonDiv1",
+        "name": "Economical 2",
+        "url": "https://rga-bigfoot9999.vercel.app/src/economical2/index.html",
+        "img": "thumbnails/img42.png",
+    },
+    {
+        "icon": computer3,
+        "category": "buttonDiv1",
+        "name": "Flappy Bird",
+        "url": "https://rga-bigfoot9999.vercel.app/src/flappybird/index.html",
+        "img": "thumbnails/img40.png",
+    },{
+        "icon": computer3,
+        "category": "buttonDiv1",
+        "name": "Space Invaders",
+        "url": "https://rga-bigfoot9999.vercel.app/src/spaceinvaders/index.htmll",
+        "img": "thumbnails/img57.jpg",
+    },
+    {
+        "name": "Retro Bowl",
+        "url": "https://bigfoot9999.github.io/retro-bowl/",
+        "img": "thumbnails/img79.png",
+    }, {
+        "name": "Vivalda",
+        "url": "https://bigfoot9999.github.io/html5-games/games/vivaldia/",
+        "img": "thumbnails/img84.png",
+    }, 
+]
+    //end array for game links
+    
+    buttonArr3.forEach(function(arrayItem3) {
+
+        //searchArr.push(arrayItem.name);
+        let link3 = arrayItem3.url;
+        let name3 = arrayItem3.name;
+        let category3 = arrayItem3.category;
+        document.getElementById('buttonDiv3').innerHTML += `<div class=" reveal fade-bottom"><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem3.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem3.img}" alt="${arrayItem3.name}.png" style="width:100%"></a><p3>${arrayItem3.name}</p3></div></div></div>`;
+
+
+        
+    } );
+    //end game code
+    let win3;
+
+    function openGame(link3) {
+        if (win3) {
+            win3.focus();
+            return;
+        }
+        win3 = window.open();
+        win3.document.body.style.margin = '0';
+        win3.document.body.style.height = '100vh';
+        const iframe = win3.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = link3;
+        win3.document.body.appendChild(iframe);
+    }
+</script>
+</div>
+
+<!---->
+<div class="gameslist">
+        
+    <span class="container1"><div class="reveal fade-bottom"><div class="text" data-text="effect"><h2 style="color:white;">Shooter & FPS </h2></div></div></span>
+    <br><div class="row">
+    <div style="padding-left: 20px" id="buttonDiv2"></div>
+    </div>
+<script type="text/javascript">
+    //start game code
+    var buttonArr2 = [{
+        
+        "name": "1v1.lol",
+        "url": "https://advanced-channeler.02.gz-associates.com/?t=tam-1v1-lol",
+        "img": "thumbnails/img46.jpg",
+    }, {
+        
+        "name": "Zombs Royale",
+        "url": "https://theadvancedsociety-tam.tbt.mx/tmm-zombsroyale/",
+        "img": "thumbnails/img47.png",
+    }, 
+    {
+        
+        "name": "Shell Shockers",
+        "url": "https://tam-shellshockers.arfotoarte.com/",
+        "img": "thumbnails/img48.png",
+    }, 
+    {
+       
+        "name": "Blockpost.io",
+        "url": "https://ikatchelo.github.io/blockpost/",
+        "img": "thumbnails/img45.png",
+    }, 
+    {
+       
+        "name": "Rooftop Snipers",
+        "url": "https://bigfoot9999.github.io/3kh0.github.io/projects/rooftop-snipers/",
+        "img": "thumbnails/img49.png",
+    }, 
+    {
+        
+        "name": "Pixel Combat 2",
+        "url": "https://grandcanyonshuttles.com/uploads/5/0/5/6/5056555/custom_themes/607463927942590340/pixel-combat2.html",
+        "img": "thumbnails/img50.jpg",
+    }, 
+    {
+        
+        "name": "Modern Blocky Paint",
+        "url": "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/593675271171586975/modern_blocky_paint_.html",
+        "img": "thumbnails/img51.jpg",
+    },
+    {
+        
+        "name": "Block Combat Swat",
+        "url": "https://html5.gamemonetize.co/z4ajge69b989gm67dq59mkgv20ed6zg6/",
+        "img": "thumbnails/img62",
+    },
+    {
+       
+        "name": "Krunker.io",
+        "url": "https://browserfps.com/",
+        "img": "thumbnails/img65",
+    }, 
+    {
+        
+        "name": "Mini Royale 2",
+        "url": "https://miniroyale.clambam10.repl.co/",
+        "img": "thumbnails/img66",
+    },
+
+]
+    //end array for game links
+    buttonArr2.forEach(function(arrayItem2) {
+
+        //searchArr.push(arrayItem.name);
+        let link2 = arrayItem2.url;
+        let name2 = arrayItem2.name;
+        let category2 = arrayItem2.category;
+        //shooter games btw
+        document.getElementById('buttonDiv2').innerHTML += `<div class=" reveal fade-bottom"><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem2.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem2.img}" alt="${arrayItem2.name}.png" style="width:100%"></a><p3>${arrayItem2.name}</p3></div></div></div>`;
+
+
+        
+    } );
+    //end game code
+    let win2;
+
+    function openGame(link2) {
+        if (win2) {
+            win2.focus();
+            return;
+        }
+        win2 = window.open();
+        win2.document.body.style.margin = '0';
+        win2.document.body.style.height = '100vh';
+        const iframe = win2.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = link2;
+        win2.document.body.appendChild(iframe);
+    }
+</script>
+</div>
+</div>
+<!---->
+<!---->
+<div class="gameslist">
+        
+    <span class="container1"><div class="reveal fade-bottom"><div class="text" data-text="effect"><h2 style="color:white;">Game Files</h2></div></div></span>
+    <br><div class="row">
+    <div style="padding-left: 20px" id="buttonDiv21"></div>
+    </div>
+<script type="text/javascript">
+    //start game code
+   
+    var buttonArr21 = [{
+        "name": "WebRetro",
+        "url": "gfiles/gfiles/rarch/index.html",
+        "img": "thumbnails/img68.png",
+    }, 
+    {
+        "name": "2048",
+        "url": "gfiles/gfiles/html5/2048/index.html",
+        "img": "thumbnails/img32.png",
+    }, 
+    {
+        "name": "Dark Room",
+        "url": "gfiles/gfiles/html5/adarkroom/index.html",
+        "img": "thumbnails/img69.jpg",
+    }, 
+    {
+        "name": "Asteroids",
+        "url": "gfiles/gfiles/html5/asteroids/index.html",
+        "img": "thumbnails/img70.jpg",
+    }, 
+    {
+        "name": "Astray",
+        "url": "gfiles/gfiles/html5/astray/index.html",
+        "img": "thumbnails/img71.png",
+    },  
+    {
+        "name": "Black Hole Square",
+        "url": "gfiles/gfiles/html5/blackholesquare/index.html",
+        "img": "thumbnails/img72.jpg",
+    }, 
+    
+    {
+        "name": "Bounce Back",
+        "url": "gfiles/gfiles/html5/bounceback/index.html",
+        "img": "thumbnails/img73.png",
+    }, 
+    {
+        "name": "Break Lock",
+        "url": "gfiles/gfiles/html5/breaklock/index.html",
+        "img": "thumbnails/img74.jpg",
+    }, 
+    {
+        "name": "Breakout",
+        "url": "gfiles/gfiles/html5/breakout/index.html",
+        "img": "thumbnails/img75.jpg",
+    }, 
+    
+    {
+        "name": "Captain Callisto",
+        "url": "gfiles/gfiles/html5/captaincallisto/index.html",
+        "img": "thumbnails/img76.jpg",
+    }, 
+    {
+        "name": "Chess",
+        "url": "gfiles/gfiles/html5/chess/index.html",
+        "img": "thumbnails/img77.jpg",
+    }, 
+    {
+        "name": "Chrome Dino",
+        "url": "gfiles/gfiles/html5/chromedino/index.html",
+        "img": "thumbnails/img78.png",
+    }, 
+    {
+        "name": "Connect 4",
+        "url": "gfiles/gfiles/html5/connect3/index.html",
+        "img": "thumbnails/img78.jpg",
+    }, 
+    {
+        "name": "Evil Glitch",
+        "url": "gfiles/gfiles/html5/evilglitch/index.html",
+        "img": "thumbnails/img80.jpg",
+    }, 
+    {
+        "name": "Geometry Dash",
+        "url": "gfiles/gfiles/html5/geometrydash/index.html",
+        "img": "thumbnails/img33.png",
+    },
+    {
+        "name": "Konnekt",
+        "url": "gfiles/gfiles/html5/konnekt/index.html",
+        "img": "thumbnails/img81.jpg",
+    },
+    {
+        "name": "Packabunchas",
+        "url": "gfiles/gfiles/html5/packabunchas/index.html",
+        "img": "thumbnails/img82.jpg",
+    },
+    {
+        "name": "Particle Clicker",
+        "url": "gfiles/gfiles/html5/particleclicker/index.html",
+        "img": "thumbnails/img83.png",
+    },
+    
+    
+]
+    //end array for game links
+    buttonArr21.forEach(function(arrayItem21) {
+
+        //searchArr.push(arrayItem.name);
+        let link2 = arrayItem21.url;
+        let name2 = arrayItem21.name;
+        document.getElementById('buttonDiv21').innerHTML += `<div class="reveal fade-bottom"><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a href="${arrayItem21.url}"><img style="border-radius: 25px;" src="${arrayItem21.img}" style="width:100%"></a><p3>${arrayItem21.name}</p3></div></div></div>`;
+
+
+        
+    } );
+    
+</script>
+</div>
+</div>
+<!---->
+<div class="gameslist">
+        
+    <span class="container1"><div class="reveal fade-bottom"><div class="text" data-text="effect"><h2 style="color:white;" >Racing & Car</h2></div></div></span>
+    <br><div class="row">
+    <div style="padding-left: 20px; padding-bottom: 20px;" id="buttonDiv4"></div>
+    </div>
+    <!---->
+
+    <script type="text/javascript">
+        //start game code
+        let mobile4 = "<i class='ri-device-line'></i>";
+        let computer4 = "<i class='ri-computer-line'></i>"
+        var buttonArr4 = [{
+            "icon": computer4,
+            "name": "Drift Hunters",
+            "url": "https://rga-bigfoot9999.vercel.app/src/drift-hunters/index.html",
+            "img": "thumbnails/img53.png",
+        }, 
+        {
+            "icon": computer4,
+            "name": "Fire Truck Dash",
+            "url": "https://rga-bigfoot9999.vercel.app/src/fire-truck-dash/index.html",
+            "img": "thumbnails/img54.png",
+        }, 
+        {
+            "icon": computer4,
+            "name": "Super Car Parking",
+            "url": "https://files.vitalitygames.com/games/webgl/2017/09/11/supercar-police-parking-2/index.html",
+            "img": "thumbnails/img56.png",
+        }, 
+        
+        {
+            "icon": computer4,
+            "name": "Taz Driving 2",
+            "url": "https://rga-bigfoot9999.vercel.app/src/russian-taz-magmes/index.html",
+            "img": "thumbnails/img55.jpg",
+           },
+    
+    ]
+        //end array for game links
+    
+        buttonArr4.forEach(function(arrayItem4) {
+    
+            //searchArr.push(arrayItem.name);
+            let link4 = arrayItem4.url;
+            let name4 = arrayItem4.name;
+            //racing games 
+            document.getElementById('buttonDiv4').innerHTML += `<div class=" reveal fade-bottom"><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem4.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem4.img}" alt="${arrayItem4.name}.png" style="width:100%"></a><p3>${arrayItem4.name}</p3></div></div></div>`;
+
+    
+    
+            
+        } );
+        //end game code
+        let win4;
+    
+        function openGame(link4) {
+            if (win4) {
+                win4.focus();
+                return;
+            }
+            win4 = window.open();
+            win4.document.body.style.margin = '0';
+            win4.document.body.style.height = '100vh';
+            const iframe = win4.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = link4;
+            win4.document.body.appendChild(iframe);
+        }
+    </script>
+    </div>
+    </div>
+
+
+         
+    </body>
+</html>

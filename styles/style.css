@@ -118,7 +118,9 @@ li a:hover:not(.active) {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 50vw;
+  max-width: 500px;
+  height: auto;
 }
 /*START SCROLL CSS*/
 .separator-type, .title-type, .intro-type, .content-type .intro-type p {

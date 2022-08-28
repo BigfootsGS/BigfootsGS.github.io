@@ -1,39 +1,272 @@
-.carousel-item {
-    height: 100vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-  
-  .lnr {
-    display: inline-block;
-    fill: currentColor;
-    width: 1em;
-    height: 1em;
-    vertical-align: -0.05em;
-    stroke-width: 1;
-  }
-  
-  .services-icon {
-    margin-bottom: 20px;
-    font-size: 30px;
-  }
-  bgc2, .vLine, .hLine {
-      background-color: #0F52BA;
-  }
-  
-  .quote-icon {
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-  .services-icon {
-      font-size: 60px;
-      margin-left: 2rem;
-  }
+/* Credit
+    Design/Challenge : https://www.frontendmentor.io
+
+    Developed/Code by Devance
+*/
+
+/* Font Style/Family */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+/* <---------Reset CSS---------> */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	animation-duration: 0.01ms !important;
+	animation-iteration-count: 1 !important;
+	transition-duration: 0.01ms !important;
+	scroll-behavior: auto !important;
+}
+
+* {
+	margin: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+ background-image: url(../images/GBACKGROUND.png);
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+}
+
+html:focus-within {
+	scroll-behavior: auto;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeSpeed;
+  background-color: var(--Violet);
+  background-image: url(../images/landingpage.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow-y: hidden;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	pointer-events: none;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+	overflow-wrap: break-word;
+}
+
+#root,#__next {
+	isolation: isolate;
+}
+
+/* </---------Reset CSS---------> */
+
+/* <---------Variables---------> */
+
+:root {
+	/* Primary Colors */
+	--Violet: rgb(45, 28, 14);
+	--Soft-Magenta: rgb(88, 88, 88);
+	--white: #fff;
+
+	/* Font Size */
+	--head: 3rem;
+	--text: 1.3rem;
+
+	/* Font Weight */
+	--regular: 400;
+	--bold: 600;
+}
+
+/* </---------Variables---------> */
+
+/* <---------Utility Classes---------> */
+
+.head {
+	font-size: var(--head);
+	font-weight: var(--bold);
+	color: var(--white);
+	font-family: "Poppins", sans-serif;
+}
+
+.text {
+	font-size: var(--text);
+	font-weight: var(--regular);
+	color: var(--white);
+	font-family: "Open Sans", sans-serif;
+}
+
+/* </---------Utility Classes---------> */
+
+/* <---------General CSS---------> */
+
+.background {
+	min-height: 100vh;
+	
+	overflow: auto;
+	padding: 0 4em;
+}
+
+.container {
+	margin: 5em auto 2em auto;
+	max-width: 1800px;
+}
+
+.hero {
+	margin: 0 0 0 0;
+	display: flex;
+	gap: 6em;
+}
+
+.hero-img {
+	flex-basis: 50%;
+}
+
+.mockup {
+	width: 100%;
+}
+
+.hero-text {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5em;
+	align-self: center;
+	max-width: 35em;
+}
+
+.btn {
+	background-color: var(--white);
+	color: rgb(45, 28, 14);
+	border: 0;
+	width: 15em;
+	padding: 0.5em 1.5em;
+	border-radius: 2em;
+	box-shadow: 5px 5px 10px 0px rgba(63, 63, 63, 0.86);
+	cursor: pointer;
+}
+
+.btn:hover {
+	color: var(--white);
+	background-color: rgb(45, 28, 14);
+}
+
+.socials {
+	display: flex;
+	gap: 1em;
+	justify-content: flex-end;
+}
+
+.social-btn {
+	border: 2px solid var(--white);
+	border-radius: 100%;
+	background: transparent;
+	width: 3em;
+	height: 3em;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1.5em;
+}
+
+.social-btn:hover {
+	border: 2px solid var(--Soft-Magenta);
+}
+
+.facebook {
+	background-image: url(https://bit.ly/3ANDWRW);
+}
+
+.facebook:hover {
+	background-image: url(https://bit.ly/3Aj9mOo);
+}
+
+.twitter {
+	background-image: url(https://bit.ly/3e1Xl8Q);
+}
+
+.twitter:hover {
+	background-image: url(https://bit.ly/3R9V4Xp);
+}
+.instagram {
+	background-image: url(https://bit.ly/3pO9z7r);
+}
+
+.instagram:hover {
+	background-image: url(https://bit.ly/3dTh0aN);
+}
+
+/* </---------General CSS---------> */
+
+/* <---------Media Queries---------> */
+
+/* For medium screen */
+@media (min-width: 800px) and (max-width: 1200px) {
+	:root {
+		--head: 2.5rem;
+		--text: 1.2rem;
+	}
+
+	.hero-text {
+		max-width: 30em;
+	}
+}
+
+/* For smaller screen */
+@media (min-width: 200px) and (max-width: 800px) {
+	:root {
+		--head: 2rem;
+		--text: 1rem;
+	}
+
+	.background {
+		min-height: 100vh;
+        background-color: var(--Violet);
+        background-repeat: no-repeat;
+        background-size: 100% 60%;
+ background-repeat: no-repeat;
+        background-position: top;
+        overflow: auto;
+        padding: 0 2em;
+       
+	}
+
+	.container {
+		margin: 2em 0 1em 0;
+	}
+
+	.logo {
+		width: 12em;
+	}
+
+	.hero {
+		flex-direction: column;
+		margin: 3em 0 2em 0;
+	}
+	.hero-text {
+		text-align: center;
+	}
+
+	.btn {
+		margin: 0 auto;
+	}
+
+	.socials {
+		justify-content: center;
+	}
+}
+
+/* For medium screen */
+@media (min-width: 600px) and (max-width: 800px) {
+	:root {
+		--head: 2.5rem;
+		--text: 1.2rem;
+	}
+}
+
+/* </---------Media Queries---------> */

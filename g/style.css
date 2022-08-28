@@ -126,7 +126,8 @@ li a:hover:not(.active) {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 50vw;
+  max-width: 500px;
 }
 @media (max-width: 480px) {}
 
@@ -414,3 +415,6 @@ img {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: rgb(45, 28, 14);}
 
+.landingbody {
+  padding-left:10vw;
+}

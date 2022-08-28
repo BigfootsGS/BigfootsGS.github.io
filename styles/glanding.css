@@ -28,9 +28,11 @@
 	margin: 0;
 }
 
-html,
-body {
-	height: 100%;
+html, body {
+  overflow-x: hidden;
+ background-image: url(../images/GBACKGROUND.png);
+ background-attachment: fixed;
+ background-repeat: no-repeat;
 }
 
 html:focus-within {
@@ -41,6 +43,12 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeSpeed;
+  background-color: var(--Violet);
+  background-image: url(../images/landingpage.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow-y: hidden;
 }
 
 img {
@@ -63,8 +71,8 @@ p,h1,h2,h3,h4,h5,h6 {
 
 :root {
 	/* Primary Colors */
-	--Violet: hsl(257, 40%, 49%);
-	--Soft-Magenta: hsl(300, 69%, 71%);
+	--Violet: rgb(45, 28, 14);
+	--Soft-Magenta: rgb(88, 88, 88);
 	--white: #fff;
 
 	/* Font Size */
@@ -100,11 +108,7 @@ p,h1,h2,h3,h4,h5,h6 {
 
 .background {
 	min-height: 100vh;
-	background-color: var(--Violet);
-	background-image: url(https://bgs.pages.dev/images/6.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-position: center;
+	
 	overflow: auto;
 	padding: 0 4em;
 }
@@ -115,7 +119,7 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 
 .hero {
-	margin: 5em 0 3em 0;
+	margin: 0 0 0 0;
 	display: flex;
 	gap: 6em;
 }
@@ -138,7 +142,7 @@ p,h1,h2,h3,h4,h5,h6 {
 
 .btn {
 	background-color: var(--white);
-	color: var(--Violet);
+	color: rgb(45, 28, 14);
 	border: 0;
 	width: 15em;
 	padding: 0.5em 1.5em;
@@ -149,7 +153,7 @@ p,h1,h2,h3,h4,h5,h6 {
 
 .btn:hover {
 	color: var(--white);
-	background-color: var(--Soft-Magenta);
+	background-color: rgb(45, 28, 14);
 }
 
 .socials {
@@ -223,9 +227,9 @@ p,h1,h2,h3,h4,h5,h6 {
 	.background {
 		min-height: 100vh;
         background-color: var(--Violet);
-        background-image: url(https://bgs.pages.dev/images/6.png);
         background-repeat: no-repeat;
         background-size: 100% 60%;
+ background-repeat: no-repeat;
         background-position: top;
         overflow: auto;
         padding: 0 2em;

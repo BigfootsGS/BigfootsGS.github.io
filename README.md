@@ -19,3 +19,4 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 ### Contributors 
 <img src="https://contrib.rocks/image?repo=BigfootsGS/BigfootsGS.github.io"/>
   
+# Add all the links then some community links?

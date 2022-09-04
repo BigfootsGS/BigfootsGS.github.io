@@ -22,7 +22,14 @@ body{overflow-x: hidden;margin:0;color:#1f1f1f;}
 
 .row{*zoom:1;margin-left: -15px}.row:before,.row:after{display:table;content:"";}
 .row:after{clear:both;}
+
 [class*="span"]{float:left;margin-left:20px;padding: 20px;}
+@media screen and (max-width: 800px) {
+    .span2 {
+    width: 100%;
+    margin-left:0px;
+}
+}
 .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:0px;}
 .span11{width:860px;}
 .span10{width:780px;}
@@ -33,7 +40,7 @@ body{overflow-x: hidden;margin:0;color:#1f1f1f;}
 .span5{width:380px;}
 .span4{width: 249px;min-height: 200px;}
 .span3{width:372px;}
-.span2{text-align: center;width:10%;min-width: 30px;}
+.span2{text-align: center;min-width: 30px;}
 .span1{width: 150px;}
 .offset12{margin-left:980px;}
 .offset11{margin-left:900px;}

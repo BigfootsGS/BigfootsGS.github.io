@@ -9,6 +9,7 @@ button {
   justify-content: center;
   border: 3px;
 }
+
 html {
   font-family: 'Anton', sans-serif;
   overflow-x: hidden;
@@ -480,9 +481,10 @@ img {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
       .span2 {
       width: 100%;
+      margin-left:0px;
   }
 }
 

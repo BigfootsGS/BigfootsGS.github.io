@@ -31,7 +31,7 @@ body{overflow-x: hidden;margin:0;color:#1f1f1f;}
 .span7{width:540px;}
 .span6{width:460px;}
 .span5{width:380px;}
-.span4{width: 249px;}
+.span4{width: 249px;min-height: 200px;}
 .span3{width:372px;}
 .span2{text-align: center;width:10%;min-width: 30px;}
 .span1{width: 150px;}

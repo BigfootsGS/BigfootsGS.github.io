@@ -843,7 +843,9 @@ div.shadow{
   }
 }
 @media screen and (min-width: 800px) {
-  
+ html {
+  background-color: #ffffff;
+ }
   .phonestuff{
     display: none;
   }

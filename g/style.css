@@ -252,7 +252,7 @@ body {
   text-align: center;
 }
 img {
-  height: auto;max-height: 990px;width: 145px;border: 0;-ms-interpolation-mode: bicubic;vertical-align: middle;border-radius: 25px;
+  height: auto;max-height: 990px;width: 145px;border: 0;-ms-interpolation-mode: bicubic;vertical-align: middle;border-radius: 25px;max-height: 145px;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

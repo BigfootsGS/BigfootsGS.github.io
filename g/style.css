@@ -35,15 +35,13 @@ p {
 }
 
 .footer {
-  text-align: center; /* Center text*/
+  
   color: #ffffff;
   background-color: #000000; /* Black background */
-  font-family: 'Anton', sans-serif;
+  font-family:  sans-serif;
   width: 100vw;
   padding-top: 20px;
   padding-bottom: 40px;
-  margin-top: 40px;
-
 }
 h {
   font-size: 35px;
@@ -58,7 +56,7 @@ font-size: 3vh;
 h2 {
     font-size: 10px;
     margin: 7vh 14px 0px 14px;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: black;    
 }
 .textjs {
@@ -124,10 +122,11 @@ li a:hover:not(.active) {
 
 .center {
   display: block;
-  margin-left: auto;
   margin-right: auto;
   width: 50vw;
   max-width: 500px;
+  height: auto;
+  margin-left: 20px;
 }
 @media (max-width: 480px) {}
 

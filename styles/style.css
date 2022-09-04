@@ -16,6 +16,7 @@ html{
   /*overflow-x: hidden;*/
   scroll-behavior:smooth;
   background-color: rgb(45, 28, 14);
+  text-align: left;
 }
   
 
@@ -831,7 +832,7 @@ div.shadow{
 .btn:hover {
   background-color: RoyalBlue;
 }
-@media screen and (max-width: 946px) {
+/*@media screen and (max-width: 946px) {
   .contentbelownav {
     display: none;
     background-color: white;
@@ -860,3 +861,4 @@ div.shadow{
     display: none;
   }
 }
+*/

@@ -480,12 +480,9 @@ img {
 }
 
 
-@media screen and (max-width: 942px) {
-  .one {
-    display: none;
-  }
-  .two {
-    display: block;
+@media screen and (max-width: 500px) {
+      .span2 {
+      width: 100%;
   }
 }
 

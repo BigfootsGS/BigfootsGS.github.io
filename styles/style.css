@@ -833,33 +833,18 @@ div.shadow{
 .btn:hover {
   background-color: RoyalBlue;
 }
-/*@media screen and (max-width: 946px) {
+@media screen and (max-width: 800px) {
   .contentbelownav {
     display: none;
     background-color: white;
   }
-  html {
-    background-color: white;
+  .phonestuff{
+    display: block;
   }
-  .span2.logonav{
-    margin-left: 45vw;
-    width: auto;
-    margin-right: 45vw;
-    
-  }
-  .span2.navlink{
-    margin-left: 45vw;
-    width: auto;
-    margin-right: 45vw;
-  }
-  .partners{
+}
+@media screen and (min-width: 800px) {
+  
+  .phonestuff{
     display: none;
   }
 }
-@media screen and (max-width: 1400) {
-
-  .partners{
-    display: none;
-  }
-}
-*/

@@ -287,6 +287,9 @@ img {
 .active.fade-bottom {
   animation: fade-bottom 1s ease-in;
 }
+.active.fade-top {
+  animation: fade-top 1s ease-in;
+}
 .active.fade-left {
   animation: fade-left 1s ease-in;
 }
@@ -294,6 +297,16 @@ img {
   animation: fade-right 1s ease-in;
 }
 @keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-top {
   0% {
     transform: translateY(50px);
     opacity: 0;

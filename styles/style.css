@@ -119,10 +119,10 @@ li a:hover:not(.active) {
 .center {
   display: block;
   margin-right: auto;
-  width: 50vw;
+  
   max-width: 500px;
   height: auto;
-  margin-left: auto;
+  margin-left: 20px;
 }
 /*START SCROLL CSS*/
 .separator-type, .title-type, .intro-type, .content-type .intro-type p {
@@ -833,7 +833,7 @@ div.shadow{
 .btn:hover {
   background-color: RoyalBlue;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .contentbelownav {
     display: none;
     background-color: white;
@@ -842,11 +842,12 @@ div.shadow{
     display: block;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
  html {
   background-color: #ffffff;
  }
   .phonestuff{
     display: none;
   }
+  
 }

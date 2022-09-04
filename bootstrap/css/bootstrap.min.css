@@ -24,10 +24,15 @@ body{overflow-x: hidden;margin:0;color:#1f1f1f;}
 .row:after{clear:both;}
 
 [class*="span"]{float:left;margin-left:20px;padding: 20px;}
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .span2 {
     width: 100%;
     margin-left:0px;
+    padding: 0px;
+}
+.span4 {
+   
+    padding: 0px;
 }
 }
 .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:0px;}
@@ -38,7 +43,7 @@ body{overflow-x: hidden;margin:0;color:#1f1f1f;}
 .span7{width:540px;}
 .span6{width:460px;}
 .span5{width:380px;}
-.span4{width: 249px;min-height: 200px;}
+.span4{width: 269px;min-height: 200px;}
 .span3{width:372px;}
 .span2{text-align: center;min-width: 30px;}
 .span1{width: 150px;}

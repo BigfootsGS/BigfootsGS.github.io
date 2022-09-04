@@ -850,4 +850,13 @@ div.shadow{
     width: auto;
     margin-right: 45vw;
   }
+  .partners{
+    display: none;
+  }
+}
+@media screen and (max-width: 1400) {
+
+  .partners{
+    display: none;
+  }
 }

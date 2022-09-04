@@ -20,10 +20,10 @@ html{
   
 
 .footer {
-  text-align: center; /* Center text*/
+  
   color: #ffffff;
   background-color: #000000; /* Black background */
-  font-family: 'Anton', sans-serif;
+  font-family:  sans-serif;
   width: 100vw;
   padding-top: 20px;
   padding-bottom: 40px;
@@ -116,11 +116,11 @@ li a:hover:not(.active) {
 
 .center {
   display: block;
-  margin-left: auto;
   margin-right: auto;
   width: 50vw;
   max-width: 500px;
   height: auto;
+  margin-left: 20px;
 }
 /*START SCROLL CSS*/
 .separator-type, .title-type, .intro-type, .content-type .intro-type p {

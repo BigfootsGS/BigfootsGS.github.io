@@ -126,7 +126,7 @@ li a:hover:not(.active) {
   width: 50vw;
   max-width: 500px;
   height: auto;
-  margin-left: auto;
+  margin-left: 50px;
 }
 @media (max-width: 480px) {}
 

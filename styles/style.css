@@ -13,7 +13,7 @@ button {
 
 html{
   font-family: 'Anton', sans-serif;
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
   scroll-behavior:smooth;
   /*background-color: rgb(45, 28, 14);*/
   background-color: #000000;

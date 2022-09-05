@@ -13,17 +13,19 @@ button {
 
 html{
   font-family: 'Anton', sans-serif;
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
   scroll-behavior:smooth;
-  background-color: rgb(45, 28, 14);
+  /*background-color: rgb(45, 28, 14);*/
+  background-color: #000000;
+  text-align: left;
 }
   
 
 .footer {
-  text-align: center; /* Center text*/
+  
   color: #ffffff;
   background-color: #000000; /* Black background */
-  font-family: 'Anton', sans-serif;
+  font-family:  sans-serif;
   width: 100vw;
   padding-top: 20px;
   padding-bottom: 40px;
@@ -116,11 +118,11 @@ li a:hover:not(.active) {
 
 .center {
   display: block;
-  margin-left: auto;
   margin-right: auto;
-  width: 50vw;
+  
   max-width: 500px;
   height: auto;
+  margin-left: 20px;
 }
 /*START SCROLL CSS*/
 .separator-type, .title-type, .intro-type, .content-type .intro-type p {
@@ -831,32 +833,21 @@ div.shadow{
 .btn:hover {
   background-color: RoyalBlue;
 }
-@media screen and (max-width: 946px) {
+@media screen and (max-width: 1000px) {
   .contentbelownav {
     display: none;
     background-color: white;
   }
-  html {
-    background-color: white;
-  }
-  .span2.logonav{
-    margin-left: 45vw;
-    width: auto;
-    margin-right: 45vw;
-    
-  }
-  .span2.navlink{
-    margin-left: 45vw;
-    width: auto;
-    margin-right: 45vw;
-  }
-  .partners{
-    display: none;
+  .phonestuff{
+    display: block;
   }
 }
-@media screen and (max-width: 1400) {
-
-  .partners{
+@media screen and (min-width: 1000px) {
+ html {
+  background-color: #ffffff;
+ }
+  .phonestuff{
     display: none;
   }
+  
 }

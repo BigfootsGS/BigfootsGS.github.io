@@ -18,5 +18,17 @@ It is our mission to provide unblocked games to you guys! That's why our code is
   [![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/BigfootsGS/BigfootsGS.github.io)
 ### Contributors 
 <img src="https://contrib.rocks/image?repo=BigfootsGS/BigfootsGS.github.io"/>
-  
-# Add all the links then some community links?
+
+  ----
+## Official Links
+* https://www.bgs.pages.dev
+* https://www.bigfootshack.tk/
+* https://v3.bigfootedu.tk/
+* https://v3.b5q8vxvxvd.cf/
+* https://website-mocha-phi.vercel.app/
+* https://v3.bigfoot9999.tk/
+* https://v3.bigfootshack.gq/  
+
+Don't worry if they get blocked. There are tons of [community links](./Community-Links.md).
+
+---

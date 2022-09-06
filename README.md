@@ -21,13 +21,13 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 
   ----
 ## Official Links
-* https://www.bgs.pages.dev
-* https://www.bigfootshack.tk/
-* https://v3.bigfootedu.tk/
-* https://v3.b5q8vxvxvd.cf/
-* https://website-mocha-phi.vercel.app/
-* https://v3.bigfoot9999.tk/
-* https://v3.bigfootshack.gq/  
+ https://www.bgs.pages.dev
+ https://www.bigfootshack.tk/
+ https://v3.bigfootedu.tk/
+ https://v3.b5q8vxvxvd.cf/
+ https://website-mocha-phi.vercel.app/
+ https://v3.bigfoot9999.tk/
+ https://v3.bigfootshack.gq/  
 
 Don't worry if they get blocked. There are tons of [community links](./Community-Links.md).
 

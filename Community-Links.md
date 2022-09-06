@@ -3,4 +3,4 @@ These links are community maintained sites incase all the official sites are blo
 
 | URL | Status |
 | - | - |
-| This could be your link! | Status |
+| https://bigfoots-gs-github-6n4z2s8ig-bigfoot-s-game-shack.vercel.app/ | Up-To-Date |

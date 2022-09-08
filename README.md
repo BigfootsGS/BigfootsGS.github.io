@@ -1,5 +1,8 @@
 <div align='center'>
 
+# RIP THE QUEEN! :(
+
+
 ![7](https://user-images.githubusercontent.com/80417201/188531848-f7230fe7-53aa-4cfb-b266-8840a655b6da.png)
 
   

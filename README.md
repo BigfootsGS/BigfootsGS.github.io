@@ -1,6 +1,9 @@
 <div align='center'>
-  
-![Video](https://user-images.githubusercontent.com/80417201/172915567-b5ed2245-a00b-493c-aa80-50142835efb5.gif)
+
+# RIP THE QUEEN! :(
+
+
+![7](https://user-images.githubusercontent.com/80417201/188531848-f7230fe7-53aa-4cfb-b266-8840a655b6da.png)
 
   
 ![GitHub issues](https://img.shields.io/github/issues/BigfootsGS/BigfootsGS.github.io?logo=github&style=flat-square) 
@@ -18,6 +21,7 @@ It is our mission to provide unblocked games to you guys! That's why our code is
   [![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/BigfootsGS/BigfootsGS.github.io)
 ### Contributors 
 <img src="https://contrib.rocks/image?repo=BigfootsGS/BigfootsGS.github.io"/>
+<div align='left'>
 
   ----
 ## Official Links
@@ -28,6 +32,9 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 * https://website-mocha-phi.vercel.app/
 * https://v3.bigfoot9999.tk/
 * https://v3.bigfootshack.gq/  
+* https://www.bigfootninenineninenine.gq
+
+
 
 Don't worry if they get blocked. There are tons of [community links](./Community-Links.md).
 

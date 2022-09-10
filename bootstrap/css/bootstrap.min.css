@@ -31,10 +31,7 @@ body{overflow-x: hidden;margin:0;color:#1f1f1f;}
     padding-left: 00px;
     padding-right: 0px;
 }
-.span4 {
-   
-    padding: 0px;
-}
+
 }
 .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:0px;}
 .span11{width:860px;}

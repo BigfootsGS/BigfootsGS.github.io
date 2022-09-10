@@ -28,8 +28,5 @@ r_text[25] = "Will you marry me?";
 var i = Math.floor(26 * Math.random());
 //number next to math.floor needs to be one more than the last number added
 document.write(
-  '<span class="textjs";style="font-weight: 1000;font-style: normal; text-align:center; color: white; font-family: 'Anton', sans-serif;>' +
-    r_text[i] +
-    "</span>"
+  '<span class="textjs";>' + r_text[i] +'</span>'
 );
-//remove padding (100px)

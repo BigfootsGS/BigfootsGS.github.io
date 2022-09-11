@@ -5,12 +5,12 @@
      padding: 15px 20px ;
      font-size:40px;
      border-radius: 2px;
-     background-color:rgb(0, 0, 0);
-     transition-duration: 0.4s;
+     background-color:white;
+     transition-duration: 0.5s;
 }
  .Link:hover {
      background-color:rgb(152, 85, 43);
-     color:rgb(87, 87, 87);
+     color:rgb(190, 190, 190);
 }
  button {
      padding: 10vw;

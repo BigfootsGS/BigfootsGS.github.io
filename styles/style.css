@@ -1,4 +1,4 @@
-.Link {
+.Link a{
      color: black;
      z-index:5;
      text-align: center;
@@ -9,7 +9,7 @@
      background-color:white;
      transition-duration: 0.5s;
 }
- .Link:hover {
+ .Link a:hover {
      background-color:rgb(152, 85, 43);
      color:rgb(190, 190, 190);
 }

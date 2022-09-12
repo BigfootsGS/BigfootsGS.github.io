@@ -1,15 +1,22 @@
-.Link {
+.Link img {
+     height:80px; 
+     padding:10px 15px;
+}
+.Link a {
+     margin-left: 10%;
+     padding: 10px 20px;
+     width: 100%;
+     background-color: transparent;
+     text-decoration: none;
      color: black;
-     z-index:5;
+     z-index: 5;
      text-align: center;
-     padding: 5px 5px ;
-     margin: 10px 15px ;
-     font-size:40px;
-     border-radius: 2px;
+     font-size: 60px;
+     border-radius: 5px;
      background-color:white;
      transition-duration: 0.5s;
 }
- .Link:hover {
+ .Link a:hover {
      background-color:rgb(152, 85, 43);
      color:rgb(190, 190, 190);
 }
@@ -239,25 +246,6 @@
      -webkit-transition: background-color 0.25s ease-in-out;
      transition: background-color 0.25s ease-in-out;
 }
-/**/
- a:hover {
-     color: rgb(80, 80, 80);
-     background-color: transparent;
-}
- a:link {
-     color: rgb(255, 255, 255);
-     background-color: transparent;
-     text-decoration: none;
-}
- a:visited {
-     color: rgb(233, 233, 233);
-     background-color: transparent;
-     text-decoration: none;
-}
-/* img {
-     width: 100vw;
-}
-*/
  .twoarrowimg {
      width: 49px;
      height: 25px;

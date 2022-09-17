@@ -464,28 +464,28 @@ button {
      display: inline-block;
      padding: 20px;
      cursor: pointer;
-}
- .text {
-     font-size: 100px;
-     text-transform: uppercase;
-     font-weight: 900;
-     position: relative;
-     color: #34495e;
-}
- .container1::before {
-     content: "";
-     width: 0%;
-     height: 100%;
-     position: absolute;
-     background: rgb(86 54 28 / 75%);
-     right: 0;
-     top: 0;
-     transition: 0.6s;
-     color: white;
-}
- .container1:hover .text::before,.container1:hover::before {
-     width: 100%;
-}
+    }
+    .text {
+        font-size: 100px;
+        text-transform: uppercase;
+        font-weight: 900;
+        position: relative;
+        color: #34495e;
+   }
+    .container1::before {
+        content: "";
+        width: 0%;
+        height: 100%;
+        position: absolute;
+        background: rgb(86 54 28 / 75%);
+        right: 0;
+        top: 0;
+        transition: 0.6s;
+        color: white;
+   }
+    .container1:hover .text::before,.container1:hover::before {
+        width: 100%;
+   }
  #view-code{
      color:#48cfad;
      font-size:14px;

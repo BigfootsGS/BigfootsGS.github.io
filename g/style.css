@@ -16,6 +16,8 @@ html {
  background-image: url(../images/GBACKGROUND.png);
  background-attachment: fixed;
  background-repeat: no-repeat;
+ transition: all 0.2s ease-in-out;
+
 }
 p {
   font-family: 'Anton', sans-serif;
@@ -395,18 +397,15 @@ img {
   position: relative;
   display: inline-block;
 }
-
+.dropdown-hover {
+  transition: 0.3s;}
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  position: absolute;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   min-width: 158px;
   z-index: 0;
-  margin-left: -21px;;
-  
-  
-
+  transition: opacity 2s ease-in;
 }
 
 /* Links inside the dropdown */

@@ -24,7 +24,7 @@
         <div class="one">
             <section class="company-heading intro-type"  style="text-align: center;">
                 <div class="span2">
-                    <a href="../"><img style="width:166px;height: auto;" src="../images/bgslogotransparent.png" /></a>
+                    <a href="../"><img style="border-radius: 0 0;width:166px;height: auto;" src="../images/bgslogotransparent.png" /></a>
                 </div>
                 <div style="margin-top: 10px;min-width: 140px;"class="span2">
                     <span class="container1">
@@ -74,17 +74,11 @@
     {
         "name": "Discord",
         "url": "https://e.widgetbot.io/channels/829117322223812658/829117322223812660",
-        "url1": "EXAMPLE URL",
-        "url2": "EXAMPLE URL",
+        "url1": "https://e.widgetbot.io/channels/829117322223812658/829117322223812660",
+        "url2": "https://e.widgetbot.io/channels/829117322223812658/829117322223812660",
         "img": "../images/disco.png",
     }, 
-    {
-        "name": "Now.gg",
-        "url": "EXAMPLE URL",
-        "url1": "EXAMPLE URL",
-        "url2": "EXAMPLE URL",
-        "img": "../images/gg.jpg",
-    },
+ 
     
     
 ]
@@ -96,10 +90,19 @@
         let link72 = arrayItem7.url2;
         let name7 = arrayItem7.name;
         let category7 = arrayItem7.category;
-        document.getElementById('buttonDiv7').innerHTML += `<div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><img style="border-radius: 25px;" src="${arrayItem7.img}" alt="${arrayItem7.name}.png" style="width:100%"><!--<p3>${arrayItem7.name}</p3>--><div class="dropdown">
-  <button style="margin-bottom:10px;margin-top:5px;"class="dropbtn">${arrayItem7.name}</button><div class="dropdown-content"><a onclick="openGame('${arrayItem7.url}') href="#">Link 1</a><a onclick="openGame('${arrayItem7.url1}') href="#">Link 2</a><a onclick="openGame('${arrayItem7.url2}')" href="#">Link 3</a></div><div></div></div>`;
-//<a onclick="openGame('${link7}')" href="javascript:void(0);">
-    // remember this code for later!!
+        document.getElementById('buttonDiv7').innerHTML += `<div class="span1">
+<div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card">
+<img style="border-radius: 25px;" src="${arrayItem7.img}" alt="${arrayItem7.name}.png" style="width:100%">
+<div class="dropdown">
+<button style="margin-bottom:10px;margin-top:5px;"class="dropbtn">${arrayItem7.name}</button>
+<div class="dropdown-content">
+<a onclick="openGame('${arrayItem7.url}')" href="javascript:void(0);">Link 1</a>
+<a onclick="openGame('${arrayItem7.url1}')" href="javascript:void(0);">Link 2</a>
+<a onclick="openGame('${arrayItem7.url2}')" href="javascript:void(0);">Link 3</a>
+</div>
+<div>
+</div>
+</div>`
 
         
     } );
@@ -135,7 +138,7 @@
         iframe.style.width = '100%';
         iframe.style.height = '100%';
         iframe.style.margin = '0';
-        iframe.src = link7;
+        iframe.src = link71;
         win7.document.body.appendChild(iframe);
     }
     function openGame(link72) {
@@ -151,7 +154,7 @@
         iframe.style.width = '100%';
         iframe.style.height = '100%';
         iframe.style.margin = '0';
-        iframe.src = link7;
+        iframe.src = link72;
         win7.document.body.appendChild(iframe);
     }
 </script>
@@ -159,9 +162,7 @@
 
 <!---->
   <!--Footer-->
-<div class="footer">
-    <!--<img class="center" src="images/bgslogo.png" alt="BGS LOGO">-->
-    
+<div class="footer">    
     <div class="row">
         <div class="span4"><a href="../"><img class="center" src="../images/bgslogo.png" alt="BGS LOGO" style="border-radius: 0px;max-height: 500px;max-width: 289px;padding-top:40px;"></a></div>
     <div class="span4">

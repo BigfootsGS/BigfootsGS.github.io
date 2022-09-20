@@ -7,32 +7,17 @@
         <meta name="description" content="Bigfoot's Game Shack, The BEST place to learn about math! ">
         <meta name="keywords" content="Bigfoot's Game Shack, Bigfoot9999">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
         <link rel="stylesheet" href="../g/style.css">
         <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../scripts/fonts/remixicon.css"> 
+        <script src="../scripts/main.js"></script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7257238324060789" crossorigin="anonymous"></script>
 		<!--<meta http-equiv="refresh" content="3" />-->
     </head>
-    <script>
-        document.onkeydown = function(e) {
-        if(event.keyCode == 123) {
-        return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
-        return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
-        return false;
-        }
-        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
-        return false;
-        }
-        }
-        </script>
-    <body oncontextmenu="return false;">
+    <body style="background-color: white;">
 <!--Start Nav-->
 <div style="background-color: rgb(255, 255, 255);" class="row">
     <div style="z-index:5;">
@@ -76,7 +61,44 @@
 
 </div>
 <section>
-	<div style="background-image: url(../images/7v2.png);/* width: 174vw; */background-size: 100vw;background-repeat: no-repeat;background-color: black;height:100vh; position:relative;z-index:5;"> </div>
+<!--THANKS SO MUCH 3kh0!!!-->
+<div style="margin-bottom:300px;background-color:white;"class="console-container">
+    <div class="console">
+      <div style="color:white;">
+      <h1>Tab Cloak</h1>
+      <p4 style="color: rgb(160, 160, 160);"><a style="color: rgb(160, 160, 160);" href="https://3kh0.github.io">by 3kh0!</a></p4>
+      <div class="consolebody">
+        <p2 style="color: black;">Enter a new tab title or a image URL below. Whatever you set will be used all over the site.</p2>
+        <p class="console-input">> <input id="userinput" type="url" pattern="https://.*" placeholder="Enter a title or image URL" autocomplete="on" autofocus /></p>
+        <p>Output: <span id="console-output"></span></p>
+      </div>
+    </div>
+    <div class="button-wrapper">
+      <button onclick="changeTabTitle();" class="console-button">Set Title</button>
+      <button onclick="changeTabIcon();" class="console-button">Set Icon</button>
+      <button onclick="resetTabSettings();" class="console-button">Reset</button>
+    </div>
+    <div class="examples">
+      <h1>Presets:</h1>
+      <p><b>Google Search: </b><button onclick="applyUrl('https://storage.googleapis.com/operating-anagram-8280/favicon-32x32.png', 'Math pratice - Google Search');">Apply</button></p>
+      <p><b>Google Classroom: </b><button onclick="applyUrl('https://ssl.gstatic.com/classroom/favicon.png', 'Classes');">Apply</button></p>
+      <p><b>Google Docs: </b><button onclick="applyUrl('https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico', 'Class notes - Google Docs');">Apply</button></p>
+      <p><b>Google Drive: </b><button onclick="applyUrl('https://ssl.gstatic.com/images/branding/product/2x/hh_drive_36dp.png', 'My Drive - Google Drive');">Apply</button></p>
+      <p><b>Canvas: </b><button onclick="applyUrl('https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico' , 'Dashboard');">Apply</button></p>
+      <p><b>Schoology: </b><button onclick="applyUrl('https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico', 'Home | Schoology');">Apply</button></p>
+      <p>
+        <b>my NG connect: </b>
+        <button onclick="applyUrl('https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.myngconnect.com/login/chooseMainUI.spr&size=16', 'my NG connect');">Apply</button>
+      </p>
+    </div>
+  </div>
+  <script src="../scripts/settings.js"></script><!--aka main.js-->
+  <script src="../scripts/tab.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</div>  
+
+
+
 </section>
   <!--Footer-->
 <div class="footer">

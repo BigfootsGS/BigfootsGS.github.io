@@ -1,4 +1,0 @@
-User-agent: * 
-Disallow:
-Sitemap: https://bgs.pages.dev/sitemap.xml
-// what even is this

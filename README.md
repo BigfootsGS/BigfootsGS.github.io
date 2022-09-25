@@ -35,6 +35,6 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 
 
 
-Don't worry if they get blocked. There are tons of [community links](./Community-Links.md).
+Don't worry if they get blocked. There are tons of [community links](https://github.com/BigfootsGS/BigfootsGS.github.io/blob/main/github/Community-Links.md).
 
 ---

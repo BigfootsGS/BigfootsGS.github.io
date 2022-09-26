@@ -18,11 +18,12 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 [![Deploy with Netlify](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/BigfootsGS/BigfootsGS.github.io)
 [![Deploy with Vercel](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/BigfootsGS/BigfootsGS.github.io)
   [![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/BigfootsGS/BigfootsGS.github.io)
-### Contributors 
+  
+<sup>the yellow head guy is cool</sup>
+  <div align='center'> </div>
 <img src="https://contrib.rocks/image?repo=BigfootsGS/BigfootsGS.github.io"/>
 <div align='left'>
 
-  ----
 ## Official Links
 * https://www.bgs.pages.dev
 * https://www.bigfootshack.tk/
@@ -38,3 +39,12 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 Don't worry if they get blocked. There are tons of [community links](https://github.com/BigfootsGS/BigfootsGS.github.io/blob/main/github/Community-Links.md).
 
 ---
+## Version
+| Version | Status |
+| - | - |
+| v3.1.2 | Present |
+| v3.1.0 | Previous |
+| v1.1-alpha | Alpha |
+| v1.0.0-alpha | Alpha |
+| v0.1.0-alpha | First Draft |
+  <div align='center'>

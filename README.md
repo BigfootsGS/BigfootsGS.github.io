@@ -20,11 +20,10 @@ It is our mission to provide unblocked games to you guys! That's why our code is
   [![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/BigfootsGS/BigfootsGS.github.io)
   
 <sup>the yellow head guy is cool</sup>
-  <div align='center'>
-### Contributors 
+  <div align='center'> </div>
 <img src="https://contrib.rocks/image?repo=BigfootsGS/BigfootsGS.github.io"/>
 <div align='left'>
-  ----
+
 ## Official Links
 * https://www.bgs.pages.dev
 * https://www.bigfootshack.tk/

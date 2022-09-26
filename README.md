@@ -39,3 +39,11 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 Don't worry if they get blocked. There are tons of [community links](https://github.com/BigfootsGS/BigfootsGS.github.io/blob/main/github/Community-Links.md).
 
 ---
+## Version
+| Version | Status |
+| - | - |
+| v3.1.2 | Present |
+| v3.1.0 | Previous |
+| v1.1-alpha | Alpha |
+| v1.0.0-alpha | Alpha |
+| v0.1.0-alpha | First Draft |

@@ -47,3 +47,4 @@ Don't worry if they get blocked. There are tons of [community links](https://git
 | v1.1-alpha | Alpha |
 | v1.0.0-alpha | Alpha |
 | v0.1.0-alpha | First Draft |
+  <div align='center'>

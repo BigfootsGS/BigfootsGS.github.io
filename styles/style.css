@@ -523,6 +523,9 @@ a.active{
      .phonestuff{
          display: block;
     }
+    .nav1 {
+        position: relative;
+    }
 }
  @media screen and (min-width: 1000px) {
      html {
@@ -533,3 +536,6 @@ a.active{
     }
 }
  
+.nav1 {
+    position: fixed;
+}

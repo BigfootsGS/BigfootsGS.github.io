@@ -19,9 +19,9 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 [![Deploy with Vercel](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/BigfootsGS/BigfootsGS.github.io)
   [![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/BigfootsGS/BigfootsGS.github.io)
 ### Contributors 
+<sup>the yellow head guy is cool</sup>
 <img src="https://contrib.rocks/image?repo=BigfootsGS/BigfootsGS.github.io"/>
 <div align='left'>
-
   ----
 ## Official Links
 * https://www.bgs.pages.dev

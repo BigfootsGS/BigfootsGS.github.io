@@ -39,6 +39,7 @@ p {
 }
 .infomain {
   margin-left:30px;text-align: left;
+margin-top: 40px;
 }
 .footer {
   
@@ -99,14 +100,34 @@ video {
 }
 
 
+
+.event1{
+background-color: rgba(222, 222, 222, 0.441);
+border-radius: 20px;
+height: 600px;
+margin: 30px;
+width:40vw; padding: 30px;
+}
+.event2{
+  background-color: rgba(222, 222, 222, 0.441);
+  border-radius: 20px;
+  height: 600px;
+  margin: 30px;
+  width:40vw;
+  padding: 30px;
+}
+
+
+
+
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   background-color: #333;
   position: fixed;
   top: 0;
   width: 100%;
+  padding: 30px;
 }
 
 li {

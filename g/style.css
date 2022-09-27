@@ -102,23 +102,35 @@ video {
 
 
 .event1{
-background-color: rgba(222, 222, 222, 0.441);
+background-color: rgba(222, 222, 222, 0.7);
 border-radius: 20px;
 height: 600px;
 margin: 30px;
 width:40vw; padding: 30px;
+margin-left: auto;
+    
 }
 .event2{
-  background-color: rgba(222, 222, 222, 0.441);
+  background-color: rgba(222, 222, 222, 0.7);
   border-radius: 20px;
   height: 600px;
   margin: 30px;
   width:40vw;
   padding: 30px;
+ 
+    margin-right: auto;
 }
 
-
-
+.twitterdiv{
+  margin-right: 30vw;
+  margin-left: 30vw;
+  
+}
+/*775px*/
+@media only screen and (max-width: 775px) {
+  .twitterdiv{
+      display: none;
+  }
 
 ul {
   list-style-type: none;

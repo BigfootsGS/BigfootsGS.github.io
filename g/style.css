@@ -104,11 +104,12 @@ video {
 .event1{
 background-color: rgba(222, 222, 222, 0.7);
 border-radius: 20px;
-height: 600px;
+height: auto;
 margin: 30px;
 width:40vw; padding: 30px;
 margin-left: auto;
-    
+min-width: 432px;
+
 }
 .event2{
   background-color: rgba(222, 222, 222, 0.7);
@@ -307,7 +308,6 @@ img {
   margin: auto;
   margin-top: 40px;
   text-align: left; 
-
 }
 .eventimg {
   border-radius: 0%;

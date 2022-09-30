@@ -299,7 +299,29 @@ img {
   background-color: white;
   
 }
+.discordevnt1{
+  height:340px;
+  background-color: rgb(47, 49, 54);
+  width: 432px;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 40px;
+  text-align: left; 
 
+}
+.eventimg {
+  border-radius: 0%;
+  height: auto;
+  width: 432px;
+  max-width: none;
+  max-height: none;
+}
+.eventprofilebutton{
+  position: relative;
+  max-height:50px;
+  max-width: 50px;margin: 20px;
+  border-radius: 15px; background-color: white;
+}
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }

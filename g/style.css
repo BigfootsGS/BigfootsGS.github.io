@@ -103,10 +103,10 @@ video {
 
 .event1{
 background-color: rgba(222, 222, 222, 0.7);
-border-radius: 20px;
+border-radius: 7px;
 height: auto;
 margin: 30px;
-width:40vw; padding: 30px;
+padding: 30px;
 margin-left: auto;
 min-width: 432px;
 
@@ -306,7 +306,6 @@ img {
   width: 432px;
   border-radius: 4px;
   margin: auto;
-  margin-top: 40px;
   text-align: left; 
 }
 .eventimg {
@@ -315,12 +314,39 @@ img {
   width: 432px;
   max-width: none;
   max-height: none;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+
+}
+.p3discord{
+  color:rgb(185, 187, 190);
+  padding-left:20px;
+  font-size: 13px;
+}
+.codinglounge{
+border-radius: 0%;
+
+}
+.discbutton {
+background-color: rgb(79, 84, 92);
+height:40px;
+width: 120px;
+border-radius: 4px;
+margin-left: 60px;
+color: #ffffff;
+}
+.eventimgage {
+  padding-left:20px;
+  height:20px;
+  width: auto;
+  padding-top: 2px;
 }
 .eventprofilebutton{
   position: relative;
   max-height:50px;
   max-width: 50px;margin: 20px;
   border-radius: 15px; background-color: white;
+  margin-right:5px;
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);

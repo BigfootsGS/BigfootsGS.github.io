@@ -5,7 +5,7 @@
 console.warn(
   "%cNote!",
   "color: purple; font-weight: 600; background: yellow; padding: 0 5px; border-radius: 5px",
-  "This script mostly helps all of the games run, DO NOT REMOVE IT! If you want to add my games to your site, please reach out at my email: echo-the-coder@tuta.io\nDo not just add them without asking me first!"
+  "Thanks for using Bigfoot's Game Shack! Tab Cloak made by 3kh0! If you are trying to steal my code its literally public on github, if you need games message me on Discord and ill hit you up."
 );
 function log(text) {
   console.log("%cSite script", "color: red; font-weight: 600; background: black; padding: 0 5px; border-radius: 5px", text);
@@ -40,31 +40,3 @@ if (window.localStorage.hasOwnProperty("icon")) {
   tab("Icon not set :(");
 }
 tab("Tab cloak settings can be found in localStorage! If you want to change them, you can go tab cloak page.");
-
-// ====================================
-// SCRIPT INJECTION
-// ====================================
-
-script("Preparing 2 scripts to be injected...");
-
-const gascript = document.createElement("script");
-gascript.setAttribute("async", "");
-gascript.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-98DP5VKS42");
-const inlinegascript = document.createElement("script");
-inlinegascript.innerHTML = `window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-98DP5VKS42');`;
-document.head.append(gascript, inlinegascript);
-script("Injected script 1/2");
-
-const dmca = document.createElement("img");
-dmca.setAttribute("src", "https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=b58222e2-70c9-4ade-b53a-ef9a7b5ea03b");
-dmca.setAttribute("style", "display: none;")
-const dmcaS = document.createElement("script");
-dmcaS.setAttribute("src", "https://images.dmca.com/Badges/DMCABadgeHelper.min.js");
-script("Injected script 2/2");
-
-log("Script injections finished!");
-
-log("All done!");

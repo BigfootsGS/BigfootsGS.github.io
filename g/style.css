@@ -69,11 +69,21 @@ p {
 
 
 .infomaindetals{
-  font-size: 125px;
+  font-size: 10vw;
   padding-right:30px;
   text-align: right;
   background-color: #000000;
   color: #ffffff;
+}
+
+.animate-charcter {
+  font-size: 230px;
+}
+@media only screen and (max-width: 875px) {
+  .animate-charcter{
+    
+    font-size: 15vw;
+  }
 }
 .infomain {
 text-align: left;

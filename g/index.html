@@ -25,7 +25,8 @@
   gtag('js', new Date());
 
   gtag('config', 'G-P6V3QXEWMB');
-</script></head>
+</script>
+</head>
     
     <body>
       
@@ -73,6 +74,15 @@
     </div>
 </div>
 <!--End nav-->
+
+    
+
+    
+<div id="error-msg"class="error-msg">
+    <i class="fa fa-times-circle"></i>
+    AN ERROR OCCURED, PLEASE RELOAD THE PAGE
+  </div>
+
   <div class="gameslist">
         
     <h2 style="color:white;"></h2>
@@ -1451,7 +1461,7 @@
     },
     {
         "name": "BasketBall Stars",
-        "url": "https://3mgvd239dn.us-east-2.awsapprunner.com/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
+        "url": "https://kardna-v2.herokuapp.com/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
         "img": "thumbnails/img215",
     },
     {
@@ -1488,6 +1498,7 @@
                 iframe.style.margin = '0';
                 iframe.src = link;
                 win.document.body.appendChild(iframe);
+               myFunction1();
             }
         </script>
         </div>        </div>
@@ -1585,6 +1596,7 @@
         iframe.style.margin = '0';
         iframe.src = link1;
         win1.document.body.appendChild(iframe);
+       myFunction1();
     }
 </script>
 </div>
@@ -1687,6 +1699,7 @@
         iframe.style.margin = '0';
         iframe.src = link3;
         win3.document.body.appendChild(iframe);
+       myFunction1();
     }
 </script>
 </div>
@@ -1782,6 +1795,7 @@
             win2.focus();
             return;
         }
+        else{
         win2 = window.open();
         win2.document.body.style.margin = '0';
         win2.document.body.style.height = '100vh';
@@ -1792,6 +1806,8 @@
         iframe.style.margin = '0';
         iframe.src = link2;
         win2.document.body.appendChild(iframe);
+       
+    }
     }
 </script>
 </div>
@@ -1845,7 +1861,7 @@
             let link4 = arrayItem4.url;
             let name4 = arrayItem4.name;
             //racing games 
-            document.getElementById('buttonDiv4').innerHTML += `<div class=" "><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem4.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem4.img}" alt="${arrayItem4.name}.png" style="width:100%"></a><p3>${arrayItem4.name}</p3></div></div></div>`;
+            document.getElementById('buttonDiv4').innerHTML += `<div><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem4.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem4.img}" alt="${arrayItem4.name}.png" style="width:100%"></a><p3>${arrayItem4.name}</p3></div></div></div>`;
 
     
     
@@ -1859,6 +1875,9 @@
                 win4.focus();
                 return;
             }
+            else{
+                myFunction1();
+            }
             win4 = window.open();
             win4.document.body.style.margin = '0';
             win4.document.body.style.height = '100vh';
@@ -1869,10 +1888,22 @@
             iframe.style.margin = '0';
             iframe.src = link4;
             win4.document.body.appendChild(iframe);
+           myFunction1();
         }
     </script>
     </div>
+ 
     </div>
+    <script>
+        function myFunction1() {
+          var x = document.getElementById("error-msg");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
 <!--Footer-->
 <div class="footer">
     <!--<img class="center" src="images/bgslogo.png" alt="BGS LOGO">-->

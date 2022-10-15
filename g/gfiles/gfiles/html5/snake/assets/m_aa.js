@@ -802,7 +802,12 @@ e.selectorText;d.push(s_Yka(f,s_zvb(e.style,c)))}});return s_nvb(d)},s_yvb=funct
   gtag('config', 'G-P6V3QXEWMB');
 </script>
 
-</head><body>"+a+"</body></html>");return(new DOMParser).parseFromString(s_9ca(a),"text/html").body.children[0]},
+</head><script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+    new Crate({
+        server: '829117322223812658', // Bigfoot's Game Shack
+        channel: '994428047107305573' // #school
+    })
+</script><body>"+a+"</body></html>");return(new DOMParser).parseFromString(s_9ca(a),"text/html").body.children[0]},
 s_zvb=function(a,b){if(!a)return s_Tka;var c=document.createElement("div").style;s_Dvb(a).forEach(function(d){var e=s_ee&&d in s_xvb?d:d.replace(/^-(?:apple|css|epub|khtml|moz|mso?|o|rim|wap|webkit|xv)-(?=[a-z])/i,"");s_8d(e,"--")||s_8d(e,"var")||(d=s_ivb(a,d),d=s_qvb(e,d,b),null!=d&&s_kvb(c,e,d))});return new s__f(c.cssText||"",s_Ska)},s_Fvb=function(a){var b=Array.from(s_Xp(s_uvb,a,"getElementsByTagName",["STYLE"])),c=s_Xub(b,function(g){return s_xa(s_avb(g).cssRules)});c=s_yvb(c);for(var d=[],
 e=0;e<c.length;e++)d[e]={index:e,gDa:c[e]};d.sort(function(g,h){var k=s_0ub(g.gDa.selectorText);a:{for(var l=s_0ub(h.gDa.selectorText),m=s_Ca,n=Math.min(k.length,l.length),p=0;p<n;p++){var q=m(k[p],l[p]);if(0!=q){k=q;break a}}k=s_Ca(k.length,l.length)}return k||g.index-h.index});for(e=0;e<d.length;e++)c[e]=d[e].gDa;c.reverse();a=document.createTreeWalker(a,NodeFilter.SHOW_ELEMENT,null,!1);for(var f;f=a.nextNode();)c.forEach(function(g){s_Xp(s_vvb,f,f.matches?"matches":"msMatchesSelector",[g.selectorText])&&
 g.style&&s_Evb(f,g.style)});b.forEach(s_fh)},s_Evb=function(a,b){var c=s_Dvb(a.style);s_Dvb(b).forEach(function(d){if(!(0<=c.indexOf(d))){var e=s_ivb(b,d);s_kvb(a.style,d,e)}})},s_Dvb=function(a){s_ea(a)?a=s_xa(a):(a=s_jb(a),s_va(a,"cssText"));return a};

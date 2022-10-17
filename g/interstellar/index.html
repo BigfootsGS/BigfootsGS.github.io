@@ -53,9 +53,24 @@
             color: #fff
         }
 
-        /* 
-  Extra small devices (phones, 600px and down) 
-*/
+        @-moz-keyframes move-astronaut {
+				100% { -moz-transform: translate(-160px, -160px);}
+			}
+			@-webkit-keyframes move-astronaut {
+				100% { -webkit-transform: translate(-160px, -160px);}
+			}
+			@keyframes move-astronaut{
+				100% { -webkit-transform: translate(-160px, -160px); transform:translate(-160px, -160px); }
+			}
+			@-moz-keyframes rotate-astronaut {
+				100% { -moz-transform: rotate(-720deg);}
+			}
+			@-webkit-keyframes rotate-astronaut {
+				100% { -webkit-transform: rotate(-720deg);}
+			}
+			@keyframes rotate-astronaut{
+				100% { -webkit-transform: rotate(-720deg); transform:rotate(-720deg); }
+			}
         @media only screen and (max-width: 600px) {
             nav {
                 flex-direction: column;
@@ -87,14 +102,34 @@
         .logoint{
             position: fixed;
             z-index: 5;
-            height: 700px;
+            height: 600px;
             width: auto;
-            top: 50%;
-   left: 50%;
-   
-   margin-top: -350px; /* Half the height */
-   margin-left: -622px; /* Half the width */
+            
+            transition: 0.2s;
+            animation-iteration-count: infinite;
+            animation-name: logocenter;
+            animation-duration: 4s;
+            left: 50%; 
+            transform: translate(-50%,-50%); 
+            position: fixed; 
+            z-index: 1; 
+            top:50%;
         }
+        .logoint:hover {
+  transform: translate(-50%,-50%) scale(1.5) ; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+} 
+            .object_astronaut{
+				animation: rotate-astronaut 200s infinite linear both alternate;
+			}
+			
+			.box_astronaut{
+				z-index: 110 !important;
+				position: absolute;
+				top: 60%;
+				right: 20%;
+				will-change: transform;
+				animation: move-astronaut 50s infinite linear both alternate;
+			}
     </style>
     <nav>
         <h2>Interstellar</h2>
@@ -117,8 +152,14 @@
         </ul>
     </nav>
     <body>
-        <img src="logoint.png"class="logoint"></img>
+        <img src="interstellar.png" id="logoint"class="logoint"></img>
         <img src="background.png"class="img1"></img>
         <img src="2.png"class="img2"></img>
+        <div class="objects">
+			
+			<div class="box_astronaut">
+				<img class="object_astronaut" src="http://salehriaz.com/404Page/img/astronaut.svg" width="140px">
+			</div>
+		</div>
     </body>
 </html>

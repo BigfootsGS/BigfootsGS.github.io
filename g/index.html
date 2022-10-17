@@ -1477,192 +1477,79 @@
         "url": "https://kardna-v2.herokuapp.com/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
         "img": "thumbnails/img221",
     },
-
-    
-        
-        ]
-            //end array for game links
-
-            buttonArr.forEach(function(arrayItem) {
-                let link = arrayItem.url;
-                let name = arrayItem.name;
-                let category = arrayItem.category;
-                
-                document.getElementById('buttonDiv').innerHTML += `<div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem.url}')" href="javascript:void(0);"><img src="${arrayItem.img}" style="border-radius: 25px;" alt="${arrayItem.name}.png" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem.name}</p3></div></div>`;
-            } );
-            //end game code
-            let win;
-            function openGame(link) {
-                if (win) {
-                    win.focus();
-                    return;
-                }
-                win = window.open();
-                win.document.body.style.margin = '0';
-                win.document.body.style.height = '100vh';
-                const iframe = win.document.createElement('iframe');
-                iframe.style.border = 'none';
-                iframe.style.width = '100%';
-                iframe.style.height = '100%';
-                iframe.style.margin = '0';
-                iframe.src = link;
-                win.document.body.appendChild(iframe);
-               myFunction1();
-            }
-        </script>
-        </div>        </div>
-
-
-<!---->
-<div class="gameslist">
-        
-    <span class="container1"><div class=""><div class="text" data-text="effect"><h2 style="color:white;">Strategy & Puzzle</h2></div></div></span>
-    <br><div class="row">
-    <div style="padding-left: 20px"id="buttonDiv1"></div>
-    </div>
-
-<script type="text/javascript">
-    //start game code
-    let mobile1 = "<i class='ri-device-line'></i>";
-    let computer1 = "<i class='ri-computer-line'></i>"
-    var buttonArr1 = [
     {
-        "icon": computer1,
-        "category": "Puzzle",
+        
         "name": "Cookie Clicker",
         "url": "https://bigfoot9999.github.io/cc/",
         "img": "thumbnails/img29.png",
     }, 
     {
-        "icon": computer1,
-        "category": "Puzzle",
+        
         "name": "Flappy 2048",
         "url": "https://rga-bigfoot9999.vercel.app/src/flappy-2048/index.html",
         "img": "thumbnails/img32.png",
     }, 
     {
-        "icon": computer1,
-        "category": "Puzzle",
+        
         "name": "Google Solitaire",
         "url": "https://rga-bigfoot9999.vercel.app/src/google-solitaire/index.html",
         "img": "thumbnails/img34.png",
     }, 
      {
-        "icon": computer1,
-        "category": "Puzzle",
+        
         "name": "Hextris",
         "url": "https://rga-bigfoot9999.vercel.app/src/hextris/index.html",
         "img": "thumbnails/img35.jpg",
     }, {
-        "icon": computer1,
-        "category": "Puzzle",
+        
         "name": "Uno",
         "url": "https://rga-bigfoot9999.vercel.app/src/uno/index.html",
         "img": "thumbnails/img36.jpg",
     }, {
-        "icon": computer1,
-        "category": "Puzzle",
+        
         "name": "There is no Game",
         "url": "https://rga-bigfoot9999.vercel.app/src/there-is-no-game/index.html",
         "img": "thumbnails/img37.jpg",
     }, 
     {
-        "icon": computer1,
-        "category": "Puzzle",
+        
         "name": "MS Jewel",
         "url": "https://bigfoot9999.github.io/html5-games/games/ms-jewel/",
         "img": "thumbnails/img85.png",
     }, 
-]
-    //end array for game links
-    
-    buttonArr1.forEach(function(arrayItem1) {
-
-        //searchArr.push(arrayItem.name);
-        let link1 = arrayItem1.url;
-        let name1 = arrayItem1.name;
-        let category1 = arrayItem1.category;
-        document.getElementById('buttonDiv1').innerHTML += `<div class=" "><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem1.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem1.img}" alt="${arrayItem1.name}.png" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem1.name}</p3></div></div></div>`;
-
-
-        
-    } );
-    //end game code
-    let win1;
-
-    function openGame(link1) {
-        if (win1) {
-            win1.focus();
-            return;
-        }
-        win1 = window.open();
-        win1.document.body.style.margin = '0';
-        win1.document.body.style.height = '100vh';
-        const iframe = win1.document.createElement('iframe');
-        iframe.style.border = 'none';
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.style.margin = '0';
-        iframe.src = link1;
-        win1.document.body.appendChild(iframe);
-       myFunction1();
-    }
-</script>
-</div>
-
-<!---->
-<div class="gameslist">
-        
-    <span class="container1"><div class=""><div class="text" data-text="effect"><h2 style="color:white;">Arcade & Retro</h2></div></div></span>
-    <br><div class="row">
-    <div style="padding-left: 20px" id="buttonDiv3"></div>
-    </div>
-
-<script type="text/javascript">
-    //start game code
-    let mobile3 = "<i class='ri-device-line'></i>";
-    let computer3 = "<i class='ri-computer-line'></i>"
-    var buttonArr3 = [
     {
-        "icon": computer3,
-        "category": "buttonDiv1",
+        
         "name": "Celeste",
         "url": "https://rga-bigfoot9999.vercel.app/src/celeste/celeste.html",
         "img": "thumbnails/img44.jpg",
     },{
-        "icon": computer3,
-        "category": "buttonDiv1",
+        
         "name": "Chroma",
         "url": "https://rga-bigfoot9999.vercel.app/src/chroma/index.html",
         "img": "thumbnails/img43.png",
     },{
-        "icon": computer3,
-        "category": "buttonDiv1",
+        
         "name": "Doodle Jump",
         "url": "https://rga-bigfoot9999.vercel.app/src/doodle-jump/index.html",
         "img": "thumbnails/img39.png",
     },{
-        "icon": computer3,
-        "category": "buttonDiv1",
+        
         "name": "Economical",
         "url": "https://rga-bigfoot9999.vercel.app/src/economical/index.html",
         "img": "thumbnails/img41.gif",
     },{
-        "icon": computer3,
-        "category": "buttonDiv1",
+        
         "name": "Economical 2",
         "url": "https://rga-bigfoot9999.vercel.app/src/economical2/index.html",
         "img": "thumbnails/img42.png",
     },
     {
-        "icon": computer3,
-        "category": "buttonDiv1",
+        
         "name": "Flappy Bird",
         "url": "https://rga-bigfoot9999.vercel.app/src/flappybird/index.html",
         "img": "thumbnails/img40.png",
     },{
-        "icon": computer3,
-        "category": "buttonDiv1",
+        
         "name": "Space Invaders",
         "url": "https://rga-bigfoot9999.vercel.app/src/spaceinvaders/index.htmll",
         "img": "thumbnails/img57.jpg",
@@ -1675,54 +1562,8 @@
         "name": "Vivalda",
         "url": "https://bigfoot9999.github.io/html5-games/games/vivaldia/",
         "img": "thumbnails/img84.png",
-    }, 
-]
-    //end array for game links
-    
-    buttonArr3.forEach(function(arrayItem3) {
-
-        //searchArr.push(arrayItem.name);
-        let link3 = arrayItem3.url;
-        let name3 = arrayItem3.name;
-        let category3 = arrayItem3.category;
-        document.getElementById('buttonDiv3').innerHTML += `<div class=" "><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem3.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem3.img}" alt="${arrayItem3.name}.png" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem3.name}</p3></div></div></div>`;
-
-
-        
-    } );
-    //end game code
-    let win3;
-
-    function openGame(link3) {
-        if (win3) {
-            win3.focus();
-            return;
-        }
-        win3 = window.open();
-        win3.document.body.style.margin = '0';
-        win3.document.body.style.height = '100vh';
-        const iframe = win3.document.createElement('iframe');
-        iframe.style.border = 'none';
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.style.margin = '0';
-        iframe.src = link3;
-        win3.document.body.appendChild(iframe);
-       myFunction1();
-    }
-</script>
-</div>
-
-<!---->
-<div class="gameslist">
-        
-    <span class="container1"><div class=""><div class="text" data-text="effect"><h2 style="color:white;">Shooter & FPS </h2></div></div></span>
-    <br><div class="row">
-    <div style="padding-left: 20px" id="buttonDiv2"></div>
-    </div>
-<script type="text/javascript">
-    //start game code
-    var buttonArr2 = [{
+    },     
+    {
         
         "name": "1v1.lol",
         "url": "https://advanced-channeler.02.gz-associates.com/?t=tam-1v1-lol",
@@ -1793,125 +1634,66 @@
         "url": "https://kardna-v2.herokuapp.com/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
         "img": "thumbnails/img220",
     },
-]
-    //end array for game links
-    buttonArr2.forEach(function(arrayItem2) {
-
-        //searchArr.push(arrayItem.name);
-        let link2 = arrayItem2.url;
-        let name2 = arrayItem2.name;
-        let category2 = arrayItem2.category;
-        //shooter games btw
-        document.getElementById('buttonDiv2').innerHTML += `<div class=" "><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem2.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem2.img}" alt="${arrayItem2.name}.png" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem2.name}</p3></div></div></div>`;
-
-
-        
-    } );
-    //end game code
-    let win2;
-
-    function openGame(link2) {
-        if (win2) {
-            win2.focus();
-            return;
-        }
-        else{
-        win2 = window.open();
-        win2.document.body.style.margin = '0';
-        win2.document.body.style.height = '100vh';
-        const iframe = win2.document.createElement('iframe');
-        iframe.style.border = 'none';
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.style.margin = '0';
-        iframe.src = link2;
-        win2.document.body.appendChild(iframe);
-       
-    }
-    }
-</script>
-</div>
-</div>
-<!---->
-
-<div class="gameslist">
-        
-    <span class="container1"><div class=""><div class="text" data-text="effect"><h2 style="color:white;" >Racing & Car</h2></div></div></span>
-    <br><div class="row">
-    <div style="padding-left: 20px; padding-bottom: 20px;" id="buttonDiv4"></div>
-    </div>
-    <!---->
-
-    <script type="text/javascript">
-        //start game code
-        let mobile4 = "<i class='ri-device-line'></i>";
-        let computer4 = "<i class='ri-computer-line'></i>"
-        var buttonArr4 = [{
-            "icon": computer4,
+        {
             "name": "Drift Hunters",
             "url": "https://rga-bigfoot9999.vercel.app/src/drift-hunters/index.html",
             "img": "thumbnails/img53.png",
         }, 
         {
-            "icon": computer4,
             "name": "Fire Truck Dash",
             "url": "https://rga-bigfoot9999.vercel.app/src/fire-truck-dash/index.html",
             "img": "thumbnails/img54.png",
         }, 
         {
-            "icon": computer4,
             "name": "Super Car Parking",
             "url": "https://files.vitalitygames.com/games/webgl/2017/09/11/supercar-police-parking-2/index.html",
             "img": "thumbnails/img56.png",
         }, 
         
         {
-            "icon": computer4,
             "name": "Taz Driving 2",
             "url": "https://rga-bigfoot9999.vercel.app/src/russian-taz-magmes/index.html",
             "img": "thumbnails/img55.jpg",
            },
-    
-    ]
-        //end array for game links
-    
-        buttonArr4.forEach(function(arrayItem4) {
-    
-            //searchArr.push(arrayItem.name);
-            let link4 = arrayItem4.url;
-            let name4 = arrayItem4.name;
-            //racing games 
-            document.getElementById('buttonDiv4').innerHTML += `<div><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem4.url}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem4.img}" alt="${arrayItem4.name}.png" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem4.name}</p3></div></div></div>`;
 
     
-    
-            
-        } );
-        //end game code
-        let win4;
-    
-        function openGame(link4) {
-            if (win4) {
-                win4.focus();
-                return;
+        
+        ]
+            //end array for game links
+
+            buttonArr.forEach(function(arrayItem) {
+                let link = arrayItem.url;
+                let name = arrayItem.name;
+                let category = arrayItem.category;
+                
+                document.getElementById('buttonDiv').innerHTML += `<div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem.url}')" href="javascript:void(0);"><img src="${arrayItem.img}" style="border-radius: 25px;" alt="${arrayItem.name}.png" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem.name}</p3></div></div>`;
+            } );
+            //end game code
+            let win;
+            function openGame(link) {
+                if (win) {
+                    win.focus();
+                    return;
+                }
+                win = window.open();
+                win.document.body.style.margin = '0';
+                win.document.body.style.height = '100vh';
+                const iframe = win.document.createElement('iframe');
+                iframe.style.border = 'none';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.style.margin = '0';
+                iframe.src = link;
+                win.document.body.appendChild(iframe);
+               myFunction1();
             }
-            else{
-                myFunction1();
-            }
-            win4 = window.open();
-            win4.document.body.style.margin = '0';
-            win4.document.body.style.height = '100vh';
-            const iframe = win4.document.createElement('iframe');
-            iframe.style.border = 'none';
-            iframe.style.width = '100%';
-            iframe.style.height = '100%';
-            iframe.style.margin = '0';
-            iframe.src = link4;
-            win4.document.body.appendChild(iframe);
-           myFunction1();
-        }
-    </script>
-    </div>
+        </script>
+        </div>        </div>
+
+
+
+
+
  
     </div>
     <script>

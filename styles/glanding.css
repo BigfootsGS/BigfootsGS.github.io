@@ -1,13 +1,7 @@
-/* Credit
-    Design/Challenge : https://www.frontendmentor.io
 
-    Developed/Code by Devance
-*/
 
-/* Font Style/Family */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
 
-/* <---------Reset CSS---------> */
 
 *,
 *::before,
@@ -20,7 +14,6 @@
 *::after {
 	animation-duration: 0.01ms !important;
 	animation-iteration-count: 1 !important;
-	transition-duration: 0.01ms !important;
 	scroll-behavior: auto !important;
 }
 
@@ -65,10 +58,6 @@ p,h1,h2,h3,h4,h5,h6 {
 	isolation: isolate;
 }
 
-/* </---------Reset CSS---------> */
-
-/* <---------Variables---------> */
-
 :root {
 	/* Primary Colors */
 	--Violet: rgb(45, 28, 14);
@@ -84,9 +73,6 @@ p,h1,h2,h3,h4,h5,h6 {
 	--bold: 600;
 }
 
-/* </---------Variables---------> */
-
-/* <---------Utility Classes---------> */
 
 .head {
 	font-size: var(--head);
@@ -102,9 +88,7 @@ p,h1,h2,h3,h4,h5,h6 {
 	font-family: "Open Sans", sans-serif;
 }
 
-/* </---------Utility Classes---------> */
 
-/* <---------General CSS---------> */
 
 .background {
 	min-height: 100vh;
@@ -149,11 +133,13 @@ p,h1,h2,h3,h4,h5,h6 {
 	border-radius: 2em;
 	box-shadow: 5px 5px 10px 0px rgba(63, 63, 63, 0.86);
 	cursor: pointer;
+	transition: .5s;
 }
 
 .btn:hover {
 	color: var(--white);
-	background-color: rgb(45, 28, 14);
+	background-color: rgb(63, 39, 19);
+	animation-duration: 0.5s;
 }
 
 .socials {
@@ -174,38 +160,7 @@ p,h1,h2,h3,h4,h5,h6 {
 	background-size: 1.5em;
 }
 
-.social-btn:hover {
-	border: 2px solid var(--Soft-Magenta);
-}
 
-.facebook {
-	background-image: url(https://bit.ly/3ANDWRW);
-}
-
-.facebook:hover {
-	background-image: url(https://bit.ly/3Aj9mOo);
-}
-
-.twitter {
-	background-image: url(https://bit.ly/3e1Xl8Q);
-}
-
-.twitter:hover {
-	background-image: url(https://bit.ly/3R9V4Xp);
-}
-.instagram {
-	background-image: url(https://bit.ly/3pO9z7r);
-}
-
-.instagram:hover {
-	background-image: url(https://bit.ly/3dTh0aN);
-}
-
-/* </---------General CSS---------> */
-
-/* <---------Media Queries---------> */
-
-/* For medium screen */
 @media (min-width: 800px) and (max-width: 1200px) {
 	:root {
 		--head: 2.5rem;
@@ -217,7 +172,6 @@ p,h1,h2,h3,h4,h5,h6 {
 	}
 }
 
-/* For smaller screen */
 @media (min-width: 200px) and (max-width: 800px) {
 	:root {
 		--head: 2rem;
@@ -261,7 +215,6 @@ p,h1,h2,h3,h4,h5,h6 {
 	}
 }
 
-/* For medium screen */
 @media (min-width: 600px) and (max-width: 800px) {
 	:root {
 		--head: 2.5rem;
@@ -269,4 +222,3 @@ p,h1,h2,h3,h4,h5,h6 {
 	}
 }
 
-/* </---------Media Queries---------> */

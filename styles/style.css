@@ -489,20 +489,7 @@ a.active{
     .container1:hover .text::before,.container1:hover::before {
         width: 100%;
    }
- #view-code{
-     color:#48cfad;
-     font-size:14px;
-     text-transform:uppercase;
-     font-weight:700;
-     text-decoration:none;
-     position:absolute;
-    top:640px;
-     left:50%;
-    margin-left:-35px;
-}
- #view-code:hover{
-    color:#34c29e;
-}
+ 
 
  .btn {
      background-color: DodgerBlue;
@@ -511,6 +498,8 @@ a.active{
      padding: 12px 16px;
      font-size: 16px;
      cursor: pointer;
+     transition: .5s;
+
 }
  .btn:hover {
      background-color: RoyalBlue;
@@ -526,10 +515,14 @@ a.active{
     .nav1 {
         position: relative;
     }
+
 }
  @media screen and (min-width: 1000px) {
      html {
          background-color: #ffffff;
+    }
+    .footer{
+        padding-top: 330px;
     }
      .phonestuff{
          display: none;

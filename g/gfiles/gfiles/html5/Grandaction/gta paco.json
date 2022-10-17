@@ -1,0 +1,13 @@
+{
+"companyName": "hgamesartspider",
+"productName": "Grand Action Simulator - New York Car Gang",
+"dataUrl": "gta paco.data.unityweb",
+"asmCodeUrl": "gta paco.asm.code.unityweb",
+"asmMemoryUrl": "gta paco.asm.memory.unityweb",
+"asmFrameworkUrl": "gta paco.asm.framework.unityweb",
+"TOTAL_MEMORY": 536870912,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

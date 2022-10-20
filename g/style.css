@@ -38,7 +38,7 @@ button {
   width: 300px;
   position:fixed;
   right: 10px;
-  top: 10px;
+  bottom: 50vh;
   z-index: 5;
   display: none;
 }
@@ -445,7 +445,6 @@ color: #ffffff;
 .card {
   transition: transform .2s;
 }
-/*Scroll effect*/
 
 
 .reveal {
@@ -614,4 +613,19 @@ color: #ffffff;
       width: 100%;
       margin-left:0px;
   }
+}
+
+
+.belownavbar {
+  padding-top: 77px;
+}
+@media screen and (max-width: 1275px) {
+  .belownavbar {
+    padding-top: 149px;
+}
+}
+@media screen and (max-width: 1000px) {
+  .belownavbar {
+    padding-top: 500px;
+}
 }

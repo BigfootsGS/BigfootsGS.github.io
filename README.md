@@ -18,7 +18,7 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 [![Deploy with Netlify](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/BigfootsGS/BigfootsGS.github.io)
 [![Deploy with Vercel](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/BigfootsGS/BigfootsGS.github.io)
   [![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/BigfootsGS/BigfootsGS.github.io)
-  
+  [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/apps/deploy?type=git&repository=github.com/bigfootsgs/bigfootsgs.github.io)
   <div align='center'> </div>
 <img src="https://contrib.rocks/image?repo=BigfootsGS/BigfootsGS.github.io"/>
 <div align='left'>

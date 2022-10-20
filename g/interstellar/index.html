@@ -13,8 +13,6 @@
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6840529569014734" crossorigin="anonymous"></script>
         <script async src="https://arc.io/widget.min.js#gcM6sndx"></script>
     </head>
-    <!--API SCRIPT ASK BIGFOOT9999 about what this is-->
-    <script src="/js/index.js"></script>
     <!--End Script-->
     <script src="/js/index.js"></script>
     <!--NAVBAR-->
@@ -24,10 +22,12 @@
             margin: 0;
         }
 
+        @import 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap';
+
         body {
-            font-family: Arial, Tahoma, Serif;
             color: #fff;
             overflow-x: hidden;
+            font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
         }
 
         nav {
@@ -35,8 +35,9 @@
             justify-content: space-between;
             align-items: center;
             padding: 1rem 2rem;
-            background: #000;
+            background: rgba(0, 0, 0, 0);
             position: fixed;
+            width: 100vw;
         }
 
         nav ul {
@@ -48,29 +49,53 @@
             padding-left: 1rem;
         }
 
+        .lastnavbutton {
+            padding-right: 68px;
+        }
+
         nav a {
             text-decoration: none;
             color: #fff
         }
 
         @-moz-keyframes move-astronaut {
-				100% { -moz-transform: translate(-160px, -160px);}
-			}
-			@-webkit-keyframes move-astronaut {
-				100% { -webkit-transform: translate(-160px, -160px);}
-			}
-			@keyframes move-astronaut{
-				100% { -webkit-transform: translate(-160px, -160px); transform:translate(-160px, -160px); }
-			}
-			@-moz-keyframes rotate-astronaut {
-				100% { -moz-transform: rotate(-720deg);}
-			}
-			@-webkit-keyframes rotate-astronaut {
-				100% { -webkit-transform: rotate(-720deg);}
-			}
-			@keyframes rotate-astronaut{
-				100% { -webkit-transform: rotate(-720deg); transform:rotate(-720deg); }
-			}
+            100% {
+                -moz-transform: translate(-160px, -160px);
+            }
+        }
+
+        @-webkit-keyframes move-astronaut {
+            100% {
+                -webkit-transform: translate(-160px, -160px);
+            }
+        }
+
+        @keyframes move-astronaut {
+            100% {
+                -webkit-transform: translate(-160px, -160px);
+                transform: translate(-160px, -160px);
+            }
+        }
+
+        @-moz-keyframes rotate-astronaut {
+            100% {
+                -moz-transform: rotate(-720deg);
+            }
+        }
+
+        @-webkit-keyframes rotate-astronaut {
+            100% {
+                -webkit-transform: rotate(-720deg);
+            }
+        }
+
+        @keyframes rotate-astronaut {
+            100% {
+                -webkit-transform: rotate(-720deg);
+                transform: rotate(-720deg);
+            }
+        }
+
         @media only screen and (max-width: 600px) {
             nav {
                 flex-direction: column;
@@ -86,12 +111,14 @@
                 padding: 0.5rem 0;
             }
         }
-        .img1{
+
+        .img1 {
             width: cover;
             height: cover;
             padding: none;
         }
-        .img2{
+
+        .img2 {
             width: cover;
             height: cover;
             padding: none;
@@ -99,37 +126,71 @@
             margin-bottom: -6px;
             z-index: 0;
         }
-        .logoint{
+
+        .logoint {
             position: fixed;
             z-index: 5;
-            height: 600px;
+            height: 400px;
             width: auto;
-            
-            transition: 0.2s;
+            transition: 1s;
             animation-iteration-count: infinite;
             animation-name: logocenter;
             animation-duration: 4s;
-            left: 50%; 
-            transform: translate(-50%,-50%); 
-            position: fixed; 
-            z-index: 1; 
-            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: fixed;
+            z-index: 99999;
+            top: 40%;
         }
+
         .logoint:hover {
-  transform: translate(-50%,-50%) scale(1.5) ; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-} 
-            .object_astronaut{
-				animation: rotate-astronaut 200s infinite linear both alternate;
-			}
-			
-			.box_astronaut{
-				z-index: 110 !important;
-				position: absolute;
-				top: 60%;
-				right: 10%;
-				will-change: transform;
-				animation: move-astronaut 50s infinite linear both alternate;
-			}
+            transform: translate(-50%, -50%) scale(1.2);
+            /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+
+        .logobuttn {
+            position: fixed;
+            z-index: 5;
+            height: 50px;
+            width: 200px;
+            border-radius: 20px;
+            transition: 0.5s;
+            animation-iteration-count: infinite;
+            animation-name: logobuttn;
+            animation-duration: 4s;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: fixed;
+            z-index: 0;
+            top: 75%;
+            font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            background-color:rgba(59, 56, 56, 0.356);
+            color: white;
+            border-color: rgba(0, 0, 0, 0);
+            cursor: pointer;
+
+        }
+
+        .logobuttn:hover {
+            transform: translate(-50%, -50%) scale(1.2);
+            background-color:rgba(59, 56, 56, 0.19);
+
+            /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+
+        .object_astronaut {
+            animation: rotate-astronaut 200s infinite linear both alternate;
+        }
+
+        .box_astronaut {
+            z-index: 110 !important;
+            position: absolute;
+            top: 60%;
+            right: 10%;
+            will-change: transform;
+            animation: move-astronaut 50s infinite linear both alternate;
+        }
     </style>
     <nav>
         <h2>Interstellar</h2>
@@ -146,20 +207,20 @@
             <li>
                 <a href="/math.html">Exploits</a>
             </li>
-            <li>
+            <li class="lastnavbutton">
                 <a onclick="widgetBot()">Widgetbot</a>
             </li>
         </ul>
     </nav>
     <body>
-        <img src="interstellar.png" id="logoint"class="logoint"></img>
-        <img src="background.png"class="img1"></img>
-        <img src="2.png"class="img2"></img>
+        <img src="Interstelar Network.png" id="logoint" class="logoint"></img>
+        <a href='https://dsc.gg/interstellarnetwork'><button onclick="window.location.href='https://dsc.gg/interstellarnetwork'" class="logobuttn">Join our Discord!</button></a>
+        <img src="background.png" class="img1"></img>
+        <img src="2.png" class="img2"></img>
         <div class="objects">
-			
-			<div class="box_astronaut">
-				<img class="object_astronaut" src="http://salehriaz.com/404Page/img/astronaut.svg" width="140px">
-			</div>
-		</div>
+            <div class="box_astronaut">
+                <img class="object_astronaut" src="http://salehriaz.com/404Page/img/astronaut.svg" width="140px">
+            </div>
+        </div>
     </body>
 </html>

@@ -71,7 +71,8 @@
                 </div>
                 <div style="margin-top: 10px;min-width: 140px;"class="span2">
                     <span class="container1">
-                    <a class="active" href="../other/index.html">
+                        
+                    <a onclick="opensettings();" class="active" >
                         <div class="text" data-text="effect"><h1>Settings</h1></div>
                     </a></span>
                 </div>
@@ -82,7 +83,52 @@
 
 
 <div class="belownavbar" style="">
-    
+    <!--Start Settings code-->
+    <div class="console">
+        <div>
+          
+          
+            <div id="opensettingsid"class="notsettingspagesettings">
+        <h1>SETTINGS</h1>
+        <div class="consolebody">
+          <p><span id="console-output"></span></p>
+
+          <p class="console-input"><input id="userinput" type="url" pattern="https://.*" placeholder="Enter a title or image URL" autocomplete="on" autofocus /></p>
+        </div>
+      
+      <div class="button-wrapper">
+        <button style="margin-bottom:10px;background-color: rgb(58, 39, 12);height:50px;width:100px;color:white;" onclick="blank();">Open Tab in about:blank</button>
+
+        <button style="margin-bottom:10px;background-color: rgb(58, 39, 12);height:50px;width:75px;color:white;" onclick="changeTabTitle();" class="console-button">Set Title</button>
+        <button style="margin-bottom:10px;background-color: rgb(58, 39, 12);height:50px;width:75px;color:white;" onclick="changeTabIcon();" class="console-button">Set Icon</button>
+        <button style="margin-bottom:10px;background-color: rgb(58, 39, 12);height:50px;width:75px;color:white;" onclick="resetTabSettings();" class="console-button">Reset</button>
+      </div>
+      <div style=""class="examples">
+        <p><b>Google Search: </b><button style="background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://storage.googleapis.com/operating-anagram-8280/favicon-32x32.png', 'Math pratice - Google Search');">Apply</button></p>
+        <p><b>Google Classroom: </b><button style="background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://ssl.gstatic.com/classroom/favicon.png', 'Classes');">Apply</button></p>
+        <p><b>Google Docs: </b><button style="background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico', 'Class notes - Google Docs');">Apply</button></p>
+        <p><b>Google Drive: </b><button style="background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://ssl.gstatic.com/images/branding/product/2x/hh_drive_36dp.png', 'My Drive - Google Drive');">Apply</button></p>
+        <p><b>Canvas: </b><button style="background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico' , 'Dashboard');">Apply</button></p>
+        <p><b>Schoology: </b><button style="background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico', 'Home | Schoology');">Apply</button></p>
+        <p>
+          <b>my NG connect: </b>
+          <button style="background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.myngconnect.com/login/chooseMainUI.spr&size=16', 'my NG connect');">Apply</button>
+          <a onclick="opensettings();">
+            <div><p2 style="cursor: pointer;">Close Settings</p2></div>
+        </a>
+        </div>
+  </div>
+  </div>
+    </div>
+    <script src="../scripts/settings.js"></script><!--aka main.js-->
+    <script src="../scripts/tab.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../scripts/opensettingstab.js"></script>
+
+    <!--end Settings code-->
+
+
+
 <div id="error-msg"class="error-msg">
     <i class="fa fa-times-circle"></i>
     AN ERROR OCCURED, PLEASE RELOAD THE PAGE
@@ -1719,7 +1765,16 @@
             x.style.display = "none";
           }
         }
+        function opensettings(){
+    const id = document.getElementById("opensettingsid");
+    if (id.style.display === "none") {
+        id.style.display = "block";
+      } else {
+        id.style.display = "none";
+      }
+}
         </script>
+
 <!--Footer-->
 <div class="footer">
     <!--<img class="center" src="images/bgslogo.png" alt="BGS LOGO">-->

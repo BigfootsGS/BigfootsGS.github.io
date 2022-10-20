@@ -38,7 +38,7 @@ button {
   width: 300px;
   position:fixed;
   right: 10px;
-  top: 10px;
+  bottom: 50vh;
   z-index: 5;
   display: none;
 }

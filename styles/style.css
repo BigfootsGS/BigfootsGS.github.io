@@ -492,13 +492,13 @@ a.active{
  
 
  .btn {
-     background-color: DodgerBlue;
-     border: none;
+     border-width: 0ch;
      color: white;
      padding: 12px 16px;
      font-size: 16px;
      cursor: pointer;
      transition: .5s;
+     border-color: #08091100;
 
 }
  .btn:hover {

@@ -629,3 +629,14 @@ color: #ffffff;
     padding-top: 500px;
 }
 }
+.notsettingspagesettings{
+  position: fixed;
+  top:100px;
+  right: 20px;
+  background-color: #000000;
+  background-color:rgba(194, 194, 194, 0.822);
+  width: 400px;border-radius: 20px;text-align: left;padding:17px;
+  z-index: 9999999999;
+  text-transform: uppercase;
+  display: none;
+}

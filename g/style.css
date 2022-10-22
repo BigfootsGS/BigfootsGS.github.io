@@ -640,3 +640,10 @@ color: #ffffff;
   text-transform: uppercase;
   display: none;
 }
+.floatright {
+  float: right;
+
+}
+.floatleft{
+  float: left;
+}

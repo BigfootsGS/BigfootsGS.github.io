@@ -22,8 +22,10 @@
         <meta name="google-site-verification" content="17dinb5b-QEZz8CfKEUNy_eM_P2ebyM-cYBDVUsCQMM" />
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
+
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="scripts/fonts/remixicon.css">
         <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
@@ -56,63 +58,112 @@
         <div style="background-color: rgb(255, 255, 255); text-decoration: none;" class="row">
             <div style="z-index:5;">
                 <div class="one">
-                    <section class="" style="text-align: center;">
-                        <div style="margin-left:20px;padding-top: 20px;" class="span2 logonav">
+                    <section style="text-align: center;">
+                        <div style="padding-bottom: 0px;margin-left:20px;padding-top: 20px;" class="span2 logonav floatleft">
                             <a href="#">
                                 <img style="width:166px;height: auto;" src="images/bgslogotransparent.png" />
                             </a>
                         </div>
-                        <div style="margin-left:20px;padding-top: 15px;min-width: 140px; text-decoration: none;" class="span2 navlink">
-                            <span class="container1">
+                        <div style="margin-left:20px;padding-top: 15px;min-width: 140px; text-decoration: none;" class="span2 navlink floatright">
+                            <span >
                                 <a class="active" href="g/index.html">
                                     <div class="text" data-text="effect">
-                                        <h1>Games</h1>
+                                        <h1 class="newanim">Games</h1>
                                     </div>
                                 </a>
                             </span>
-                        </div>
-                        <div style="margin-left:20px;padding-top: 15px;min-width: 140px; text-decoration: none;" class="span2 navlink">
-                            <span class="container1">
+                        </div> 
+                        <div style="margin-left:20px;padding-top: 15px;min-width: 140px; text-decoration: none;" class="span2 navlink floatright">
+                            <span>
                                 <a class="active" href="events/index.html">
                                     <div class="text" data-text="effect">
-                                        <h1>Events</h1>
+                                        <h1 class="newanim">Events</h1>
                                     </div>
                                 </a>
                             </span>
                         </div>
-                        <div style="margin-left:20px;padding-top: 15px;min-width: 140px; text-decoration: none;" class="span2 navlink">
-                            <span class="container1">
+                        <div style="margin-left:20px;padding-top: 15px;min-width: 140px; text-decoration: none;" class="span2 navlink floatright">
+                            <span >
                                 <a class="active" href="about-us/info.html">
                                     <div class="text" data-text="effect">
-                                        <h1>Info</h1>
+                                        <h1 class="newanim">Info</h1>
                                     </div>
                                 </a>
                             </span>
                         </div>
-                        <div style="margin-left:20px;padding-top: 15px;min-width: 140px; text-decoration: none;" class="span2 navlink">
-                            <span class="container1">
+                        <div style="margin-left:20px;padding-top: 15px;min-width: 140px; text-decoration: none;" class="span2 navlink floatright">
+                            <span >
                                 <a class="active" href="apps/index.html">
                                     <div class="text" data-text="effect">
-                                        <h1>Apps</h1>
+                                        <h1 class="newanim">Apps</h1>
                                     </div>
                                 </a>
                             </span>
                         </div>
-                        <div style="margin-left:20px;padding-top: 15px;min-width: 140px; text-decoration: none;" class="span2 navlink">
-                            <span class="container1">
-                                <a class="active" href="other/index.html">
-                                    <div class="text" data-text="effect">
-                                        <h1>Settings</h1>
-                                    </div>
-                                </a>
-                            </span>
-                        </div>
-                </div>
-            </div>
-        </div>
+                        
+                        <!--Copy from here down to end Settings code for settings popup-->
+       <div style="margin-left:20px;padding-top: 15px;min-width: 140px; text-decoration: none;"class="span2 navlink floatright">
+        <span >
+            
+        <a href="javascript:void(0);" onclick="opensettings();" class="active">
+            <div class="text" data-text="effect"><h1 class="newanim">Settings</h1></div>
+        </a></span>
+    </div>
+</div>
+</div>
+</div>
+<!--End nav-->
+
+
+<div class="belownavbar">
+<!--Start Settings code-->
+<div class="console">
+<div>
+
+
+<div id="opensettingsid"class="notsettingspagesettings">
+<h1>SETTINGS</h1>
+<div class="consolebody">
+<p><span id="console-output"></span></p>
+
+<p class="console-input"><input id="userinput" type="url" pattern="https://.*" placeholder="Enter a title or image URL" autocomplete="on" autofocus /></p>
+</div>
+
+<div class="button-wrapper">
+<button style="padding: 0px;margin-bottom:10px;background-color: rgb(58, 39, 12);height:50px;width:100px;color:white;" onclick="blank();">Open Tab in about:blank</button>
+
+<button style="padding: 0px;margin-bottom:10px;background-color: rgb(58, 39, 12);height:50px;width:75px;color:white;" onclick="changeTabTitle();" class="console-button">Set Title</button>
+<button style="padding: 0px;margin-bottom:10px;background-color: rgb(58, 39, 12);height:50px;width:75px;color:white;" onclick="changeTabIcon();" class="console-button">Set Icon</button>
+<button style="margin-bottom:10px;padding: 0px;background-color: rgb(58, 39, 12);height:50px;width:75px;color:white;" onclick="resetTabSettings();" class="console-button">Reset</button>
+</div>
+<div style=""class="examples">
+<p><b>Google Search: </b><button style="padding: 0px;background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://storage.googleapis.com/operating-anagram-8280/favicon-32x32.png', 'Math pratice - Google Search');">Apply</button></p>
+<p><b>Google Classroom: </b><button style="padding: 0px;background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://ssl.gstatic.com/classroom/favicon.png', 'Classes');">Apply</button></p>
+<p><b>Google Docs: </b><button style="padding: 0px;background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico', 'Class notes - Google Docs');">Apply</button></p>
+<p><b>Google Drive: </b><button style="padding: 0px;background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://ssl.gstatic.com/images/branding/product/2x/hh_drive_36dp.png', 'My Drive - Google Drive');">Apply</button></p>
+<p><b>Canvas: </b><button style="padding: 0px;background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico' , 'Dashboard');">Apply</button></p>
+<p><b>Schoology: </b><button style="padding: 0px;background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico', 'Home | Schoology');">Apply</button></p>
+<p>
+<b>my NG connect: </b>
+<button style="padding: 0px;background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.myngconnect.com/login/chooseMainUI.spr&size=16', 'my NG connect');">Apply</button>
+<a onclick="opensettings();">
+<div><p2 style="cursor: pointer;">Close Settings</p2></div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<script src="scripts/settings.js"></script><!--aka main.js-->
+<script src="scripts/tab.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="scripts/opensettingstab.js"></script>
+<script src="scripts/alert.js"></script>
+</div>
+<!--end Settings code-->
+
         <div class="contentbelownav">
             <!--<div class="alert" style="text-align: center;"> Thanks for 100k! </div>-->
-            <img style="background-image:url(images/1.png); background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;width: 100vw; max-width:100vw;" src="images/wave1-2.png" alt="background">
+            <img style="background-image:url(images/1.png); background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;width: 100vw; max-width:100vw;background-position-y: 00px;" src="images/wave1-2.png" alt="background">
             <!---->
             <div class="main">
                 <section>

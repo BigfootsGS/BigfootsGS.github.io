@@ -9,6 +9,7 @@
         <link rel="shortcut icon" href="/media/favicon/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/css/styles/games.css">
         <link rel="stylesheet" href="/css/galaxy.css" />
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         <link rel="stylesheet" href="/css/index.css" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6840529569014734" crossorigin="anonymous"></script>
         <script async src="https://arc.io/widget.min.js#gcM6sndx"></script>
@@ -21,7 +22,7 @@
         <h2>Interstellar</h2>
         <ul>
             <li>
-                <a href="/./">Home</a>
+                <a href="#">Home</a>
             </li>
             <li>
                 <a href="/play.html">Games</a>
@@ -41,6 +42,11 @@
         <img src="Interstelar Network.png" id="logoint" class="logoint"></img>
         <!--<a href='https://dsc.gg/interstellarnetwork'><button onclick="window.location.href='https://dsc.gg/interstellarnetwork'" class="logobuttn">Join our Discord!</button></a>-->
         <img src="background.png" class="img1"></img>
+        <div class="abcontainer">
+        <h1 class="gametitle">Play 469+ Games Instantly</h1>
+        <h2 class="gametitle2">Hundreds of unblocked games complete with tab cloaking. Join +1 million gamers today using Interstellar Network!</h2>
+        <button class="logobuttn" onclick="window.location.href='../'">Play Now!</button>
+    </div>
         <img src="bkgrndHD.png" class="img2"></img>
         <div class="objects">
             <div class="box_astronaut">
@@ -50,7 +56,7 @@
         <!--Footer-->
         <div class="footer">
             <!--<img class="center" src="images/bgslogo.png" alt="BGS LOGO">-->
-            <div style="position:absolute;bottom:-1450px;" class="row">
+            <div style="background-color:#000000;" class="row">
                 <div class="span4">
                     <h2 style="padding-left: 22px;padding-top: 30px;">Site Map</h2>
                     <h4 style="padding-left: 22px;padding-top: 5px;">
@@ -119,7 +125,8 @@
             body {
                 color: #fff;
                 overflow-x: hidden;
-                font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+                font-family: "Poppins", sans-serif;
+                
             }
 
             nav {
@@ -150,6 +157,32 @@
                 color: #fff
             }
 
+            .gametitle {
+                position: relative;
+                color: #fff;
+                font-size: 70px;
+                text-align: left;
+                padding-bottom: 50px;
+                line-height: 90px;
+            }
+
+            .gametitle2{
+                position: relative;
+                max-width: 520px;
+                text-align: left;
+                color: #fff;
+                font-size: 30px;
+                line-height: 40px;
+
+            }
+            .abcontainer{
+                position: absolute;
+                transform: translate(-50%, -50%);
+                left: 36%;
+                top: 115%;
+                width: 800px;
+
+            }
             @-moz-keyframes move-astronaut {
                 100% {
                     -moz-transform: translate(-160px, -160px);
@@ -221,7 +254,6 @@
             }
 
             .logoint {
-                position: fixed;
                 z-index: 5;
                 height: 400px;
                 width: auto;
@@ -231,42 +263,41 @@
                 animation-duration: 4s;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                position: fixed;
+                position: absolute;
                 z-index: 99999;
-                top: 40%;
+                top: 50%;
             }
 
             .logoint:hover {
                 transform: translate(-50%, -50%) scale(1.2);
                 /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
             }
-
+            .html {
+                background: black;
+            }
             .logobuttn {
-                position: fixed;
                 z-index: 5;
                 height: 50px;
                 width: 200px;
-                border-radius: 20px;
+                border-radius: 10px;
                 transition: 0.5s;
                 animation-iteration-count: infinite;
                 animation-name: logobuttn;
                 animation-duration: 4s;
                 left: 50%;
-                transform: translate(-50%, -50%);
-                position: fixed;
                 z-index: 0;
                 top: 75%;
-                font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
                 font-size: 20px;
-                background-color: rgba(59, 56, 56, 0.356);
+                background-color: rgba(119, 114, 114, 0.356);
                 color: white;
                 border-color: rgba(0, 0, 0, 0);
                 cursor: pointer;
+                margin-top: 30px;
             }
 
             .logobuttn:hover {
-                transform: translate(-50%, -50%) scale(1.2);
-                background-color: rgba(59, 56, 56, 0.19);
+                transform: scale(1.2);
+                background-color: rgba(59, 56, 56, 0.116);
                 /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
             }
 

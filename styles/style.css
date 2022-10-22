@@ -521,9 +521,7 @@ a.active{
      html {
          background-color: #ffffff;
     }
-    .footer{
-        padding-top: 330px;
-    }
+    
      .phonestuff{
          display: none;
     }
@@ -555,7 +553,10 @@ a.active{
     transition: .5s;
 
   }
- 
-  .floatleft{
+  .floatright {
     float: right;
+  
+  }
+  .floatleft{
+    float: left;
   }

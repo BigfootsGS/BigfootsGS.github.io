@@ -1,3 +1,10 @@
+.floatright {
+  float: right;
+
+}
+.floatleft{
+  float: left;
+}
 button {
   background: rgba(255, 255, 255, 0);
   color: black;
@@ -639,11 +646,4 @@ color: #ffffff;
   z-index: 9999999999;
   text-transform: uppercase;
   display: none;
-}
-.floatright {
-  float: right;
-
-}
-.floatleft{
-  float: left;
 }

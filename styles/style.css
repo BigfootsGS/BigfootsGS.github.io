@@ -532,3 +532,28 @@ a.active{
 .nav1 {
     position: fixed;
 }
+
+
+  
+.notsettingspagesettings{
+    position: fixed;
+    top:100px;
+    right: 20px;
+    background-color: #000000;
+    background-color:rgba(194, 194, 194, 0.822);
+    width: 400px;border-radius: 20px;text-align: left;padding:17px;
+    z-index: 9999999999;
+    text-transform: uppercase;
+    display: none;
+  }
+  .newanim{
+    /*for new animation on text on main page*/
+    padding: 17px;
+  }
+  .newanim:hover{
+    color: rgb(58, 39, 12);
+    transition: .5s;
+
+  }
+ 
+  

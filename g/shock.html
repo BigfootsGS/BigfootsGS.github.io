@@ -379,7 +379,7 @@
     //end array for game links
     
     buttonArr7.forEach(function(arrayItem7) {
-        let link7 = 'https://science.lonelytab.ga/?url='+arrayItem7.url;
+        let link7 = arrayItem7.url;
         let name7 = arrayItem7.name;
         let category7 = arrayItem7.category;
         document.getElementById('buttonDiv7').innerHTML += `<div class=" reveal "><div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${link7}')" href="javascript:void(0);"><img style="border-radius: 25px;"" src="${arrayItem7.img}" alt="${arrayItem7.name}.png" style="width:100%"></a><p3>${arrayItem7.name}</p3></div></div></div>`;

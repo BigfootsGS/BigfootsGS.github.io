@@ -31,38 +31,43 @@
     
     <body>
 <!--Start Nav-->
-<div style="background-color: rgb(255, 255, 255);" class="row">
+<div style="background-color: rgb(255, 255, 255);width: 100vw;z-index: 999999;" class="row">
     <div style="z-index:5;">
         <div class="one">
-            <section class="company-heading intro-type"  style="text-align: center;">
-                <div class="span2">
-                    <a href="../"><img style="border-radius: 0 0;width:166px;height: auto;" src="../images/bgslogotransparent.png" /></a>
+            <section style="text-align: center;">
+                <div style="float: left;"class="floatleft span2">
+                    <a href="../"><img  class="imagelogotop"style="border-radius: 0 0;"src="../images/bgslogotransparent.png"/></a>
                 </div>
-                <div style="margin-top: 10px;min-width: 140px;"class="span2">
+                <div style="margin-top: 10px;min-width: 140px;"class="floatright span2">
                     <span class="container1">
                     <a class="active" href="../">
                         <div class="text" data-text="effect"><h1>Home</h1></div>
                     </a></span>
                 </div>
                 
+                <div style="margin-top: 10px;min-width: 140px;"class="floatright span2">
+                    <span class="container1">
+                    <a class="active" href="../events/index.html">
+                        <div class="text" data-text="effect"><h1>Events</h1></div>
+                    </a></span>
+                </div>
                 
-                <div style="margin-top: 10px;min-width: 140px;"class="span2">
+                <div style="margin-top: 10px;min-width: 140px;"class="span2 floatright">
                     <span class="container1">
                     <a class="active" href="../about-us/info.html">
                         <div class="text" data-text="effect"><h1>Info</h1></div>
                     </a></span>
                 </div>
-                <div style="margin-top: 10px;min-width: 140px;"class="span2">
+                <div style="margin-top: 10px;min-width: 140px;"class="span2 floatright">
                     <span class="container1">
                     <a class="active" href="../g/index.html">
                         <div class="text" data-text="effect"><h1>Games</h1></div>
                     </a></span>
                 </div>
-                <!--Copy from here down to end Settings code for settings popup-->
-                <div style="margin-top: 10px;min-width: 140px;"class="span2">
+                <div style="margin-top: 10px;min-width: 140px;"class="span2 floatright">
                     <span class="container1">
                         
-                    <a href="javascript:void(0);" onclick="opensettings();" class="active">
+                    <a href="javascript:void(0);" onclick="opensettings();" class="floatright">
                         <div class="text" data-text="effect"><h1>Settings</h1></div>
                     </a></span>
                 </div>
@@ -163,7 +168,7 @@
         let link72 = arrayItem7.url2;
         let name7 = arrayItem7.name;
         let category7 = arrayItem7.category;
-        document.getElementById('buttonDiv7').innerHTML += `<div class="span1">
+        document.getElementById('buttonDiv7').innerHTML += `<div style="margin-top: 200px;"class="span1">
 <div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card">
 <img style="border-radius: 25px;" src="${arrayItem7.img}" alt="${arrayItem7.name}.png" style="width:100%">
 <div class="dropdown">

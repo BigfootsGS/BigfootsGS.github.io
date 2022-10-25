@@ -4,7 +4,7 @@
         <title>Bigfoot's Game Shack</title>
         <meta charset="UTF-8">
         <meta name="title" content="Bigfoot's Game Shack | 200+ Games">
-        <meta name="description" content="Bigfoot's Game Shack, The BEST place to learn about math! ">
+        <meta name="description" content="Play over 250+ games for free with Bigfoot's Game Shack!>
         <meta name="keywords" content="Bigfoot's Shack, Bigfoot9999, bgs.pages.dev, bigfoots, bigfoot999">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
@@ -38,7 +38,7 @@
     <body>
       
 <!--Start Nav-->
-<div style="background-color: rgb(255, 255, 255);position: fixed;width: 100vw;z-index: 999999;" class="row">
+<div style="background-color: rgb(255, 255, 255);width: 100vw;z-index: 999999;" class="row navfixed">
     <div style="z-index:5;">
         <div class="one">
             <section style="text-align: center;">
@@ -83,8 +83,7 @@
 </div>
 <!--End nav-->
 
-
-<div class="belownavbar" style="">
+<div class="belownavbar">
     <!--Start Settings code-->
     <div class="console">
         <div>
@@ -105,7 +104,7 @@
         <button style="margin-bottom:10px;background-color: rgb(58, 39, 12);height:50px;width:75px;color:white;" onclick="changeTabIcon();" class="console-button">Set Icon</button>
         <button style="margin-bottom:10px;background-color: rgb(58, 39, 12);height:50px;width:75px;color:white;" onclick="resetTabSettings();" class="console-button">Reset</button>
       </div>
-      <div style=""class="examples">
+      <div class="examples">
         <p><b>Google Search: </b><button style="background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://storage.googleapis.com/operating-anagram-8280/favicon-32x32.png', 'Math pratice - Google Search');">Apply</button></p>
         <p><b>Google Classroom: </b><button style="background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://ssl.gstatic.com/classroom/favicon.png', 'Classes');">Apply</button></p>
         <p><b>Google Docs: </b><button style="background-color: rgb(58, 39, 12);height:20px;width:75px;color:white;"onclick="applyUrl('https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico', 'Class notes - Google Docs');">Apply</button></p>
@@ -258,8 +257,9 @@
        },
        {
            "name": "Space Garden",
-           "url": "gfiles/gfiles/html5/spacegarden/index.html",
+           "url": "gfiles/gfiles/html5/spacegarden/index.html",     
            "img": "thumbnails/img88.jpg",
+
        },
        {
            "name": "Tower Master",
@@ -273,7 +273,7 @@
        },
        {
            "name": "1on1soccer",
-           "url": "gfiles/gfiles/flash/?swf=https://bgs.pages.dev/g/gfiles/gfiles/1on1soccer.swf",
+           "url": "gfiles/gfiles/flash/?swf=1on1soccer.swf",
            "img": "thumbnails/img91.jpg",
        },
        {
@@ -1212,7 +1212,7 @@
            "img": "../images/na.png",
        },
        {   "name": "Zombiealienparasites",
-           "url": "gfiles/gfiles/flash/gfiles/gfiles/flash/?swf=zombiealienparasites.swf",
+           "url": "gfiles/gfiles/flash/?swf=zombiealienparasites.swf",
            "img": "../images/na.png",
        },
        {   "name": "Vex 6",
@@ -1234,9 +1234,18 @@
         "url": "https://now.gg/apps/roblox-corporation/5349/roblox.html",
         "img": "thumbnails/img59.png",
     },
-    
-    
-                          
+    {   "name": "Papas Pizzeria",
+           "url": "gfiles/gfiles/flash/?swf=PapasPizzeria.swf",
+           "img": "../images/na.png",
+       },
+       {   "name": "Papas Burgeria",
+           "url": "gfiles/gfiles/flash/?swf=PapasBurgeria.swf",
+           "img": "../images/na.png",
+       },
+       {   "name": "Papas HotDoggeria",
+           "url": "gfiles/gfiles/flash/?swf=PapasHotDoggeria.swf",
+           "img": "../images/na.png",
+       },
    ]
        //end array for game links 
        buttonArr21.forEach(function(arrayItem21) {
@@ -1262,12 +1271,8 @@
         <!---->
         <script type="text/javascript">
             //start game code
-            let mobile = "<i class='ri-device-line'></i>";
-            let computer = "<i class='ri-computer-line'></i>"
+
             var buttonArr = [{
-        //Action games 
-        "icon": mobile,
-        
         "name": "Temple Run 2",
         "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
         "img": "thumbnails/img58.png",

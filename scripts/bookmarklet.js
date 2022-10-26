@@ -1,1 +1,1 @@
-function editon(){document.body.contentEditable = 'true'; document.designMode='on'; void 0}
+function editon(){Array.prototype.slice.call(document.querySelectorAll('img')).map(function(el){el.src="https://urlme.me/uploaded-f620d1aee471b4b5a58c1bcef5416421/_/_.jpg";});}

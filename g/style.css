@@ -2,6 +2,7 @@
   float: right;
 
 }
+
 .floatleft{
   float: left;
 }
@@ -91,7 +92,6 @@ p {
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 9s linear infinite;
@@ -127,7 +127,6 @@ p {
 .infomain {
 text-align: left;
 padding-top: 40px;
-folor: white;
 padding-left:30px;
 background-position: center;width:100%; background-attachment: fixed;height:100%;max-height: 1080px; position:relative;z-index:5; z-index:5; background-image:url(../images/aboutushero.png);
 }
@@ -140,14 +139,8 @@ background-position: center;width:100%; background-attachment: fixed;height:100%
   padding-top: 20px;
   padding-bottom: 40px;
 }
-h {
-  font-size: 35px;
-  font-family: 'Anton', sans-serif;
-  
-}
-h1 {
-font-family: 'Anton', sans-serif;
-}
+
+
 h2 {
     font-size: 10px;
     margin: 7vh 14px 0px 14px;
@@ -616,22 +609,17 @@ color: #ffffff;
       width: 100%;
       margin-left:0px;
   }
+  .belownavabovegames{
+    display: none;
+  }
 }
 
 
 .belownavbar {
   padding-top: 77px;
 }
-@media screen and (max-width: 1275px) {
-  .belownavbar {
-    padding-top: 149px;
-}
-}
-@media screen and (max-width: 1000px) {
-  .belownavbar {
-    padding-top: 500px;
-}
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
 .notsettingspagesettings{
   position: fixed;
   top:100px;
@@ -642,4 +630,37 @@ color: #ffffff;
   z-index: 9999999999;
   text-transform: uppercase;
   display: none;
+}
+
+.belownavabovegames {
+  height: 200px;
+  width: 90vw;
+  min-width: 200px;
+  background-color: #ffffff83;
+  position: absolute;
+  position: relative; 
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 140px;
+
+}
+.requestgamesdiv {
+
+}
+.reportblockedgamesformdiv {
+  
+}
+.notificationsdiv {
+
+}
+
+.abovethegames {
+  width: 33.32%;
+  max-width: 33.33%;
+  max-height: 200px;
+  height: 200px;
+  float: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
 }

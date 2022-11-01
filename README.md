@@ -27,6 +27,7 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 
 
   <div align='center'> </div>
+  <h1>Contributors</h1>
 <img src="https://contrib.rocks/image?repo=BigfootsGS/BigfootsGS.github.io"/>
 <div align='left'>
 

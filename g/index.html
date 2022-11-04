@@ -4,8 +4,8 @@
         <title>Bigfoot's Game Shack</title>
         <meta charset="UTF-8">
         <meta name="title" content="Bigfoot's Game Shack | 200+ Games">
-        <meta name="description" content="Play over 250+ games for free with Bigfoot's Game Shack!>
-        <meta name="keywords" content="Bigfoot's Shack, Bigfoot9999, bgs.pages.dev, bigfoots, bigfoot999">
+        <meta name="description" content="Play over 250+ games for free with Bigfoot's Game Shack!">
+        <meta name="keywords" content="Bigfoot's Shack, Bigfoot9999, bgs.pages.dev, bigfoots, bigfoot.pages.dev, feetbig.pages.dev">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
@@ -85,7 +85,8 @@
 <div class="belownavabovegames">
     <div class="requestgamesdiv abovethegames">
         <h1 style="font-size: 20px;">Request New Games</h1>
-        <p1>Coming Soon!</p1>
+        <p1 style="text-align: center;">Submit your favourite games for a chance for them to get added!</p1><br>
+        <button onclick="launch();" class="gamepagebutton">Go to Google Form</button>
     </div>
     <div class="reportblockedgamesformdiv abovethegames">
         <h1 style="font-size: 20px;">Report Broken Games</h1>
@@ -2521,18 +2522,13 @@
     "img": "../images/na.png",
     "url": "gfiles/gfiles/flash/?swf=yetiGamesKitten Cannon.swf",
     
-  },{
-    "name": "xtremedrift",
-    "img": "thumbnails/xtremedrift.png",
-    "url": "gfiles/gfiles/html5/xtremedrift/index.html",
-    
   },
   {
-    "name": "Indian Truck Sim",
-    "img": "../images/na.png",
-    "url": "gfiles/gfiles/html5/tam-indian-truck-simulator-3d/index.htm",
-    
-  },
+            "name": "Drift Hunters",
+            "url": "gfiles/gfiles/html5/drift-hunters/index.html",
+            "img": "thumbnails/img53.png",
+        }, 
+  
    ]
        //end array for game links 
        buttonArr21.forEach(function(arrayItem21) {
@@ -2623,6 +2619,12 @@
         
         "img": "thumbnails/img9.png",
     },
+    {
+    "name": "Indian Truck Sim",
+    "img": "../images/na.png",
+    "url": "https://too-advanced-for-society.gq/tam-indian-truck-simulator-3d/",
+    
+  },
     {
         
         "name": "Pappa's Taco Mia",
@@ -2986,11 +2988,6 @@
         "img": "thumbnails/img220",
     },
         {
-            "name": "Drift Hunters",
-            "url": "https://rga-bigfoot9999.vercel.appgfiles/gfiles/html5/drift-hunters/index.html",
-            "img": "thumbnails/img53.png",
-        }, 
-        {
             "name": "Fire Truck Dash",
             "url": "https://rga-bigfoot9999.vercel.appgfiles/gfiles/html5/fire-truck-dash/index.html",
             "img": "thumbnails/img54.png",
@@ -3070,6 +3067,12 @@
  
     </div>
     <script>
+      function launch(){
+        let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
+        width=0,height=0,left=-1000,top=-1000`;
+        
+        open('https://forms.gle/1ZF8sHcK3U5fpoqr7', 'test', params);
+        }
         function myFunction1() {
           var x = document.getElementById("error-msg");
           if (x.style.display === "none") {

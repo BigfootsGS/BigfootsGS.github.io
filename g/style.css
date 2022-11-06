@@ -58,6 +58,8 @@ html {
  background-repeat: no-repeat;
  background-size: cover;
  overflow-x: none;
+ -webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
  
 }
 p {

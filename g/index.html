@@ -13,7 +13,6 @@
 
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../scripts/fonts/remixicon.css"> 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7257238324060789" crossorigin="anonymous"></script>
         <script src="../scripts/reveal.js"></script>
         <script src="../scripts/alert.js"></script>
@@ -82,6 +81,8 @@
     </div>
 </div>
 <!--End nav-->
+<input style="text-align:center;margin-top:178px;"id="searchbar" onkeyup="search_animal()" type="text"
+        name="search" placeholder="SEARCH FOR A GAME"></input>
 <div class="belownavabovegames">
     <div class="requestgamesdiv abovethegames">
         <h1 style="font-size: 20px;">Request New Games</h1>
@@ -90,8 +91,7 @@
     </div>
     <div class="reportblockedgamesformdiv abovethegames">
         <h1 style="font-size: 20px;">Report Broken Games</h1>
-        <p1>Coming Soon!</p1>
-
+        
     </div>
     <div class="notificationsdiv abovethegames">
         <h1 style="font-size: 20px;">Notifications</h1>
@@ -99,6 +99,7 @@
 
     </div>
 </div>
+
 <div class="belownavbar">
     <!--Start Settings code-->
     <div class="console">
@@ -150,11 +151,11 @@
     <i class="fa fa-times-circle"></i>
     AN ERROR OCCURED, PLEASE RELOAD THE PAGE!
   </div>
-
+<!-- input tag -->
   <div class="gameslist">
         
     <h2 style="color:white;"></h2>
-       <br><div class="row">
+       <br><div  id='list' class="row">
        <div style="padding-left: 20px" id="buttonDiv21"></div>
        </div>
    <script type="text/javascript">
@@ -1485,12 +1486,6 @@
     
   },
   {
-    "name": "Slope",
-    "img": "../images/na.png",
-    "url": "gfiles/gfiles/html5/slope/index.html",
-    
-  },
-  {
     "name": "Super Mario 64",
     "img": "../images/na.png",
     "url": "gfiles/gfiles/html5/sm64/index.html",
@@ -2501,7 +2496,7 @@
            //searchArr.push(arrayItem.name);
            let link2 = arrayItem21.url;
            let name2 = arrayItem21.name;
-           document.getElementById('buttonDiv21').innerHTML += `<div class="span1"><div class=""><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a href="${arrayItem21.url}"><img style="border-radius: 25px;" src="${arrayItem21.img}" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem21.name}</p3></div></div></div>`;
+           document.getElementById('buttonDiv21').innerHTML += `<div style="width: 150px;"class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a href="${arrayItem21.url}"><img style="border-radius: 25px;" src="${arrayItem21.img}" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem21.name}</p3></div></div>`;
    
    
            
@@ -3000,7 +2995,7 @@
                 let name = arrayItem.name;
                 let category = arrayItem.category;
                 
-                document.getElementById('buttonDiv').innerHTML += `<div class="span1"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem.url}')" href="javascript:void(0);"><img src="${arrayItem.img}" style="border-radius: 25px;" alt="${arrayItem.name}.png" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem.name}</p3></div></div>`;
+                document.getElementById('buttonDiv').innerHTML += `<div class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem.url}')" href="javascript:void(0);"><img src="${arrayItem.img}" style="border-radius: 25px;" alt="${arrayItem.name}.png" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem.name}</p3></div></div>`;
             } );
             //end game code
             let win;
@@ -3056,6 +3051,8 @@
       }
 }
         </script>
+        	<script src="../scripts/searchbar.js"></script>
+
 
 <!--Footer-->
 <div class="footer">

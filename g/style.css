@@ -609,15 +609,14 @@ color: #ffffff;
       width: 100%;
       margin-left:0px;
   }
-  .belownavabovegames{
-    display: none;
-  }
+}
+@media screen and (max-width: 1100px) {
+  
+.belownavabovegames{
+display: none;
+}
 }
 
-
-.belownavbar {
-  padding-top: 77px;
-}
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
 
 .notsettingspagesettings{
@@ -640,8 +639,7 @@ color: #ffffff;
   border-radius: 10px;
   left: 50%;
   transform: translateX(-50%);
-  top: 140px;
-
+  top: 40px;
 }
 
 .abovethegames {
@@ -672,4 +670,10 @@ color: #ffffff;
   width: 300px;
   background: rgba(86, 54, 28, 0.9);
 
+}
+
+input[type=text] {
+	width: 87vw;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
 }

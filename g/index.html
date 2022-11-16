@@ -63,12 +63,7 @@
                         <div class="text" data-text="effect"><h1>Info</h1></div>
                     </a></span>
                 </div>
-                <div style="margin-top: 10px;min-width: 140px;"class="span2 floatright">
-                    <span class="container1">
-                    <a class="active" href="../apps/index.html">
-                        <div class="text" data-text="effect"><h1>Apps</h1></div>
-                    </a></span>
-                </div>
+                
                 <div style="margin-top: 10px;min-width: 140px;"class="span2 floatright">
                     <span class="container1">
                         
@@ -86,18 +81,36 @@
     <div class="requestgamesdiv abovethegames">
         <h1 style="font-size: 20px;">Request New Games</h1>
         <p1 style="text-align: center;padding: 10px;">Submit your favourite games for a chance for them to get added!</p1><br>
+        -
+        <br>
+        <a href="https://docs.google.com/spreadsheets/d/1eFDAjUzl_rVDIDFRFJyOvc3ZbO4W4MV0-xg6Qk_FwaQ/edit?usp=sharing">Request Games Responses</a>
+        <br>
         <button onclick="launch();" class="gamepagebutton">Request New Games</button>
     </div>
     <div class="reportblockedgamesformdiv abovethegames">
         <h1 style="font-size: 20px;">Report Broken Games</h1>
       
           <p1 style="text-align: center;padding: 10px;">Report Bugs, Glitches, and Broken Games here!</p1><br>
+          -<br>
+          Bug Reports are closed for the time being after we were overwhelmed by form responses, if you really want a game, shoot me an email.<br>
           <button onclick="launch2();" class="gamepagebutton">Report Broken Games</button>
 
     </div>
     <div class="notificationsdiv abovethegames">
         <h1 style="font-size: 20px;">Notifications</h1>
-        <p1>We have been blocked on Lightspeed! <br>Please use new URL: <a href="https://bigfootshack.pages.dev">https://bigfootshack.pages.dev</a> <br>or<br><a href="https://bigfootshack.games">https://bigfootshack.games</a> <br>please share it around with your friends!</p1>
+        <p1>How to create links for Bigfoot's Game Shack in minutes! <a href="https://github.com/BigfootsGS/BigfootsGS.github.io/blob/main/other/how2createLinks.md">Learn More: github.com</a>
+          <br>
+          -
+          <br>
+        Email me at bigfoot.gaming9999@gmail.com if you need more links!
+        <br>
+        -
+        <br>
+        Thanks for using Bigfoot's Game Shack!
+        <br>
+
+        -Bigfoot9999
+        </p1>
 
     </div>
 </div>
@@ -1750,7 +1763,7 @@
   },
   {
     "name": "Draw Play",
-    "img": "../images/na.png",
+    "img": "thumbnails/draw-play-game.webp",
     "url": "gfiles/gfiles/flash/?swf=DrawPlay.swf",
     
   },
@@ -2476,7 +2489,6 @@
     
   },
    ]
-       //end array for game links TU-95.swf
        buttonArr21.forEach(function(arrayItem21) {
    
            //searchArr.push(arrayItem.name);
@@ -3006,13 +3018,125 @@
             }
         </script>
         </div>        </div>
+<!---->
 
+<div style="z-index: 0;"class="gameslist">
+  <div class="row">
+  <div style="padding-left: 20px"id="buttonDiv7"></div>
+  </div>
+
+<script type="text/javascript">
+  //start game code
+  var buttonArr7 = [
+  {
+      "name": "Discord",
+      "url": "https://e.widgetbot.io/channels/829117322223812658/829117322223812660",
+      "url1": "https://e.widgetbot.io/channels/829117322223812658/829117322223812660",
+      "url2": "https://e.widgetbot.io/channels/829117322223812658/829117322223812660",
+      "img": "../images/disco.png",
+  }, 
+  {
+      "name": "GE Force Now",
+      "url": "https://kardnav3.herokuapp.com/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+      "url1": "https://kardnav3.herokuapp.com/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+      "url2": "https://kardnav3.herokuapp.com/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+      "img": "../images/ge.png",
+  }, 
+  {
+      "name": "Youtube",
+      "url": "https://kardnav3.herokuapp.com/uv.html#eW91dHViZS5jb20=",
+      "url1": "https://youtube.com",
+      "url2": "https://kardnav3.herokuapp.com/uv.html#eW91dHViZS5jb20=",
+      "img": "../images/yt.png",
+  }, 
+ 
+  
+  
+]
+  //end array for game links
+  
+  buttonArr7.forEach(function(arrayItem7) {
+      let link7 = arrayItem7.url;
+      let link71 = arrayItem7.url1;
+      let link72 = arrayItem7.url2;
+      let name7 = arrayItem7.name;
+      let category7 = arrayItem7.category;
+      document.getElementById('buttonDiv7').innerHTML += `<div class="span1">
+<div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card">
+<img style="border-radius: 25px;" src="${arrayItem7.img}" alt="${arrayItem7.name}.png" style="width:100%">
+<div class="dropdown">
+<button style="margin-bottom:10px;margin-top:5px;"class="dropbtn">${arrayItem7.name}</button>
+<div class="dropdown-content">
+<a onclick="openGame('${arrayItem7.url}')" href="javascript:void(0);">Server 1</a>
+<a onclick="openGame('${arrayItem7.url1}')" href="javascript:void(0);">Server 2</a>
+<a onclick="openGame('${arrayItem7.url2}')" href="javascript:void(0);">Server 3</a>
+</div>
+<div>
+</div>
+</div>`
+
+      
+  } );
+  //end game code
+  let win7;
+
+  function openGame(link7) {
+      if (win7) {
+          win7.focus();
+          return;
+      }
+      win7 = window.open();
+      win7.document.body.style.margin = '0';
+      win7.document.body.style.height = '100vh';
+      const iframe = win7.document.createElement('iframe');
+      iframe.style.border = 'none';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.margin = '0';
+      iframe.src = link7;
+      win7.document.body.appendChild(iframe);
+  }
+  function openGame(link71) {
+      if (win7) {
+          win7.focus();
+          return;
+      }
+      win7 = window.open();
+      win7.document.body.style.margin = '0';
+      win7.document.body.style.height = '100vh';
+      const iframe = win7.document.createElement('iframe');
+      iframe.style.border = 'none';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.margin = '0';
+      iframe.src = link71;
+      win7.document.body.appendChild(iframe);
+  }
+  function openGame(link72) {
+      if (win7) {
+          win7.focus();
+          return;
+      }
+      win7 = window.open();
+      win7.document.body.style.margin = '0';
+      win7.document.body.style.height = '100vh';
+      const iframe = win7.document.createElement('iframe');
+      iframe.style.border = 'none';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.margin = '0';
+      iframe.src = link72;
+      win7.document.body.appendChild(iframe);
+  }
+</script>
+</div>
+
+<!---->
 
 
 
 
  
-    </div>
     <script>
       function launch(){
         let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
@@ -3055,7 +3179,7 @@
     <div class="span4">
     <h2 style="padding-left: 22px;padding-top: 30px;">Resources</h2>
     <h4 style="padding-left: 22px;padding-top: 5px;"><a href="#">Games</a></h4>
-    <h4 style="padding-left: 22px;padding-top: 5px;"><a href="../apps/index.html">Apps</a></h4>
+    <h4 style="padding-left: 22px;padding-top: 5px;"><a href="../g/index.html#buttonDiv7">Apps</a></h4>
     <h4 style="padding-left: 22px;padding-top: 5px;"><a href="../about-us/info.html">Info</a></h4>
     <h4 style="padding-left: 22px;padding-top: 5px;"><a href="../other/index.html">Settings</a></h4>
 </div>

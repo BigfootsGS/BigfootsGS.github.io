@@ -71,7 +71,7 @@
                     <section style="text-align: center;">
                         <div style="padding-bottom: 0px;margin-left:20px;padding-top: 20px;" class="span2 logonav floatleft">
                             <a href="#">
-                                <img style="width:166px;height: auto;" src="images/bgslogotransparent.png" />
+                                <img style="width:166px;height: auto;" class="lazy" data-src="images/bgslogotransparent.png" />
                             </a>
                         </div>
                         <div style="margin-left:20px;padding-top: 15px;min-width: 140px; text-decoration: none;" class="span2 navlink floatright">
@@ -170,7 +170,7 @@
             <div class="main">
                 <section>
                     <div class="twoarrow" style="background-color: rgb(255, 255, 255);">
-                        <img style="margin-top: -10px;height: auto; width: 100vw; max-width:100vw;" src="images/2.png"></img>
+                        <img style="margin-top: -10px;height: auto; width: 100vw; max-width:100vw;" class="lazy" data-src="images/2.png"></img>
                     </div>
             </div>
             </section>
@@ -180,11 +180,11 @@
                     <div class="threearrow">
                         <div style="background-position: center;width:100%;    text-align: center; height:1080px; position:relative;z-index:5; z-index:5; background-image:url(images/3.png);">
                             <a style="color: white;"href="https://dsc.gg/bigfoot">
-                                <img style="height: 400px;z-index: 0; " src="images/bigfoot.png"></img>
-                                <img style="padding-bottom: 101px;max-height:300px" src="images/discordlogo.png"></img>
+                                <img style="height: 400px;z-index: 0; " class="lazy" data-src="images/bigfoot.png"></img>
+                                <img style="padding-bottom: 101px;max-height:300px" class="lazy" data-src="images/discordlogo.png"></img>
                             </a>
                         </div>
-                        <!--<img style="height: auto; width: 100vw; max-width:100vw;" src="images/3.png"></img>-->
+                        <!--<img style="height: auto; width: 100vw; max-width:100vw;" class="lazy" data-src="images/3.png"></img>-->
                         <!--JOIN OUR DISCORD ANIMATION?-->
                 </section>
             </div>
@@ -210,7 +210,7 @@
                             <div style="margin-top: -163px;height: inherit;width:100%; position:absolute;z-index:5;">
                                 <div style="background-image:url(images/69.png); 
                                 padding-bottom: 30px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;width: 100vw; max-width:100vw;" class="row partners">
-                                    <img style="margin-top: -1px;z-index: 1;" src="images/waveHD.png" alt="background">
+                                    <img style="margin-top: -1px;z-index: 1;" class="lazy" data-src="images/waveHD.png" alt="background">
                                     <div class="partners">
                                         <div class="wrapper">
                                             <div class="span4" >
@@ -226,7 +226,7 @@
                                             </div>
                                         </div>
                                         
-                                        <!--<div class="wrapper"><div class="span4"><div class="profile"><img src="images/imp.jpg" class="thumbnail"><h3 class="name">Imperium Proxies</h3><p class="title">Discord Server x Website</p><p class="description"><span class="highlight">Imperium Is A Service Dedicated To End School Blockers, and Start Internet Privacy For All.</span></p><button onclick="window.location.href='https://discord.gg/6zaFExrqy6'" type="button" class="btn">Learn More</button></div></div></div>-->
+                                        <!--<div class="wrapper"><div class="span4"><div class="profile"><img class="lazy" data-src="images/imp.jpg" class="thumbnail"><h3 class="name">Imperium Proxies</h3><p class="title">Discord Server x Website</p><p class="description"><span class="highlight">Imperium Is A Service Dedicated To End School Blockers, and Start Internet Privacy For All.</span></p><button onclick="window.location.href='https://discord.gg/6zaFExrqy6'" type="button" class="btn">Learn More</button></div></div></div>-->
                                         <div class="wrapper">
                                             <div class="span4" >
                                                 <div class="profile">
@@ -249,6 +249,38 @@
             </div>
             <!---->
         </div>
+        <script>
+            
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyloadImages = document.querySelectorAll("img.lazy");    
+  var lazyloadThrottleTimeout;
+  
+  function lazyload () {
+    if(lazyloadThrottleTimeout) {
+      clearTimeout(lazyloadThrottleTimeout);
+    }    
+    
+    lazyloadThrottleTimeout = setTimeout(function() {
+        var scrollTop = window.pageYOffset;
+        lazyloadImages.forEach(function(img) {
+            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+        });
+        if(lazyloadImages.length == 0) { 
+          document.removeEventListener("scroll", lazyload);
+          window.removeEventListener("resize", lazyload);
+          window.removeEventListener("orientationChange", lazyload);
+        }
+    }, 20);
+  }
+  
+  document.addEventListener("scroll", lazyload);
+  window.addEventListener("resize", lazyload);
+  window.addEventListener("orientationChange", lazyload);
+});
+        </script>
         <!--Footer-->
         <div class="footer">
             <!--margin-top: 294px; is so the footer is fixed on wide screens-->

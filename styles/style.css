@@ -353,6 +353,7 @@ a.active{
      right: 5em;
      bottom: 12.7em;
 }
+
  .wrapper .profile .check i {
      color: #fff;
      width: 20px;
@@ -560,3 +561,12 @@ a.active{
   .floatleft{
     float: left;
   }
+  .footermargin {
+    margin-top: 294px;
+}
+@media screen and (max-width: 1250px) {
+    .footermargin {
+        margin-top: 0px;
+    }
+   
+}

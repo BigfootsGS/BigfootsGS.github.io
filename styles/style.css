@@ -548,11 +548,12 @@ a.active{
   .newanim{
     /*for new animation on text on main page*/
     padding: 17px;
+    color:white;
   }
   .newanim:hover{
     color: rgb(58, 39, 12);
     transition: .5s;
-
+    
   }
   .floatright {
     float: right;

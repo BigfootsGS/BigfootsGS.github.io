@@ -552,7 +552,7 @@ a.active{
   }
   .newanim:hover{
     color: rgb(58, 39, 12);
-    transition: .5s;
+    transition: .2s;
     
   }
   .floatright {

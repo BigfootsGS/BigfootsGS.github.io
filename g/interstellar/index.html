@@ -9,6 +9,7 @@
         <link rel="shortcut icon" href="/media/favicon/favicon.ico" type="image/x-icon">
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         <link rel="stylesheet" href="/css/index.css" />
+        <script src="../../scripts/panic.js"></script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6840529569014734" crossorigin="anonymous"></script>
         <script async src="https://arc.io/widget.min.js#gcM6sndx"></script>
         <link rel="stylesheet" href="https://BigfootsGS.github.io/bootstrap/css/bootstrap.min.css" />
@@ -114,6 +115,38 @@
         }
         </script>
         <style>
+   /*         ::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: url('http://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-10/images/header-demos.jpg');
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}*/
+::-webkit-scrollbar {
+    width: 20px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 0px;
+    background-color: #000000;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 0px;
+    background-image: url('rocket-ship.gif');
+    background-size: 20px;
+    background-position-y:top;
+    -webkit-box-shadow: inset 0 0 6px rgba(109, 109, 109, 0); 
+    background-repeat: no-repeat;
+    
+}
+::-webkit-scrollbar-thumb:window-inactive {
+}
+
+
             .alertvercel {
                 width: 400px;
                 height: 200px;
@@ -128,6 +161,7 @@
                 border-radius: 20px;
                 color: white;
             }
+            
             * {
                 padding: 0;
                 margin: 0;
@@ -139,7 +173,7 @@
                 color: #fff;
                 overflow-x: hidden;
                 font-family: "Poppins", sans-serif;
-                
+                background-color: #000000;
             }
 
             nav {
@@ -257,7 +291,7 @@
             }
 
             .img2 {
-                width: auto;
+                width: 102vw;
                 height: 1100px;
                 padding: none;
                 margin-top: -10px;

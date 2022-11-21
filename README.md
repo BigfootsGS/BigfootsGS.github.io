@@ -1,7 +1,7 @@
 <div align='center'>
 
-![69](https://user-images.githubusercontent.com/90806701/192606418-617cde14-c64b-42e5-ad98-942118cda4ea.png)
 
+![1-dark](https://user-images.githubusercontent.com/80417201/202951901-67e3b1d9-0b7f-4936-8027-4e03ed8351dd.png)
 
   
 ![GitHub issues](https://img.shields.io/github/issues/BigfootsGS/BigfootsGS.github.io?logo=github&style=flat-square) 

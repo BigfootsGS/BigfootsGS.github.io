@@ -37,6 +37,13 @@
         </ul>
     </nav>
     <body>
+        <div id="alertvercel"class="alertvercel">
+            <h1 style="color: white;">Attention!</h1>
+            <p1>Hello gamers! All vercel.app URLs will be going down soon! Join our Discord for more information, and links!</p1><br>
+            <p2><br>- Interstellar Developer Team</p2>
+            <a href="javascript:var url = prompt('Enter URL Here (example: google.com)');if (url == null) {alert('No URL Entered!')} else {document.body.innerHTML = '<iframe src=`https://' + url +'` style='position:fixed;top:0;bottom:0;left:0;right:0;width:100%;height:100%;border:none;margin:0;padding:0;z-index:999999;'>Your browser does not support iframes</iframe>';alert('URL Loaded!');}">TEST</a>
+            <div id="attention"style="position:absolute; top:10px; right:20px;"><a style="cursor: pointer;"onclick="myFunction1()">&#10005;</a></div>
+        </div>
         <img src="Interstelar Network.png" id="logoint" class="logoint"></img>
                 <button class="logobutton2" onclick="window.location.href='https://dsc.gg/interstellarnetwork'">Join Our Discord</button>
         <!--<a href='https://dsc.gg/interstellarnetwork'><button onclick="window.location.href='https://dsc.gg/interstellarnetwork'" class="logobuttn">Join our Discord!</button></a>-->
@@ -44,7 +51,7 @@
         <div class="abcontainer">
         <h1 class="gametitle">Play 469+ Games Instantly</h1>
         <h2 class="gametitle2">Hundreds of unblocked games complete with tab cloaking. Join +1 million gamers today using Interstellar Network!</h2>
-        <button class="logobuttn" onclick="window.location.href='play/index.html'">Play Now!</button>
+        <button class="logobuttn" onclick="window.location.href='play.html'">Play Now!</button>
     </div>
         <img src="bkgrndHD.png" class="img2"></img>
         <div class="objects">
@@ -67,32 +74,22 @@
                 
                     
                 </div>
-                <div class="span4">
-                    <h2 style="padding-left: 22px;padding-top: 30px;">Links</h2>
-                    <h4 style="padding-left: 22px;padding-top: 5px;">
-                        <a href="https://forms.gle/yA8YUy2bTL1aaEiR7">Request Games</a>
-                    </h4>
-                    <h4 style="padding-left: 22px;padding-top: 5px;">
-                        <a href="https://dsc.gg/bigfoot">Discord Server</a>
-                    </h4>
-                    <h4 style="padding-left: 22px;padding-top: 5px;">
-                        <a href="https://github.com/bigfoot99999">Github</a>
-                    </h4>
-                    <h4 style="padding-left: 22px;padding-top: 5px;">
-                        <a href="https://twitter.com/Bigfoot99991">Twitter</a>
-                    </h4>
-                </div>
+              
                 <div class="span4">
                     <h2 style="padding-left: 22px;padding-top: 30px;">Contact</h2>
                     <h4 style="padding-left: 22px;padding-top: 5px;">
                         <a href="mailto:bigfoot.gaming9999@gmail.com">bigfoot.gaming9999@gmail.com</a>
                     </h4>
+                    <h4 style="padding-left: 22px;padding-top: 5px;">
+                        <a href="mailto:bubbo@interstellars.games">bubbo@interstellars.games</a>
+                    </h4>
+
                     <h4 style="padding-left: 22px;padding-top: 5px;"></h4>
                 </div>
                 <div class="span4">
                     <h2 style="padding-left: 22px;padding-top: 30px;">Links</h2>
                     <h4 style="padding-left: 22px;padding-top: 5px;">
-                        <a href="https://forms.gle/yA8YUy2bTL1aaEiR7">Request Games</a>
+                        <a href="https://forms.gle/2UPQRKSdNaz7okaPA">Request Games</a>
                     </h4>
                     <h4 style="padding-left: 22px;padding-top: 5px;">
                         <a href="https://dsc.gg/interstellarnetwork">Discord Server</a>
@@ -106,7 +103,31 @@
             <br>
         </div>
         <!--END FOOTER-->
+        <script>
+          function myFunction1() {
+          var x = document.getElementById("alertvercel");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
         <style>
+            .alertvercel {
+                width: 400px;
+                height: 200px;
+                padding: 20px;
+                position: fixed;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                top: 20%;
+                text-align: center;
+                background-color: rgb(51, 51, 51);
+                z-index: 99999999999999999999;
+                border-radius: 20px;
+                color: white;
+            }
             * {
                 padding: 0;
                 margin: 0;

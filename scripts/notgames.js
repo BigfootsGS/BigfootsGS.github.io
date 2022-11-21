@@ -66,7 +66,7 @@
        },
        {
            "name": "Boxhead2play",
-           "url": "gfiles/gfiles/flash/?swf=boxhead2https://play.swf",
+           "url": "gfiles/gfiles/flash/?swf=boxhead2",
            "img": "thumbnails/img116.webp",
        },
        {

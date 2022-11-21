@@ -661,3 +661,10 @@ input[type=text] {
     display: none;
   }
 }
+.heyyyyyy {
+  display: none;
+  margin: -9px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 103vw;height: 100.9vh;border: none;
+}

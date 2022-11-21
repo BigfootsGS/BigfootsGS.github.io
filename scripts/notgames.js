@@ -66,7 +66,7 @@
        },
        {
            "name": "Boxhead2play",
-           "url": "gfiles/gfiles/flash/?swf=boxhead2https://play.swf",
+           "url": "gfiles/gfiles/flash/?swf=boxhead2",
            "img": "thumbnails/img116.webp",
        },
        {
@@ -1066,11 +1066,7 @@
         "url": "gfiles/gfiles/html5/retrobowl/retro-bowl-main/index.html",
         "img": "gfiles/gfiles/html5/retrobowl/retro-bowl-main/img/icon.jpg",
     },
-    {
-        "name": "Roblox",
-        "url": "https://now.gg/apps/roblox-corporation/5349/roblox.html",
-        "img": "thumbnails/img59.png",
-    },
+   
     {   "name": "Papas Pizzeria",
            "url": "gfiles/gfiles/flash/?swf=PapasPizzeria.swf",
            "img": "../images/na.png",
@@ -2330,7 +2326,19 @@
        
             //start game code
 
-            var buttonArr = [{
+            var buttonArr = [
+                {
+                    "name": "Roblox (FIXED)",
+                    "url": "https://154f-24-0-34-192.ngrok.io/service/hvtrs8%2F-nmw%2Cge%2Frlcy-rmbnoz-aoppmrctkol%2F7369-rmbnoz",
+                    "img": "thumbnails/img59.png",
+                },
+                {
+       
+                    "name": "Krunker.io",
+                    "url": "https://schooliskool.feetarebig.repl.co",
+                    "img": "thumbnails/img65",
+                }, 
+                {
         "name": "Temple Run 2",
         "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
         "img": "thumbnails/img58.png",
@@ -2684,7 +2692,7 @@
     {
         
         "name": "1v1.lol",
-        "url": "https://advanced-channeler.02.gz-associates.com/?t=tam-1v1-lol",
+        "url": "https://rnv3.pages.dev/G/1v1.lol/",
         "img": "thumbnails/img46.jpg",
     }, {
         
@@ -2728,12 +2736,7 @@
         "url": "https://html5.gamemonetize.co/z4ajge69b989gm67dq59mkgv20ed6zg6/",
         "img": "thumbnails/img62",
     },
-    {
-       
-        "name": "Krunker.io",
-        "url": "https://browserfps.com/",
-        "img": "thumbnails/img65",
-    }, 
+    
     {
         
         "name": "Mini Royale 2",

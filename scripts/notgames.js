@@ -2330,7 +2330,14 @@
        
             //start game code
 
-            var buttonArr = [{
+            var buttonArr = [
+                {
+       
+                    "name": "Krunker.io",
+                    "url": "https://schooliskool.feetarebig.repl.co",
+                    "img": "thumbnails/img65",
+                }, 
+                {
         "name": "Temple Run 2",
         "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
         "img": "thumbnails/img58.png",
@@ -2684,7 +2691,7 @@
     {
         
         "name": "1v1.lol",
-        "url": "https://advanced-channeler.02.gz-associates.com/?t=tam-1v1-lol",
+        "url": "https://rnv3.pages.dev/G/1v1.lol/",
         "img": "thumbnails/img46.jpg",
     }, {
         
@@ -2728,12 +2735,7 @@
         "url": "https://html5.gamemonetize.co/z4ajge69b989gm67dq59mkgv20ed6zg6/",
         "img": "thumbnails/img62",
     },
-    {
-       
-        "name": "Krunker.io",
-        "url": "https://browserfps.com/",
-        "img": "thumbnails/img65",
-    }, 
+    
     {
         
         "name": "Mini Royale 2",

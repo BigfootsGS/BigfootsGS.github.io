@@ -68,5 +68,23 @@ const handleKeyPress1 = (e) => {
     console.log(`Number ${key} was pressed!`);
   }
 };
+const handleKeyPress2 = (e) => {
+  const key = getCode(e);
+  if (key == 2) {
+    blank3();
+    console.log(`Number ${key} was pressed!`);
+  }
+};
+const handleKeyPress3 = (e) => {
+  const key = getCode(e);
+  if (key == 3) {
+    opensettings();
+    console.log(`Number ${key} was pressed!`);
+  }
+};
 document.addEventListener("keypress", handleKeyPress);
+document.addEventListener("keypress", handleKeyPress3);
 document.addEventListener("keypress", handleKeyPress1);
+document.addEventListener("keypress", handleKeyPress2);
+
+//opensettings()

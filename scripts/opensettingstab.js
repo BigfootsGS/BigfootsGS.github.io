@@ -5,4 +5,4 @@ function opensettings(){
       } else {
         id.style.display = "none";
       }
-}
+}      opensettings();

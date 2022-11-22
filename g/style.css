@@ -588,16 +588,17 @@ display: none;
 
 .notsettingspagesettings{
   position: fixed;
-  top:100px;
-  right: 20px;
+  top:50%;
+  right: 25%;
   background-color: #000000;
-  background-color:rgba(194, 194, 194, 0.822);
+  background-color:#ffffffc4;
   width: 400px;border-radius: 20px;text-align: left;padding:17px;
   z-index: 9999999999;
   text-transform: uppercase;
   display: none;
+  transform: translate(-50%, -50%);
 }
-
+/*right here*/
 .belownavabovegames {
   height: 200px;
   width: 90vw;
@@ -607,6 +608,7 @@ display: none;
   left: 50%;
   transform: translateX(-50%);
   top: 40px;
+  
 }
 
 .abovethegames {

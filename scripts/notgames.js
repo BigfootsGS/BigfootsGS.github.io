@@ -2803,7 +2803,7 @@
                 let name = arrayItem.name;
                 let category = arrayItem.category;
                 
-                document.getElementById('buttonDiv').innerHTML += `<div style="width: 150px;" class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem.url}')" href="javascript:void(0);"><img class="lazy" data-src="${arrayItem.img}" style="border-radius: 25px;" width="145" height="145" alt="${arrayItem.name}.png" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem.name}</p3></div></div>`;
+                document.getElementById('buttonDiv').innerHTML += `<div style="width: 150px;" class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem.url}')" href="javascript:void(0);"><img class="lazy" data-src="${arrayItem.img}" style="border-radius: 25px;" width="145" height="145" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem.name}</p3></div></div>`;
             } );
             //end game code
             var win;

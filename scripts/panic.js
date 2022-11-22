@@ -34,7 +34,32 @@ const handleKeyPress = (e) => {
       } 
       
       else {
-        applyUrl('https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico', 'Class notes - Google Docs');5
+        applyUrl('https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico', 'Class notes - Google Docs');
+
+        el.style.display = 'none';
+        btn.style.display = 'block';
+
+      }
+    console.log(`Number ${key} was pressed!`);
+  }
+};
+const handleKeyPress1 = (e) => {
+  const key = getCode(e);
+  if (key == 1) {
+    const btn = document.getElementById('iframe1');
+
+    const el = document.getElementById('maincode');
+    
+
+      if (el.style.display === 'none') {
+        el.style.display = 'block';
+        btn.style.display = 'none';
+        applyUrl('https://bgs.pages.dev/images/logonew.png', "Bigfoot's Game Shack");
+
+      } 
+      
+      else {
+        applyUrl('https://storage.googleapis.com/operating-anagram-8280/favicon-32x32.png', 'Math Practice | Google Search');
 
         el.style.display = 'none';
         btn.style.display = 'block';
@@ -44,3 +69,4 @@ const handleKeyPress = (e) => {
   }
 };
 document.addEventListener("keypress", handleKeyPress);
+document.addEventListener("keypress", handleKeyPress1);

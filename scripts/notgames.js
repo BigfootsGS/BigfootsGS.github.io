@@ -1078,7 +1078,7 @@
            "img": "thumbnails/img64",
        },
        {   "name": "Papas HotDoggeria",
-           "url": "gfiles/gfiles/flash/waflash/papas-hotdoggeria/index.html",
+           "url": "gfiles/gfiles/flash/waflash/papas-hot-doggeria/index.html",
            "img": "thumbnails/papas-hotdog.png",
        },
        {   "name": "Papas Wingeria",

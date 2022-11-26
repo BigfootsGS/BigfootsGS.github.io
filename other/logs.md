@@ -11,9 +11,9 @@
 + Added about:blank toggle setting on games page
 + New URL: https://bigfootshack.games/
 ## New Keybinds (1-5 on keyboard)
-  1 - Tab Cloak & Screen Cloak
-  2 - Open BGS in an about:blank tab
-  3 - Reveal settings panel
-  4 - about:blank Custom Tab Launcher (New!)
-  5 - Tab Cloak & Screen Cloak (Inspired by Krunker.io)
+  ### 1 - Tab Cloak & Screen Cloak
+ ### 2 - Open BGS in an about:blank tab
+ ### 3 - Reveal settings panel
+  ### 4 - about:blank Custom Tab Launcher (New!)
+  ### 5 - Tab Cloak & Screen Cloak (Inspired by Krunker.io)
  #### End of Logs

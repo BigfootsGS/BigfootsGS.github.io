@@ -3,15 +3,7 @@ var linkparameters = location.search.split('url=')[1];
 
 
 function blank(){
-    let inFrame
-    
-    try {
-        inFrame = window !== top
-    } catch (e) {
-        inFrame = true
-    }
-    
-    if (!inFrame && !navigator.userAgent.includes("Firefox")) {
+            let inFrame
         const popup = open("about:blank", "_blank")
         if (!popup || popup.closed) {
             alert("Popups are disabled!")
@@ -33,6 +25,8 @@ function blank(){
             doc.body.appendChild(iframe)
 
         }
-    }
+    
+    location.assign("../../../index.html#buttonDiv21");
+
 }
 blank();

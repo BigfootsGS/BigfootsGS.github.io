@@ -2762,11 +2762,7 @@
         "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/fire-truck-dash/index.html",
         "img": "thumbnails/img54.png",
     }, 
-    {
-        "name": "Super Car Parking",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://files.vitalitygames.com/games/webgl/2017/09/11/supercar-police-parking-2/index.html",
-        "img": "thumbnails/img56.png",
-    }, 
+    
     
     {
         "name": "Taz Driving 2",
@@ -2805,44 +2801,7 @@
            
        } );
        
-            //start game code
-
-            var buttonArr = [
-  
-          
-           
-           
         
-        ]
-            //end array for game links  
-
-            buttonArr.forEach(function(arrayItem) {
-                let link = arrayItem.url;
-                let name = arrayItem.name;
-                let category = arrayItem.category;
-                
-                document.getElementById('buttonDiv').innerHTML += `<div style="width: 150px;" class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a onclick="openGame('${arrayItem.url}')" href="javascript:void(0);"><img class="lazy" data-src="${arrayItem.img}" style="border-radius: 25px;" width="145" height="145" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem.name}</p3></div></div>`;
-            } );
-            //end game code
-            var win;
-            function openGame(link) {
-                if (win) {
-                    win.focus();
-                    return;
-                }
-
-                win = window.open();
-                win.document.body.style.margin = '0';
-                win.document.body.style.height = '100vh';
-                const iframe = win.document.createElement('iframe');
-                iframe.style.border = 'none';
-                iframe.style.width = '100%';
-                iframe.style.height = '100%';
-                iframe.style.margin = '0';
-                iframe.src = link;
-                win.document.body.appendChild(iframe);
-
-            }
         //start game code
   var buttonArr7 = [
     {
@@ -2862,8 +2821,8 @@
     {
         "name": "Youtube",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#eW91dHViZS5jb20=",
-        "url1": "https://youtube.com",
-        "url2": "https://kardna4life.ml//uv.html#eW91dHViZS5jb20=",
+        "url1": "gfiles/gfiles/lanucher/index.html?url=https://youtube.com",
+        "url2": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#eW91dHViZS5jb20=",
         "img": "../images/yt.png",
     }, 
    
@@ -2884,9 +2843,9 @@
   <div class="dropdown">
   <button style="margin-bottom:10px;margin-top:5px;"class="dropbtn">${arrayItem7.name}</button>
   <div class="dropdown-content">
-  <a onclick="openGame('${arrayItem7.url}')" href="javascript:void(0);">Server 1</a>
-  <a onclick="openGame('${arrayItem7.url1}')" href="javascript:void(0);">Server 2</a>
-  <a onclick="openGame('${arrayItem7.url2}')" href="javascript:void(0);">Server 3</a>
+  <a href='${arrayItem7.url}' ">Server 1</a>
+  <a href='${arrayItem7.url1}'">Server 2</a>
+  <a href='${arrayItem7.url2}'">Server 3</a>
   </div>
   <div>
   </div>

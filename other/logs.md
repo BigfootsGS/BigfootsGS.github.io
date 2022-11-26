@@ -10,7 +10,7 @@
 + Fixed issue when launching a game in about:blank
 + Added about:blank toggle setting on games page
 + New URL: https://bigfootshack.games/
-## New Keybinds (1-5 on keyboard)
+## Keybinds (1-5 on keyboard)
   ### 1 - Tab Cloak & Screen Cloak
  ### 2 - Open BGS in an about:blank tab
  ### 3 - Reveal settings panel

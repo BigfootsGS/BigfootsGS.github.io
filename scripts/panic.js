@@ -82,9 +82,19 @@ const handleKeyPress3 = (e) => {
     console.log(`Number ${key} was pressed!`);
   }
 };
+const handleKeyPress4 = (e) => {
+  const key = getCode(e);
+  if (key == 4) {
+    var url = prompt("Enter URL Here (example: https://google.com)");if (url == null) {alert('No URL Entered!')} else {location.href="gfiles/gfiles/lanucher/index.html?url="+url;}
+    console.log(`Number ${key} was pressed!`);
+  }
+};
 document.addEventListener("keypress", handleKeyPress);
 document.addEventListener("keypress", handleKeyPress3);
 document.addEventListener("keypress", handleKeyPress1);
 document.addEventListener("keypress", handleKeyPress2);
+document.addEventListener("keypress", handleKeyPress4);
+
 
 //opensettings()
+

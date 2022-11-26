@@ -1294,7 +1294,7 @@
   },
   {
     "name": "Hextris",
-    "img": "../images/na.png",
+    "img": "thumbnails/img35.jpg",
     "url": "gfiles/gfiles/html5/hextris/index.html",
     
   },
@@ -2029,7 +2029,7 @@
   },
   {
     "name": "Hexxagon",
-    "img": "../images/na.png",
+    "img": "thumbnails/hexagon.png",
     "url": "gfiles/gfiles/flash/?swf=hexxagon.swf",
     
   },
@@ -2560,7 +2560,7 @@
 }, 
 {
     "name": "Eagler Server 2",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly9pbnRlZ3JhbHNvbHZlci5sb2wvbWMvP3NlcnZlcj13c3M6Ly9tYy5pbnRlZ3JhbHNvbHZlci5sb2w=",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly9pbnRlZ3JhbHNvbHZlci5sb2wvbWMvP3NlcnZlcj13c3M6Ly9tYy5pbnRlZ3JhbHNvbHZlci5sb2w=",
     "img": "../images/grass.png",
 },
 {
@@ -2590,23 +2590,23 @@
 },
 {
     "name": "BasketBall Stars",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
     "img": "thumbnails/img215",
 },
 {
     "name": "Pokemon Silver",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
     "img": "thumbnails/img217",
 },
 {
     "name": "Diep.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
     "img": "thumbnails/img218",
 },
 
 {
     "name": "Subway Surfers",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
     "img": "thumbnails/img221",
 },
 {
@@ -2628,11 +2628,6 @@
     "img": "thumbnails/img34.png",
 }, 
  {
-    
-    "name": "Hextris",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/hextris/index.html",
-    "img": "thumbnails/img35.jpg",
-}, {
     
     "name": "Uno",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/uno/index.html",
@@ -2747,14 +2742,14 @@
 },
 {
     "name": "MooMoo.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
     "img": "thumbnails/img219",
 },
 
 {
     
     "name": "Fortnite",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
     "img": "thumbnails/img220",
 },
     {
@@ -2813,14 +2808,14 @@
     }, 
     {
         "name": "GE Force Now",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
-        "url1": "https://kardna4life.ml//uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
-        "url2": "https://kardna4life.ml//uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+        "url1": "https://kardna4life.ml/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+        "url2": "https://kardna4life.ml/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
         "img": "../images/ge.png",
     }, 
     {
         "name": "Youtube",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#eW91dHViZS5jb20=",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#eW91dHViZS5jb20=",
         "url1": "gfiles/gfiles/lanucher/index.html?url=https://youtube.com",
         "url2": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=supermario63.swf",
         "img": "../images/yt.png",
@@ -4201,7 +4196,7 @@
    },
    {
      "name": "Hextris",
-     "img": "../images/na.png",
+     "img": "thumbnails/img35.jpg",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/hextris/index.html",
      
    },
@@ -4936,7 +4931,7 @@
    },
    {
      "name": "Hexxagon",
-     "img": "../images/na.png",
+     "img": "thumbnails/hexagon.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=hexxagon.swf",
      
    },
@@ -5467,7 +5462,7 @@
 }, 
 {
    "name": "Eagler Server 2",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly9pbnRlZ3JhbHNvbHZlci5sb2wvbWMvP3NlcnZlcj13c3M6Ly9tYy5pbnRlZ3JhbHNvbHZlci5sb2w=",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly9pbnRlZ3JhbHNvbHZlci5sb2wvbWMvP3NlcnZlcj13c3M6Ly9tYy5pbnRlZ3JhbHNvbHZlci5sb2w=",
    "img": "../images/grass.png",
 },
 {
@@ -5497,23 +5492,23 @@
 },
 {
    "name": "BasketBall Stars",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
    "img": "thumbnails/img215",
 },
 {
    "name": "Pokemon Silver",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
    "img": "thumbnails/img217",
 },
 {
    "name": "Diep.io",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
    "img": "thumbnails/img218",
 },
 
 {
    "name": "Subway Surfers",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
    "img": "thumbnails/img221",
 },
 {
@@ -5534,12 +5529,7 @@
    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/google-solitaire/index.html",
    "img": "thumbnails/img34.png",
 }, 
-{
-   
-   "name": "Hextris",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/hextris/index.html",
-   "img": "thumbnails/img35.jpg",
-}, {
+ {
    
    "name": "Uno",
    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/uno/index.html",
@@ -5654,14 +5644,14 @@
 },
 {
    "name": "MooMoo.io",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
    "img": "thumbnails/img219",
 },
 
 {
    
    "name": "Fortnite",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml//uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
    "img": "thumbnails/img220",
 },
    {

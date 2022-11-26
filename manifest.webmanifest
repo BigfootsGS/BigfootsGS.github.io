@@ -1,7 +1,7 @@
 {
     "background_color": "White",
     "description": "Over 200+ Unblocked Games | Bigfoot's Game Shack",
-    "display": "fullscreen",
+    "display": "standalone",
     "icons": [
       {
         "src": "images/bigfoot.png",

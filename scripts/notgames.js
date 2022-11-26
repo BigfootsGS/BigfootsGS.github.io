@@ -1294,7 +1294,7 @@
   },
   {
     "name": "Hextris",
-    "img": "../images/na.png",
+    "img": "thumbnails/img35.jpg",
     "url": "gfiles/gfiles/html5/hextris/index.html",
     
   },
@@ -2029,7 +2029,7 @@
   },
   {
     "name": "Hexxagon",
-    "img": "../images/na.png",
+    "img": "thumbnails/hexagon.png",
     "url": "gfiles/gfiles/flash/?swf=hexxagon.swf",
     
   },
@@ -2628,11 +2628,6 @@
     "img": "thumbnails/img34.png",
 }, 
  {
-    
-    "name": "Hextris",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/hextris/index.html",
-    "img": "thumbnails/img35.jpg",
-}, {
     
     "name": "Uno",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/uno/index.html",
@@ -4201,7 +4196,7 @@
    },
    {
      "name": "Hextris",
-     "img": "../images/na.png",
+     "img": "thumbnails/img35.jpg",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/hextris/index.html",
      
    },
@@ -4936,7 +4931,7 @@
    },
    {
      "name": "Hexxagon",
-     "img": "../images/na.png",
+     "img": "thumbnails/hexagon.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=hexxagon.swf",
      
    },
@@ -5534,12 +5529,7 @@
    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/google-solitaire/index.html",
    "img": "thumbnails/img34.png",
 }, 
-{
-   
-   "name": "Hextris",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/hextris/index.html",
-   "img": "thumbnails/img35.jpg",
-}, {
+ {
    
    "name": "Uno",
    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/uno/index.html",

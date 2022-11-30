@@ -2814,10 +2814,10 @@
         "img": "../images/ge.png",
     }, 
     {
-        "name": "Youtube",
+        "name": "Youtube (Fixing URLs!)",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#eW91dHViZS5jb20=",
         "url1": "gfiles/gfiles/lanucher/index.html?url=https://youtube.com",
-        "url2": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=supermario63.swf",
+        "url2": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#eW91dHViZS5jb20=",
         "img": "../images/yt.png",
     }, 
    

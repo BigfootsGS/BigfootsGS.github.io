@@ -2815,7 +2815,7 @@
     }, 
     {
         "name": "Youtube",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#eW91dHViZS5jb20=",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/service/uv.html#eW91dHViZS5jb20=",
         "url1": "gfiles/gfiles/lanucher/index.html?url=https://youtube.com",
         "url2": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#eW91dHViZS5jb20=",
         "img": "../images/yt.png",

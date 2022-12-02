@@ -18,7 +18,7 @@ function blank3(){
             const style = iframe.style
             const link = doc.createElement("link")
     
-            doc.title = "bgs.voids.cf"
+            doc.title = "bigfootshack.pages.dev"
             link.rel = "icon";
             link.href = "https://raw.githubusercontent.com/BigfootsGS/BigfootsGS.github.io/main/images/favicon.ico";
             iframe.src = location.href

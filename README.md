@@ -32,15 +32,15 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 <div align='left'>
 
 ## Official Links
-* https://www.bgs.pages.dev
-* https://www.bigfootshack.tk/
-* https://v3.bigfootedu.tk/
-* https://v3.b5q8vxvxvd.cf/
-* https://website-mocha-phi.vercel.app/
-* https://v3.bigfoot9999.tk/
-* https://v3.bigfootshack.gq/  
+* https://bgs.pages.dev
+* https://www.bigfootshack.tk/ (Link is down)
+* https://v3.bigfootedu.tk/ (Link is down)
+* https://v3.b5q8vxvxvd.cf/ (Link is down)
+* https://website-mocha-phi.vercel.app/ (Link is down)
+* https://v3.bigfoot9999.tk/ (Link is down)
+* https://v3.bigfootshack.gq/  (Link is down)
 * https://www.bigfootninenineninenine.gq
-* https://bgs.voids.cf/
+* https://bgs.voids.cf/ (Link is down)
 
 
 

@@ -2809,8 +2809,8 @@
     {
         "name": "GE Force Now",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
-        "url1": "https://kardna.herokuapp.com/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
-        "url2": "https://kardna.herokuapp.com/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+        "url1": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+        "url2": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
         "img": "../images/ge.png",
     }, 
     {

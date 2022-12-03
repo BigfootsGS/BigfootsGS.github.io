@@ -1891,12 +1891,12 @@
   },
   {
     "name": "Monopoly",
-    "img": "../images/na.png",
+    "img": "thumbnails/monopoly.png",
     "url": "gfiles/gfiles/flash/?swf=Monopoly.swf",
     
   },
   {
-    "name": "N",
+    "name": "N (retro game)",
     "img": "../images/na.png",
     "url": "gfiles/gfiles/flash/?swf=N.swf",
     

@@ -1,0 +1,14 @@
+https://bgs.voids.cf
+https://bgs.voidsgxmes.ml
+https://bigfootedu.tk
+https://bigfootshack.tk
+https://lenardsbites.ml
+https://lonelytab.ml
+https://schoolmatheduscienceenglish.cf
+https://voids.cf
+https://www.bigfootedu.tk
+https://www.bigfootshack.tk
+https://www.lenardsbites.ml
+https://www.lonelytab.ml
+https://www.schoolmatheduscienceenglish.cf
+https://www.voids.cf

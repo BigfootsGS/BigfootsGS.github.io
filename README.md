@@ -33,18 +33,16 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 
 ## Official Links
 * https://bgs.pages.dev
-* https://www.bigfootshack.tk/ (Link is down)
+* https://www.bigfootshack.tk/ 
 * https://v3.bigfootedu.tk/ (Link is down)
 * https://v3.b5q8vxvxvd.cf/ (Link is down)
-* https://website-mocha-phi.vercel.app/ (Link is down)
 * https://v3.bigfoot9999.tk/ (Link is down)
-* https://v3.bigfootshack.gq/  (Link is down)
+* https://www.bigfootshack.gq/  (Link is down)
 * https://www.bigfootninenineninenine.gq
-* https://bgs.voids.cf/ (Link is down)
+* https://bgs.voids.cf/ 
+* https://lenardsbites.ml/
 
-
-
-Don't worry if they get blocked. There are tons of [community links](https://github.com/BigfootsGS/BigfootsGS.github.io/blob/main/github/Community-Links.md).
+Don't worry if they get blocked. Here is a list of [unblocked links](https://github.com/BigfootsGS/BigfootsGS.github.io/blob/main/other/links.md).
 
 ---
 ## Version

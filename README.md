@@ -30,6 +30,7 @@ It is our mission to provide unblocked games to you guys! That's why our code is
   <h1>Contributors</h1>
 <img src="https://contrib.rocks/image?repo=BigfootsGS/BigfootsGS.github.io"/>
 <div align='left'>
+  
 Don't worry if we are blocked. Here is a list of [unblocked links](https://github.com/BigfootsGS/BigfootsGS.github.io/blob/main/other/links.md).
 
 ---

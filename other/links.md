@@ -12,3 +12,4 @@
 * https://www.lenardsbites.ml
 * https://www.lonelytab.ml
 * https://www.schoolmatheduscienceenglish.cf
+* https://bigfootsgs.github.io/

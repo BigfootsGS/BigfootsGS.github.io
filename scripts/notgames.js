@@ -1891,12 +1891,12 @@
   },
   {
     "name": "Monopoly",
-    "img": "../images/na.png",
+    "img": "thumbnails/monopoly.png",
     "url": "gfiles/gfiles/flash/?swf=Monopoly.swf",
     
   },
   {
-    "name": "N",
+    "name": "N (retro game)",
     "img": "../images/na.png",
     "url": "gfiles/gfiles/flash/?swf=N.swf",
     
@@ -2557,12 +2557,12 @@
     "url": "gfiles/gfiles/lanucher/index.html?url=https://lolbeans.io/",
     
     "img": "thumbnails/img113",
-}, 
+}, /*
 {
     "name": "Eagler Server 2",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly9pbnRlZ3JhbHNvbHZlci5sb2wvbWMvP3NlcnZlcj13c3M6Ly9tYy5pbnRlZ3JhbHNvbHZlci5sb2w=",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9pbnRlZ3JhbHNvbHZlci5sb2wvbWMvP3NlcnZlcj13c3M6Ly9tYy5pbnRlZ3JhbHNvbHZlci5sb2w=",
     "img": "../images/grass.png",
-},
+},*/
 {
     "name": "Arch MC Server",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://web.arch.lol/?",
@@ -2590,23 +2590,23 @@
 },
 {
     "name": "BasketBall Stars",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
     "img": "thumbnails/img215",
 },
 {
     "name": "Pokemon Silver",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
     "img": "thumbnails/img217",
 },
 {
     "name": "Diep.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
     "img": "thumbnails/img218",
 },
 
 {
     "name": "Subway Surfers",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
     "img": "thumbnails/img221",
 },
 {
@@ -2742,14 +2742,14 @@
 },
 {
     "name": "MooMoo.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
     "img": "thumbnails/img219",
 },
 
 {
     
     "name": "Fortnite",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
     "img": "thumbnails/img220",
 },
     {
@@ -2784,6 +2784,12 @@
         "url": "gfiles/gfiles/lanucher/index.html?url=https://nbadebate.com",
         "img": "thumbnails/basket-bros.png",
        },
+       {
+        "name": "Granny",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
+        "img": "../images/na.png",
+       },
+       
    ]
        buttonArr21.forEach(function(arrayItem21) {
    
@@ -2808,16 +2814,16 @@
     }, 
     {
         "name": "GE Force Now",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
-        "url1": "https://kardna.herokuapp.com/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
-        "url2": "https://kardna.herokuapp.com/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+        "url1": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+        "url2": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
         "img": "../images/ge.png",
     }, 
     {
         "name": "Youtube",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#eW91dHViZS5jb20=",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/service/uv.html#eW91dHViZS5jb20=",
         "url1": "gfiles/gfiles/lanucher/index.html?url=https://youtube.com",
-        "url2": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=supermario63.swf",
+        "url2": "gfiles/gfiles/lanucher/index.html?url=https://kardna4life.ml/uv.html#eW91dHViZS5jb20=",
         "img": "../images/yt.png",
     }, 
    
@@ -5462,7 +5468,7 @@
 }, 
 {
    "name": "Eagler Server 2",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly9pbnRlZ3JhbHNvbHZlci5sb2wvbWMvP3NlcnZlcj13c3M6Ly9tYy5pbnRlZ3JhbHNvbHZlci5sb2w=",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9pbnRlZ3JhbHNvbHZlci5sb2wvbWMvP3NlcnZlcj13c3M6Ly9tYy5pbnRlZ3JhbHNvbHZlci5sb2w=",
    "img": "../images/grass.png",
 },
 {
@@ -5492,23 +5498,23 @@
 },
 {
    "name": "BasketBall Stars",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
    "img": "thumbnails/img215",
 },
 {
    "name": "Pokemon Silver",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
    "img": "thumbnails/img217",
 },
 {
    "name": "Diep.io",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
    "img": "thumbnails/img218",
 },
 
 {
    "name": "Subway Surfers",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
    "img": "thumbnails/img221",
 },
 {
@@ -5644,14 +5650,14 @@
 },
 {
    "name": "MooMoo.io",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
    "img": "thumbnails/img219",
 },
 
 {
    
    "name": "Fortnite",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna.herokuapp.com/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
+   "url": "gfiles/gfiles/lanucher/index.html?url=https://e8bc-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
    "img": "thumbnails/img220",
 },
    {
@@ -5686,6 +5692,11 @@
        "url": "gfiles/gfiles/lanucher/index.html?url=https://nbadebate.com",
        "img": "thumbnails/basket-bros.png",
       },
+      {
+        "name": "Granny",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
+        "img": "../images/na.png",
+       },
   ]
       buttonArr21.forEach(function(arrayItem21) {
   

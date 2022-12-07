@@ -30,19 +30,7 @@ It is our mission to provide unblocked games to you guys! That's why our code is
   <h1>Contributors</h1>
 <img src="https://contrib.rocks/image?repo=BigfootsGS/BigfootsGS.github.io"/>
 <div align='left'>
-
-## Official Links
-* https://bgs.pages.dev
-* https://www.bigfootshack.tk/ 
-* https://v3.bigfootedu.tk/ (Link is down)
-* https://v3.b5q8vxvxvd.cf/ (Link is down)
-* https://v3.bigfoot9999.tk/ (Link is down)
-* https://www.bigfootshack.gq/  (Link is down)
-* https://www.bigfootninenineninenine.gq
-* https://bgs.voids.cf/ 
-* https://lenardsbites.ml/
-
-Don't worry if they get blocked. Here is a list of [unblocked links](https://github.com/BigfootsGS/BigfootsGS.github.io/blob/main/other/links.md).
+Don't worry if we are blocked. Here is a list of [unblocked links](https://github.com/BigfootsGS/BigfootsGS.github.io/blob/main/other/links.md).
 
 ---
 ## Version

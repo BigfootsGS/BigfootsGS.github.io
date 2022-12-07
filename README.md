@@ -26,12 +26,14 @@ It is our mission to provide unblocked games to you guys! That's why our code is
 [![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/bigfootsgs/bigfootsgs.github.io)
 
 
-  <div align='center'> </div>
+  <div align='center'> 
   <h1>Contributors</h1>
 <img src="https://contrib.rocks/image?repo=BigfootsGS/BigfootsGS.github.io"/>
-<div align='left'>
   
 Don't worry if we are blocked. Here is a list of [unblocked links](https://github.com/BigfootsGS/BigfootsGS.github.io/blob/main/other/links.md).
+
+<div align='left'>
+  
 
 ---
 ## Version

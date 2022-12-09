@@ -1,3 +1,4 @@
+# Bigfoot's Game Shack Links
 * https://bgs.voids.cf
 * https://bgs.voidsgxmes.ml
 * https://bigfootedu.tk
@@ -21,3 +22,7 @@
 * https://smallfeet.cf
 * https://smallfeet.ga
 * https://www.bigfootninenineninenine.gq/
+* https://bgs.shockwave.gq/
+# Slope Game
+* https://slope.bigfootgaming.tk
+* https://bigfoot.pages.dev

@@ -14,3 +14,4 @@
 * https://www.schoolmatheduscienceenglish.cf
 * https://bigfootsgs.github.io/
 * https://officialbigfoot.gq
+* https://www.bigfoot.ga

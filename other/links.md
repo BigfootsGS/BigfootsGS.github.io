@@ -15,3 +15,9 @@
 * https://bigfootsgs.github.io/
 * https://officialbigfoot.gq
 * https://www.bigfoot.ga
+* https://smallfeet.tk
+* https://smallfeet.ml
+* https://smallfeet.gq
+* https://smallfeet.cf
+* https://smallfeet.ga
+

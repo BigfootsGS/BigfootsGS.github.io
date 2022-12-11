@@ -100,6 +100,7 @@
         </div>
         <!--End nav-->
         <input style="text-align:center;margin-top:178px;margin-left: -10px;" id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="SEARCH FOR A GAME"></input>
+        <!--yes-->
           <script>
               var randomlinks=new Array(20)
 
@@ -118,7 +119,7 @@
          randomlinks[12]="Link"
          randomlinks[13]="Link"
          randomlinks[14]="Link"
-         randomlinks[15]="Link" <!-- yes ik all of the links lol but I wont stop untill I put every single link in Also gonna make 1 file for all of this you can do the css and stuff-->
+         randomlinks[15]="Link" 
          randomlinks[16]="link"
          randomlinks[17]="link"
          randomlinks[18]="link"
@@ -127,7 +128,14 @@
         window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
         }
           </script>
-                   <a href="javascript:randomlink()" style="text-align: center;">Random Links</a>
+          
+        <style>
+            .link{
+                text-align: center;
+            }
+        </style>
+          <!--end of script Ill make a folder later-->
+                   <a href="javascript:randomlink()" class="link">Random Links</a>
 
           
         <div class="belownavabovegames">

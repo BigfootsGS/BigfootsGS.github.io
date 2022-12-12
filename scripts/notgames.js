@@ -1,4 +1,10 @@
-       var buttonArr21 = [
+var backend = "aHR0cHM6Ly84N2Y3LTI0LTAtMzQtMTkyLm5ncm9rLmlv";
+var url = atob(backend);
+var roblox = "aHR0cHM6Ly9ub3cuZ2cvcGxheS9yb2Jsb3gtY29ycG9yYXRpb24vNTM0OS9yb2Jsb3g=";
+var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
+var BBstars = "aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=";
+
+var buttonArr21 = [
        {
            "name": "1on1soccer",
            "url": "gfiles/gfiles/flash/?swf=1on1soccer.swf",
@@ -2334,17 +2340,17 @@
     
   },
   //end gfiles
-  {
-    "name": "Roblox (FIXED)",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://154f-24-0-34-192.ngrok.io/service/hvtrs8%2F-nmw%2Cge%2Frlcy-rmbnoz-aoppmrctkol%2F7369-rmbnoz",
-    "img": "thumbnails/img59.png",
+   {
+"name": "Roblox",
+"url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + roblox,
+"img": "thumbnails/img59.png",
 },
 {
 
-    "name": "Krunker.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://schooliskool.feetarebig.repl.co",
-    "img": "thumbnails/img65",
-}, 
+   "name": "Krunker.io",
+   "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + krunker,
+   "img": "thumbnails/img65.png",
+   },
 {
     "name": "Temple Run 2",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://bigfoot9999.github.io/html5-games/games/templerun2/",
@@ -2589,10 +2595,10 @@
     "img": "thumbnails/img213",
 },
 {
-    "name": "BasketBall Stars",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
-    "img": "thumbnails/img215",
-},
+   "name": "BasketBall Stars",
+   "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + BBstars,
+   "img": "thumbnails/img215",
+   },
 {
     "name": "Pokemon Silver",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
@@ -5242,17 +5248,17 @@
      
    },
  //end gfiles
- {
-   "name": "Roblox (FIXED)",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://154f-24-0-34-192.ngrok.io/service/hvtrs8%2F-nmw%2Cge%2Frlcy-rmbnoz-aoppmrctkol%2F7369-rmbnoz",
-   "img": "thumbnails/img59.png",
+    {
+"name": "Roblox",
+"url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + roblox,
+"img": "thumbnails/img59.png",
 },
 {
 
    "name": "Krunker.io",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://schooliskool.feetarebig.repl.co",
-   "img": "thumbnails/img65",
-}, 
+   "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + krunker,
+   "img": "thumbnails/img65.png",
+   },
 {
    "name": "Temple Run 2",
    "url": "gfiles/gfiles/lanucher/index.html?url=https://bigfoot9999.github.io/html5-games/games/templerun2/",
@@ -5498,9 +5504,9 @@
 },
 {
    "name": "BasketBall Stars",
-   "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
+   "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + BBstars,
    "img": "thumbnails/img215",
-},
+   },
 {
    "name": "Pokemon Silver",
    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",

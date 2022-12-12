@@ -2342,13 +2342,13 @@ var buttonArr21 = [
   //end gfiles
    {
 "name": "Roblox",
-"url": url +"/uv.html#" + roblox,
+"url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + roblox,
 "img": "thumbnails/img59.png",
 },
 {
 
    "name": "Krunker.io",
-   "url": url +"/uv.html#" + krunker,
+   "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + krunker,
    "img": "thumbnails/img65.png",
    },
 {
@@ -2596,7 +2596,7 @@ var buttonArr21 = [
 },
 {
    "name": "BasketBall Stars",
-   "url": url +"/uv.html#" + BBstars,
+   "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + BBstars,
    "img": "thumbnails/img215",
    },
 {
@@ -2827,7 +2827,7 @@ var buttonArr21 = [
     }, 
     {
         "name": "Youtube",
-        "url": "gfiles/gfiles/lanucher/index.html?url="+ url +"/uv.html#aHR0cHM6Ly95b3V0dWJlLmNvbQ==",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly95b3V0dWJlLmNvbQ==",
         "url1": "gfiles/gfiles/lanucher/index.html?url=https://youtube.com",
         "url2": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/service/uv.html#eW91dHViZS5jb20=",
         "img": "../images/yt.png",
@@ -5250,13 +5250,13 @@ var buttonArr21 = [
  //end gfiles
     {
 "name": "Roblox",
-"url": url +"/uv.html#" + roblox,
+"url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + roblox,
 "img": "thumbnails/img59.png",
 },
 {
 
    "name": "Krunker.io",
-   "url": url +"/uv.html#" + krunker,
+   "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + krunker,
    "img": "thumbnails/img65.png",
    },
 {
@@ -5504,7 +5504,7 @@ var buttonArr21 = [
 },
 {
    "name": "BasketBall Stars",
-   "url": url +"/uv.html#" + BBstars,
+   "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + BBstars,
    "img": "thumbnails/img215",
    },
 {

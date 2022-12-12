@@ -649,6 +649,14 @@ input[type=text] {
 	width: 87vw;
 	-webkit-transition: width 0.15s ease-in-out;
 	transition: width 0.15s ease-in-out;
+  color: white !important;
+}
+input, select, textarea{
+  color: white;
+}
+
+textarea:focus, input:focus {
+  color: white;
 }
 .navh1 {
   color: white;

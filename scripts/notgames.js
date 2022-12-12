@@ -7287,6 +7287,12 @@ var randomlinks= [
  },
  
 ]
-function randomlink(){
-window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+
+
+function randomlink() {
+//console.log(Object.keys(randomlinks)[Math.floor(Math.random()*Object.keys(randomlinks).length)]);
+console.log(randomlinks[ Math.floor(Math.random() * randomlinks.length) ]['link']);
+window.location=randomlinks[ Math.floor(Math.random() * randomlinks.length) ]['link'];
+
 }
+

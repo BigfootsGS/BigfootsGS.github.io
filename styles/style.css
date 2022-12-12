@@ -144,7 +144,6 @@ button {
  .footer a:link {
      color: white;
      background-color: transparent;
-     text-decoration: none;
 }
  .footer a:visited {
      color: white;
@@ -720,3 +719,63 @@ ul.controls {
     color: white;padding: 17px;letter-spacing: 3px;font-size: 20px;  font-family: 'Monument Extended', sans-serif;text-align: center;padding-bottom: 400px;
 
   }
+
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+  .discord-ad-main{
+    font-family: 'Monument Extended', sans-serif;
+    font-size: 100px;
+    text-align: left;
+    margin-left: 200px;
+    line-height: 100px;
+  }
+  .discord-ad-below {
+    font-family: 'Monument Extended', sans-serif;
+    font-size: 20px;
+    text-align: left !important;
+    margin-left: 250px;
+
+  }
+  .discord-ad-beloww{
+    font-family: 'Monument Extended', sans-serif;
+    font-size: 16px;
+    text-align: left !important;
+    margin-left: 249px;
+}
+.button-but-a-link {
+    width:275px;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 249px;
+    height: 35px;
+    background: linear-gradient(to bottom right, rgb(45, 28, 14), rgb(63, 43, 26));
+    padding: 10px;
+}
+.notabutton{
+    font-family: 'Monument Extended', sans-serif;
+    color:white;
+    font-size: 30px !important;
+    margin-top:10px;
+}
+
+
+.button-but-a-link a {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+.button-but-a-link a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.button-but-a-link a:hover {
+    color: white;
+    background-color: transparent;
+}
+.button-but-a-link a:active {
+    color: rgb(209, 209, 209);
+    background-color: transparent;
+}

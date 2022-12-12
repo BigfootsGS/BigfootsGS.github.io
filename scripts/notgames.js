@@ -1103,6 +1103,36 @@ var buttonArr21 = [
            "url": "gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
           "img": "thumbnails/sushiria.jpg",
          },
+         {   "name": "Papas Bakeria",
+           "url": "gfiles/gfiles/flash/waflash/papas-bakeria/index.html",
+          "img": "thumbnails/bakeria.jpg",
+         },
+         {   "name": "Papas Cheeseria",
+           "url": "gfiles/gfiles/flash/waflash/papas-cheeseria/index.html",
+          "img": "thumbnails/cheeseria.jpg",
+         },
+         {   "name": "Papas Cupcakeria",
+           "url": "gfiles/gfiles/flash/waflash/papas-cupcakeria/index.html",
+          "img": "thumbnails/cupcakeria.jpg",
+         },
+         {   "name": "Papas Donuteria",
+           "url": "gfiles/gfiles/flash/waflash/papas-donuteria/index.html",
+          "img": "thumbnails/donuteria.jpg",
+         },
+         {   "name": "Papas Pastaria",
+           "url": "gfiles/gfiles/flash/waflash/papas-pastaria/index.html",
+          "img": "thumbnails/pastaria.jpg",
+         },
+         {   "name": "Papas Scooperia",
+           "url": "gfiles/gfiles/flash/waflash/papas-scooperia/index.html",
+          "img": "thumbnails/scooperia.jpg",
+         },
+
+
+
+
+
+
 
 
 
@@ -2420,13 +2450,6 @@ var buttonArr21 = [
 "img": "../images/na.png",
 "url": "gfiles/gfiles/lanucher/index.html?url=https://too-advanced-for-society.gq/tam-indian-truck-simulator-3d/",
 
-},
-{
-    
-    "name": "Pappa's Taco Mia",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://mazahacka2017.github.io/papa-taco-mia/",
-    
-    "img": "thumbnails/img10.png",
 },
 {
     
@@ -3998,19 +4021,24 @@ var buttonArr21 = [
         {   "name": "Papas Wingeria",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
            "img": "thumbnails/wingeria.jpg",
-          },
-          {   "name": "Papas Freezeria",
+        },
+        {   "name": "Papas Freezeria",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
            "img": "thumbnails/freezeria.jpg",
-          },
-          {   "name": "Papas Pancakeria",
+        },
+        {   "name": "Papas Pancakeria",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
            "img": "thumbnails/pancakeria.jpg",
           },
-          {   "name": "Papas Sushiria",
+          {   "name": "Papas Wingeria",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
            "img": "thumbnails/sushiria.jpg",
           },
+          {   "name": "Papas Taco Mia",
+           "url": "gfiles/gfiles/flash/waflash/papas-taco-mia/index.html",
+          "img": "thumbnails/tacomia.jpg",
+         },
+
   
   
   
@@ -5740,7 +5768,6 @@ var buttonArr21 = [
   });
 });
        
-
 var randomlinks= [
   {
     "link":"gfiles/gfiles/flash/?swf=1on1soccer.swf",

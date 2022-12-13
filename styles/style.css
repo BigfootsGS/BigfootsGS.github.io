@@ -742,40 +742,60 @@ ul.controls {
     text-align: left !important;
     margin-left: 249px;
 }
+.button-but-a-link:hover {
+	color: white;
+	background-color: rgb(80, 52, 29);
+	animation-duration: 1s;
+}
 .button-but-a-link {
     width:275px;
     margin-top: 30px;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-left: 249px;
     height: 35px;
-    background: linear-gradient(to bottom right, rgb(45, 28, 14), rgb(63, 43, 26));
+    background: rgb(80, 52, 29);
     padding: 10px;
+
 }
 .notabutton{
     font-family: 'Monument Extended', sans-serif;
     color:white;
     font-size: 30px !important;
     margin-top:10px;
+    -webkit-font-smoothing: antialiased;
+
 }
 
 
-.button-but-a-link a {
+.link-a a {
     color: white;
     background-color: transparent;
     text-decoration: none;
 
 }
-.button-but-a-link a:visited {
+.link-a a:visited {
     color: white;
     background-color: transparent;
     text-decoration: none;
 }
 
-.button-but-a-link a:hover {
+.link-a a:hover {
     color: white;
     background-color: transparent;
 }
-.button-but-a-link a:active {
+.link-a a:active {
     color: rgb(209, 209, 209);
     background-color: transparent;
+}
+.button-but-a-link:hover {
+    transition: 0.3s;
+    box-shadow: 0 8px 50px 0 rgba(0,0,0,0.2);
+}
+.button-but-a-link {
+    transition: transform .2s;
+    margin: 10 auto;
+}
+.button-but-a-link:hover {
+    transform: scale(1.1);
+   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }

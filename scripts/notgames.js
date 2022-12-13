@@ -1,4 +1,4 @@
-var backend = "aHR0cHM6Ly84N2Y3LTI0LTAtMzQtMTkyLm5ncm9rLmlv";
+var backend = "aHR0cHM6Ly83NmUyLTI0LTAtMzQtMTkyLm5ncm9rLmlv";
 var url = atob(backend);
 var roblox = "aHR0cHM6Ly9ub3cuZ2cvcGxheS9yb2Jsb3gtY29ycG9yYXRpb24vNTM0OS9yb2Jsb3g=";
 var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
@@ -2850,7 +2850,7 @@ var buttonArr21 = [
     }, 
     {
         "name": "Youtube",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#eW91dHViZS5jb20=",
+        "url": "gfiles/gfiles/lanucher/index.html?url=" + url,
         "url1": "gfiles/gfiles/lanucher/index.html?url=https://youtube.com",
         "url2": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#eW91dHViZS5jb20=",
         "img": "../images/yt.png",

@@ -2850,7 +2850,7 @@ var buttonArr21 = [
     }, 
     {
         "name": "Youtube",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#eW91dHViZS5jb20=",
+        "url": "gfiles/gfiles/lanucher/index.html?url=" + url,
         "url1": "gfiles/gfiles/lanucher/index.html?url=https://youtube.com",
         "url2": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#eW91dHViZS5jb20=",
         "img": "../images/yt.png",

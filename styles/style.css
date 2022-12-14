@@ -782,14 +782,20 @@ ul.controls {
 .link-a a:hover {
     color: white;
     background-color: transparent;
+    text-decoration: none;
+
 }
 .link-a a:active {
     color: rgb(209, 209, 209);
     background-color: transparent;
+    text-decoration: none;
+
 }
 .button-but-a-link:hover {
     transition: 0.3s;
     box-shadow: 0 8px 50px 0 rgba(0,0,0,0.2);
+    text-decoration: none;
+
 }
 .button-but-a-link {
     transition: transform .2s;
@@ -798,4 +804,32 @@ ul.controls {
 .button-but-a-link:hover {
     transform: scale(1.1);
    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.notabutton a {
+    text-decoration: none;
+
+    
+}
+
+.notabutton a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.notabutton a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+.notabutton a:active {
+    color: rgb(209, 209, 209);
+    background-color: transparent;
+    text-decoration: none;
+
+}
+.link-a {
+    text-decoration: none;
+
 }

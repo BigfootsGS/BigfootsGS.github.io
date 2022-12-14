@@ -13,7 +13,7 @@ const r_text = [
     "Thanks for using Bigfoots Game Shack!",
     "More unblocked games at 3kh0.github.io!",
     "More Unblocked games at Arr3.gq!",
-    "Warm and Cold.",
+    "Warm and Colddddddd.",
     "Im so tired and awake.",
     "Imagine not sharing this website with your friends",
     "Never gonna give you up, never gonna let you down...",

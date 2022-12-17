@@ -5,6 +5,11 @@ var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
 var BBstars = "aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=";
 
 var buttonArr21 = [
+   {
+      "name": "Sans",
+      "url": "gfiles/gfiles/html5/sans",
+      "img": "gfiles/gfiles/html5/sans/icon-128.png",
+  },
        {
            "name": "1on1soccer",
            "url": "gfiles/gfiles/flash/?swf=1on1soccer.swf",

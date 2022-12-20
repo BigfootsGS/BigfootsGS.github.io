@@ -6,10 +6,70 @@ var BBstars = "aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL
 
 var buttonArr21 = [
    {
-      "name": "Sans",
-      "url": "gfiles/gfiles/html5/sans",
-      "img": "gfiles/gfiles/html5/sans/icon-128.png",
+      "name": "Retro Bowl",
+      "url": "gfiles/gfiles/html5/retrobowl/retro-bowl-main/index.html",
+      "img": "gfiles/gfiles/html5/retrobowl/retro-bowl-main/img/icon.jpg",
   },
+ 
+  {
+   "name": "Clickerheroes",
+   "url": "gfiles/gfiles/flash/?swf=clickerheroes.swf",
+   "img": "thumbnails/img129.webp",
+},
+
+  {   "name": "Papas Pizzeria",
+         "url": "gfiles/gfiles/flash/waflash/papas-pizzeria/index.html",
+         "img": "thumbnails/papas-pizza",
+     },
+     {   "name": "Papas Burgeria",
+         "url": "gfiles/gfiles/flash/waflash/papas-burgeria/index.html",
+         "img": "thumbnails/img64",
+     },
+     {   "name": "Papas HotDoggeria",
+         "url": "gfiles/gfiles/flash/waflash/papas-hot-doggeria/index.html",
+         "img": "thumbnails/papas-hotdog.png",
+     },
+     {   "name": "Papas Wingeria",
+         "url": "gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
+        "img": "thumbnails/wingeria.jpg",
+       },
+       {   "name": "Papas Freezeria",
+         "url": "gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
+        "img": "thumbnails/freezeria.jpg",
+       },
+       {   "name": "Papas Pancakeria",
+         "url": "gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
+        "img": "thumbnails/pancakeria.jpg",
+       },
+       {   "name": "Papas Sushiria",
+         "url": "gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
+        "img": "thumbnails/sushiria.jpg",
+       },
+       {   "name": "Papas Bakeria",
+         "url": "gfiles/gfiles/flash/waflash/papas-bakeria/index.html",
+        "img": "thumbnails/bakeria.jpg",
+       },
+       {   "name": "Papas Cheeseria",
+         "url": "gfiles/gfiles/flash/waflash/papas-cheeseria/index.html",
+        "img": "thumbnails/cheeseria.jpg",
+       },
+       {   "name": "Papas Cupcakeria",
+         "url": "gfiles/gfiles/flash/waflash/papas-cupcakeria/index.html",
+        "img": "thumbnails/cupcakeria.jpg",
+       },
+       {   "name": "Papas Donuteria",
+         "url": "gfiles/gfiles/flash/waflash/papas-donuteria/index.html",
+        "img": "thumbnails/donuteria.jpg",
+       },
+       {   "name": "Papas Pastaria",
+         "url": "gfiles/gfiles/flash/waflash/papas-pastaria/index.html",
+        "img": "thumbnails/pastaria.jpg",
+       },
+       {   "name": "Papas Scooperia",
+         "url": "gfiles/gfiles/flash/waflash/papas-scooperia/index.html",
+        "img": "thumbnails/scooperia.jpg",
+       },
+   
        {
            "name": "1on1soccer",
            "url": "gfiles/gfiles/flash/?swf=1on1soccer.swf",
@@ -484,17 +544,17 @@ var buttonArr21 = [
        {
            "name": "Flight",
            "url": "gfiles/gfiles/flash/?swf=flight.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {
            "name": "Fracuum",
            "url": "gfiles/gfiles/flash/?swf=fracuum.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {
            "name": "Getontop",
            "url": "gfiles/gfiles/flash/?swf=getontop.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {
            "name": "Giveuprobot",
@@ -579,7 +639,7 @@ var buttonArr21 = [
        {
            "name": "Jumpix2",
            "url": "gfiles/gfiles/flash/?swf=jumpix2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {
            "name": "Knightmaretower",
@@ -629,7 +689,7 @@ var buttonArr21 = [
        {
            "name": "Metroidelements",
            "url": "gfiles/gfiles/flash/?swf=metroidelements.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {
            "name": "Mineblocks",
@@ -674,17 +734,17 @@ var buttonArr21 = [
        {
            "name": "Mutilateadoll2",
            "url": "gfiles/gfiles/flash/?swf=mutilateadoll2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },  
        {
            "name": "Myangel",
            "url": "gfiles/gfiles/flash/?swf=myangel.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },   
        {
            "name": "Nanotube",
            "url": "gfiles/gfiles/flash/?swf=nanotube.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        }, 
           {
            "name": "Newgroundsrumble",
@@ -693,19 +753,19 @@ var buttonArr21 = [
        },    {
            "name": "Ngame",
            "url": "gfiles/gfiles/flash/?swf=ngame.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },    {
            "name": "Nitromemustdie",
            "url": "gfiles/gfiles/flash/?swf=nitromemustdie.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },    {
            "name": "Nucleus",
            "url": "gfiles/gfiles/flash/?swf=nucleus.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },    {
            "name": "Nv2",
            "url": "gfiles/gfiles/flash/?swf=nv2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },    {
            "name": "Nyancatlostinspace",
            "url": "gfiles/gfiles/flash/?swf=nyancatlostinspace.swf",
@@ -714,23 +774,23 @@ var buttonArr21 = [
        {
            "name": "Offroaders",
            "url": "gfiles/gfiles/flash/?swf=offroaders.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/offroaders.jpg",
        },
        {   "name": "Onemanarmy2",
            "url": "gfiles/gfiles/flash/?swf=onemanarmy2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/onemanarmy2.png",
        },
        {   "name": "Outofthisworld",
            "url": "gfiles/gfiles/flash/?swf=outofthisworld.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Pacman",
            "url": "gfiles/gfiles/flash/?swf=pacman.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/pacman.png",
        },
        {   "name": "Pandemic",
            "url": "gfiles/gfiles/flash/?swf=pandemic.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/PANDEMIC.jpg",
        },
        {   "name": "Pandemic2",
            "url": "gfiles/gfiles/flash/?swf=pandemic2.swf",
@@ -738,7 +798,7 @@ var buttonArr21 = [
        },
        {   "name": "Papalouie",
            "url": "gfiles/gfiles/flash/?swf=papalouie.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/papalouie.jpg",
        },
        {   "name": "Papalouie2",
            "url": "gfiles/gfiles/flash/?swf=papalouie2.swf",
@@ -746,44 +806,44 @@ var buttonArr21 = [
        },
        {   "name": "Papalouie3",
            "url": "gfiles/gfiles/flash/?swf=papalouie3.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/papa-lou-3.png",
        },
        {   "name": "Picosschool",
            "url": "gfiles/gfiles/flash/?swf=picosschool.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/school.png",
        },
        {   "name": "Picosschool2",
            "url": "gfiles/gfiles/flash/?swf=picosschool2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/school2.jpg",
        },
        {   "name": "Pirates",
            "url": "gfiles/gfiles/flash/?swf=pirates.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/pirates.png",
        },
        {   "name": "Polarjump",
            "url": "gfiles/gfiles/flash/?swf=polarjump.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/polar.png",
        },
        {   "name": "Portal",
            "url": "gfiles/gfiles/flash/?swf=portal.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/portal.jpg",
        },
        {   "name": "Portal2d",
            "url": "gfiles/gfiles/flash/?swf=portal2d.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/portal2.jpg",
        },
        {   "name": "Quadrobarreldefence",
            "url": "gfiles/gfiles/flash/?swf=quadrobarreldefence.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/quad.png",
        },
        {   "name": "Qubeythecube",
            "url": "gfiles/gfiles/flash/?swf=qubeythecube.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
    
        {   "name": "Qwop",
            "url": "gfiles/gfiles/flash/?swf=qwop.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
    
        },
        {   "name": "Raftwars",
@@ -792,11 +852,11 @@ var buttonArr21 = [
        },
        {   "name": "Raftwars2",
            "url": "gfiles/gfiles/flash/?swf=raftwars2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Raze",
            "url": "gfiles/gfiles/flash/?swf=raze.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Redball",
            "url": "gfiles/gfiles/flash/?swf=redball.swf",
@@ -820,39 +880,39 @@ var buttonArr21 = [
        },
        {   "name": "Redshift",
            "url": "gfiles/gfiles/flash/?swf=redshift.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Revenant2",
            "url": "gfiles/gfiles/flash/?swf=revenant2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Riddleschool1",
            "url": "gfiles/gfiles/flash/?swf=riddleschool1.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Riddleschool2",
            "url": "gfiles/gfiles/flash/?swf=riddleschool2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Riddleschool3",
            "url": "gfiles/gfiles/flash/?swf=riddleschool3.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Riddleschool4",
            "url": "gfiles/gfiles/flash/?swf=riddleschool4.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Riddleschool5",
            "url": "gfiles/gfiles/flash/?swf=riddleschool5.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Riddletransfer",
            "url": "gfiles/gfiles/flash/?swf=riddletransfer.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Riddletransfer2",
            "url": "gfiles/gfiles/flash/?swf=riddletransfer2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
    
        {   "name": "Run2",
@@ -865,15 +925,15 @@ var buttonArr21 = [
        },
        {   "name": "Saszombieassault3",
            "url": "gfiles/gfiles/flash/?swf=saszombieassault3.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Sentryknight",
            "url": "gfiles/gfiles/flash/?swf=sentryknight.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Shoppingcarthero3",
            "url": "gfiles/gfiles/flash/?swf=shoppingcarthero3.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Siftheads",
            "url": "gfiles/gfiles/flash/?swf=siftheads.swf",
@@ -881,187 +941,187 @@ var buttonArr21 = [
        },
        {   "name": "Siftheads2",
            "url": "gfiles/gfiles/flash/?swf=siftheads2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Siftheads3",
            "url": "gfiles/gfiles/flash/?swf=siftheads3.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Siftheads4",
            "url": "gfiles/gfiles/flash/?swf=siftheads4.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Siftheads5",
            "url": "gfiles/gfiles/flash/?swf=siftheads5.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Sniperassassin4",
            "url": "gfiles/gfiles/flash/?swf=sniperassassin4.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Sportsheadsfootball",
            "url": "gfiles/gfiles/flash/?swf=sportsheadsfootball.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Sportsheadsracing",
            "url": "gfiles/gfiles/flash/?swf=sportsheadsracing.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Sportsheadstennis",
            "url": "gfiles/gfiles/flash/?swf=sportsheadstennis.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Stickrpg",
            "url": "gfiles/gfiles/flash/?swf=stickrpg.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Stickrun2",
            "url": "gfiles/gfiles/flash/?swf=stickrun2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Stickwar",
            "url": "gfiles/gfiles/flash/?swf=stickwar.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Strikeforceheroes2",
            "url": "gfiles/gfiles/flash/?swf=strikeforceheroes2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Sugarsugar",
            "url": "gfiles/gfiles/flash/?swf=sugarsugar.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Sugarsugar2",
            "url": "gfiles/gfiles/flash/?swf=sugarsugar2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Sugarsugar3",
            "url": "gfiles/gfiles/flash/?swf=sugarsugar3.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Superd",
            "url": "gfiles/gfiles/flash/?swf=superd.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Superfighters",
            "url": "gfiles/gfiles/flash/?swf=superfighters.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Supermario63",
            "url": "gfiles/gfiles/flash/?swf=supermario63.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Supermarioflash",
            "url": "gfiles/gfiles/flash/?swf=supermarioflash.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Supermarioflash2",
            "url": "gfiles/gfiles/flash/?swf=supermarioflash2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Supersmashflash",
            "url": "gfiles/gfiles/flash/?swf=supersmashflash.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Swordsandsandals2",
            "url": "gfiles/gfiles/flash/?swf=swordsandsandals2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Tacticalassassin",
            "url": "gfiles/gfiles/flash/?swf=tacticalassassin.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Tanks",
            "url": "gfiles/gfiles/flash/?swf=tanks.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Tanktrouble",
            "url": "gfiles/gfiles/flash/?swf=tanktrouble.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Tetris",
            "url": "gfiles/gfiles/flash/?swf=tetris.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Thebindingofisaac",
            "url": "gfiles/gfiles/flash/?swf=thebindingofisaac.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Thegame",
            "url": "gfiles/gfiles/flash/?swf=thegame.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Theimpossiblequiz",
            "url": "gfiles/gfiles/flash/?swf=theimpossiblequiz.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Theimpossiblequiz2",
            "url": "gfiles/gfiles/flash/?swf=theimpossiblequiz2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Worldshardestgame2",
            "url": "gfiles/gfiles/flash/?swf=theworldshardestgame2.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Thingthingarena",
            "url": "gfiles/gfiles/flash/?swf=thingthingarena.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Thisistheonlylevel",
            "url": "gfiles/gfiles/flash/?swf=thisistheonlylevel.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Tosstheturtle",
            "url": "gfiles/gfiles/flash/?swf=tosstheturtle.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Truckloader4",
            "url": "gfiles/gfiles/flash/?swf=truckloader4.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Ultimateflashsonic",
            "url": "gfiles/gfiles/flash/?swf=ultimateflashsonic.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Ultimatetactics",
            "url": "gfiles/gfiles/flash/?swf=ultimatetactics.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Unrealflash",
            "url": "gfiles/gfiles/flash/?swf=unrealflash.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Warfare1917",
            "url": "gfiles/gfiles/flash/?swf=warfare1917.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Warfare1944",
            "url": "gfiles/gfiles/flash/?swf=warfare1944.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Warp",
            "url": "gfiles/gfiles/flash/?swf=warp.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Xenos",
            "url": "gfiles/gfiles/flash/?swf=xenos.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Xtremecliffdiving",
            "url": "gfiles/gfiles/flash/?swf=xtremecliffdiving.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Yearofthesnake",
            "url": "gfiles/gfiles/flash/?swf=yearofthesnake.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Yuriusshouseofspooks",
            "url": "gfiles/gfiles/flash/?swf=yuriusshouseofspooks.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Zombiealienparasites",
            "url": "gfiles/gfiles/flash/?swf=zombiealienparasites.swf",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },
        {   "name": "Vex 6",
            "url": "gfiles/gfiles/html5/vex6",
@@ -1072,78 +1132,17 @@ var buttonArr21 = [
         "url": "gfiles/gfiles/lanucher/index.html?url=https://now.gg/play/kitka-games/7999/stumble-guys/",
         "img": "thumbnails/img214",
     },
+
     {
-        "name": "Retro Bowl",
-        "url": "gfiles/gfiles/html5/retrobowl/retro-bowl-main/index.html",
-        "img": "gfiles/gfiles/html5/retrobowl/retro-bowl-main/img/icon.jpg",
-    },
-   
-
-
-    {   "name": "Papas Pizzeria",
-           "url": "gfiles/gfiles/flash/waflash/papas-pizzeria/index.html",
-           "img": "thumbnails/papas-pizza",
-       },
-       {   "name": "Papas Burgeria",
-           "url": "gfiles/gfiles/flash/waflash/papas-burgeria/index.html",
-           "img": "thumbnails/img64",
-       },
-       {   "name": "Papas HotDoggeria",
-           "url": "gfiles/gfiles/flash/waflash/papas-hot-doggeria/index.html",
-           "img": "thumbnails/papas-hotdog.png",
-       },
-       {   "name": "Papas Wingeria",
-           "url": "gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
-          "img": "thumbnails/wingeria.jpg",
-         },
-         {   "name": "Papas Freezeria",
-           "url": "gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
-          "img": "thumbnails/freezeria.jpg",
-         },
-         {   "name": "Papas Pancakeria",
-           "url": "gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
-          "img": "thumbnails/pancakeria.jpg",
-         },
-         {   "name": "Papas Sushiria",
-           "url": "gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
-          "img": "thumbnails/sushiria.jpg",
-         },
-         {   "name": "Papas Bakeria",
-           "url": "gfiles/gfiles/flash/waflash/papas-bakeria/index.html",
-          "img": "thumbnails/bakeria.jpg",
-         },
-         {   "name": "Papas Cheeseria",
-           "url": "gfiles/gfiles/flash/waflash/papas-cheeseria/index.html",
-          "img": "thumbnails/cheeseria.jpg",
-         },
-         {   "name": "Papas Cupcakeria",
-           "url": "gfiles/gfiles/flash/waflash/papas-cupcakeria/index.html",
-          "img": "thumbnails/cupcakeria.jpg",
-         },
-         {   "name": "Papas Donuteria",
-           "url": "gfiles/gfiles/flash/waflash/papas-donuteria/index.html",
-          "img": "thumbnails/donuteria.jpg",
-         },
-         {   "name": "Papas Pastaria",
-           "url": "gfiles/gfiles/flash/waflash/papas-pastaria/index.html",
-          "img": "thumbnails/pastaria.jpg",
-         },
-         {   "name": "Papas Scooperia",
-           "url": "gfiles/gfiles/flash/waflash/papas-scooperia/index.html",
-          "img": "thumbnails/scooperia.jpg",
-         },
-
-
-
-
-
-
-
+      "name": "Sans",
+      "url": "gfiles/gfiles/html5/sans",
+      "img": "gfiles/gfiles/html5/sans/icon-128.png",
+  },
 
 
        {   "name": "FS Mario",
            "url": "gfiles/gfiles/html5/FullScreenMario/Source/index.htm",
-           "img": "../images/na.png",
+           "img": "thumbnails/na.png",
        },   
        
     {
@@ -1160,176 +1159,176 @@ var buttonArr21 = [
     
   {
     "name": "Achilles",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Achilles.swf",
     
   },
   {
     "name": "Age of War",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Age-of-War.swf",
     
   },
   {
     "name": "Avalanche",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Avalanche.swf",
     
   },
   {
     "name": "Avatar Arena",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=AvatarArena.swf",
     
   },
   {
     "name": "Achievement Unlocked",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=achievement-unlocked.swf",
     
   },
   {
     "name": "Alien Hominid",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=alien-hominid.swf",
     
   },
   {
     "name": "Amberial",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=amberial.swf",
     
   },
   {
     "name": "Animal Hunter",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=animal_hunter.swf",
     
   },
   {
     "name": "Ant Buster",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=antbuster.swf",
     
   },
   {
     "name": "Apple Shooter",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=apple-shooter-2021.swf",
     
   },
   {
     "name": "Arkanoid",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=arkanoid.swf",
     
   },
   {
     "name": "Asteroids",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=asteroids.swf",
     
   },
   {
     "name": "Axis Football League",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=axisfootballleague.swf",
     
   },
   {
     "name": "Break Lock",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/breaklock/index.html",
     
   },
   {
     "name": "Chroma",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/chroma/index.html",
     
   },
   
   {
     "name": "Cube Field",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/cubefield/index.html",
     
   },
   {
     "name": "Dinosaur",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/dinosaur/index.html",
     
   },
   {
     "name": "Doodle Jump",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/doodle-jump/index.html",
     
   },
   {
     "name": "Drift",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/drift/index.html",
     
   },
   {
     "name": "Duck Life 1",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/ducklife/index.html",
     
   },
   {
     "name": "Duck Life 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/ducklife2/index.html",
     
   },
   {
     "name": "Duck Life 3",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/ducklife3/index.html",
     
   },
   {
     "name": "Duck Life 4 ",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/ducklife4/index.html",
     
   },
   {
     "name": "FBWG Forest Temple",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/fireboy-and-watergirl-forest-temple/index.html",
     
   },
   {
     "name": "Flappy 2048",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/flappy-2048/index.html",
     
   },
   {
     "name": "Friendly Fire",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/friendlyfire/index.html",
     
   },
   {
     "name": "Geometry Dash",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/geometry/index.html",
     
   },
   {
     "name": "Gopher Kart",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/gopher-kart/index.html",
     
   },
   {
     "name": "Hexgl",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/hexgl/index.html",
     
   },
@@ -1341,309 +1340,309 @@ var buttonArr21 = [
   },
   {
     "name": "Madalin Cars Online",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/madalin-cars-multiplayer/index.html",
     
   },
   {
     "name": "Microsoft Flight Sim",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/microsoft-flight-simulator/index.html",
     
   },
  
   {
     "name": "Pacman",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/pacman/index.html",
     
   },
   {
     "name": "Radius Raid",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/radius-raid/index.html",
     
   },
   {
     "name": "Ritz",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/ritz/index.html",
     
   },
   {
     "name": "Super Mario 64",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/sm64/index.html",
     
   },
   {
     "name": "Space Invaders",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/spaceinvaders/index.html",
     
   },
   {
     "name": "Tank Trouble",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/tanktrouble/index.html",
     
   },
   {
     "name": "Vex 3",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/vex3/index.html",
     
   },
   {
     "name": "Vex 4",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/vex4/index.html",
     
   },
   {
     "name": "Vex 5",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/vex5/index.html",
     
   },
   {
     "name": "Rolling Sky",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/html5/webgl-rollingsky/index.html",
     
   },
   {
     "name": "13 Days in Hell",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=13-days-in-hell.swf",
     
   },
   {
     "name": "360 Snake",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=360-snake.swf",
     
   },
   {
     "name": "3D Car Driver",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=3D-Car-Driver.swf",
     
   },
   {
     "name": "3 Foot Ninja",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=3_foot_ninja.swf",
     
   },
   {
     "name": "50 states",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=50states.swf",
     
   },
   {
     "name": "3 on 3 Hockey",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=3_on_3_hockey.swf",
     
   },
   {
     "name": "8 Ball Pool",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=8BallPool.swf",
     
   },
   {
     "name": "Bloons",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Bloons.swf",
     
   },
   {
     "name": "Falldown",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Falldown.swf",
     
   },
   {
     "name": "The Impossible Quiz",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=TheImpossibleQuiz.swf",
     
   },
   {
     "name": "Worlds Hardest Game",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=WorldsHardestGame.swf",
     
   },
   {
     "name": "Acid Bunny 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=acid-bunny-2.swf",
     
   },
   {
     "name": "Acid Bunny",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=acid-bunny.swf",
     
   },
   {
     "name": "Ball Breaker",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=ball-breaker.swf",
     
   },
   {
     "name": "Bejeweled",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bejeweled-unblocked.swf",
     
   },
   {
     "name": "Bike Mania",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bikemania.swf",
     
   },
   {
     "name": "Bike Mania 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bikemania2.swf",
     
   },
   {
     "name": "Binding of Isaac",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=binding-of-isaac.swf",
     
   },
   {
     "name": "Blast O' Matic",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=blastomatic.swf",
     
   },
   {
     "name": "Blobink 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=blobink2.swf",
     
   },
   {
     "name": "Bloons Tower Defense 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bloons_tower_defense_2.swf",
     
   },
   {
     "name": "Bubble Trouble",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bubbletrouble.swf",
     
   },
   
   {
     "name": "Falldown 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=falldown2.swf",
     
   },
   {
     "name": "Gun Mayhem 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=gun-mayhem-2.swf",
     
   },
   {
     "name": "Gun Mayhem",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=gun-mayhem.swf",
     
   },
   {
     "name": "The Impossible Quiz 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=impossiblequiz2.swf",
     
   },
   {
     "name": "Motherload",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=motherload.swf",
     
   },
   {
     "name": "PacMan",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=pacman.swf",
     
   },
   {
     "name": "Snake",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=snake.swf",
     
   },
   {
     "name": "Super Mario Flash",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=super-mario-flash.swf",
     
   },
   {
     "name": "Super Mario Flash 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=supermarioflash2.swf",
     
   },
   {
     "name": "Tetris",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=tetris.swf",
     
   },
   {
     "name": "Last Stand Union City",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=the-last-stand-union-city.swf",
     
   },
   {
     "name": "Worlds Hardest Game 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=worldshardestgame2.swf",
     
   },
   {
     "name": "Zombocalypse",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=zombocalypse.swf",
     
   },
   {
     "name": "Canyon Defense",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Canyon Defense.swf",
     
   },
   {
     "name": "Copter",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Copter.swf",
     
   },
   {
     "name": "Desktop TD",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=DesktopTowerDefence.swf",
     
   },
   {
     "name": "Donkey Kong",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=DonkeyKong.swf",
     
   },
@@ -1655,278 +1654,278 @@ var buttonArr21 = [
   },
   {
     "name": "Draw Play 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=DrawPlay2.swf",
     
   },
   {
     "name": "The Beard",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=castlecrashingthebeard.swf",
     
   },
   {
     "name": "Choose Your Weapon 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=chooseyourweapon2_LB.swf",
     
   },
   {
     "name": "Clear Vision",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=clear-vision.swf",
     
   },
   {
     "name": "Clear Vision Elite",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=clearvisionelite.swf",
     
   },
   {
     "name": "Crazy Taxi",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=crazy-taxi.swf",
     
   },
   {
     "name": "Cursor 10",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=cursor10.swf",
     
   },
   {
     "name": "Dad N' Me",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=dadnme.swf",
     
   },
   {
     "name": "Dance of the Robots",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=danceoftherobots.swf",
     
   },
   {
     "name": "Dental Adventure",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=dental-adventure.swf",
     
   },
   {
     "name": "Duck Hunt",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=duck-hunt.swf",
     
   },
   {
     "name": "DX Hockey",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=dxhockey.swf",
     
   },
   {
     "name": "Bloxors",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Bloxors.swf",
     
   },
   {
     "name": "Bullet Bill 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Bullet Bill 2.swf",
     
   },
   {
     "name": "Bullet Bill 3",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Bullet Bill 3.swf",
     
   },
   {
     "name": "Bomb a Bomb",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bombabomb.swf",
     
   },
   {
     "name": "Bow Man",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bowman.swf",
     
   },
   {
     "name": "Bow Man 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bowman2.swf",
     
   },
   {
     "name": "Bowmaster",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bowmaster.swf",
     
   },
   {
     "name": "Bowmaster Prelude",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bowmasterprelude.swf",
     
   },
   {
     "name": "Bubble Shooter",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bubble shooter.swf",
     
   },
   {
     "name": "Bubble Tanks 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bubble_tanks_2.swf",
     
   },
   {
     "name": "Bullet Bill",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=bullet-bill.swf",
     
   },
   {
     "name": "Burger Tycoon",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=burgertycoon.swf",
     
   },
 
   {
     "name": "Boxhead 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=dagobah_boxhead_2.swf",
     
   },
   {
     "name": "Electric Man",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=ElectricMan.swf",
     
   },
   {
     "name": "Excite Bike",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=ExciteBike.swf",
     
   },
   {
     "name": "Feudalism 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Feudalism2.swf",
     
   },
   {
     "name": "Flood Runner 3",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Flood_Runner3.swf",
     
   },
   {
     "name": "Flood Runner 4",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Flood_Runner_4.swf",
     
   },
   {
     "name": "Flood Runner 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=The_Flood_Runner_2.swf",
     
   },
   {
     "name": "Earthbound",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "/emulator/snes/earthbound.smc",
     
   },
   {
     "name": "Effing Worms",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=effingworms.swf",
     
   },
   {
     "name": "Fat Ninja",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=fat-ninja.swf",
     
   },
   {
     "name": "Feudalism",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=feudalism.swf",
     
   },
   {
     "name": "Flashcraft",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=flashcraft.swf",
     
   },
   {
     "name": "Free Rider 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=freerider2.swf",
     
   },
   {
     "name": "Frogger",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=frogger.swf",
     
   },
   {
     "name": "Grow RPG",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=growrpg.swf",
     
   },
   {
     "name": "Gods Playing Field",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Gods Playing Field.swf",
     
   },
   {
     "name": "Grid Lock",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Gridlock.swf",
     
   },
   {
     "name": "Hobo",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Hobo.swf",
     
   },
   {
     "name": "Indestructo Tank",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=IndestructoTank.swf",
     
   },
   {
     "name": "Line Rider 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Line Rider 2.swf",
     
   },
   {
     "name": "Mario Revived",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Mariorevived.swf",
     
   },
   {
     "name": "Max Dirt Bike 1",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=MaxDirtBike1.swf",
     
   },
@@ -1938,133 +1937,133 @@ var buttonArr21 = [
   },
   {
     "name": "N (retro game)",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=N.swf",
     
   },
   {
     "name": "Parachute",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Parachute.swf",
     
   },
   {
     "name": "Portal",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Portal.swf",
     
   },
   {
     "name": "Prince of War",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=PrinceofWar.swf",
     
   },
   {
     "name": "Prince of War 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=PrinceofWar2.swf",
     
   },
   {
     "name": "Raft Wars",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=RaftWars.swf",
     
   },
   {
     "name": "Shock 1",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=SHOCK1.swf",
     
   },
   {
     "name": "Stick War",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Stick War.swf",
     
   },
   {
     "name": "Storm the House 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=StormtheHouse2.swf",
     
   },
   {
     "name": "Tactical Assassin",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=TacticalAssassin.swff",
     
   },
   {
     "name": "Tactical Assassin 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=TacticalAssassin2.swf",
     
   },
   {
     "name": "The Unfair Platformer",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=The Unfair Platformer.swf",
     
   },
   {
     "name": "Toss the Turtle",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Toss The Turtle.swf",
     
   },
   {
     "name": "Zelda",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Zelda.swf",
     
   },
   {
     "name": "Zoeken",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Zoeken.swf",
     
   },
   {
     "name": "Armor RPG Experiment",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=armorrpg_mod.swf",
     
   },
   {
     "name": "Galaga",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=galaga.swf",
     
   },
   {
     "name": "Geo Land RPG",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=geolandrpg.swf",
     
   },
   {
     "name": "Grid 16",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=grid16.swf",
     
   },
   {
     "name": "Grow Island",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=growisland.swf",
     
   },
   {
     "name": "Gun Blood",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=gunblood.swf",
     
   },
   {
     "name": "Hell Cops",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=hell-cops.swf",
     
   },
@@ -2076,290 +2075,290 @@ var buttonArr21 = [
   },
   {
     "name": "Hobo 4: Total War",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=hobo-4-total-war-749179f9.swf",
     
   },
   {
     "name": "Hobo 5: Space Brawls",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=hobo-5-space-brawls--11410f2f2.swf",
     
   },
   {
     "name": "Hobo 6: Hell",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=hobo-6-hell-136403467.swf",
     
   },
   {
     "name": "Hobo 7: Heaven",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=hobo-7-heaven-14404_6.swf",
     
   },
   {
     "name": "Hobo 3: Wanted",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=hobo3-wanted-5673395b.swf",
     
   },
   {
     "name": "Hobo Prison Brawl",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=hoboprisonbrawl.swf",
     
   },
   {
     "name": "Hot Corn",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=hotcorn.swf",
     
   },
   {
     "name": "Impossible Quiz Book",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=impossiblequizbook.swf",
     
   },
   {
     "name": "Indestructo Tank 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=indestructotank2.swf",
     
   },
   {
     "name": "Interactive Buddy 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=interactivebuddy2.swf",
     
   },
   {
     "name": "Internet RPG",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=internet-rpg.swf",
     
   },
   {
     "name": "Jump",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=jump.swf",
     
   },
   {
     "name": "Kung Fu Remix 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=kungfuremix2.swf",
     
   },
   {
     "name": "Line Game Orange",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=linegameorange.swf",
     
   },
   {
     "name": "Mario Combat",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=mariocombat.swf",
     
   },
   {
     "name": "Mini Putt",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=miniputt.swf",
     
   },
   {
     "name": "Only Level",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=onlylevel.swf",
     
   },
   {
     "name": "PacXon",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=pacxon.swf",
     
   },
   {
     "name": "Pandemic 1",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=pandemic-1.swf",
     
   },
   {
     "name": "Pandemic 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=pandemic2.swf",
     
   },
   {
     "name": "Parking Mania",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=parkingmania.swf",
     
   },
   {
     "name": "Raft Wars 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=raft-wars-2_mochi_secure.swf",
     
   },
   {
     "name": "Real Estate Tycoon",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=real-estate-tycoon-1350817f.swf",
     
   },
   {
     "name": "Red Shift",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=redshift.swf ",
     
   },
   {
     "name": "Robot Unicorn Attack",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=robotunicornattack.swf",
     
   },
   {
     "name": "Sift Heads 1",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=sift-heads-1.swf",
     
   },
   {
     "name": "Sift Heads 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=sift-heads-2.swf",
     
   },
   {
     "name": "Sift Heads 3",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=sift-heads-3.swf",
     
   },
   {
     "name": "Sift Heads 4",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=sift-heads-4.swf",
     
   },
   {
     "name": "Sift Heads 5",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=sift-heads-5.swf",
     
   },
   {
     "name": "Sift Heads World",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=sift_heads_world.swf",
     
   },
   {
     "name": "Sim Web 2.0 Company",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=simweb2.0company.swf",
     
   },
   {
     "name": "Skull Kid",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=skull_kid.swf",
     
   },
   {
     "name": "Sky Wire",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=skywire.swf",
     
   },
   {
     "name": "Spank the Monkey",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=spankthemonkey.swf",
     
   },
   {
     "name": "Spider Man",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=spider-man.swf",
     
   },
   {
     "name": "Sprinter",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=sprinter",
     
   },
   {
     "name": "Stick RPG",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=stickrpg.swf",
     
   },
   {
     "name": "Submachine 1",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=submachine_1.swf",
     
   },
   {
     "name": "Submachine 2",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=submachine_2.swf",
     
   },
   {
     "name": "Submachine 3",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=submachine_3.swf",
     
   },
   {
     "name": "Super Smash Flash",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=super_smash_flash.swf",
     
   },
   {
     "name": "Super Mario 63",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=supermario63.swf",
     
   },
   {
     "name": "Treasure Seas ",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=treasureseas.swf",
     
   },
   {
     "name": "Tron",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=tron.swf",
     
   },
   {
     "name": "Tsunami Fighter",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=tsunamifighter.swf",
     
   },
   {
     "name": "Use Boxmen",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=use-boxmen.swf",
     
   },
   
   {
     "name": "Kitten Cannon",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=yetiGamesKitten Cannon.swf",
     
   },
@@ -2370,7 +2369,7 @@ var buttonArr21 = [
         }, 
         {
     "name": "TU-95",
-    "img": "../images/na.png",
+    "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=TU-95.swf",
     
   },
@@ -2452,7 +2451,7 @@ var buttonArr21 = [
 },
 {
 "name": "Indian Truck Sim",
-"img": "../images/na.png",
+"img": "thumbnails/na.png",
 "url": "gfiles/gfiles/lanucher/index.html?url=https://too-advanced-for-society.gq/tam-indian-truck-simulator-3d/",
 
 },
@@ -2821,7 +2820,7 @@ var buttonArr21 = [
        {
         "name": "Granny",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
-        "img": "../images/na.png",
+        "img": "thumbnails/na.png",
        },
        
    ]
@@ -2941,10 +2940,47 @@ var buttonArr21 = [
     }
     var buttonArr21 = [
       {
-         "name": "Sans",
-         "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/sans",
-         "img": "gfiles/gfiles/html5/sans/icon-128.png",
+         "name": "Retro Bowl",
+         "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/retrobowl/retro-bowl-main/index.html",
+         "img": "gfiles/gfiles/html5/retrobowl/retro-bowl-main/img/icon.jpg",
      },
+    
+  
+  
+     {   "name": "Papas Pizzeria",
+            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-pizzeria/index.html",
+            "img": "thumbnails/papas-pizza",
+        },
+        {   "name": "Papas Burgeria",
+            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-burgeria/index.html",
+            "img": "thumbnails/img64",
+        },
+        {   "name": "Papas HotDoggeria",
+            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-hot-doggeria/index.html",
+            "img": "thumbnails/papas-hotdog.png",
+        },
+        {   "name": "Papas Wingeria",
+            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
+           "img": "thumbnails/wingeria.jpg",
+        },
+        {   "name": "Papas Freezeria",
+            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
+           "img": "thumbnails/freezeria.jpg",
+        },
+        {   "name": "Papas Pancakeria",
+            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
+           "img": "thumbnails/pancakeria.jpg",
+          },
+          {   "name": "Papas Wingeria",
+            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
+           "img": "thumbnails/sushiria.jpg",
+          },
+          {   "name": "Papas Taco Mia",
+           "url": "gfiles/gfiles/flash/waflash/papas-taco-mia/index.html",
+          "img": "thumbnails/tacomia.jpg",
+         },
+
+  
       
         {
             "name": "1on1soccer",
@@ -3420,17 +3456,17 @@ var buttonArr21 = [
         {
             "name": "Flight",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=flight.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {
             "name": "Fracuum",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=fracuum.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {
             "name": "Getontop",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=getontop.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {
             "name": "Giveuprobot",
@@ -3515,7 +3551,7 @@ var buttonArr21 = [
         {
             "name": "Jumpix2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=jumpix2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {
             "name": "Knightmaretower",
@@ -3565,7 +3601,7 @@ var buttonArr21 = [
         {
             "name": "Metroidelements",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=metroidelements.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {
             "name": "Mineblocks",
@@ -3610,17 +3646,17 @@ var buttonArr21 = [
         {
             "name": "Mutilateadoll2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=mutilateadoll2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },  
         {
             "name": "Myangel",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=myangel.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },   
         {
             "name": "Nanotube",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=nanotube.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         }, 
            {
             "name": "Newgroundsrumble",
@@ -3629,19 +3665,19 @@ var buttonArr21 = [
         },    {
             "name": "Ngame",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=ngame.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },    {
             "name": "Nitromemustdie",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=nitromemustdie.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },    {
             "name": "Nucleus",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=nucleus.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },    {
             "name": "Nv2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=nv2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },    {
             "name": "Nyancatlostinspace",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=nyancatlostinspace.swf",
@@ -3650,23 +3686,23 @@ var buttonArr21 = [
         {
             "name": "Offroaders",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=offroaders.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Onemanarmy2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=onemanarmy2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/onemanarmy2.png",
         },
         {   "name": "Outofthisworld",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=outofthisworld.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Pacman",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=pacman.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Pandemic",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=pandemic.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Pandemic2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=pandemic2.swf",
@@ -3674,7 +3710,7 @@ var buttonArr21 = [
         },
         {   "name": "Papalouie",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=papalouie.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Papalouie2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=papalouie2.swf",
@@ -3682,44 +3718,44 @@ var buttonArr21 = [
         },
         {   "name": "Papalouie3",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=papalouie3.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Picosschool",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=picosschool.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Picosschool2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=picosschool2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Pirates",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=pirates.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Polarjump",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=polarjump.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Portal",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=portal.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Portal2d",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=portal2d.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Quadrobarreldefence",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=quadrobarreldefence.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Qubeythecube",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=qubeythecube.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
     
         {   "name": "Qwop",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=qwop.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
     
         },
         {   "name": "Raftwars",
@@ -3728,11 +3764,11 @@ var buttonArr21 = [
         },
         {   "name": "Raftwars2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=raftwars2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Raze",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=raze.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Redball",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=redball.swf",
@@ -3756,39 +3792,39 @@ var buttonArr21 = [
         },
         {   "name": "Redshift",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=redshift.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Revenant2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=revenant2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Riddleschool1",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=riddleschool1.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Riddleschool2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=riddleschool2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Riddleschool3",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=riddleschool3.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Riddleschool4",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=riddleschool4.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Riddleschool5",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=riddleschool5.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Riddletransfer",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=riddletransfer.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Riddletransfer2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=riddletransfer2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
     
         {   "name": "Run2",
@@ -3801,15 +3837,15 @@ var buttonArr21 = [
         },
         {   "name": "Saszombieassault3",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=saszombieassault3.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Sentryknight",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sentryknight.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Shoppingcarthero3",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=shoppingcarthero3.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Siftheads",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=siftheads.swf",
@@ -3817,187 +3853,187 @@ var buttonArr21 = [
         },
         {   "name": "Siftheads2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=siftheads2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Siftheads3",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=siftheads3.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Siftheads4",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=siftheads4.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Siftheads5",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=siftheads5.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Sniperassassin4",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sniperassassin4.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Sportsheadsfootball",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sportsheadsfootball.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Sportsheadsracing",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sportsheadsracing.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Sportsheadstennis",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sportsheadstennis.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Stickrpg",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=stickrpg.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Stickrun2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=stickrun2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Stickwar",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=stickwar.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Strikeforceheroes2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=strikeforceheroes2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Sugarsugar",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sugarsugar.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Sugarsugar2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sugarsugar2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Sugarsugar3",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sugarsugar3.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Superd",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=superd.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Superfighters",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=superfighters.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Supermario63",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=supermario63.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Supermarioflash",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=supermarioflash.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Supermarioflash2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=supermarioflash2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Supersmashflash",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=supersmashflash.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Swordsandsandals2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=swordsandsandals2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Tacticalassassin",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=tacticalassassin.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Tanks",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=tanks.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Tanktrouble",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=tanktrouble.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Tetris",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=tetris.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Thebindingofisaac",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=thebindingofisaac.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Thegame",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=thegame.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Theimpossiblequiz",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=theimpossiblequiz.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Theimpossiblequiz2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=theimpossiblequiz2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Worldshardestgame2",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=theworldshardestgame2.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Thingthingarena",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=thingthingarena.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Thisistheonlylevel",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=thisistheonlylevel.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Tosstheturtle",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=tosstheturtle.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Truckloader4",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=truckloader4.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Ultimateflashsonic",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=ultimateflashsonic.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Ultimatetactics",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=ultimatetactics.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Unrealflash",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=unrealflash.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Warfare1917",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=warfare1917.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Warfare1944",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=warfare1944.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Warp",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=warp.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Xenos",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=xenos.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Xtremecliffdiving",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=xtremecliffdiving.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Yearofthesnake",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=yearofthesnake.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Yuriusshouseofspooks",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=yuriusshouseofspooks.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Zombiealienparasites",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=zombiealienparasites.swf",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },
         {   "name": "Vex 6",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/vex6",
@@ -4008,53 +4044,12 @@ var buttonArr21 = [
          "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/lanucher/index.html?url=https://now.gg/play/kitka-games/7999/stumble-guys/",
          "img": "thumbnails/img214",
      },
-     {
-         "name": "Retro Bowl",
-         "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/retrobowl/retro-bowl-main/index.html",
-         "img": "gfiles/gfiles/html5/retrobowl/retro-bowl-main/img/icon.jpg",
-     },
     
-  
-  
-     {   "name": "Papas Pizzeria",
-            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-pizzeria/index.html",
-            "img": "thumbnails/papas-pizza",
-        },
-        {   "name": "Papas Burgeria",
-            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-burgeria/index.html",
-            "img": "thumbnails/img64",
-        },
-        {   "name": "Papas HotDoggeria",
-            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-hot-doggeria/index.html",
-            "img": "thumbnails/papas-hotdog.png",
-        },
-        {   "name": "Papas Wingeria",
-            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
-           "img": "thumbnails/wingeria.jpg",
-        },
-        {   "name": "Papas Freezeria",
-            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
-           "img": "thumbnails/freezeria.jpg",
-        },
-        {   "name": "Papas Pancakeria",
-            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
-           "img": "thumbnails/pancakeria.jpg",
-          },
-          {   "name": "Papas Wingeria",
-            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
-           "img": "thumbnails/sushiria.jpg",
-          },
-          {   "name": "Papas Taco Mia",
-           "url": "gfiles/gfiles/flash/waflash/papas-taco-mia/index.html",
-          "img": "thumbnails/tacomia.jpg",
-         },
-
-  
   
   
         {   "name": "FS Mario",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/FullScreenMario/Source/index.htm",
-            "img": "../images/na.png",
+            "img": "thumbnails/na.png",
         },   
         
      {
@@ -4071,176 +4066,176 @@ var buttonArr21 = [
      
    {
      "name": "Achilles",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Achilles.swf",
      
    },
    {
      "name": "Age of War",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Age-of-War.swf",
      
    },
    {
      "name": "Avalanche",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Avalanche.swf",
      
    },
    {
      "name": "Avatar Arena",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=AvatarArena.swf",
      
    },
    {
      "name": "Achievement Unlocked",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=achievement-unlocked.swf",
      
    },
    {
      "name": "Alien Hominid",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=alien-hominid.swf",
      
    },
    {
      "name": "Amberial",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=amberial.swf",
      
    },
    {
      "name": "Animal Hunter",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=animal_hunter.swf",
      
    },
    {
      "name": "Ant Buster",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=antbuster.swf",
      
    },
    {
      "name": "Apple Shooter",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=apple-shooter-2021.swf",
      
    },
    {
      "name": "Arkanoid",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=arkanoid.swf",
      
    },
    {
      "name": "Asteroids",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=asteroids.swf",
      
    },
    {
      "name": "Axis Football League",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=axisfootballleague.swf",
      
    },
    {
      "name": "Break Lock",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/breaklock/index.html",
      
    },
    {
      "name": "Chroma",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/chroma/index.html",
      
    },
    
    {
      "name": "Cube Field",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/cubefield/index.html",
      
    },
    {
      "name": "Dinosaur",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/dinosaur/index.html",
      
    },
    {
      "name": "Doodle Jump",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/doodle-jump/index.html",
      
    },
    {
      "name": "Drift",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/drift/index.html",
      
    },
    {
      "name": "Duck Life 1",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/ducklife/index.html",
      
    },
    {
      "name": "Duck Life 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/ducklife2/index.html",
      
    },
    {
      "name": "Duck Life 3",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/ducklife3/index.html",
      
    },
    {
      "name": "Duck Life 4 ",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/ducklife4/index.html",
      
    },
    {
      "name": "FBWG Forest Temple",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/fireboy-and-watergirl-forest-temple/index.html",
      
    },
    {
      "name": "Flappy 2048",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/flappy-2048/index.html",
      
    },
    {
      "name": "Friendly Fire",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/friendlyfire/index.html",
      
    },
    {
      "name": "Geometry Dash",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/geometry/index.html",
      
    },
    {
      "name": "Gopher Kart",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/gopher-kart/index.html",
      
    },
    {
      "name": "Hexgl",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/hexgl/index.html",
      
    },
@@ -4252,309 +4247,314 @@ var buttonArr21 = [
    },
    {
      "name": "Madalin Cars Online",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/madalin-cars-multiplayer/index.html",
      
    },
    {
      "name": "Microsoft Flight Sim",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/microsoft-flight-simulator/index.html",
      
    },
   
    {
      "name": "Pacman",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/pacman/index.html",
      
    },
    {
      "name": "Radius Raid",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/radius-raid/index.html",
      
    },
    {
      "name": "Ritz",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/ritz/index.html",
      
    },
    {
      "name": "Super Mario 64",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/sm64/index.html",
      
    },
    {
      "name": "Space Invaders",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/spaceinvaders/index.html",
      
    },
    {
      "name": "Tank Trouble",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/tanktrouble/index.html",
      
    },
    {
      "name": "Vex 3",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/vex3/index.html",
      
    },
    {
      "name": "Vex 4",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/vex4/index.html",
      
    },
    {
      "name": "Vex 5",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/vex5/index.html",
      
    },
    {
      "name": "Rolling Sky",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/webgl-rollingsky/index.html",
      
    },
    {
      "name": "13 Days in Hell",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=13-days-in-hell.swf",
      
    },
    {
      "name": "360 Snake",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=360-snake.swf",
      
    },
    {
      "name": "3D Car Driver",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=3D-Car-Driver.swf",
      
    },
    {
      "name": "3 Foot Ninja",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=3_foot_ninja.swf",
      
    },
    {
      "name": "50 states",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=50states.swf",
      
    },
    {
      "name": "3 on 3 Hockey",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=3_on_3_hockey.swf",
      
    },
    {
      "name": "8 Ball Pool",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=8BallPool.swf",
      
    },
    {
      "name": "Bloons",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Bloons.swf",
      
    },
    {
      "name": "Falldown",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Falldown.swf",
      
    },
    {
      "name": "The Impossible Quiz",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=TheImpossibleQuiz.swf",
      
    },
    {
      "name": "Worlds Hardest Game",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=WorldsHardestGame.swf",
      
    },
    {
      "name": "Acid Bunny 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=acid-bunny-2.swf",
      
    },
    {
      "name": "Acid Bunny",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=acid-bunny.swf",
      
    },
    {
      "name": "Ball Breaker",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=ball-breaker.swf",
      
    },
    {
      "name": "Bejeweled",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bejeweled-unblocked.swf",
      
    },
    {
      "name": "Bike Mania",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bikemania.swf",
      
    },
    {
      "name": "Bike Mania 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bikemania2.swf",
      
    },
    {
      "name": "Binding of Isaac",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=binding-of-isaac.swf",
      
    },
    {
      "name": "Blast O' Matic",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=blastomatic.swf",
      
    },
    {
      "name": "Blobink 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=blobink2.swf",
      
    },
    {
      "name": "Bloons Tower Defense 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bloons_tower_defense_2.swf",
      
    },
    {
+      "name": "Sans",
+      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/html5/sans",
+      "img": "gfiles/gfiles/html5/sans/icon-128.png",
+  },
+   {
      "name": "Bubble Trouble",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bubbletrouble.swf",
      
    },
    
    {
      "name": "Falldown 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=falldown2.swf",
      
    },
    {
      "name": "Gun Mayhem 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=gun-mayhem-2.swf",
      
    },
    {
      "name": "Gun Mayhem",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=gun-mayhem.swf",
      
    },
    {
      "name": "The Impossible Quiz 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=impossiblequiz2.swf",
      
    },
    {
      "name": "Motherload",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=motherload.swf",
      
    },
    {
      "name": "PacMan",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=pacman.swf",
      
    },
    {
      "name": "Snake",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=snake.swf",
      
    },
    {
      "name": "Super Mario Flash",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=super-mario-flash.swf",
      
    },
    {
      "name": "Super Mario Flash 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=supermarioflash2.swf",
      
    },
    {
      "name": "Tetris",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=tetris.swf",
      
    },
    {
      "name": "Last Stand Union City",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=the-last-stand-union-city.swf",
      
    },
    {
      "name": "Worlds Hardest Game 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=worldshardestgame2.swf",
      
    },
    {
      "name": "Zombocalypse",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=zombocalypse.swf",
      
    },
    {
      "name": "Canyon Defense",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Canyon Defense.swf",
      
    },
    {
      "name": "Copter",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Copter.swf",
      
    },
    {
      "name": "Desktop TD",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=DesktopTowerDefence.swf",
      
    },
    {
      "name": "Donkey Kong",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=DonkeyKong.swf",
      
    },
@@ -4566,416 +4566,416 @@ var buttonArr21 = [
    },
    {
      "name": "Draw Play 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=DrawPlay2.swf",
      
    },
    {
      "name": "The Beard",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=castlecrashingthebeard.swf",
      
    },
    {
      "name": "Choose Your Weapon 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=chooseyourweapon2_LB.swf",
      
    },
    {
      "name": "Clear Vision",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=clear-vision.swf",
      
    },
    {
      "name": "Clear Vision Elite",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=clearvisionelite.swf",
      
    },
    {
      "name": "Crazy Taxi",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=crazy-taxi.swf",
      
    },
    {
      "name": "Cursor 10",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=cursor10.swf",
      
    },
    {
      "name": "Dad N' Me",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=dadnme.swf",
      
    },
    {
      "name": "Dance of the Robots",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=danceoftherobots.swf",
      
    },
    {
      "name": "Dental Adventure",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=dental-adventure.swf",
      
    },
    {
      "name": "Duck Hunt",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=duck-hunt.swf",
      
    },
    {
      "name": "DX Hockey",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=dxhockey.swf",
      
    },
    {
      "name": "Bloxors",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Bloxors.swf",
      
    },
    {
      "name": "Bullet Bill 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Bullet Bill 2.swf",
      
    },
    {
      "name": "Bullet Bill 3",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Bullet Bill 3.swf",
      
    },
    {
      "name": "Bomb a Bomb",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bombabomb.swf",
      
    },
    {
      "name": "Bow Man",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bowman.swf",
      
    },
    {
      "name": "Bow Man 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bowman2.swf",
      
    },
    {
      "name": "Bowmaster",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bowmaster.swf",
      
    },
    {
      "name": "Bowmaster Prelude",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bowmasterprelude.swf",
      
    },
    {
      "name": "Bubble Shooter",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bubble shooter.swf",
      
    },
    {
      "name": "Bubble Tanks 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bubble_tanks_2.swf",
      
    },
    {
      "name": "Bullet Bill",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=bullet-bill.swf",
      
    },
    {
      "name": "Burger Tycoon",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=burgertycoon.swf",
      
    },
   
    {
      "name": "Boxhead 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=dagobah_boxhead_2.swf",
      
    },
    {
      "name": "Electric Man",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=ElectricMan.swf",
      
    },
    {
      "name": "Excite Bike",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=ExciteBike.swf",
      
    },
    {
      "name": "Feudalism 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Feudalism2.swf",
      
    },
    {
      "name": "Flood Runner 3",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Flood_Runner3.swf",
      
    },
    {
      "name": "Flood Runner 4",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Flood_Runner_4.swf",
      
    },
    {
      "name": "Flood Runner 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=The_Flood_Runner_2.swf",
      
    },
    {
      "name": "Earthbound",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g//emulator/snes/earthbound.smc",
      
    },
    {
      "name": "Effing Worms",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=effingworms.swf",
      
    },
    {
      "name": "Fat Ninja",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=fat-ninja.swf",
      
    },
    {
      "name": "Feudalism",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=feudalism.swf",
      
    },
    {
      "name": "Flashcraft",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=flashcraft.swf",
      
    },
    {
      "name": "Free Rider 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=freerider2.swf",
      
    },
    {
      "name": "Frogger",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=frogger.swf",
      
    },
    {
      "name": "Grow RPG",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=growrpg.swf",
      
    },
    {
      "name": "Gods Playing Field",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Gods Playing Field.swf",
      
    },
    {
      "name": "Grid Lock",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Gridlock.swf",
      
    },
    {
      "name": "Hobo",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Hobo.swf",
      
    },
    {
      "name": "Indestructo Tank",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=IndestructoTank.swf",
      
    },
    {
      "name": "Line Rider 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Line Rider 2.swf",
      
    },
    {
      "name": "Mario Revived",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Mariorevived.swf",
      
    },
    {
      "name": "Max Dirt Bike 1",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=MaxDirtBike1.swf",
      
    },
    {
      "name": "Monopoly",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Monopoly.swf",
      
    },
    {
      "name": "N",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=N.swf",
      
    },
    {
      "name": "Parachute",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Parachute.swf",
      
    },
    {
      "name": "Portal",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Portal.swf",
      
    },
    {
      "name": "Prince of War",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=PrinceofWar.swf",
      
    },
    {
      "name": "Prince of War 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=PrinceofWar2.swf",
      
    },
    {
      "name": "Raft Wars",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=RaftWars.swf",
      
    },
    {
      "name": "Shock 1",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=SHOCK1.swf",
      
    },
    {
      "name": "Stick War",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Stick War.swf",
      
    },
    {
      "name": "Storm the House 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=StormtheHouse2.swf",
      
    },
    {
      "name": "Tactical Assassin",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=TacticalAssassin.swff",
      
    },
    {
      "name": "Tactical Assassin 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=TacticalAssassin2.swf",
      
    },
    {
      "name": "The Unfair Platformer",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=The Unfair Platformer.swf",
      
    },
    {
      "name": "Toss the Turtle",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Toss The Turtle.swf",
      
    },
    {
      "name": "Zelda",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Zelda.swf",
      
    },
    {
      "name": "Zoeken",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=Zoeken.swf",
      
    },
    {
      "name": "Armor RPG Experiment",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=armorrpg_mod.swf",
      
    },
    {
      "name": "Galaga",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=galaga.swf",
      
    },
    {
      "name": "Geo Land RPG",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=geolandrpg.swf",
      
    },
    {
      "name": "Grid 16",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=grid16.swf",
      
    },
    {
      "name": "Grow Island",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=growisland.swf",
      
    },
    {
      "name": "Gun Blood",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=gunblood.swf",
      
    },
    {
      "name": "Hell Cops",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=hell-cops.swf",
      
    },
@@ -4987,290 +4987,290 @@ var buttonArr21 = [
    },
    {
      "name": "Hobo 4: Total War",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=hobo-4-total-war-749179f9.swf",
      
    },
    {
      "name": "Hobo 5: Space Brawls",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=hobo-5-space-brawls--11410f2f2.swf",
      
    },
    {
      "name": "Hobo 6: Hell",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=hobo-6-hell-136403467.swf",
      
    },
    {
      "name": "Hobo 7: Heaven",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=hobo-7-heaven-14404_6.swf",
      
    },
    {
      "name": "Hobo 3: Wanted",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=hobo3-wanted-5673395b.swf",
      
    },
    {
      "name": "Hobo Prison Brawl",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=hoboprisonbrawl.swf",
      
    },
    {
      "name": "Hot Corn",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=hotcorn.swf",
      
    },
    {
      "name": "Impossible Quiz Book",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=impossiblequizbook.swf",
      
    },
    {
      "name": "Indestructo Tank 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=indestructotank2.swf",
      
    },
    {
      "name": "Interactive Buddy 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=interactivebuddy2.swf",
      
    },
    {
      "name": "Internet RPG",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=internet-rpg.swf",
      
    },
    {
      "name": "Jump",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=jump.swf",
      
    },
    {
      "name": "Kung Fu Remix 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=kungfuremix2.swf",
      
    },
    {
      "name": "Line Game Orange",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=linegameorange.swf",
      
    },
    {
      "name": "Mario Combat",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=mariocombat.swf",
      
    },
    {
      "name": "Mini Putt",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=miniputt.swf",
      
    },
    {
      "name": "Only Level",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=onlylevel.swf",
      
    },
    {
      "name": "PacXon",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=pacxon.swf",
      
    },
    {
      "name": "Pandemic 1",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=pandemic-1.swf",
      
    },
    {
      "name": "Pandemic 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=pandemic2.swf",
      
    },
    {
      "name": "Parking Mania",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=parkingmania.swf",
      
    },
    {
      "name": "Raft Wars 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=raft-wars-2_mochi_secure.swf",
      
    },
    {
      "name": "Real Estate Tycoon",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=real-estate-tycoon-1350817f.swf",
      
    },
    {
      "name": "Red Shift",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=redshift.swf ",
      
    },
    {
      "name": "Robot Unicorn Attack",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=robotunicornattack.swf",
      
    },
    {
      "name": "Sift Heads 1",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sift-heads-1.swf",
      
    },
    {
      "name": "Sift Heads 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sift-heads-2.swf",
      
    },
    {
      "name": "Sift Heads 3",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sift-heads-3.swf",
      
    },
    {
      "name": "Sift Heads 4",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sift-heads-4.swf",
      
    },
    {
      "name": "Sift Heads 5",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sift-heads-5.swf",
      
    },
    {
      "name": "Sift Heads World",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sift_heads_world.swf",
      
    },
    {
      "name": "Sim Web 2.0 Company",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=simweb2.0company.swf",
      
    },
    {
      "name": "Skull Kid",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=skull_kid.swf",
      
    },
    {
      "name": "Sky Wire",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=skywire.swf",
      
    },
    {
      "name": "Spank the Monkey",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=spankthemonkey.swf",
      
    },
    {
      "name": "Spider Man",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=spider-man.swf",
      
    },
    {
      "name": "Sprinter",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=sprinter",
      
    },
    {
      "name": "Stick RPG",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=stickrpg.swf",
      
    },
    {
      "name": "Submachine 1",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=submachine_1.swf",
      
    },
    {
      "name": "Submachine 2",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=submachine_2.swf",
      
    },
    {
      "name": "Submachine 3",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=submachine_3.swf",
      
    },
    {
      "name": "Super Smash Flash",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=super_smash_flash.swf",
      
    },
    {
      "name": "Super Mario 63",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=supermario63.swf",
      
    },
    {
      "name": "Treasure Seas ",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=treasureseas.swf",
      
    },
    {
      "name": "Tron",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=tron.swf",
      
    },
    {
      "name": "Tsunami Fighter",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=tsunamifighter.swf",
      
    },
    {
      "name": "Use Boxmen",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=use-boxmen.swf",
      
    },
    
    {
      "name": "Kitten Cannon",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=yetiGamesKitten Cannon.swf",
      
    },
@@ -5281,7 +5281,7 @@ var buttonArr21 = [
          }, 
          {
      "name": "TU-95",
-     "img": "../images/na.png",
+     "img": "thumbnails/na.png",
      "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=TU-95.swf",
      
    },
@@ -5363,7 +5363,7 @@ var buttonArr21 = [
 },
 {
 "name": "Indian Truck Sim",
-"img": "../images/na.png",
+"img": "thumbnails/na.png",
 "url": "gfiles/gfiles/lanucher/index.html?url=https://too-advanced-for-society.gq/tam-indian-truck-simulator-3d/",
 
 },
@@ -5739,7 +5739,7 @@ var buttonArr21 = [
       {
         "name": "Granny",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
-        "img": "../images/na.png",
+        "img": "thumbnails/na.png",
        },
   ]
       buttonArr21.forEach(function(arrayItem21) {

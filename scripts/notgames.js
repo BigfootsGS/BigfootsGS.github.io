@@ -836,10 +836,7 @@ var buttonArr21 = [
            "url": "gfiles/gfiles/flash/?swf=quadrobarreldefence.swf",
            "img": "thumbnails/quad.png",
        },
-       {   "name": "Qubeythecube",
-           "url": "gfiles/gfiles/flash/?swf=qubeythecube.swf",
-           "img": "thumbnails/na.png",
-       },
+     
    
        {   "name": "Qwop",
            "url": "gfiles/gfiles/flash/?swf=qwop.swf",
@@ -880,7 +877,7 @@ var buttonArr21 = [
        },
        {   "name": "Redshift",
            "url": "gfiles/gfiles/flash/?swf=redshift.swf",
-           "img": "thumbnails/na.png",
+           "img": "thumbnails/redshift.png",
        },
        {   "name": "Revenant2",
            "url": "gfiles/gfiles/flash/?swf=revenant2.swf",
@@ -3748,11 +3745,7 @@ var buttonArr21 = [
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=quadrobarreldefence.swf",
             "img": "thumbnails/na.png",
         },
-        {   "name": "Qubeythecube",
-            "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=qubeythecube.swf",
-            "img": "thumbnails/na.png",
-        },
-    
+       
         {   "name": "Qwop",
             "url": "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/gfiles/gfiles/flash/?swf=qwop.swf",
             "img": "thumbnails/na.png",
@@ -6237,9 +6230,7 @@ var randomlinks= [
  {
     "link":"gfiles/gfiles/flash/?swf=quadrobarreldefence.swf",
  },
- {
-    "link":"gfiles/gfiles/flash/?swf=qubeythecube.swf",
- },
+ 
  {
     "link":"gfiles/gfiles/flash/?swf=qwop.swf",
  },

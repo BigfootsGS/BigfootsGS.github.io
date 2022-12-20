@@ -607,7 +607,7 @@ display: none;
   left: 50%;
   transform: translateX(-50%);
   top: 40px;
-  
+  padding-top:120px;
 }
 
 .abovethegames {

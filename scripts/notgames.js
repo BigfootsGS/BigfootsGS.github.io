@@ -2587,12 +2587,12 @@ var buttonArr21 = [
     "url": "gfiles/gfiles/lanucher/index.html?url=https://lolbeans.io/",
     
     "img": "thumbnails/img113",
-}, /*
+}, 
 {
-    "name": "Eagler Server 2",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9pbnRlZ3JhbHNvbHZlci5sb2wvbWMvP3NlcnZlcj13c3M6Ly9tYy5pbnRlZ3JhbHNvbHZlci5sb2w=",
+    "name": "Eagler Server",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://boostcookies.tk/sw/hvtrs8%2F-ecgnepcpadt%2Fsgrtep.cywncmk2202.perl%2Ccm%2F",
     "img": "../images/grass.png",
-},*/
+},
 {
     "name": "Arch MC Server",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://web.arch.lol/?",
@@ -2817,7 +2817,7 @@ var buttonArr21 = [
        {
         "name": "Granny",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
-        "img": "thumbnails/na.png",
+        "img": "thumbnails/granny.png",
        },
        
    ]
@@ -5732,7 +5732,7 @@ var buttonArr21 = [
       {
         "name": "Granny",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
-        "img": "thumbnails/na.png",
+        "img": "thumbnails/granny.png",
        },
   ]
       buttonArr21.forEach(function(arrayItem21) {

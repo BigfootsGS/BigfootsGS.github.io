@@ -681,7 +681,7 @@ var buttonArr21 = [
        {
            "name": "Metroidelements",
            "url": "gfiles/gfiles/flash/?swf=metroidelements.swf",
-           "img": "thumbnails/na.png",
+           "img": "thumbnails/me.png",
        },
        {
            "name": "Mineblocks",
@@ -736,7 +736,7 @@ var buttonArr21 = [
        {
            "name": "Nanotube",
            "url": "gfiles/gfiles/flash/?swf=nanotube.swf",
-           "img": "thumbnails/na.png",
+           "img": "thumbnails/nanotube.png",
        }, 
           {
            "name": "Newgroundsrumble",
@@ -889,7 +889,7 @@ var buttonArr21 = [
        },
        {   "name": "Riddleschool4",
            "url": "gfiles/gfiles/flash/?swf=riddleschool4.swf",
-           "img": "thumbnails/rs4.webp",
+           "img": "thumbnails/rs4.png",
        },
        {   "name": "Riddleschool5",
            "url": "gfiles/gfiles/flash/?swf=riddleschool5.swf",
@@ -2440,7 +2440,7 @@ var buttonArr21 = [
 },
 {
 "name": "Indian Truck Sim",
-"img": "thumbnails/na.png",
+"img": "thumbnails/indiantruck.png",
 "url": "gfiles/gfiles/lanucher/index.html?url=https://too-advanced-for-society.gq/tam-indian-truck-simulator-3d/",
 
 },
@@ -3659,7 +3659,7 @@ var buttonArr21 = [
           {
               "name": "Nanotube",
               "url": "gfiles/gfiles/flash/?swf=nanotube.swf",
-              "img": "thumbnails/na.png",
+              "img": "thumbnails/nanotube.png",
           }, 
              {
               "name": "Newgroundsrumble",
@@ -5363,7 +5363,7 @@ var buttonArr21 = [
    },
    {
    "name": "Indian Truck Sim",
-   "img": "thumbnails/na.png",
+   "img": "thumbnails/indiantruck.png",
    "url": "gfiles/gfiles/lanucher/index.html?url=https://too-advanced-for-society.gq/tam-indian-truck-simulator-3d/",
    
    },

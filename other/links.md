@@ -29,6 +29,7 @@
 * https://xboxcontroller.tk/
 * https://www.lenardsbites.cf/
 * https://www.lenardskicks.cf/
+* https://www.mathtutoring.ga/
 # Slope Game
 * https://slope.bigfootgaming.tk
 * https://bigfoot.pages.dev

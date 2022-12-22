@@ -985,17 +985,14 @@ var buttonArr21 = [
            "url": "gfiles/gfiles/flash/?swf=sugarsugar3.swf",
            "img": "thumbnails/ss3.avif",
        },
-       {   "name": "Superd",
-           "url": "gfiles/gfiles/flash/?swf=superd.swf",
-           "img": "thumbnails/na.png",
-       },
+      
        {   "name": "Superfighters",
            "url": "gfiles/gfiles/flash/?swf=superfighters.swf",
-           "img": "thumbnails/na.png",
+           "img": "thumbnails/superfighters.webp",
        },
        {   "name": "Supermario63",
            "url": "gfiles/gfiles/flash/?swf=supermario63.swf",
-           "img": "thumbnails/na.png",
+           "img": "thumbnails/sm63.png",
        },
        {   "name": "Supermarioflash",
            "url": "gfiles/gfiles/flash/?swf=supermarioflash.swf",
@@ -2313,7 +2310,7 @@ var buttonArr21 = [
   },
   {
     "name": "Super Mario 63",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/sm63.png",
     "url": "gfiles/gfiles/flash/?swf=supermario63.swf",
     
   },
@@ -3908,17 +3905,14 @@ var buttonArr21 = [
               "url": "gfiles/gfiles/flash/?swf=sugarsugar3.swf",
               "img": "thumbnails/ss3.png",
           },
-          {   "name": "Superd",
-              "url": "gfiles/gfiles/flash/?swf=superd.swf",
-              "img": "thumbnails/na.png",
-          },
+        
           {   "name": "Superfighters",
               "url": "gfiles/gfiles/flash/?swf=superfighters.swf",
-              "img": "thumbnails/na.png",
+              "img": "thumbnails/superfighters.webp",
           },
           {   "name": "Supermario63",
               "url": "gfiles/gfiles/flash/?swf=supermario63.swf",
-              "img": "thumbnails/na.png",
+              "img": "thumbnails/sm63.png",
           },
           {   "name": "Supermarioflash",
               "url": "gfiles/gfiles/flash/?swf=supermarioflash.swf",
@@ -6345,9 +6339,7 @@ var randomlinks= [
  {
     "link":"gfiles/gfiles/flash/?swf=sugarsugar3.swf",
  },
- {
-    "link":"gfiles/gfiles/flash/?swf=superd.swf",
- },
+ 
  {
     "link":"gfiles/gfiles/flash/?swf=superfighters.swf",
  },

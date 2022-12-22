@@ -1189,13 +1189,13 @@ var buttonArr21 = [
   },
   {
     "name": "Animal Hunter",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/ah.jpg",
     "url": "gfiles/gfiles/flash/?swf=animal_hunter.swf",
     
   },
   {
     "name": "Ant Buster",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/ab.png",
     "url": "gfiles/gfiles/flash/?swf=antbuster.swf",
     
   },
@@ -1207,19 +1207,19 @@ var buttonArr21 = [
   },
   {
     "name": "Arkanoid",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/amx.avif",
     "url": "gfiles/gfiles/flash/?swf=arkanoid.swf",
     
   },
   {
     "name": "Asteroids",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/astroids.jpg",
     "url": "gfiles/gfiles/flash/?swf=asteroids.swf",
     
   },
   {
     "name": "Axis Football League",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/afl.jpg",
     "url": "gfiles/gfiles/flash/?swf=axisfootballleague.swf",
     
   },
@@ -1240,31 +1240,26 @@ var buttonArr21 = [
 //here
   {
     "name": "13 Days in Hell",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/dih.jpg",
     "url": "gfiles/gfiles/flash/?swf=13-days-in-hell.swf",
     
   },
-  {
-    "name": "360 Snake",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/flash/?swf=360-snake.swf",
-    
-  },
+ 
   {
     "name": "3D Car Driver",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/3dcar.png",
     "url": "gfiles/gfiles/flash/?swf=3D-Car-Driver.swf",
     
   },
   {
-    "name": "3 Foot Ninja",
-    "img": "thumbnails/na.png",
+    "name": "3Foot Ninja",
+    "img": "thumbnails/3foot.jpg",
     "url": "gfiles/gfiles/flash/?swf=3_foot_ninja.swf",
     
   },
   {
     "name": "50 states",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/usa.png",
     "url": "gfiles/gfiles/flash/?swf=50states.swf",
     
   },
@@ -1276,55 +1271,45 @@ var buttonArr21 = [
   },
   {
     "name": "8Ball Pool",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/8bp.png",
     "url": "gfiles/gfiles/flash/?swf=8BallPool.swf",
     
   },
   {
     "name": "Bloons",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/mb.avif",
     "url": "gfiles/gfiles/flash/?swf=Bloons.swf",
     
   },
   {
     "name": "Falldown",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/fall.png",
     "url": "gfiles/gfiles/flash/?swf=Falldown.swf",
     
   },
-  {
-    "name": "The Impossible Quiz",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/flash/?swf=TheImpossibleQuiz.swf",
-    
-  },
-  {
-    "name": "Worlds Hardest Game",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/flash/?swf=WorldsHardestGame.swf",
-    
-  },
+  
+  
   {
     "name": "Acid Bunny 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/acid-bunny-2.jpg",
     "url": "gfiles/gfiles/flash/?swf=acid-bunny-2.swf",
     
   },
   {
     "name": "Acid Bunny",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/ab1.jpg",
     "url": "gfiles/gfiles/flash/?swf=acid-bunny.swf",
     
   },
   {
     "name": "Ball Breaker",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bb.png",
     "url": "gfiles/gfiles/flash/?swf=ball-breaker.swf",
     
   },
   {
     "name": "Bejeweled",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bjc.png",
     "url": "gfiles/gfiles/flash/?swf=bejeweled-unblocked.swf",
     
   },

@@ -1150,7 +1150,7 @@ var buttonArr21 = [
   },
   {
     "name": "Avalanche",
-    "img": "thumbnails/avalanche.png",
+    "img": "thumbnails/avalanche.jpg",
     "url": "gfiles/gfiles/flash/?swf=Avalanche.swf",
     
   },
@@ -4033,7 +4033,7 @@ var buttonArr21 = [
     },
     {
       "name": "Avalanche",
-      "img": "thumbnails/avalanche.png",
+      "img": "thumbnails/avalanche.jpg",
       "url": "gfiles/gfiles/flash/?swf=Avalanche.swf",
       
     },

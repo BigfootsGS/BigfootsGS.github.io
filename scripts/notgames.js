@@ -5,6 +5,15 @@ var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
 var BBstars = "aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=";
 
 var buttonArr21 = [
+  
+    
+  
+  {
+    "name": "Getaway Shootout",
+    "url": "gfiles/gfiles/html5/getaway-shootout/index.html",
+    "img": "gfiles/gfiles/html5/getaway-shootout/img/index.jpg",
+},
+
    {
       "name": "Retro Bowl",
       "url": "gfiles/gfiles/html5/retrobowl/retro-bowl-main/index.html",
@@ -1156,25 +1165,25 @@ var buttonArr21 = [
   },
   {
     "name": "Avatar Arena",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/AA.jpg",
     "url": "gfiles/gfiles/flash/?swf=AvatarArena.swf",
     
   },
   {
     "name": "Achievement Unlocked",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/achievement-unlocked-3.jpg",
     "url": "gfiles/gfiles/flash/?swf=achievement-unlocked.swf",
     
   },
   {
     "name": "Alien Hominid",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/ah.png",
     "url": "gfiles/gfiles/flash/?swf=alien-hominid.swf",
     
   },
   {
     "name": "Amberial",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/amb.webp",
     "url": "gfiles/gfiles/flash/?swf=amberial.swf",
     
   },
@@ -1216,119 +1225,11 @@ var buttonArr21 = [
   },
   {
     "name": "Break Lock",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/img74.jpg",
     "url": "gfiles/gfiles/html5/breaklock/index.html",
     
   },
-  {
-    "name": "Chroma",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/chroma/index.html",
-    
-  },
-  
-  {
-    "name": "Cube Field",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/cubefield/index.html",
-    
-  },
-  {
-    "name": "Dinosaur",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/dinosaur/index.html",
-    
-  },
-  {
-    "name": "Doodle Jump",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/doodle-jump/index.html",
-    
-  },
-  {
-    "name": "Drift",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/drift/index.html",
-    
-  },
-  {
-    "name": "Duck Life 1",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/ducklife/index.html",
-    
-  },
-  {
-    "name": "Duck Life 2",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/ducklife2/index.html",
-    
-  },
-  {
-    "name": "Duck Life 3",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/ducklife3/index.html",
-    
-  },
-  {
-    "name": "Duck Life 4 ",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/ducklife4/index.html",
-    
-  },
-  {
-    "name": "FBWG Forest Temple",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/fireboy-and-watergirl-forest-temple/index.html",
-    
-  },
-  {
-    "name": "Flappy 2048",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/flappy-2048/index.html",
-    
-  },
-  {
-    "name": "Friendly Fire",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/friendlyfire/index.html",
-    
-  },
-  {
-    "name": "Geometry Dash",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/geometry/index.html",
-    
-  },
-  {
-    "name": "Gopher Kart",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/gopher-kart/index.html",
-    
-  },
-  {
-    "name": "Hexgl",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/hexgl/index.html",
-    
-  },
-  {
-    "name": "Hextris",
-    "img": "thumbnails/img35.jpg",
-    "url": "gfiles/gfiles/html5/hextris/index.html",
-    
-  },
-  {
-    "name": "Madalin Cars Online",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/madalin-cars-multiplayer/index.html",
-    
-  },
-  {
-    "name": "Microsoft Flight Sim",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/microsoft-flight-simulator/index.html",
-    
-  },
+
  
   {
     "name": "Pacman",
@@ -1336,60 +1237,7 @@ var buttonArr21 = [
     "url": "gfiles/gfiles/html5/pacman/index.html",
     
   },
-  {
-    "name": "Radius Raid",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/radius-raid/index.html",
-    
-  },
-  {
-    "name": "Ritz",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/ritz/index.html",
-    
-  },
-  {
-    "name": "Super Mario 64",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/sm64/index.html",
-    
-  },
-  {
-    "name": "Space Invaders",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/spaceinvaders/index.html",
-    
-  },
-  {
-    "name": "Tank Trouble",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/tanktrouble/index.html",
-    
-  },
-  {
-    "name": "Vex 3",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/vex3/index.html",
-    
-  },
-  {
-    "name": "Vex 4",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/vex4/index.html",
-    
-  },
-  {
-    "name": "Vex 5",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/vex5/index.html",
-    
-  },
-  {
-    "name": "Rolling Sky",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/html5/webgl-rollingsky/index.html",
-    
-  },
+//here
   {
     "name": "13 Days in Hell",
     "img": "thumbnails/na.png",
@@ -1860,12 +1708,7 @@ var buttonArr21 = [
     "url": "gfiles/gfiles/flash/?swf=IndestructoTank.swf",
     
   },
-  {
-    "name": "Line Rider 2",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/flash/?swf=Line Rider 2.swf",
-    
-  },
+ 
   {
     "name": "Mario Revived",
     "img": "thumbnails/na.png",
@@ -2504,13 +2347,7 @@ var buttonArr21 = [
     "url": "gfiles/gfiles/lanucher/index.html?url=https://www.julgames.com/games/slither-snakes/",
     "img": "thumbnails/img31.png",
 },
-{
-    
-    "category": "Puzzle",
-    "name": "Geometry Dash",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/geometry/index.html",
-    "img": "thumbnails/img33.png",
-},
+
 {
     
     "category": "Puzzle",
@@ -4039,7 +3876,7 @@ var buttonArr21 = [
     },
     {
       "name": "Avatar Arena",
-      "img": "thumbnails/na.png",
+      "img": "thumbnails/AA.jpg",
       "url": "gfiles/gfiles/flash/?swf=AvatarArena.swf",
       
     },
@@ -4098,120 +3935,12 @@ var buttonArr21 = [
       
     },
     {
-      "name": "Break Lock",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/breaklock/index.html",
-      
-    },
-    {
-      "name": "Chroma",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/chroma/index.html",
-      
-    },
-    
-    {
-      "name": "Cube Field",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/cubefield/index.html",
-      
-    },
-    {
-      "name": "Dinosaur",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/dinosaur/index.html",
-      
-    },
-    {
-      "name": "Doodle Jump",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/doodle-jump/index.html",
-      
-    },
-    {
-      "name": "Drift",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/drift/index.html",
-      
-    },
-    {
-      "name": "Duck Life 1",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/ducklife/index.html",
-      
-    },
-    {
-      "name": "Duck Life 2",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/ducklife2/index.html",
-      
-    },
-    {
-      "name": "Duck Life 3",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/ducklife3/index.html",
-      
-    },
-    {
-      "name": "Duck Life 4 ",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/ducklife4/index.html",
-      
-    },
-    {
-      "name": "FBWG Forest Temple",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/fireboy-and-watergirl-forest-temple/index.html",
-      
-    },
-    {
-      "name": "Flappy 2048",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/flappy-2048/index.html",
-      
-    },
-    {
-      "name": "Friendly Fire",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/friendlyfire/index.html",
-      
-    },
-    {
-      "name": "Geometry Dash",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/geometry/index.html",
-      
-    },
-    {
-      "name": "Gopher Kart",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/gopher-kart/index.html",
-      
-    },
-    {
-      "name": "Hexgl",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/hexgl/index.html",
-      
-    },
-    {
       "name": "Hextris",
       "img": "thumbnails/img35.jpg",
       "url": "gfiles/gfiles/html5/hextris/index.html",
       
     },
-    {
-      "name": "Madalin Cars Online",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/madalin-cars-multiplayer/index.html",
-      
-    },
-    {
-      "name": "Microsoft Flight Sim",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/microsoft-flight-simulator/index.html",
-      
-    },
+   
    
     {
       "name": "Pacman",
@@ -4219,54 +3948,7 @@ var buttonArr21 = [
       "url": "gfiles/gfiles/html5/pacman/index.html",
       
     },
-    {
-      "name": "Radius Raid",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/radius-raid/index.html",
-      
-    },
-    {
-      "name": "Ritz",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/ritz/index.html",
-      
-    },
-    {
-      "name": "Super Mario 64",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/sm64/index.html",
-      
-    },
-    {
-      "name": "Space Invaders",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/spaceinvaders/index.html",
-      
-    },
-    {
-      "name": "Tank Trouble",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/tanktrouble/index.html",
-      
-    },
-    {
-      "name": "Vex 3",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/vex3/index.html",
-      
-    },
-    {
-      "name": "Vex 4",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/vex4/index.html",
-      
-    },
-    {
-      "name": "Vex 5",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/html5/vex5/index.html",
-      
-    },
+   
     {
       "name": "Rolling Sky",
       "img": "thumbnails/na.png",
@@ -4743,12 +4425,7 @@ var buttonArr21 = [
       "url": "gfiles/gfiles/flash/?swf=IndestructoTank.swf",
       
     },
-    {
-      "name": "Line Rider 2",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/flash/?swf=Line Rider 2.swf",
-      
-    },
+
     {
       "name": "Mario Revived",
       "img": "thumbnails/na.png",
@@ -5387,13 +5064,7 @@ var buttonArr21 = [
       "url": "gfiles/gfiles/lanucher/index.html?url=https://www.julgames.com/games/slither-snakes/",
       "img": "thumbnails/img31.png",
   },
-  {
-      
-      "category": "Puzzle",
-      "name": "Geometry Dash",
-      "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/geometry/index.html",
-      "img": "thumbnails/img33.png",
-  },
+
   {
       
       "category": "Puzzle",

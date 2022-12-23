@@ -1315,22 +1315,17 @@ var buttonArr21 = [
   },
   {
     "name": "Bike Mania",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bm.png",
     "url": "gfiles/gfiles/flash/?swf=bikemania.swf",
     
   },
   {
     "name": "Bike Mania 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bm2.jpg",
     "url": "gfiles/gfiles/flash/?swf=bikemania2.swf",
     
   },
-  {
-    "name": "Binding of Isaac",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/flash/?swf=binding-of-isaac.swf",
-    
-  },
+ 
   {
     "name": "Blast O' Matic",
     "img": "thumbnails/na.png",
@@ -4032,22 +4027,17 @@ var buttonArr21 = [
     },
     {
       "name": "Bike Mania",
-      "img": "thumbnails/na.png",
+      "img": "thumbnails/bm.png",
       "url": "gfiles/gfiles/flash/?swf=bikemania.swf",
       
     },
     {
       "name": "Bike Mania 2",
-      "img": "thumbnails/na.png",
+      "img": "thumbnails/bm2.jpg",
       "url": "gfiles/gfiles/flash/?swf=bikemania2.swf",
       
     },
-    {
-      "name": "Binding of Isaac",
-      "img": "thumbnails/na.png",
-      "url": "gfiles/gfiles/flash/?swf=binding-of-isaac.swf",
-      
-    },
+   
     {
       "name": "Blast O' Matic",
       "img": "thumbnails/na.png",

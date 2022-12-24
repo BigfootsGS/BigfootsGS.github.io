@@ -1421,31 +1421,31 @@ var buttonArr21 = [
   },
   {
     "name": "The Beard",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/tb.jpg",
     "url": "gfiles/gfiles/flash/?swf=castlecrashingthebeard.swf",
     
   },
   {
     "name": "Choose Your Weapon 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/cyw2.png",
     "url": "gfiles/gfiles/flash/?swf=chooseyourweapon2_LB.swf",
     
   },
   {
     "name": "Clear Vision",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/cv.png",
     "url": "gfiles/gfiles/flash/?swf=clear-vision.swf",
     
   },
   {
     "name": "Clear Vision Elite",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/cve.jpg",
     "url": "gfiles/gfiles/flash/?swf=clearvisionelite.swf",
     
   },
   {
     "name": "Crazy Taxi",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/ct1.webp",
     "url": "gfiles/gfiles/flash/?swf=crazy-taxi.swf",
     
   },

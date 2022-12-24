@@ -1403,7 +1403,7 @@ var buttonArr21 = [
 
   {
     "name": "Donkey Kong",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/donkey.webp",
     "url": "gfiles/gfiles/flash/?swf=DonkeyKong.swf",
     
   },
@@ -1415,7 +1415,7 @@ var buttonArr21 = [
   },
   {
     "name": "Draw Play 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/dp2.jpg",
     "url": "gfiles/gfiles/flash/?swf=DrawPlay2.swf",
     
   },
@@ -1475,7 +1475,7 @@ var buttonArr21 = [
   },
   {
     "name": "Duck Hunt",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/dh.png",
     "url": "gfiles/gfiles/flash/?swf=duck-hunt.swf",
     
   },
@@ -4086,7 +4086,7 @@ var buttonArr21 = [
 
   {
     "name": "Donkey Kong",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/donkey.webp",
     "url": "gfiles/gfiles/flash/?swf=DonkeyKong.swf",
     
   },

@@ -1451,25 +1451,25 @@ var buttonArr21 = [
   },
   {
     "name": "Cursor 10",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/c10.jpg",
     "url": "gfiles/gfiles/flash/?swf=cursor10.swf",
     
   },
   {
     "name": "Dad N' Me",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/dnm.jpg",
     "url": "gfiles/gfiles/flash/?swf=dadnme.swf",
     
   },
   {
     "name": "Dance of the Robots",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/rdp.png",
     "url": "gfiles/gfiles/flash/?swf=danceoftherobots.swf",
     
   },
   {
     "name": "Dental Adventure",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/da.webp",
     "url": "gfiles/gfiles/flash/?swf=dental-adventure.swf",
     
   },
@@ -1481,140 +1481,140 @@ var buttonArr21 = [
   },
   {
     "name": "DX Hockey",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/dxh.jpg",
     "url": "gfiles/gfiles/flash/?swf=dxhockey.swf",
     
   },
   {
     "name": "Bloxors",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/blox.jpg",
     "url": "gfiles/gfiles/flash/?swf=Bloxors.swf",
     
   },
   {
     "name": "Bullet Bill 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bb2.png",
     "url": "gfiles/gfiles/flash/?swf=Bullet Bill 2.swf",
     
   },
   {
     "name": "Bullet Bill 3",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bb3.webp",
     "url": "gfiles/gfiles/flash/?swf=Bullet Bill 3.swf",
     
   },
   {
     "name": "Bomb a Bomb",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bab.png",
     "url": "gfiles/gfiles/flash/?swf=bombabomb.swf",
     
   },
   {
     "name": "Bow Man",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bom.webp",
     "url": "gfiles/gfiles/flash/?swf=bowman.swf",
     
   },
   {
     "name": "Bow Man 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bom2.jpg",
     "url": "gfiles/gfiles/flash/?swf=bowman2.swf",
     
   },
   {
     "name": "Bowmaster",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bowm.png",
     "url": "gfiles/gfiles/flash/?swf=bowmaster.swf",
     
   },
   {
     "name": "Bowmaster Prelude",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bowmp.jpg",
     "url": "gfiles/gfiles/flash/?swf=bowmasterprelude.swf",
     
   },
   {
     "name": "Bubble Shooter",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bs.png",
     "url": "gfiles/gfiles/flash/?swf=bubble shooter.swf",
     
   },
   {
     "name": "Bubble Tanks 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bt.jpg",
     "url": "gfiles/gfiles/flash/?swf=bubble_tanks_2.swf",
     
   },
   {
     "name": "Bullet Bill",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bbb.jpg",
     "url": "gfiles/gfiles/flash/?swf=bullet-bill.swf",
     
   },
   {
     "name": "Burger Tycoon",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bty.png",
     "url": "gfiles/gfiles/flash/?swf=burgertycoon.swf",
     
   },
 
   {
     "name": "Boxhead 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bh2.png",
     "url": "gfiles/gfiles/flash/?swf=dagobah_boxhead_2.swf",
     
   },
   {
     "name": "Electric Man",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/em.png",
     "url": "gfiles/gfiles/flash/?swf=ElectricMan.swf",
     
   },
   {
     "name": "Excite Bike",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/eb.jpg",
     "url": "gfiles/gfiles/flash/?swf=ExciteBike.swf",
     
   },
   {
     "name": "Feudalism 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/f2.png",
     "url": "gfiles/gfiles/flash/?swf=Feudalism2.swf",
     
   },
   {
     "name": "Flood Runner 3",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/fr3.png",
     "url": "gfiles/gfiles/flash/?swf=Flood_Runner3.swf",
     
   },
   {
     "name": "Flood Runner 4",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/fr4.jpg",
     "url": "gfiles/gfiles/flash/?swf=Flood_Runner_4.swf",
     
   },
   {
     "name": "Flood Runner 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/fr2.png",
     "url": "gfiles/gfiles/flash/?swf=The_Flood_Runner_2.swf",
     
   },
   {
     "name": "Earthbound",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/etb.png",
     "url": "/emulator/snes/earthbound.smc",
     
   },
   {
     "name": "Effing Worms",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/eiw.png",
     "url": "gfiles/gfiles/flash/?swf=effingworms.swf",
     
   },
   {
     "name": "Fat Ninja",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/fn.jpg",
     "url": "gfiles/gfiles/flash/?swf=fat-ninja.swf",
     
   },
@@ -2689,7 +2689,7 @@ var buttonArr21 = [
         win7.document.body.appendChild(iframe);
     }
     var buttonArr21 = [
-      
+    
   
   {
     "name": "Getaway Shootout",
@@ -4098,206 +4098,206 @@ var buttonArr21 = [
   },
   {
     "name": "Draw Play 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/dp2.jpg",
     "url": "gfiles/gfiles/flash/?swf=DrawPlay2.swf",
     
   },
   {
     "name": "The Beard",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/tb.jpg",
     "url": "gfiles/gfiles/flash/?swf=castlecrashingthebeard.swf",
     
   },
   {
     "name": "Choose Your Weapon 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/cyw2.png",
     "url": "gfiles/gfiles/flash/?swf=chooseyourweapon2_LB.swf",
     
   },
   {
     "name": "Clear Vision",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/cv.png",
     "url": "gfiles/gfiles/flash/?swf=clear-vision.swf",
     
   },
   {
     "name": "Clear Vision Elite",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/cve.jpg",
     "url": "gfiles/gfiles/flash/?swf=clearvisionelite.swf",
     
   },
   {
     "name": "Crazy Taxi",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/ct1.webp",
     "url": "gfiles/gfiles/flash/?swf=crazy-taxi.swf",
     
   },
   {
     "name": "Cursor 10",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/c10.jpg",
     "url": "gfiles/gfiles/flash/?swf=cursor10.swf",
     
   },
   {
     "name": "Dad N' Me",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/dnm.jpg",
     "url": "gfiles/gfiles/flash/?swf=dadnme.swf",
     
   },
   {
     "name": "Dance of the Robots",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/rdp.png",
     "url": "gfiles/gfiles/flash/?swf=danceoftherobots.swf",
     
   },
   {
     "name": "Dental Adventure",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/da.webp",
     "url": "gfiles/gfiles/flash/?swf=dental-adventure.swf",
     
   },
   {
     "name": "Duck Hunt",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/dh.png",
     "url": "gfiles/gfiles/flash/?swf=duck-hunt.swf",
     
   },
   {
     "name": "DX Hockey",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/dxh.jpg",
     "url": "gfiles/gfiles/flash/?swf=dxhockey.swf",
     
   },
   {
     "name": "Bloxors",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/blox.jpg",
     "url": "gfiles/gfiles/flash/?swf=Bloxors.swf",
     
   },
   {
     "name": "Bullet Bill 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bb2.png",
     "url": "gfiles/gfiles/flash/?swf=Bullet Bill 2.swf",
     
   },
   {
     "name": "Bullet Bill 3",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bb3.webp",
     "url": "gfiles/gfiles/flash/?swf=Bullet Bill 3.swf",
     
   },
   {
     "name": "Bomb a Bomb",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bab.png",
     "url": "gfiles/gfiles/flash/?swf=bombabomb.swf",
     
   },
   {
     "name": "Bow Man",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bom.webp",
     "url": "gfiles/gfiles/flash/?swf=bowman.swf",
     
   },
   {
     "name": "Bow Man 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bom2.jpg",
     "url": "gfiles/gfiles/flash/?swf=bowman2.swf",
     
   },
   {
     "name": "Bowmaster",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bowm.png",
     "url": "gfiles/gfiles/flash/?swf=bowmaster.swf",
     
   },
   {
     "name": "Bowmaster Prelude",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bowmp.jpg",
     "url": "gfiles/gfiles/flash/?swf=bowmasterprelude.swf",
     
   },
   {
     "name": "Bubble Shooter",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bs.png",
     "url": "gfiles/gfiles/flash/?swf=bubble shooter.swf",
     
   },
   {
     "name": "Bubble Tanks 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bt.jpg",
     "url": "gfiles/gfiles/flash/?swf=bubble_tanks_2.swf",
     
   },
   {
     "name": "Bullet Bill",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bbb.jpg",
     "url": "gfiles/gfiles/flash/?swf=bullet-bill.swf",
     
   },
   {
     "name": "Burger Tycoon",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bty.png",
     "url": "gfiles/gfiles/flash/?swf=burgertycoon.swf",
     
   },
 
   {
     "name": "Boxhead 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/bh2.png",
     "url": "gfiles/gfiles/flash/?swf=dagobah_boxhead_2.swf",
     
   },
   {
     "name": "Electric Man",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/em.png",
     "url": "gfiles/gfiles/flash/?swf=ElectricMan.swf",
     
   },
   {
     "name": "Excite Bike",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/eb.jpg",
     "url": "gfiles/gfiles/flash/?swf=ExciteBike.swf",
     
   },
   {
     "name": "Feudalism 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/f2.png",
     "url": "gfiles/gfiles/flash/?swf=Feudalism2.swf",
     
   },
   {
     "name": "Flood Runner 3",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/fr3.png",
     "url": "gfiles/gfiles/flash/?swf=Flood_Runner3.swf",
     
   },
   {
     "name": "Flood Runner 4",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/fr4.jpg",
     "url": "gfiles/gfiles/flash/?swf=Flood_Runner_4.swf",
     
   },
   {
     "name": "Flood Runner 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/fr2.png",
     "url": "gfiles/gfiles/flash/?swf=The_Flood_Runner_2.swf",
     
   },
   {
     "name": "Earthbound",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/etb.png",
     "url": "/emulator/snes/earthbound.smc",
     
   },
   {
     "name": "Effing Worms",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/eiw.png",
     "url": "gfiles/gfiles/flash/?swf=effingworms.swf",
     
   },
   {
     "name": "Fat Ninja",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/fn.jpg",
     "url": "gfiles/gfiles/flash/?swf=fat-ninja.swf",
     
   },

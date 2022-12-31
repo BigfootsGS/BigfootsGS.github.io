@@ -1,6 +1,6 @@
-var backend = "aHR0cHM6Ly9kNmUxLTI0LTAtMzQtMTkyLm5ncm9rLmlv";
+var backend = "aHR0cHM6Ly8yZTUzLTY5LTI0OC0yMjctMTMxLm5ncm9rLmlv";
 var url = atob(backend);
-var roblox = "aHR0cHM6Ly9ub3cuZ2cvcGxheS9yb2Jsb3gtY29ycG9yYXRpb24vNTM0OS9yb2Jsb3g=";
+var roblox = "aHR0cHM6Ly9reGQuZm0vcm9ibG94";
 var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
 var BBstars = "aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=";
 

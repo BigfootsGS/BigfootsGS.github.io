@@ -2395,75 +2395,10 @@ var buttonArr21 = [
 {
     
     "name": "Cookie Clicker",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://cc-production-8f21.up.railway.app/",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://bigfoot9999.github.io/cc/",
     "img": "thumbnails/img29.png",
 }, 
-{
-    
-    "name": "Flappy 2048",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/flappy-2048/index.html",
-    "img": "thumbnails/img32.png",
-}, 
-{
-    
-    "name": "Google Solitaire",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/google-solitaire/index.html",
-    "img": "thumbnails/img34.png",
-}, 
- {
-    
-    "name": "Uno",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/uno/index.html",
-    "img": "thumbnails/img36.jpg",
-}, {
-    
-    "name": "There is no Game",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/there-is-no-game/index.html",
-    "img": "thumbnails/img37.jpg",
-}, 
-{
-    
-    "name": "MS Jewel",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://bigfoot9999.github.io/html5-games/games/ms-jewel/",
-    "img": "thumbnails/img85.png",
-}, 
-{
-    
-    "name": "Celeste",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/celeste/celeste.html",
-    "img": "thumbnails/img44.jpg",
-},{
-    
-    "name": "Chroma",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/chroma/index.html",
-    "img": "thumbnails/img43.png",
-},{
-    
-    "name": "Doodle Jump",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/doodle-jump/index.html",
-    "img": "thumbnails/img39.png",
-},{
-    
-    "name": "Economical",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/economical/index.html",
-    "img": "thumbnails/img41.gif",
-},{
-    
-    "name": "Economical 2",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/economical2/index.html",
-    "img": "thumbnails/img42.png",
-},
-{
-    
-    "name": "Flappy Bird",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/flappybird/index.html",
-    "img": "thumbnails/img40.png",
-},{
-    
-    "name": "Space Invaders",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/spaceinvaders/index.htmll",
-    "img": "thumbnails/img57.jpg",
-},
+
 {
     "name": "Vivalda",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://bigfoot9999.github.io/html5-games/games/vivaldia/",
@@ -2535,18 +2470,7 @@ var buttonArr21 = [
     "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
     "img": "thumbnails/img220",
 },
-    {
-        "name": "Fire Truck Dash",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/fire-truck-dash/index.html",
-        "img": "thumbnails/img54.png",
-    }, 
-    
-    
-    {
-        "name": "Taz Driving 2",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/russian-taz-magmes/index.html",
-        "img": "thumbnails/img55.jpg",
-       },
+ 
        {
         "name": "Doomz.io",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna-v2.herokuapp.com/KardnaV2/hvtrs8%2F-dmooz%2Cim%2F",
@@ -2572,7 +2496,7 @@ var buttonArr21 = [
         "url": "gfiles/gfiles/lanucher/index.html?url=https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
         "img": "thumbnails/granny.png",
        },
-       
+   
    ]
        buttonArr21.forEach(function(arrayItem21) {
    
@@ -5078,75 +5002,10 @@ var buttonArr21 = [
 {
     
     "name": "Cookie Clicker",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://cc-production-8f21.up.railway.app/",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://bigfoot9999.github.io/cc/",
     "img": "thumbnails/img29.png",
 }, 
-{
-    
-    "name": "Flappy 2048",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/flappy-2048/index.html",
-    "img": "thumbnails/img32.png",
-}, 
-{
-    
-    "name": "Google Solitaire",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/google-solitaire/index.html",
-    "img": "thumbnails/img34.png",
-}, 
- {
-    
-    "name": "Uno",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/uno/index.html",
-    "img": "thumbnails/img36.jpg",
-}, {
-    
-    "name": "There is no Game",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/there-is-no-game/index.html",
-    "img": "thumbnails/img37.jpg",
-}, 
-{
-    
-    "name": "MS Jewel",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://bigfoot9999.github.io/html5-games/games/ms-jewel/",
-    "img": "thumbnails/img85.png",
-}, 
-{
-    
-    "name": "Celeste",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/celeste/celeste.html",
-    "img": "thumbnails/img44.jpg",
-},{
-    
-    "name": "Chroma",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/chroma/index.html",
-    "img": "thumbnails/img43.png",
-},{
-    
-    "name": "Doodle Jump",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/doodle-jump/index.html",
-    "img": "thumbnails/img39.png",
-},{
-    
-    "name": "Economical",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/economical/index.html",
-    "img": "thumbnails/img41.gif",
-},{
-    
-    "name": "Economical 2",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/economical2/index.html",
-    "img": "thumbnails/img42.png",
-},
-{
-    
-    "name": "Flappy Bird",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/flappybird/index.html",
-    "img": "thumbnails/img40.png",
-},{
-    
-    "name": "Space Invaders",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/spaceinvaders/index.htmll",
-    "img": "thumbnails/img57.jpg",
-},
+
 {
     "name": "Vivalda",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://bigfoot9999.github.io/html5-games/games/vivaldia/",
@@ -5218,18 +5077,7 @@ var buttonArr21 = [
     "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
     "img": "thumbnails/img220",
 },
-    {
-        "name": "Fire Truck Dash",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/fire-truck-dash/index.html",
-        "img": "thumbnails/img54.png",
-    }, 
-    
-    
-    {
-        "name": "Taz Driving 2",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/russian-taz-magmes/index.html",
-        "img": "thumbnails/img55.jpg",
-       },
+ 
        {
         "name": "Doomz.io",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna-v2.herokuapp.com/KardnaV2/hvtrs8%2F-dmooz%2Cim%2F",

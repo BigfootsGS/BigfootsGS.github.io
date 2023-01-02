@@ -1620,68 +1620,68 @@ var buttonArr21 = [
   },
   {
     "name": "Feudalism",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/feud.png",
     "url": "gfiles/gfiles/flash/?swf=feudalism.swf",
     
   },
   {
     "name": "Flashcraft",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/fs.png",
     "url": "gfiles/gfiles/flash/?swf=flashcraft.swf",
     
   },
   {
     "name": "Free Rider 2",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/frg2.jpg",
     "url": "gfiles/gfiles/flash/?swf=freerider2.swf",
     
   },
   {
     "name": "Frogger",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/frg.png",
     "url": "gfiles/gfiles/flash/?swf=frogger.swf",
     
   },
   {
     "name": "Grow RPG",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/grpg.webp",
     "url": "gfiles/gfiles/flash/?swf=growrpg.swf",
     
   },
   {
     "name": "Gods Playing Field",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/gpf.jpg",
     "url": "gfiles/gfiles/flash/?swf=Gods Playing Field.swf",
     
   },
   {
     "name": "Grid Lock",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/gr.avif",
     "url": "gfiles/gfiles/flash/?swf=Gridlock.swf",
     
   },
   {
     "name": "Hobo",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/hof.jpg",
     "url": "gfiles/gfiles/flash/?swf=Hobo.swf",
     
   },
   {
     "name": "Indestructo Tank",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/it.jpg",
     "url": "gfiles/gfiles/flash/?swf=IndestructoTank.swf",
     
   },
  
   {
     "name": "Mario Revived",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/mrm.jpg",
     "url": "gfiles/gfiles/flash/?swf=Mariorevived.swf",
     
   },
   {
     "name": "Max Dirt Bike 1",
-    "img": "thumbnails/na.png",
+    "img": "thumbnails/mdb.jpg",
     "url": "gfiles/gfiles/flash/?swf=MaxDirtBike1.swf",
     
   },
@@ -1701,14 +1701,8 @@ var buttonArr21 = [
     "name": "Parachute",
     "img": "thumbnails/na.png",
     "url": "gfiles/gfiles/flash/?swf=Parachute.swf",
-    
-  },
-  {
-    "name": "Portal",
-    "img": "thumbnails/na.png",
-    "url": "gfiles/gfiles/flash/?swf=Portal.swf",
-    
-  },
+},
+  
   {
     "name": "Prince of War",
     "img": "thumbnails/na.png",

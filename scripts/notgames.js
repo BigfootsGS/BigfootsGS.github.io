@@ -2135,7 +2135,8 @@ var buttonArr21 = [
    "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + krunker,
    "img": "thumbnails/img65.png",
    },
-{
+
+   {
     "name": "Temple Run 2",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://bigfoot9999.github.io/html5-games/games/templerun2/",
     "img": "thumbnails/img58.png",

@@ -2373,18 +2373,18 @@ var buttonArr21 = [
    },
 {
     "name": "Pokemon Silver",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
     "img": "thumbnails/img217",
 },
 {
     "name": "Diep.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
     "img": "thumbnails/img218",
 },
 
 {
     "name": "Subway Surfers",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
     "img": "thumbnails/img221",
 },
 {
@@ -2455,14 +2455,14 @@ var buttonArr21 = [
 },
 {
     "name": "MooMoo.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
     "img": "thumbnails/img219",
 },
 
 {
     
     "name": "Fortnite",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
     "img": "thumbnails/img220",
 },
  
@@ -2490,6 +2490,12 @@ var buttonArr21 = [
         "name": "Granny",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
         "img": "thumbnails/granny.png",
+        
+       },
+       {
+        "name": "Gold Digger",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
+        "img": "thumbnails/gold.png",
        },
    
    ]
@@ -2510,22 +2516,22 @@ var buttonArr21 = [
     {
         "name": "Discord",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://e.widgetbot.io/channels/829117322223812658/829117322223812660",
-        "url1": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9lLndpZGdldGJvdC5pby9jaGFubmVscy84MjkxMTczMjIyMjM4MTI2NTgvODI5MTE3MzIyMjIzODEyNjYw",
-        "url2": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9lLndpZGdldGJvdC5pby9jaGFubmVscy84MjkxMTczMjIyMjM4MTI2NTgvODI5MTE3MzIyMjIzODEyNjYw",
+        "url1": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9lLndpZGdldGJvdC5pby9jaGFubmVscy84MjkxMTczMjIyMjM4MTI2NTgvODI5MTE3MzIyMjIzODEyNjYw",
+        "url2": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9lLndpZGdldGJvdC5pby9jaGFubmVscy84MjkxMTczMjIyMjM4MTI2NTgvODI5MTE3MzIyMjIzODEyNjYw",
         "img": "../images/disco.png",
     }, 
     {
         "name": "GE Force Now",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
-        "url1": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv/service/hvtrs8%2F-wuw%2Cntific.aoo%2Fgn%2Fuq%2Feedopcg-lou%2Fdoptlive%2Fmmbklg%2F%22%20",
-        "url2": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+        "url1": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv/service/hvtrs8%2F-wuw%2Cntific.aoo%2Fgn%2Fuq%2Feedopcg-lou%2Fdoptlive%2Fmmbklg%2F%22%20",
+        "url2": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
         "img": "../images/ge.png",
     }, 
     {
         "name": "Youtube",
         "url": "gfiles/gfiles/lanucher/index.html?url=" + url,
         "url1": "gfiles/gfiles/lanucher/index.html?url=https://youtube.com",
-        "url2": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#eW91dHViZS5jb20=",
+        "url2": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#eW91dHViZS5jb20=",
         "img": "../images/yt.png",
     }, 
    
@@ -4980,18 +4986,18 @@ var buttonArr21 = [
    },
 {
     "name": "Pokemon Silver",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
     "img": "thumbnails/img217",
 },
 {
     "name": "Diep.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
     "img": "thumbnails/img218",
 },
 
 {
     "name": "Subway Surfers",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
     "img": "thumbnails/img221",
 },
 {
@@ -5062,14 +5068,14 @@ var buttonArr21 = [
 },
 {
     "name": "MooMoo.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
     "img": "thumbnails/img219",
 },
 
 {
     
     "name": "Fortnite",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
     "img": "thumbnails/img220",
 },
  
@@ -5077,6 +5083,11 @@ var buttonArr21 = [
         "name": "Doomz.io",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://kardna-v2.herokuapp.com/KardnaV2/hvtrs8%2F-dmooz%2Cim%2F",
         "img": "thumbnails/doomz-io.png",
+       },
+       {
+        "name": "Gold Digger",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
+        "img": "thumbnails/gold.png",
        },
        {
         "name": "Stickman Hook",
@@ -6574,16 +6585,16 @@ var randomlinks= [
     "link":"gfiles/gfiles/lanucher/index.html?link=https://play.gamemonetize.co/x9szn9qmh0ygsmct93p7mny35850lpx1/",
  },
  {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
+    "link":"gfiles/gfiles/lanucher/index.html?link=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
  },
  {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+    "link":"gfiles/gfiles/lanucher/index.html?link=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
  },
  {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+    "link":"gfiles/gfiles/lanucher/index.html?link=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
  },
  {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+    "link":"gfiles/gfiles/lanucher/index.html?link=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
  },
  {
     "link":"gfiles/gfiles/lanucher/index.html?link=https://cc-production-8f21.up.railway.app/",
@@ -6655,10 +6666,10 @@ var randomlinks= [
     "link":"gfiles/gfiles/lanucher/index.html?link=https://miniroyale.clambam10.repl.co/",
  },
  {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+    "link":"gfiles/gfiles/lanucher/index.html?link=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
  },
  {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
+    "link":"gfiles/gfiles/lanucher/index.html?link=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
  },
  {
     "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/fire-truck-dash/index.html",

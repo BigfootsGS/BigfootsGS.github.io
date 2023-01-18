@@ -1,3 +1,9 @@
+# Winter Update
+## Update 3.1.4 (1/18/2023)
++ Added over 100+ thumbnails to games page
++ Setup ads for bgs.pages.dev
++ Replaced content on home page with a section that advertises our socials
++ Added Kardna Network to partners section at bottom of page
 # Fall Update
 ## Update 3.1.3 (11/25/2022)
 - Removed unnecessary navigation items

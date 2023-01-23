@@ -2502,6 +2502,11 @@ var buttonArr21 = [
         "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
         "img": "thumbnails/gold.png",
        },
+       {
+        "name": "Eagler Craft",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://152-voidcraftsmp.v0idplayyz.repl.co/",
+        "img": "thumbnails/grass.png",
+       },
    
    ]
        buttonArr21.forEach(function(arrayItem21) {
@@ -5113,6 +5118,11 @@ var buttonArr21 = [
         "name": "Granny",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
         "img": "thumbnails/granny.png",
+       },
+       {
+        "name": "Eagler Craft",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://152-voidcraftsmp.v0idplayyz.repl.co/",
+        "img": "thumbnails/grass.png",
        },
    
   ]

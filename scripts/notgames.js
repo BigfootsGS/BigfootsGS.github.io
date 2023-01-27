@@ -1,4 +1,4 @@
-var backend = "aHR0cHM6Ly82NjlmLTY5LTI0OC0yMjctMTMxLm5ncm9rLmlvLw==";
+var backend = "aHR0cHM6Ly84YTI4LTY5LTI0OC0yMjctMTMxLm5ncm9rLmlv";
 var url = atob(backend);
 var roblox = "aHR0cHM6Ly9reGQuZm0vcm9ibG94";
 var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
@@ -8,6 +8,11 @@ var buttonArr21 = [
   
     
   
+  {
+    "name": "Idle Breakout",
+    "url": "gfiles/gfiles/html5/idle-breakout/index.html",
+    "img": "gfiles/gfiles/html5/idle-breakout/idle.png",
+},
   {
     "name": "Getaway Shootout",
     "url": "gfiles/gfiles/html5/getaway-shootout/index.html",
@@ -2404,7 +2409,14 @@ var buttonArr21 = [
     "name": "1v1.lol",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://rnv3.pages.dev/G/1v1.lol/",
     "img": "thumbnails/img46.jpg",
-}, {
+}, 
+  {
+    
+    "name": "1v1.lol(Server 2)",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://nowcollege.com/uploads/5/5/6/7/5567194/custom_themes/315300867982782623/1v1_lol.html",
+    "img": "thumbnails/img46.jpg",
+}, 
+  {
     
     "name": "Zombs Royale",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://theadvancedsociety-tam.tbt.mx/tmm-zombsroyale/",
@@ -2496,6 +2508,11 @@ var buttonArr21 = [
         "name": "Gold Digger",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
         "img": "thumbnails/gold.png",
+       },
+       {
+        "name": "Eagler Craft",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://152-voidcraftsmp.v0idplayyz.repl.co/",
+        "img": "thumbnails/grass.png",
        },
    
    ]
@@ -5017,7 +5034,15 @@ var buttonArr21 = [
     "name": "1v1.lol",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://rnv3.pages.dev/G/1v1.lol/",
     "img": "thumbnails/img46.jpg",
-}, {
+},
+      {
+    
+    "name": "1v1.lol (Server 2)",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://nowcollege.com/uploads/5/5/6/7/5567194/custom_themes/315300867982782623/1v1_lol.html",
+    "img": "thumbnails/img46.jpg",
+},
+      
+{
     
     "name": "Zombs Royale",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://theadvancedsociety-tam.tbt.mx/tmm-zombsroyale/",
@@ -5108,6 +5133,11 @@ var buttonArr21 = [
         "name": "Granny",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
         "img": "thumbnails/granny.png",
+       },
+       {
+        "name": "Eagler Craft",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://152-voidcraftsmp.v0idplayyz.repl.co/",
+        "img": "thumbnails/grass.png",
        },
    
   ]

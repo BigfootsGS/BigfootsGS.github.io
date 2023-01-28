@@ -665,6 +665,10 @@ textarea:focus, input:focus {
   color: rgb(86, 54, 28);
   transition: 0.2s;
 }
+.current {
+  color: rgb(86, 54, 28);
+}
+
 @media (max-width: 650px) {
 	.imagetext {
     display: none;

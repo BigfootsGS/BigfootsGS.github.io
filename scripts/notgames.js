@@ -1,4 +1,4 @@
-var backend = "aHR0cHM6Ly82NjlmLTY5LTI0OC0yMjctMTMxLm5ncm9rLmlvLw==";
+var backend = "aHR0cHM6Ly84YTI4LTY5LTI0OC0yMjctMTMxLm5ncm9rLmlv";
 var url = atob(backend);
 var roblox = "aHR0cHM6Ly9reGQuZm0vcm9ibG94";
 var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
@@ -2410,7 +2410,14 @@ var buttonArr21 = [
     "name": "1v1.lol",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://rnv3.pages.dev/G/1v1.lol/",
     "img": "thumbnails/img46.jpg",
-}, {
+}, 
+  {
+    
+    "name": "1v1.lol(Server 2)",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://nowcollege.com/uploads/5/5/6/7/5567194/custom_themes/315300867982782623/1v1_lol.html",
+    "img": "thumbnails/img46.jpg",
+}, 
+  {
     
     "name": "Zombs Royale",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://theadvancedsociety-tam.tbt.mx/tmm-zombsroyale/",
@@ -5033,7 +5040,15 @@ var buttonArr21 = [
     "name": "1v1.lol",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://rnv3.pages.dev/G/1v1.lol/",
     "img": "thumbnails/img46.jpg",
-}, {
+},
+      {
+    
+    "name": "1v1.lol (Server 2)",
+    "url": "gfiles/gfiles/lanucher/index.html?url=https://nowcollege.com/uploads/5/5/6/7/5567194/custom_themes/315300867982782623/1v1_lol.html",
+    "img": "thumbnails/img46.jpg",
+},
+      
+{
     
     "name": "Zombs Royale",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://theadvancedsociety-tam.tbt.mx/tmm-zombsroyale/",

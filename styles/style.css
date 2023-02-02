@@ -13,6 +13,14 @@ button {
      padding: 20px;
      width: 20%;
 }
+
+.current {
+
+
+        padding: 17px;
+
+    color: rgb(86, 54, 28);
+  }
  html{
      font-family: 'Anton', sans-serif;
      overflow-x: hidden;

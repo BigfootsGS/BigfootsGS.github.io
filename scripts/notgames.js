@@ -2131,7 +2131,7 @@ var buttonArr21 = [
   //end gfiles
    {
 "name": "Roblox",
-"url": "gfiles/gfiles/lanucher/index.html?url=" + url +"./uv.html#" + roblox,
+"url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + roblox,
 "img": "thumbnails/img59.png",
 },
 {
@@ -2374,7 +2374,7 @@ var buttonArr21 = [
 },
 {
    "name": "BasketBall Stars",
-   "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"./uv.html#" + BBstars,
+   "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + BBstars,
    "img": "thumbnails/img215",
    },
 {

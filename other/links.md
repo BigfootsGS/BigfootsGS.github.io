@@ -1,4 +1,5 @@
 # Bigfoot's Game Shack Links
+## Some old domains might expire soon :(
 * https://bgs.voids.cf
 * https://bgs.voidsgxmes.ml
 * https://bigfootedu.tk

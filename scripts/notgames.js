@@ -2302,7 +2302,7 @@ var buttonArr21 = [
     
     "category": "Action",
     "name": "OvO",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://dedragames.com/games/ovo/1.4/",
+    "url": "gfiles/gfiles/html5/ovo/index.html",
     "img": "thumbnails/img30.png",
 },
 {

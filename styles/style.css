@@ -559,6 +559,8 @@ a.active{
     /*for new animation on text on main page*/
     padding: 17px;
     color:white;
+    transition: 0.2s;
+
   }
   .newanim:hover{
     color: rgb(58, 39, 12);
@@ -1010,11 +1012,18 @@ ul.controls {
         width: 400px;
         position: absolute;
         left: 20px;
-        bottom: 40vh;
+        top: 70vh;
         background-color: rgba(255, 255, 255, 0.781);
         border-radius: 3px;
         z-index: 4;
         box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.384);
+        transition: 0.2s;
+
+    }
+    .new-yt:hover {
+        box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.384);
+        transition: 0.2s;
+        scale: 1.05;
     }
     .sub-yt-button {
         background-color: red;
@@ -1023,6 +1032,13 @@ ul.controls {
         margin-left:100px;
         border-radius: 50px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+        transition: 0.2s;
+
+    }
+    .sub-yt-button:hover {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
+        transition: 0.2s;
+        scale: 1.05;
 
     }
     .h1-subscribe{
@@ -1054,3 +1070,5 @@ text-decoration: none;
 .a-link-yt a:visited {
  text-decoration: none;
  }
+
+

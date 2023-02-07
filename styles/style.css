@@ -425,8 +425,9 @@ a.active{
     /* left: auto;
      */
      right: 61px;
-     bottom: -18px;
-     align-items: center;
+     bottom: 3px;
+     align-items: center;    transition: 0.2s;
+
 }
  .wrapper .social-icons {
      display: flex;
@@ -758,6 +759,7 @@ ul.controls {
 	color: white;
 	background-color: rgb(80, 52, 29);
 	animation-duration: 1s;
+    transition: 0.2s;
 }
 .button-but-a-link {
     width:275px;
@@ -767,6 +769,7 @@ ul.controls {
     height: 35px;
     background: rgb(80, 52, 29);
     padding: 19px;
+    transition: 0.2s;
     padding-top: 25px;
     box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.384);
 
@@ -812,7 +815,7 @@ ul.controls {
 
 }
 .button-but-a-link {
-    transition: transform .2s;
+    transition: .2s;
     margin: 10 auto;
 }
 .button-but-a-link:hover {
@@ -907,7 +910,7 @@ ul.controls {
       .tablinks1 {
         border-radius: 0%;
       }
-      .button-but-a-link:hover1 {
+      .button-but-a-link:hover {
         color: white;
         background-color: rgb(80, 52, 29);
         animation-duration: 1s;
@@ -921,6 +924,8 @@ ul.controls {
         padding: 14px;
         padding-top: 10px;
         filter:invert(0);
+        transition: 0.2s;
+
     }
     .notabutton1{
         font-family: 'Monument Extended', sans-serif;
@@ -963,7 +968,7 @@ ul.controls {
     
     }
     .button-but-a-link1 {
-        transition: transform .2s;
+        transition:  .2s;
         margin: 10 auto;
     }
     .button-but-a-link1:hover {

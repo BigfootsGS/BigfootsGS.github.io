@@ -1,4 +1,4 @@
-var backend = "aHR0cHM6Ly84YTI4LTY5LTI0OC0yMjctMTMxLm5ncm9rLmlv";
+var backend = "aHR0cHM6Ly9iZy5tYy1rYXJkbmEuY2Y=";
 var url = atob(backend);
 var roblox = "aHR0cHM6Ly9reGQuZm0vcm9ibG94";
 var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
@@ -2218,7 +2218,7 @@ var buttonArr21 = [
     
     "img": "thumbnails/img11.jpg",
 },
-
+/*
 {
     "name": "Rolling Sky",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/webgl-rollingsky/index.html",
@@ -2255,6 +2255,7 @@ var buttonArr21 = [
     
     "img": "thumbnails/img20.png",
 },
+*/
 {
     "name": "Insanity",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://insanity.netlify.app/",
@@ -2301,7 +2302,7 @@ var buttonArr21 = [
     
     "category": "Action",
     "name": "OvO",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://dedragames.com/games/ovo/1.4/",
+    "url": "gfiles/gfiles/html5/ovo/index.html",
     "img": "thumbnails/img30.png",
 },
 {
@@ -2378,18 +2379,18 @@ var buttonArr21 = [
    },
 {
     "name": "Pokemon Silver",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+    "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
     "img": "thumbnails/img217",
 },
 {
     "name": "Diep.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+    "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
     "img": "thumbnails/img218",
 },
 
 {
     "name": "Subway Surfers",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+    "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
     "img": "thumbnails/img221",
 },
 {
@@ -2467,14 +2468,14 @@ var buttonArr21 = [
 },
 {
     "name": "MooMoo.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+    "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
     "img": "thumbnails/img219",
 },
 
 {
     
     "name": "Fortnite",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
+    "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
     "img": "thumbnails/img220",
 },
  
@@ -2506,13 +2507,13 @@ var buttonArr21 = [
        },
        {
         "name": "Gold Digger",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://bg.kardna4life.ml/uv/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
         "img": "thumbnails/gold.png",
        },
        {
-        "name": "Eagler Craft",
+        "name": "Eagler Craft (Void)",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://152-voidcraftsmp.v0idplayyz.repl.co/",
-        "img": "thumbnails/grass.png",
+        "img": "../images/grass.png",
        },
    
    ]
@@ -2549,20 +2550,20 @@ var buttonArr21 = [
     {
         "name": "WidgetBot",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://e.widgetbot.io/channels/829117322223812658/829117322223812660",
-        "url1": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9lLndpZGdldGJvdC5pby9jaGFubmVscy84MjkxMTczMjIyMjM4MTI2NTgvODI5MTE3MzIyMjIzODEyNjYw",
-        "url2": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9lLndpZGdldGJvdC5pby9jaGFubmVscy84MjkxMTczMjIyMjM4MTI2NTgvODI5MTE3MzIyMjIzODEyNjYw",
+        "url1": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly9lLndpZGdldGJvdC5pby9jaGFubmVscy84MjkxMTczMjIyMjM4MTI2NTgvODI5MTE3MzIyMjIzODEyNjYw",
+        "url2": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly9lLndpZGdldGJvdC5pby9jaGFubmVscy84MjkxMTczMjIyMjM4MTI2NTgvODI5MTE3MzIyMjIzODEyNjYw",
         "img": "../images/disco.png",
     }, 
     {
         "name": "GE Force Now",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://stars.gq/service/hvtrs8%2F-pna%7B.eedopcgnmw%2Ccmm-mcln%2F",
-        "url1": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv/service/hvtrs8%2F-wuw%2Cntific.aoo%2Fgn%2Fuq%2Feedopcg-lou%2Fdoptlive%2Fmmbklg%2F%22%20",
-        "url2": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+        "url1": "gfiles/gfiles/lanucher/index.html?url=https://bg.kardna4life.ml/uv/service/hvtrs8%2F-wuw%2Cntific.aoo%2Fgn%2Fuq%2Feedopcg-lou%2Fdoptlive%2Fmmbklg%2F%22%20",
+        "url2": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
         "img": "../images/ge.png",
     }, 
     {
         "name": "Youtube",
-        "url": "gfiles/gfiles/lanucher/index.html?url=" + url,
+        "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly95b3V0dWJlLmNvbQ==",
         "url1": "gfiles/gfiles/lanucher/index.html?url=https://youtube.com",
         "url2": "gfiles/gfiles/lanucher/index.html?url=https://stars.gq/service/hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-",
         "img": "../images/yt.png",
@@ -2647,7 +2648,11 @@ var buttonArr21 = [
         win7.document.body.appendChild(iframe);
     }
     var buttonArr21 = [
-    
+      {
+        "name": "Idle Breakout",
+        "url": "gfiles/gfiles/html5/idle-breakout/index.html",
+        "img": "gfiles/gfiles/html5/idle-breakout/idle.png",
+    },
   
   {
     "name": "Getaway Shootout",
@@ -4779,7 +4784,7 @@ var buttonArr21 = [
 {
 
    "name": "Krunker.io",
-   "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"/uv.html#" + krunker,
+   "url": "gfiles/gfiles/lanucher/index.html?url=" + url +"uv.html#" + krunker,
    "img": "thumbnails/img65.png",
    },
 {
@@ -4859,7 +4864,7 @@ var buttonArr21 = [
     
     "img": "thumbnails/img11.jpg",
 },
-
+/*
 {
     "name": "Rolling Sky",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://rga-bigfoot9999.vercel.app/src/webgl-rollingsky/index.html",
@@ -4896,6 +4901,7 @@ var buttonArr21 = [
     
     "img": "thumbnails/img20.png",
 },
+*/
 {
     "name": "Insanity",
     "url": "gfiles/gfiles/lanucher/index.html?url=https://insanity.netlify.app/",
@@ -5019,18 +5025,18 @@ var buttonArr21 = [
    },
 {
     "name": "Pokemon Silver",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+    "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
     "img": "thumbnails/img217",
 },
 {
     "name": "Diep.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+    "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
     "img": "thumbnails/img218",
 },
 
 {
     "name": "Subway Surfers",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+    "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
     "img": "thumbnails/img221",
 },
 {
@@ -5109,14 +5115,14 @@ var buttonArr21 = [
 },
 {
     "name": "MooMoo.io",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+    "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
     "img": "thumbnails/img219",
 },
 
 {
     
     "name": "Fortnite",
-    "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
+    "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
     "img": "thumbnails/img220",
 },
  
@@ -5127,7 +5133,7 @@ var buttonArr21 = [
        },
        {
         "name": "Gold Digger",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://2e53-69-248-227-131.ngrok.io/uv/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://bg.kardna4life.ml/uv/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
         "img": "thumbnails/gold.png",
        },
        {
@@ -5151,9 +5157,9 @@ var buttonArr21 = [
         "img": "thumbnails/granny.png",
        },
        {
-        "name": "Eagler Craft",
+        "name": "Eagler Craft (Void)",
         "url": "gfiles/gfiles/lanucher/index.html?url=https://152-voidcraftsmp.v0idplayyz.repl.co/",
-        "img": "thumbnails/grass.png",
+        "img": "../images/grass.png",
        },
    
   ]
@@ -6646,56 +6652,21 @@ var randomlinks= [
     "link":"gfiles/gfiles/lanucher/index.html?link=https://play.gamemonetize.co/x9szn9qmh0ygsmct93p7mny35850lpx1/",
  },
  {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
+    "link":"gfiles/gfiles/lanucher/index.html?link=" + url + "/uv.html#aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=",
  },
  {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+    "link":"gfiles/gfiles/lanucher/index.html?link=" + url + "/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
  },
  {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+    "link":"gfiles/gfiles/lanucher/index.html?link=" + url + "/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
  },
  {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+    "link":"gfiles/gfiles/lanucher/index.html?link=" + url + "/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
  },
  {
     "link":"gfiles/gfiles/lanucher/index.html?link=https://cc-production-8f21.up.railway.app/",
  },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/flappy-2048/index.html",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/google-solitaire/index.html",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/uno/index.html",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/there-is-no-game/index.html",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://bigfoot9999.github.io/html5-games/games/ms-jewel/",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/celeste/celeste.html",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/chroma/index.html",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/doodle-jump/index.html",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/economical/index.html",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/economical2/index.html",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/flappybird/index.html",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/spaceinvaders/index.htmll",
- },
+ 
  {
     "link":"gfiles/gfiles/lanucher/index.html?link=https://bigfoot9999.github.io/html5-games/games/vivaldia/",
  },
@@ -6727,16 +6698,10 @@ var randomlinks= [
     "link":"gfiles/gfiles/lanucher/index.html?link=https://miniroyale.clambam10.repl.co/",
  },
  {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+    "link":"gfiles/gfiles/lanucher/index.html?link=" + url + "/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
  },
  {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://2e53-69-248-227-131.ngrok.io/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/fire-truck-dash/index.html",
- },
- {
-    "link":"gfiles/gfiles/lanucher/index.html?link=https://rga-bigfoot9999.vercel.app/src/russian-taz-magmes/index.html",
+    "link":"gfiles/gfiles/lanucher/index.html?link=" + url + "/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
  },
  {
     "link":"gfiles/gfiles/lanucher/index.html?link=https://kardna-v2.herokuapp.com/KardnaV2/hvtrs8%2F-dmooz%2Cim%2F",

@@ -2517,6 +2517,22 @@ var buttonArr21 = [
        },
    
    ]
+  //  alphabetically sort games
+   buttonArr21.sort(function(a, b) {
+    const nameA = a.name.toUpperCase(); // ignore upper and lowercase
+    const nameB = b.name.toUpperCase(); // ignore upper and lowercase
+      
+  // sort in an ascending order
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+  
+    // names must be equal
+    return 0;
+  });
        buttonArr21.forEach(function(arrayItem21) {
    
            //searchArr.push(arrayItem.name);
@@ -5147,6 +5163,21 @@ var buttonArr21 = [
        },
    
   ]
+  buttonArr21.sort(function(a, b) {
+    const nameA = a.name.toUpperCase(); // ignore upper and lowercase
+    const nameB = b.name.toUpperCase(); // ignore upper and lowercase
+      
+  // sort in an ascending order
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+  
+    // names must be equal
+    return 0;
+  });
   var launcherURL = "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/";
       buttonArr21.forEach(function(arrayItem21) {
   

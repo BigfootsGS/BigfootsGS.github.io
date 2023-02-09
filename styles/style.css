@@ -385,6 +385,8 @@ a.active{
      margin-bottom: 1.5em;
      border-radius: 100%;
      box-shadow: 0 13px 26px rgb(187 187 187 / 39%), 0 3px 6px rgb(255 255 255 / 99%);
+     background: black;
+
 }
  .wrapper .profile .name {
      color: #131313;

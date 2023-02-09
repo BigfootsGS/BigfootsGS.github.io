@@ -2540,8 +2540,8 @@ var buttonArr21 = [
     }, 
     {
         "name": "GE Force Now",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://stars.gq/service/hvtrs8%2F-pna%7B.eedopcgnmw%2Ccmm-mcln%2F",
-        "url1": "gfiles/gfiles/lanucher/index.html?url=https://bg.kardna4life.ml/uv/service/hvtrs8%2F-wuw%2Cntific.aoo%2Fgn%2Fuq%2Feedopcg-lou%2Fdoptlive%2Fmmbklg%2F%22%20",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://bubbo.dev/service/hvtrs8%2F-pna%7B.eedopcgnmw%2Ccmm-mcln%2F",
+        "url1": "gfiles/gfiles/lanucher/index.html?url=https://bubbo.dev/service/hvtrs8%2F-wuw%2Cntific.aoo%2Fgn%2Fuq%2Feedopcg-lou%2Fdoptlive%2Fmmbklg%2F%22%20",
         "url2": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
         "img": "../images/ge.png",
     }, 
@@ -2549,7 +2549,7 @@ var buttonArr21 = [
         "name": "Youtube",
         "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly95b3V0dWJlLmNvbQ==",
         "url1": "gfiles/gfiles/lanucher/index.html?url=https://youtube.com",
-        "url2": "gfiles/gfiles/lanucher/index.html?url=https://stars.gq/service/hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-",
+        "url2": "gfiles/gfiles/lanucher/index.html?url=https://bubbo.dev/service/hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-",
         "img": "../images/yt.png",
     }, 
    

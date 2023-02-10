@@ -2538,7 +2538,7 @@ var buttonArr21 = [
            //searchArr.push(arrayItem.name);
            let link2 = arrayItem21.url;
            let name2 = arrayItem21.name;
-           document.getElementById('buttonDiv21').innerHTML += `<div style="width: 150px;"class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a href="${arrayItem21.url}"><img style="border-radius: 25px;" data-src="${arrayItem21.img}" class="lazy" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem21.name}</p3></div></div>`;
+           document.getElementById('buttonDiv21').innerHTML += `<div style="width: 150px;"class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a href="loading/index.html?url=${arrayItem21.url}"><img width="145" height="145"style="border-radius: 25px;max-width:145px;max-height:145px;width:145px;height:145px" data-src="${arrayItem21.img}" class="lazy" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem21.name}</p3></div></div>`;
    
    
            
@@ -2556,8 +2556,8 @@ var buttonArr21 = [
     }, 
     {
         "name": "GE Force Now",
-        "url": "gfiles/gfiles/lanucher/index.html?url=https://stars.gq/service/hvtrs8%2F-pna%7B.eedopcgnmw%2Ccmm-mcln%2F",
-        "url1": "gfiles/gfiles/lanucher/index.html?url=https://bg.kardna4life.ml/uv/service/hvtrs8%2F-wuw%2Cntific.aoo%2Fgn%2Fuq%2Feedopcg-lou%2Fdoptlive%2Fmmbklg%2F%22%20",
+        "url": "gfiles/gfiles/lanucher/index.html?url=https://bubbo.dev/service/hvtrs8%2F-pna%7B.eedopcgnmw%2Ccmm-mcln%2F",
+        "url1": "gfiles/gfiles/lanucher/index.html?url=https://bubbo.dev/service/hvtrs8%2F-wuw%2Cntific.aoo%2Fgn%2Fuq%2Feedopcg-lou%2Fdoptlive%2Fmmbklg%2F%22%20",
         "url2": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
         "img": "../images/ge.png",
     }, 
@@ -2565,7 +2565,7 @@ var buttonArr21 = [
         "name": "Youtube",
         "url": "gfiles/gfiles/lanucher/index.html?url=" + url + "/uv.html#aHR0cHM6Ly95b3V0dWJlLmNvbQ==",
         "url1": "gfiles/gfiles/lanucher/index.html?url=https://youtube.com",
-        "url2": "gfiles/gfiles/lanucher/index.html?url=https://stars.gq/service/hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-",
+        "url2": "gfiles/gfiles/lanucher/index.html?url=https://bubbo.dev/service/hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-",
         "img": "../images/yt.png",
     }, 
    
@@ -5184,7 +5184,7 @@ var buttonArr21 = [
           //searchArr.push(arrayItem.name);
           let link2 = arrayItem21.url;
           let name2 = arrayItem21.name;
-          document.getElementById('buttonDiv').innerHTML += `<div style="width: 150px;"class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a href='gfiles/gfiles/lanucher/index.html?url=https://bigfoot.ga/g/${arrayItem21.url}'><img style="border-radius: 25px;" data-src="${arrayItem21.img}" class="lazy" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem21.name}</p3></div></div>`;
+          document.getElementById('buttonDiv').innerHTML += `<div style="width: 150px;"class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a href='loading/index.html?url=gfiles/gfiles/lanucher/index.html?url=https://bigfoot.ga/g/${arrayItem21.url}'><img width="145" height="145"style="border-radius: 25px;max-width:145px;max-height:145px;width:145px;height:145px" data-src="${arrayItem21.img}" class="lazy" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem21.name}</p3></div></div>`;
   
   
           

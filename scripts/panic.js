@@ -89,6 +89,12 @@ const handleKeyPress4 = (e) => {
     console.log(`Number ${key} was pressed!`);
   }
 };
+
+
+
+
+
+
 document.addEventListener("keypress", handleKeyPress);
 document.addEventListener("keypress", handleKeyPress3);
 document.addEventListener("keypress", handleKeyPress1);

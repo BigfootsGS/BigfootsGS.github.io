@@ -38,6 +38,8 @@
         <script src="scripts/discordanim.js"></script>
         <script src="scripts/main.js"></script>
         <script src="scripts/panic.js"></script>
+        <script src="scripts/tab.js"></script>
+
         <link href="https://fonts.cdnfonts.com/css/monument-extended" rel="stylesheet">
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-P6V3QXEWMB"></script>
@@ -62,16 +64,19 @@
             gtag('config', 'G-VKZB20RKXK');
         </script>
     </head>
+
     <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
         new Crate({
             server: '829117322223812658', // Bigfoot's Game Shack
             channel: '1035597205354057789' // #school
         })
     </script>
-    <body>
+    <body >
         <iframe class="heyyyyyy" style="overflow-x: hidden;overflow-y: hidden;height: 100vh;" src="g/panic-screens/panic.html" id="iframe"></iframe>
         <iframe class="heyyyyyy1" style="overflow-x: hidden;overflow-y: hidden;height: 100vh;" src="g/panic-screens/panic5.html" id="iframe1"></iframe>
-        <div id="maincode">
+
+        <div class="page" id="maincode">
+
             <div class="row navbarfoixed">
                 <div style="z-index:5;">
                     <div class="one">
@@ -272,9 +277,8 @@
                                             <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                                         </svg> Twitter </button>
                                     <button class="tablinks1" onclick="openCity(event, 'Tokyo1')">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
-                                            <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
-                                        </svg> Tik Tok </button>
+                                        <object data="/images/yt-svg.svg" width="20" height="20"> </object>
+                                        YouTube </button>
                                     <button class="tablinks1" onclick="openCity(event, 'Tokyo3')">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
                                             <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
@@ -325,12 +329,28 @@
                                     </a>
                                 </div>
                                 <div id="Tokyo1" class="tabcontent1 githubback">
-                                    <h3>Tik Tock</h3>
-                                    <p>Coming soon...</p>
+                                    <h1 style="padding-top: 10px;text-align: left;">Subscribe to our YT Channel</h1>
+                                    <br><object style="float: left;"data="/images/yt-svg.svg" width="20" height="20"> </object>
+
+                                    <p1 style="text-align: left;padding-left: -53px;float: left;padding-top: 10px;">We post videos every week about Bigfoot's Game Shack. Learn how to make your own links for BGS, use our game library, and more. </p1>
+                                    <a class="link-a1" href="yt.html">
+                                        <div class="button-but-a-link1">
+                                            <p4 class="notabutton1">
+                                                Learn More!
+                                            </p4>
+                                        </div>
+                                    </a>
                                 </div>
-                                <div id="Tokyo3" class="tabcontent1 githubback">
-                                    <h3>Affiliates</h3>
-                                    <p>Coming soon...</p>
+                                <div id="Tokyo3" class="tabcontent1 partner-background">
+                                    <h1 style="padding-top: 10px;text-align: left;color: white;">Kardna Network</h1><br>
+                                    <p1 style="text-align: left;padding-left: -53px;float: left;padding-top: 10px;">Bigfoot's Game Shack is powered by Kardna Servers. Join their community server to learn more.</p1>
+                                    <a class="link-a1" href="https://discord.gg/3YzKEj2Cw8">
+                                        <div class="button-but-a-link1">
+                                            <p4 class="notabutton1">
+                                              Learn More!
+                                            </p4>
+                                        </div>
+                                    </a>
                                 </div>                        </div>
 
                                 <script>
@@ -403,7 +423,7 @@
                                                                                         <div class="wrapper">
                                                 <div class="span4">
                                                     <div class="profile">
-                                                        <img src="https://kazwire.com/logo.png"  class="thumbnail">
+                                                        <img src="images/kas-logo.png"  class="thumbnail">
                                                         <h3 class="name">KAZWIRE</h3>
                                                         <p class="title">Discord Server x Website</p>
                                                         <p class="description">
@@ -472,7 +492,6 @@
                 </section>
             </div>
             <script src="scripts/slider.js"></script>
-        </div>
         <script>
             document.addEventListener("DOMContentLoaded", function() {
                 var lazyloadImages = document.querySelectorAll("img.lazy");
@@ -593,5 +612,8 @@
         </div>
         </div>
         <!--END FOOTER-->
+    </div>
+
     </body>
+
 </html>

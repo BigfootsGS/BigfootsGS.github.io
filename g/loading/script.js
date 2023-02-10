@@ -1,6 +1,5 @@
 var linkparameters = location.search.split('url=')[1];
 
-//string returns https://nbadebate.com&name=Basketball for example
 
 setTimeout(loading, 5200);
 var protocall = window.location.protocol;

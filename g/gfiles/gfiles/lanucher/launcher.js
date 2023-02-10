@@ -1,7 +1,7 @@
 var linkparameters = location.search.split('url=')[1];
 
 var domain = window.location.host;
-var newlinkparams = domain+ "/g/"+linkparameters;
+var newlinkparams = "http:"+domain+ "/g/"+linkparameters;
 
 function blank(){
             let inFrame

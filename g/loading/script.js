@@ -1,26 +1,52 @@
 var linkparameters = location.search.split('url=')[1];
 
-
-
-
+//string returns https://nbadebate.com&name=Basketball for example
 
 setTimeout(loading, 5200);
+var protocall = window.location.protocol;
+var domain = window.location.host;
+var gamelink = protocall+domain+"/g/"+linkparameters;
+function blank(){
+    var domain = window.location.host;
+
+    let inFrame
+const popup = open("about:blank", "_blank")
+if (!popup || popup.closed) {
+    alert("Popups are disabled! Enable Popups for " +  domain);
+} else {
+    const doc = popup.document
+    const iframe = doc.createElement("iframe")
+    const style = iframe.style
+    const link = doc.createElement("link")
+
+    doc.title = "Bigfoot's Game Shack";
+    link.rel = "icon";
+    link.href = "link";
 
 
-//function definition
+    iframe.src = gamelink;
 
-function loading() {
-    if (linkparameters == null){
-        location.assign("../../../../");
 
-    }else {
-        location.assign("../"+linkparameters);
 
-    }
+    style.position = "fixed"
+    style.top = style.bottom = style.left = style.right = 0
+    style.border = style.outline = "none"
+    style.width = style.height = "100%"
 
+    doc.body.appendChild(iframe)
+
+}
+
+location.assign("../index.html#buttonDiv21");
 
 }
 
 
 
 
+function loading() {
+    blank();
+}
+
+
+loading();

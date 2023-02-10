@@ -429,6 +429,8 @@ a.active{
      right: 61px;
      bottom: 3px;
      align-items: center;    transition: 0.2s;
+     transition: .5s;
+
 
 }
  .wrapper .social-icons {
@@ -516,7 +518,8 @@ a.active{
 
 }
  .btn:hover {
-     background-color: RoyalBlue;
+     transition: .5s;
+
 }
  @media screen and (max-width: 1000px) {
      .contentbelownav {
@@ -1012,6 +1015,13 @@ ul.controls {
         background-size: cover;
     }
 
+    .partner-background {
+        background-image: url(/images/kardna-bg.png);
+        background-size: cover;
+        background-position-y: center;
+        color: white;
+
+    }
 
 
     .new-yt {

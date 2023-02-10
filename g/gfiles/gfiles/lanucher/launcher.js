@@ -1,6 +1,7 @@
 var linkparameters = location.search.split('url=')[1];
 
-
+var domain = window.location.host;
+var newlinkparams = domain+ "/g/"+linkparameters;
 
 function blank(){
             let inFrame
@@ -16,7 +17,7 @@ function blank(){
             doc.title = "Bigfoot's Game Shack"
             link.rel = "icon";
             link.href = "link";
-            iframe.src = linkparameters;
+            iframe.src = newlinkparams;
             style.position = "fixed"
             style.top = style.bottom = style.left = style.right = 0
             style.border = style.outline = "none"

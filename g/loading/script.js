@@ -1,11 +1,12 @@
 var linkparameters = location.search.split('url=')[1];
 
-//string returns https://nbadebate.com&name=Basketball for example
 
-setTimeout(loading, 5200);
 var protocall = window.location.protocol;
 var domain = window.location.host;
 var gamelink = protocall+domain+"/g/"+linkparameters;
+var gamelink1 = "../"+linkparameters;
+
+/*
 function blank(){
     var domain = window.location.host;
 
@@ -41,12 +42,13 @@ location.assign("../index.html#buttonDiv21");
 
 }
 
+*/
 
-
+setTimeout(loading, 3200);
 
 function loading() {
-    blank();
+    location.assign(gamelink1);
+
 }
 
 
-loading();

@@ -2586,9 +2586,9 @@ var buttonArr21 = [
   <div class="dropdown">
   <button style="margin-bottom:10px;margin-top:5px;"class="dropbtn">${arrayItem7.name}</button>
   <div class="dropdown-content">
-  <a href='${arrayItem7.url}' ">Server 1</a>
-  <a href='${arrayItem7.url1}'">Server 2</a>
-  <a href='${arrayItem7.url2}'">Server 3</a>
+  <a href='loading/index.html?url=${arrayItem7.url}' ">Server 1</a>
+  <a href='loading/index.html?url=${arrayItem7.url1}'">Server 2</a>
+  <a href='loading/index.html?url=${arrayItem7.url2}'">Server 3</a>
   </div>
   <div>
   </div>
@@ -5185,7 +5185,7 @@ var buttonArr21 = [
           //searchArr.push(arrayItem.name);
           let link2 = arrayItem21.url;
           let name2 = arrayItem21.name;
-          document.getElementById('buttonDiv').innerHTML += `<div style="width: 150px;"class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a href='loading/index.html?url=${arrayItem21.url}'><img width="145" height="145"style="border-radius: 25px;max-width:145px;max-height:145px;width:145px;height:145px" data-src="${arrayItem21.img}" class="lazy" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem21.name}</p3></div></div>`;
+          document.getElementById('buttonDiv').innerHTML += `<div style="width: 150px;"class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a href='gfiles/gfiles/lanucher/index.html?url=${arrayItem21.url}'><img width="145" height="145"style="border-radius: 25px;max-width:145px;max-height:145px;width:145px;height:145px" data-src="${arrayItem21.img}" class="lazy" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem21.name}</p3></div></div>`;
   
   
           

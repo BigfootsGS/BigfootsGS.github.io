@@ -2586,9 +2586,9 @@ var buttonArr21 = [
   <div class="dropdown">
   <button style="margin-bottom:10px;margin-top:5px;"class="dropbtn">${arrayItem7.name}</button>
   <div class="dropdown-content">
-  <a href='${arrayItem7.url}' ">Server 1</a>
-  <a href='${arrayItem7.url1}'">Server 2</a>
-  <a href='${arrayItem7.url2}'">Server 3</a>
+  <a href='loading/index.html?url=${arrayItem7.url}' ">Server 1</a>
+  <a href='loading/index.html?url=${arrayItem7.url1}'">Server 2</a>
+  <a href='loading/index.html?url=${arrayItem7.url2}'">Server 3</a>
   </div>
   <div>
   </div>

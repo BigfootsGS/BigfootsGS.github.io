@@ -1,3 +1,11 @@
+# Spring Update (In progress)
+## Update 3.1.5 (2/12/2023)
++ Minor CSS Changes
++ Added Loading Screens
++ Decreased Page load time
++ Added https://bigfeet.app and https://bigfoot.ink
+- Some of our original domains are expiring :(
++ Started v4 (Built in React) 
 # Winter Update
 ## Update 3.1.4 (1/18/2023)
 + Added over 100+ thumbnails to games page

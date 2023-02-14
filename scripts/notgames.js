@@ -2128,393 +2128,6 @@ var buttonArr21 = [
     "url": "gfiles/gfiles/flash/?swf=TU-95.swf",
     
   },
-  //end gfiles
-   {
-"name": "Roblox",
-"url": "" + url +"/uv.html#" + roblox,
-"img": "thumbnails/img59.png",
-},
-{
-
-   "name": "Krunker.io",
-   "url": "" + url +"/uv.html#" + krunker,
-   "img": "thumbnails/img65.png",
-   },
-
-   {
-    "name": "Temple Run 2",
-    "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
-    "img": "thumbnails/img58.png",
-}, 
-{
-    "name": "Football Master",
-    "url": "https://football-master-1.bigfootgaming99.repl.co/",
-    "img": "thumbnails/soccer-master.png",
-},
-{
-    
-    "name": "Burrito Bison",
-    "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html",
-    
-    "img": "thumbnails/img4.jpg",
-},
-{
-    "name": "SubSurfers Huston",
-    "url": "https://more-school.bigfootgaming99.repl.co/",
-    "img": "thumbnails/HoustonSS",
-},
-{
-    
-    "name": "Champion island",
-    "url": "https://bigfoot9999.github.io/html5-games/games/google-kitsune/",
-    
-    "img": "thumbnails/img3.png",
-},
-{
-    
-    "name": "LZ: Link to the Past",
-    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_past",
-    
-    "img": "thumbnails/img5.jpg",
-},
-{
-    
-    "name": "LZ: Minish Cap",
-    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_minish",
-    
-    "img": "thumbnails/img6.jpg",
-},
-{
-    
-    "name": "Mario Party",
-    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#marioparty",
-    
-    "img": "thumbnails/img7.jpg",
-},
-{
-    
-    "name": "Mortal Kombat",
-    "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#mortal_kombat",
-    
-    "img": "thumbnails/img8.jpg",
-},
-{
-    
-    "name": "Kuru Panda",
-    "url": "https://www.panda2.io/content/games/kurupanda/",
-    
-    "img": "thumbnails/img9.png",
-},
-{
-"name": "Indian Truck Sim",
-"img": "thumbnails/indiantruck.png",
-"url": "https://too-advanced-for-society.gq/tam-indian-truck-simulator-3d/",
-
-},
-{
-    
-    "name": "Space Company",
-    "url": "https://spacecompany.ga/",
-    
-    "img": "thumbnails/img11.jpg",
-},
-/*
-{
-    "name": "Rolling Sky",
-    "url": "https://rga-bigfoot9999.vercel.app/src/webgl-rollingsky/index.html",
-    
-    "img": "thumbnails/img14.png",
-},
-{
-    "name": "Tank Trouble",
-    "url": "https://rga-bigfoot9999.vercel.app/src/tanktrouble/index.html",
-    
-    "img": "thumbnails/img16.jpg",
-},
-{
-    "name": "Vex 3",
-    "url": "https://rga-bigfoot9999.vercel.app/src/vex3/index.html",
-    
-    "img": "thumbnails/img17.jpg",
-},
-{
-    "name": "Vex 4",
-    "url": "https://rga-bigfoot9999.vercel.app/src/vex4/index.html",
-    
-    "img": "thumbnails/img18.png",
-},
-{
-    "name": "Zombotron",
-    "url": "https://rga-bigfoot9999.vercel.app/src/zombotron/index.html",
-    
-    "img": "thumbnails/img19.jpg",
-},
-{
-    "name": "Zombotron 2",
-    "url": "https://rga-bigfoot9999.vercel.app/src/zombotron-2-time-machine/index.html",
-    
-    "img": "thumbnails/img20.png",
-},
-*/
-{
-    "name": "Insanity",
-    "url": "https://insanity.netlify.app/",
-    
-    "img": "thumbnails/img21.png",
-},
-{
-    "name": "Insanity 2",
-    "url": "https://insanity2.netlify.app/",
-    
-    "img": "thumbnails/img22.png",
-},
-{
-    "name": "Bottle Flip 3d",
-    "url": "https://grandcanyonshuttles.com/uploads/5/0/5/6/5056555/custom_themes/664718197367015386/bottle-flip.html",
-    
-    "img": "thumbnails/img23.jpg",
-},
-{
-    "name": "GTA",
-    "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/850704625817689097/gas2.html",
-    
-    "img": "thumbnails/img24.jpg",
-},
-{
-    "name": "CurveBall",
-    "url": "https://www2.engineering.com/content/g13/curve23.html",
-    
-    "img": "thumbnails/img25.jpg",
-},
-
-{
-    "name": "Headless.gg",
-    "url": "https://headless.gg/",
-    
-    "img": "thumbnails/img27.png",
-},
-{
-    "name": "Amoug Us",
-    "url": "https://school.bigfootgaming99.repl.co/",
-    "img": "thumbnails/img223",
-},
-{
-    
-    "category": "Action",
-    "name": "OvO",
-    "url": "gfiles/gfiles/html5/ovo/index.html",
-    "img": "thumbnails/img30.png",
-},
-{
-    
-    "category": "Puzzle",
-    "name": "Slither.io",
-    "url": "https://www.julgames.com/games/slither-snakes/",
-    "img": "thumbnails/img31.png",
-},
-
-{
-    
-    "category": "Puzzle",
-    "name": "Woriar",
-    "url": "https://www.panda2.io/content/games/woriar/",
-    "img": "thumbnails/img38.png",
-},
-{   
-    
-    "category": "Action",
-    "name": "lets Surf!",
-    "url": "https://bigfoot9999.github.io/html5-games/games/edge-surf/",
-    "img": "thumbnails/img52.jpg",
-    },
-     
-{
-    
-    "name": "Tower Building",
-    "url": "https://fracital.org/g/tower-building/index.html",
-    
-    "img": "thumbnails/img60.png",
-}, 
-{
-    
-    "name": "Lol Beans",
-    "url": "https://lolbeans.io/",
-    
-    "img": "thumbnails/img113",
-}, 
-{
-    "name": "Eagler Server",
-    "url": "https://boostcookies.tk/sw/hvtrs8%2F-ecgnepcpadt%2Fsgrtep.cywncmk2202.perl%2Ccm%2F",
-    "img": "../images/grass.png",
-},
-{
-    "name": "Arch MC Server",
-    "url": "https://web.arch.lol/?",
-    "img": "../images/archmc",
-},
-{
-    "name": "Piano Master",
-    "url": "https://play.gamemonetize.co/q0mrnyr9ucvgdqgooq9cq0y7fntuwzjj/",
-    "img": "thumbnails/img61.jpg",
-}, 
-{
-    "name": "Bob The Robber",
-    "url": "https://play.gamemonetize.co/axjqhwihwo843nmu8hb30fqil40alqtu/",
-    "img": "thumbnails/img63",
-},
-{
-    "name": "Driving in the City",
-    "url": "https://play.gamemonetize.co/5e7ehppi0cufmsfktf2yy5sb6u3d1nwf/",
-    "img": "thumbnails/img67.jpg",
-},
-{
-    "name": "Blumji Rocket",
-    "url": "https://play.gamemonetize.co/x9szn9qmh0ygsmct93p7mny35850lpx1/",
-    "img": "thumbnails/img213",
-},
-{
-   "name": "BasketBall Stars",
-   "url": "" + url +"/uv.html#" + BBstars,
-   "img": "thumbnails/img215",
-   },
-{
-    "name": "Pokemon Silver",
-    "url": "" + url + "/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
-    "img": "thumbnails/img217",
-},
-{
-    "name": "Diep.io",
-    "url": "" + url + "/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
-    "img": "thumbnails/img218",
-},
-
-{
-    "name": "Subway Surfers",
-    "url": "" + url + "/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
-    "img": "thumbnails/img221",
-},
-{
-    
-    "name": "Cookie Clicker",
-    "url": "https://bigfoot9999.github.io/cc/",
-    "img": "thumbnails/img29.png",
-}, 
-
-{
-    "name": "Vivalda",
-    "url": "https://bigfoot9999.github.io/html5-games/games/vivaldia/",
-    "img": "thumbnails/img84.png",
-},     
-{
-    
-    "name": "1v1.lol",
-    "url": "https://rnv3.pages.dev/G/1v1.lol/",
-    "img": "thumbnails/img46.jpg",
-}, 
-  {
-    
-    "name": "1v1.lol(Server 2)",
-    "url": "https://nowcollege.com/uploads/5/5/6/7/5567194/custom_themes/315300867982782623/1v1_lol.html",
-    "img": "thumbnails/img46.jpg",
-}, 
-  {
-    
-    "name": "Zombs Royale",
-    "url": "https://theadvancedsociety-tam.tbt.mx/tmm-zombsroyale/",
-    "img": "thumbnails/img47.png",
-}, 
-{
-    
-    "name": "Shell Shockers",
-    "url": "https://tam-shellshockers.arfotoarte.com/",
-    "img": "thumbnails/img48.png",
-}, 
-{
-   
-    "name": "Blockpost.io",
-    "url": "https://ikatchelo.github.io/blockpost/",
-    "img": "thumbnails/img45.png",
-}, 
-{
-   
-    "name": "Rooftop Snipers",
-    "url": "https://bigfoot9999.github.io/3kh0.github.io/projects/rooftop-snipers/",
-    "img": "thumbnails/img49.png",
-}, 
-{
-    
-    "name": "Pixel Combat 2",
-    "url": "https://grandcanyonshuttles.com/uploads/5/0/5/6/5056555/custom_themes/607463927942590340/pixel-combat2.html",
-    "img": "thumbnails/img50.jpg",
-}, 
-{
-    
-    "name": "Modern Blocky Paint",
-    "url": "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/593675271171586975/modern_blocky_paint_.html",
-    "img": "thumbnails/img51.jpg",
-},
-{
-    
-    "name": "Block Combat Swat",
-    "url": "https://html5.gamemonetize.co/z4ajge69b989gm67dq59mkgv20ed6zg6/",
-    "img": "thumbnails/img62",
-},
-
-{
-    
-    "name": "Mini Royale 2",
-    "url": "https://miniroyale.clambam10.repl.co/",
-    "img": "thumbnails/img66",
-},
-{
-    "name": "MooMoo.io",
-    "url": "" + url + "/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
-    "img": "thumbnails/img219",
-},
-
-{
-    
-    "name": "Fortnite",
-    "url": "" + url + "/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
-    "img": "thumbnails/img220",
-},
- 
-       {
-        "name": "Doomz.io",
-        "url": "https://kardna-v2.herokuapp.com/KardnaV2/hvtrs8%2F-dmooz%2Cim%2F",
-        "img": "thumbnails/doomz-io.png",
-       },
-       {
-        "name": "Stickman Hook",
-        "url": "https://magictricks.milkysdad.repl.co/gamefiles/stickmanhook/",
-        "img": "thumbnails/stickman.jpg",
-       },
-       {
-        "name": "JustFall.LOL",
-        "url": "https://stars-delta.vercel.app/play/justfall-lol/index.html",
-        "img": "thumbnails/justfall.png",
-       },
-       {
-        "name": "Basket Bros",
-        "url": "https://nbadebate.com",
-        "img": "thumbnails/basket-bros.png",
-       },
-       {
-        "name": "Granny",
-        "url": "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
-        "img": "thumbnails/granny.png",
-        
-       },
-       {
-        "name": "Gold Digger",
-        "url": "https://bg.kardna4life.ml/uv/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
-        "img": "thumbnails/gold.png",
-       },
-       {
-        "name": "Eagler Craft (Void)",
-        "url": "https://152-voidcraftsmp.v0idplayyz.repl.co/",
-        "img": "../images/grass.png",
-       },
    
    ]
   //  alphabetically sort games
@@ -2544,6 +2157,411 @@ var buttonArr21 = [
            
        } );
        
+
+
+       var externallinks = [
+           {
+    "name": "Roblox",
+    "url": "" + url +"/uv.html#" + roblox,
+    "img": "thumbnails/img59.png",
+          },
+    {
+    
+       "name": "Krunker.io",
+       "url": "" + url +"/uv.html#" + krunker,
+       "img": "thumbnails/img65.png",
+       },
+    
+       {
+        "name": "Temple Run 2",
+        "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
+        "img": "thumbnails/img58.png",
+    }, 
+    {
+        "name": "Football Master",
+        "url": "https://football-master-1.bigfootgaming99.repl.co/",
+        "img": "thumbnails/soccer-master.png",
+    },
+    {
+        
+        "name": "Burrito Bison",
+        "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html",
+        
+        "img": "thumbnails/img4.jpg",
+    },
+    {
+        "name": "SubSurfers Huston",
+        "url": "https://more-school.bigfootgaming99.repl.co/",
+        "img": "thumbnails/HoustonSS",
+    },
+    {
+        
+        "name": "Champion island",
+        "url": "https://bigfoot9999.github.io/html5-games/games/google-kitsune/",
+        
+        "img": "thumbnails/img3.png",
+    },
+    {
+        
+        "name": "LZ: Link to the Past",
+        "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_past",
+        
+        "img": "thumbnails/img5.jpg",
+    },
+    {
+        
+        "name": "LZ: Minish Cap",
+        "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_minish",
+        
+        "img": "thumbnails/img6.jpg",
+    },
+    {
+        
+        "name": "Mario Party",
+        "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#marioparty",
+        
+        "img": "thumbnails/img7.jpg",
+    },
+    {
+        
+        "name": "Mortal Kombat",
+        "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#mortal_kombat",
+        
+        "img": "thumbnails/img8.jpg",
+    },
+    {
+        
+        "name": "Kuru Panda",
+        "url": "https://www.panda2.io/content/games/kurupanda/",
+        
+        "img": "thumbnails/img9.png",
+    },
+    {
+    "name": "Indian Truck Sim",
+    "img": "thumbnails/indiantruck.png",
+    "url": "https://too-advanced-for-society.gq/tam-indian-truck-simulator-3d/",
+    
+    },
+    {
+        
+        "name": "Space Company",
+        "url": "https://spacecompany.ga/",
+        
+        "img": "thumbnails/img11.jpg",
+    },
+    /*
+    {
+        "name": "Rolling Sky",
+        "url": "https://rga-bigfoot9999.vercel.app/src/webgl-rollingsky/index.html",
+        
+        "img": "thumbnails/img14.png",
+    },
+    {
+        "name": "Tank Trouble",
+        "url": "https://rga-bigfoot9999.vercel.app/src/tanktrouble/index.html",
+        
+        "img": "thumbnails/img16.jpg",
+    },
+    {
+        "name": "Vex 3",
+        "url": "https://rga-bigfoot9999.vercel.app/src/vex3/index.html",
+        
+        "img": "thumbnails/img17.jpg",
+    },
+    {
+        "name": "Vex 4",
+        "url": "https://rga-bigfoot9999.vercel.app/src/vex4/index.html",
+        
+        "img": "thumbnails/img18.png",
+    },
+    {
+        "name": "Zombotron",
+        "url": "https://rga-bigfoot9999.vercel.app/src/zombotron/index.html",
+        
+        "img": "thumbnails/img19.jpg",
+    },
+    {
+        "name": "Zombotron 2",
+        "url": "https://rga-bigfoot9999.vercel.app/src/zombotron-2-time-machine/index.html",
+        
+        "img": "thumbnails/img20.png",
+    },
+    */
+    {
+        "name": "Insanity",
+        "url": "https://insanity.netlify.app/",
+        
+        "img": "thumbnails/img21.png",
+    },
+    {
+        "name": "Insanity 2",
+        "url": "https://insanity2.netlify.app/",
+        
+        "img": "thumbnails/img22.png",
+    },
+    {
+        "name": "Bottle Flip 3d",
+        "url": "https://grandcanyonshuttles.com/uploads/5/0/5/6/5056555/custom_themes/664718197367015386/bottle-flip.html",
+        
+        "img": "thumbnails/img23.jpg",
+    },
+    {
+        "name": "GTA",
+        "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/850704625817689097/gas2.html",
+        
+        "img": "thumbnails/img24.jpg",
+    },
+    {
+        "name": "CurveBall",
+        "url": "https://www2.engineering.com/content/g13/curve23.html",
+        
+        "img": "thumbnails/img25.jpg",
+    },
+    
+    {
+        "name": "Headless.gg",
+        "url": "https://headless.gg/",
+        
+        "img": "thumbnails/img27.png",
+    },
+    {
+        "name": "Amoug Us",
+        "url": "https://school.bigfootgaming99.repl.co/",
+        "img": "thumbnails/img223",
+    },
+    {
+        
+        "category": "Action",
+        "name": "OvO",
+        "url": "gfiles/gfiles/html5/ovo/index.html",
+        "img": "thumbnails/img30.png",
+    },
+    {
+        
+        "category": "Puzzle",
+        "name": "Slither.io",
+        "url": "https://www.julgames.com/games/slither-snakes/",
+        "img": "thumbnails/img31.png",
+    },
+    
+    {
+        
+        "category": "Puzzle",
+        "name": "Woriar",
+        "url": "https://www.panda2.io/content/games/woriar/",
+        "img": "thumbnails/img38.png",
+    },
+    {   
+        
+        "category": "Action",
+        "name": "lets Surf!",
+        "url": "https://bigfoot9999.github.io/html5-games/games/edge-surf/",
+        "img": "thumbnails/img52.jpg",
+        },
+         
+    {
+        
+        "name": "Tower Building",
+        "url": "https://fracital.org/g/tower-building/index.html",
+        
+        "img": "thumbnails/img60.png",
+    }, 
+    {
+        
+        "name": "Lol Beans",
+        "url": "https://lolbeans.io/",
+        
+        "img": "thumbnails/img113",
+    }, 
+    {
+        "name": "Eagler Server",
+        "url": "https://boostcookies.tk/sw/hvtrs8%2F-ecgnepcpadt%2Fsgrtep.cywncmk2202.perl%2Ccm%2F",
+        "img": "../images/grass.png",
+    },
+    {
+        "name": "Arch MC Server",
+        "url": "https://web.arch.lol/?",
+        "img": "../images/archmc",
+    },
+    {
+        "name": "Piano Master",
+        "url": "https://play.gamemonetize.co/q0mrnyr9ucvgdqgooq9cq0y7fntuwzjj/",
+        "img": "thumbnails/img61.jpg",
+    }, 
+    {
+        "name": "Bob The Robber",
+        "url": "https://play.gamemonetize.co/axjqhwihwo843nmu8hb30fqil40alqtu/",
+        "img": "thumbnails/img63",
+    },
+    {
+        "name": "Driving in the City",
+        "url": "https://play.gamemonetize.co/5e7ehppi0cufmsfktf2yy5sb6u3d1nwf/",
+        "img": "thumbnails/img67.jpg",
+    },
+    {
+        "name": "Blumji Rocket",
+        "url": "https://play.gamemonetize.co/x9szn9qmh0ygsmct93p7mny35850lpx1/",
+        "img": "thumbnails/img213",
+    },
+    {
+       "name": "BasketBall Stars",
+       "url": "" + url +"/uv.html#" + BBstars,
+       "img": "thumbnails/img215",
+       },
+    {
+        "name": "Pokemon Silver",
+        "url": "" + url + "/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+        "img": "thumbnails/img217",
+    },
+    {
+        "name": "Diep.io",
+        "url": "" + url + "/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+        "img": "thumbnails/img218",
+    },
+    
+    {
+        "name": "Subway Surfers",
+        "url": "" + url + "/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+        "img": "thumbnails/img221",
+    },
+    {
+        
+        "name": "Cookie Clicker",
+        "url": "https://bigfoot9999.github.io/cc/",
+        "img": "thumbnails/img29.png",
+    }, 
+    
+    {
+        "name": "Vivalda",
+        "url": "https://bigfoot9999.github.io/html5-games/games/vivaldia/",
+        "img": "thumbnails/img84.png",
+    },     
+    {
+        
+        "name": "1v1.lol",
+        "url": "https://rnv3.pages.dev/G/1v1.lol/",
+        "img": "thumbnails/img46.jpg",
+    }, 
+      {
+        
+        "name": "1v1.lol(Server 2)",
+        "url": "https://nowcollege.com/uploads/5/5/6/7/5567194/custom_themes/315300867982782623/1v1_lol.html",
+        "img": "thumbnails/img46.jpg",
+    }, 
+      {
+        
+        "name": "Zombs Royale",
+        "url": "https://theadvancedsociety-tam.tbt.mx/tmm-zombsroyale/",
+        "img": "thumbnails/img47.png",
+    }, 
+    {
+        
+        "name": "Shell Shockers",
+        "url": "https://tam-shellshockers.arfotoarte.com/",
+        "img": "thumbnails/img48.png",
+    }, 
+    {
+       
+        "name": "Blockpost.io",
+        "url": "https://ikatchelo.github.io/blockpost/",
+        "img": "thumbnails/img45.png",
+    }, 
+    {
+       
+        "name": "Rooftop Snipers",
+        "url": "https://bigfoot9999.github.io/3kh0.github.io/projects/rooftop-snipers/",
+        "img": "thumbnails/img49.png",
+    }, 
+    {
+        
+        "name": "Pixel Combat 2",
+        "url": "https://grandcanyonshuttles.com/uploads/5/0/5/6/5056555/custom_themes/607463927942590340/pixel-combat2.html",
+        "img": "thumbnails/img50.jpg",
+    }, 
+    {
+        
+        "name": "Modern Blocky Paint",
+        "url": "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/593675271171586975/modern_blocky_paint_.html",
+        "img": "thumbnails/img51.jpg",
+    },
+    {
+        
+        "name": "Block Combat Swat",
+        "url": "https://html5.gamemonetize.co/z4ajge69b989gm67dq59mkgv20ed6zg6/",
+        "img": "thumbnails/img62",
+    },
+    
+    {
+        
+        "name": "Mini Royale 2",
+        "url": "https://miniroyale.clambam10.repl.co/",
+        "img": "thumbnails/img66",
+    },
+    {
+        "name": "MooMoo.io",
+        "url": "" + url + "/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+        "img": "thumbnails/img219",
+    },
+    
+    {
+        
+        "name": "Fortnite",
+        "url": "" + url + "/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
+        "img": "thumbnails/img220",
+    },
+     
+           {
+            "name": "Doomz.io",
+            "url": "https://kardna-v2.herokuapp.com/KardnaV2/hvtrs8%2F-dmooz%2Cim%2F",
+            "img": "thumbnails/doomz-io.png",
+           },
+           {
+            "name": "Stickman Hook",
+            "url": "https://magictricks.milkysdad.repl.co/gamefiles/stickmanhook/",
+            "img": "thumbnails/stickman.jpg",
+           },
+           {
+            "name": "JustFall.LOL",
+            "url": "https://stars-delta.vercel.app/play/justfall-lol/index.html",
+            "img": "thumbnails/justfall.png",
+           },
+           {
+            "name": "Basket Bros",
+            "url": "https://nbadebate.com",
+            "img": "thumbnails/basket-bros.png",
+           },
+           {
+            "name": "Granny",
+            "url": "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
+            "img": "thumbnails/granny.png",
+            
+           },
+           {
+            "name": "Gold Digger",
+            "url": "https://bg.kardna4life.ml/uv/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
+            "img": "thumbnails/gold.png",
+           },
+           {
+            "name": "Eagler Craft (Void)",
+            "url": "https://152-voidcraftsmp.v0idplayyz.repl.co/",
+            "img": "../images/grass.png",
+           },
+           {
+            "name": "Funny Shooter",
+            "url": "https://funny-shooter22222.jimrush.repl.co/",
+            "img": "thumbnails/f-s.png",
+            },
+       ];
+       externallinks.forEach(function(externallinks) {
+   
+        //searchArr.push(arrayItem.name);
+        let link2 = externallinks.url;
+        let name2 = externallinks.name;
+        document.getElementById('buttonDiv211').innerHTML += `<div style="width: 150px;"class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a href="gfiles/gfiles/lanucher/index2.html?url=${externallinks.url}"><img width="145" height="145"style="border-radius: 25px;max-width:145px;max-height:145px;width:145px;height:145px" data-src="${externallinks.img}" class="lazy" style="width:100%"></a><p3 style="text-transform: uppercase;">${externallinks.name}</p3></div></div>`;
+
+
+        
+    } );
         
         //start game code
   var buttonArr7 = [
@@ -4775,6 +4793,12 @@ var buttonArr21 = [
     "url": "gfiles/gfiles/flash/?swf=TU-95.swf",
     
   },
+  {
+    "name": "Funny Shooter",
+    "url": "https://funny-shooter22222.jimrush.repl.co/",
+    "img": "thumbnails/f-s.png",
+    },
+
   //end gfiles
    {
 "name": "Roblox",

@@ -30,6 +30,7 @@ button {
   background-image: url("../images/loading.gif");
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #000000;
 }
 
 .info-msg,

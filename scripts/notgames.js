@@ -1,4 +1,4 @@
-var backend = "aHR0cHM6Ly9iZy5tYy1rYXJkbmEuY2Y=";
+var backend = "aHR0cHM6Ly9tYXRocGxheWdyb3VuZC5jbG91ZC9zZXJ2aWNlLw==";
 var url = atob(backend);
 var roblox = "aHR0cHM6Ly9reGQuZm0vcm9ibG94";
 var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
@@ -2538,7 +2538,7 @@ var buttonArr21 = [
            },
            {
             "name": "Gold Digger",
-            "url": "https://bg.kardna4life.ml/uv/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
+            "url": "https://mathplayground.cloud/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
             "img": "thumbnails/gold.png",
            },
            {

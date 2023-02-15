@@ -5,7 +5,11 @@ var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
 var BBstars = "aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=";
 
 var buttonArr21 = [
-  
+    {
+        "name": "Doodle Cricket",
+        "url": "gfiles/gfiles/html5/doodlecricket.github.io-master/index.html",
+        "img": "gfiles/gfiles/html5/doodlecricket.github.io-master/statics/icons/icon-512x512.png",
+    },
     
   
   {
@@ -2666,6 +2670,12 @@ var buttonArr21 = [
         win7.document.body.appendChild(iframe);
     }
     var buttonArr21 = [
+      //C:\Users\zapho\bigfootsite\BigfootsGS.github.io\g\gfiles\gfiles\html5\doodlecricket.github.io-master\statics\icons\icon-512x512.png
+      {
+        "name": "Doodle Cricket",
+        "url": "gfiles/gfiles/html5/doodlecricket.github.io-master/index.html",
+        "img": "gfiles/gfiles/html5/doodlecricket.github.io-master/statics/icons/icon-512x512.png",
+    },
       {
         "name": "Idle Breakout",
         "url": "gfiles/gfiles/html5/idle-breakout/index.html",

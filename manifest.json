@@ -1,0 +1,20 @@
+{
+    "name": "Bigfoot's Game Shack",
+    "short_name": "BGS",
+    "description": "Welcome to Bigfoot's Game Shack! Play over 300+ Free web games instantly with BGS. ",
+    "display": "fullscreen",
+    "start_url": ".",
+    "icons": [
+      {
+        "src": "images/bigfoot.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+  
+    ],
+    "orientation": "portrait",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "prefer_related_applications": true
+    
+  }

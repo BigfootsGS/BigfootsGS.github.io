@@ -1,5 +1,7 @@
 // Hello there!
 // Email bigfoot.gaming9999@gmail.com for any questions. I will reply usually within a day.
+
+
 console.warn(
   "%cNote!",
   "color: purple; font-weight: 600; background: yellow; padding: 0 5px; border-radius: 5px",

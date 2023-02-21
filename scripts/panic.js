@@ -164,7 +164,10 @@ document.addEventListener("keypress", handleKeyPress4);
 
 
 //IF VISIBLE.JS CODE
-ifvisible.setIdleDuration(3);
+
+
+/*
+ifvisible.setIdleDuration(30);
 
 ifvisible.on("idle", function(){
   // Stop auto updating the live data
@@ -176,7 +179,37 @@ ifvisible.on("wakeup", function(){
   // go back updating data
   console.log('User is awake');
 });
+*/
+ 
+ifvisible.on("blur", function(){
+  // example code here..
+  const showIframe = document.getElementById('body');
 
-ifvisible.on("hidden", function(){
-  console.log('Tab Was hidden')
+  const hideIframe = document.getElementById('maincode');
+  
+
+    if (el.style.display === 'none') {
+      el.style.display = 'block';
+      showIframe.style.display = 'none';
+      applyUrl('https://bgs.pages.dev/images/logonew.png', "Bigfoot's Game Shack");
+
+    } 
+    
+    else {
+      applyUrl('https://storage.googleapis.com/operating-anagram-8280/favicon-32x32.png', 'Math Practice | Google Search');
+
+      el.style.display = 'none';
+      showIframe.style.display = 'block';
+
+    }
+  console.log(`Number ${key} was pressed!`);
+
+
 });
+
+ifvisible.on("focus", function(){
+  // resume all animations
+  console.log('User is back');
+});
+
+

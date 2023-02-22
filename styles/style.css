@@ -1043,11 +1043,12 @@ ul.controls {
         position: absolute;
         left: 20px;
         top: 70vh;
-        background-color: rgba(255, 255, 255, 0.781);
+        background-color: rgba(255, 255, 255, 0.695);
         border-radius: 3px;
         z-index: 4;
         box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.384);
         transition: 0.2s;
+        backdrop-filter: blur(10px);
 
     }
     .new-yt:hover {

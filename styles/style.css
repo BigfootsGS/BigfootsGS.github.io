@@ -603,6 +603,8 @@ a.active{
     margin-bottom:-10px;
 }
 .navbarfoixed {
+	    backdrop-filter: blur(13px);
+
 background-color: rgb(0 0 0 / 53%);text-decoration: none;position: fixed;width: 100vw;color: white;z-index: 999999999999999999999999999999999;
 }
 .iframemain{

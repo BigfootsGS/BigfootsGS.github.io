@@ -179,37 +179,26 @@ ifvisible.on("wakeup", function(){
   // go back updating data
   console.log('User is awake');
 });
-*/
  
 ifvisible.on("blur", function(){
-  // example code here..
-  const showIframe = document.getElementById('body');
-
+  const showIframe = document.getElementById('iframe1');
   const hideIframe = document.getElementById('maincode');
-  
-
-    if (el.style.display === 'none') {
-      el.style.display = 'block';
-      showIframe.style.display = 'none';
-      applyUrl('https://bgs.pages.dev/images/logonew.png', "Bigfoot's Game Shack");
-
-    } 
-    
-    else {
-      applyUrl('https://storage.googleapis.com/operating-anagram-8280/favicon-32x32.png', 'Math Practice | Google Search');
-
-      el.style.display = 'none';
-      showIframe.style.display = 'block';
-
-    }
-  console.log(`Number ${key} was pressed!`);
+  hideIframe.style.display = 'none';
+  showIframe.style.display = 'block';
+  applyUrl('https://storage.googleapis.com/operating-anagram-8280/favicon-32x32.png', 'Math Practice | Google Search');
+  console.log('User is away');
 
 
 });
 
 ifvisible.on("focus", function(){
-  // resume all animations
+  const showIframe = document.getElementById('iframe1');
+  const hideIframe = document.getElementById('maincode');
+  hideIframe.style.display = 'block';
+  showIframe.style.display = 'none';
+  applyUrl('https://bgs.pages.dev/images/logonew.png', "Bigfoot's Game Shack");
   console.log('User is back');
 });
 
 
+*/

@@ -339,6 +339,7 @@ a.active{
      padding-right: 0.8em;
 }
  .wrapper .profile {
+	     backdrop-filter: blur(7px);
      margin-top: 5.199999999999999em;
      position: relative;
      max-height: 309px;

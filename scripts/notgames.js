@@ -2543,7 +2543,7 @@ var buttonArr21 = [
            },
            {
             "name": "Eagler Craft (Void)",
-            "url": "https://152-voidcraftsmp.v0idplayyz.repl.co/",
+            "url": "https://math.v0idplayyz.repl.co/",
             "img": "../images/grass.png",
            },
            {
@@ -5181,7 +5181,7 @@ var buttonArr21 = [
        },
        {
         "name": "Eagler Craft (Void)",
-        "url": "https://152-voidcraftsmp.v0idplayyz.repl.co/",
+        "url": "https://math.v0idplayyz.repl.co/",
         "img": "../images/grass.png",
        },
    

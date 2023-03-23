@@ -91,7 +91,10 @@ console.log(`Number ${key} was pressed!`);
 };
 
 
+function v4() {
+  vfourpromo.style.display = 'none';
 
+}
 
 
 

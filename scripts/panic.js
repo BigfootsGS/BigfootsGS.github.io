@@ -92,8 +92,9 @@ console.log(`Number ${key} was pressed!`);
 
 
 function v4() {
-  vfourpromo.style.display = 'none';
+  const vfourpromo = document.getElementById('vfourpromo');
 
+  vfourpromo.style.display = 'none';
 }
 
 

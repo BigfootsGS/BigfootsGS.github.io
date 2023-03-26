@@ -139,11 +139,11 @@ var buttonArr21 = [
            "url": "gfiles/gfiles/flash/?swf=bloonstd5.swf",
            "img": "thumbnails/113.png",
        },
-       {
+       /*{
            "name": "Bobtherobber",
            "url": "gfiles/gfiles/flash/?swf=bobtherobber.swf",
            "img": "thumbnails/img114.jpg",
-       },
+       },*/
        {
            "name": "Boombot2",
            "url": "gfiles/gfiles/flash/?swf=boombot2.swf",
@@ -2563,7 +2563,7 @@ var buttonArr21 = [
         
     } );
         
-        //start game code
+        /*
   var buttonArr7 = [
     {
         "name": "WidgetBot",
@@ -2586,10 +2586,10 @@ var buttonArr21 = [
         "url2": "https://bubbo.dev/service/hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-",
         "img": "../images/yt.png",
     }, 
-   
     
     
-  ]
+  ]   */
+
     //end array for game links
     
     buttonArr7.forEach(function(arrayItem7) {
@@ -2799,11 +2799,11 @@ var buttonArr21 = [
            "url": "gfiles/gfiles/flash/?swf=bloonstd5.swf",
            "img": "thumbnails/113.png",
        },
-       {
+       /*{
            "name": "Bobtherobber",
            "url": "gfiles/gfiles/flash/?swf=bobtherobber.swf",
            "img": "thumbnails/img114.jpg",
-       },
+       },*/
        {
            "name": "Boombot2",
            "url": "gfiles/gfiles/flash/?swf=boombot2.swf",
@@ -5273,9 +5273,7 @@ var randomlinks= [
  {
     "link":"gfiles/gfiles/flash/?swf=bloonstd5.swf",
  },
- {
-    "link":"gfiles/gfiles/flash/?swf=bobtherobber.swf",
- },
+
  {
     "link":"gfiles/gfiles/flash/?swf=boombot2.swf",
  },

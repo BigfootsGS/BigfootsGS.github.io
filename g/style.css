@@ -67,7 +67,7 @@ button {
 
 html {
   font-family: 'Anton', sans-serif;
- background-image: url(../images/4.png);
+ background-image: url(../images/GAMES-BG.png);
  background-attachment: fixed;
  background-repeat: no-repeat;
  background-size: cover;
@@ -392,7 +392,8 @@ img {
   transition: 0.1s;
   width: 158px;
   background-color: #ffffff83;
-  
+  backdrop-filter: blur(10px);
+
 }
 .discordevnt1{
   height:340px;
@@ -596,6 +597,7 @@ color: #ffffff;
   
 .belownavabovegames{
 display: none;
+
 }
 }
 
@@ -634,6 +636,7 @@ display: none;
   max-width: 33.33%;
   max-height: 200px;
   height: 200px;
+  backdrop-filter: blur(10px);
   float: left;
   font-size: 13px;
   font-family: 'Monument Extended', sans-serif;

@@ -1,17 +1,13 @@
-var backend = "aHR0cHM6Ly9iZy5tYy1rYXJkbmEuY2Y=";
+var backend = "aHR0cHM6Ly9tYXRocGxheWdyb3VuZC5jbG91ZC9zZXJ2aWNl";
 var url = atob(backend);
 var roblox = "aHR0cHM6Ly9reGQuZm0vcm9ibG94";
 var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
 var BBstars = "aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=";
 
 var buttonArr21 = [
-    {
-        "name": "Doodle Cricket",
-        "url": "gfiles/gfiles/html5/doodlecricket.github.io-master/index.html",
-        "img": "gfiles/gfiles/html5/doodlecricket.github.io-master/statics/icons/icon-512x512.png",
-    },
-    
   
+    
+
   {
     "name": "Idle Breakout",
     "url": "gfiles/gfiles/html5/idle-breakout/index.html",
@@ -143,11 +139,11 @@ var buttonArr21 = [
            "url": "gfiles/gfiles/flash/?swf=bloonstd5.swf",
            "img": "thumbnails/113.png",
        },
-       {
+       /*{
            "name": "Bobtherobber",
            "url": "gfiles/gfiles/flash/?swf=bobtherobber.swf",
            "img": "thumbnails/img114.jpg",
-       },
+       },*/
        {
            "name": "Boombot2",
            "url": "gfiles/gfiles/flash/?swf=boombot2.swf",
@@ -1246,14 +1242,14 @@ var buttonArr21 = [
     "url": "gfiles/gfiles/html5/pacman/index.html",
     
   },
-//here
+/*
   {
     "name": "13 Days in Hell",
     "img": "thumbnails/dih.jpg",
     "url": "gfiles/gfiles/flash/?swf=13-days-in-hell.swf",
     
   },
- 
+ */
   {
     "name": "3D Car Driver",
     "img": "thumbnails/3dcar.png",
@@ -2166,13 +2162,13 @@ var buttonArr21 = [
        var externallinks = [
            {
     "name": "Roblox",
-    "url": "" + url +"/uv.html#" + roblox,
+    "url": url +"/uv.html#" + roblox,
     "img": "thumbnails/img59.png",
           },
     {
     
        "name": "Krunker.io",
-       "url": "" + url +"/uv.html#" + krunker,
+       "url": url +"/uv.html#" + krunker,
        "img": "thumbnails/img65.png",
        },
     
@@ -2409,23 +2405,23 @@ var buttonArr21 = [
     },
     {
        "name": "BasketBall Stars",
-       "url": "" + url +"/uv.html#" + BBstars,
+       "url": url +"/uv.html#" + BBstars,
        "img": "thumbnails/img215",
        },
     {
         "name": "Pokemon Silver",
-        "url": "" + url + "/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+        "url": url + "/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
         "img": "thumbnails/img217",
     },
     {
         "name": "Diep.io",
-        "url": "" + url + "/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+        "url": url + "/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
         "img": "thumbnails/img218",
     },
     
     {
         "name": "Subway Surfers",
-        "url": "" + url + "/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+        "url": url + "/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
         "img": "thumbnails/img221",
     },
     {
@@ -2503,14 +2499,14 @@ var buttonArr21 = [
     },
     {
         "name": "MooMoo.io",
-        "url": "" + url + "/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+        "url": url + "/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
         "img": "thumbnails/img219",
     },
     
     {
         
         "name": "Fortnite",
-        "url": "" + url + "/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
+        "url": url + "/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
         "img": "thumbnails/img220",
     },
      
@@ -2542,12 +2538,12 @@ var buttonArr21 = [
            },
            {
             "name": "Gold Digger",
-            "url": "https://bg.kardna4life.ml/uv/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
+            "url": "https://mathplayground.cloud/service/hvtrs8%2F-gmlfdkgeep.drtr%2Ccmm-",
             "img": "thumbnails/gold.png",
            },
            {
             "name": "Eagler Craft (Void)",
-            "url": "https://152-voidcraftsmp.v0idplayyz.repl.co/",
+            "url": "https://math.v0idplayyz.repl.co/",
             "img": "../images/grass.png",
            },
            {
@@ -2567,33 +2563,33 @@ var buttonArr21 = [
         
     } );
         
-        //start game code
+        /*
   var buttonArr7 = [
     {
         "name": "WidgetBot",
         "url": "https://e.widgetbot.io/channels/829117322223812658/829117322223812660",
-        "url1": "" + url + "/uv.html#aHR0cHM6Ly9lLndpZGdldGJvdC5pby9jaGFubmVscy84MjkxMTczMjIyMjM4MTI2NTgvODI5MTE3MzIyMjIzODEyNjYw",
-        "url2": "" + url + "/uv.html#aHR0cHM6Ly9lLndpZGdldGJvdC5pby9jaGFubmVscy84MjkxMTczMjIyMjM4MTI2NTgvODI5MTE3MzIyMjIzODEyNjYw",
+        "url1": url + "uv.html#aHR0cHM6Ly9lLndpZGdldGJvdC5pby9jaGFubmVscy84MjkxMTczMjIyMjM4MTI2NTgvODI5MTE3MzIyMjIzODEyNjYw",
+        "url2": url + "uv.html#aHR0cHM6Ly9lLndpZGdldGJvdC5pby9jaGFubmVscy84MjkxMTczMjIyMjM4MTI2NTgvODI5MTE3MzIyMjIzODEyNjYw",
         "img": "../images/disco.png",
     }, 
     {
         "name": "GE Force Now",
         "url": "https://bubbo.dev/service/hvtrs8%2F-pna%7B.eedopcgnmw%2Ccmm-mcln%2F",
         "url1": "https://bubbo.dev/service/hvtrs8%2F-wuw%2Cntific.aoo%2Fgn%2Fuq%2Feedopcg-lou%2Fdoptlive%2Fmmbklg%2F%22%20",
-        "url2": "" + url + "/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
+        "url2": url + "/uv.html#aHR0cDovL3BsYXkuZ2Vmb3JjZW5vdy5jb20v",
         "img": "../images/ge.png",
     }, 
     {
         "name": "Youtube",
-        "url": "" + url + "/uv.html#aHR0cHM6Ly95b3V0dWJlLmNvbQ==",
+        "url": url + "uv.html#aHR0cHM6Ly95b3V0dWJlLmNvbQ==",
         "url1": "https://youtube.com",
         "url2": "https://bubbo.dev/service/hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-",
         "img": "../images/yt.png",
     }, 
-   
     
     
-  ]
+  ]   */
+
     //end array for game links
     
     buttonArr7.forEach(function(arrayItem7) {
@@ -2608,9 +2604,9 @@ var buttonArr21 = [
   <div class="dropdown">
   <button style="margin-bottom:10px;margin-top:5px;"class="dropbtn">${arrayItem7.name}</button>
   <div class="dropdown-content">
-  <a href='loading/index.html?url=${arrayItem7.url}' ">Server 1</a>
-  <a href='loading/index.html?url=${arrayItem7.url1}'">Server 2</a>
-  <a href='loading/index.html?url=${arrayItem7.url2}'">Server 3</a>
+  <a href='/g/gfiles/gifles/lanucher/index.html?url=${arrayItem7.url}' ">Server 1</a>
+  <a href='/g/gfiles/gifles/lanucher/index.html?url=${arrayItem7.url1}'">Server 2</a>
+  <a href='/g/gfiles/gifles/lanucher/index.html?url=${arrayItem7.url2}'">Server 3</a>
   </div>
   <div>
   </div>
@@ -2670,12 +2666,7 @@ var buttonArr21 = [
         win7.document.body.appendChild(iframe);
     }
     var buttonArr21 = [
-      //C:\Users\zapho\bigfootsite\BigfootsGS.github.io\g\gfiles\gfiles\html5\doodlecricket.github.io-master\statics\icons\icon-512x512.png
-      {
-        "name": "Doodle Cricket",
-        "url": "gfiles/gfiles/html5/doodlecricket.github.io-master/index.html",
-        "img": "gfiles/gfiles/html5/doodlecricket.github.io-master/statics/icons/icon-512x512.png",
-    },
+
       {
         "name": "Idle Breakout",
         "url": "gfiles/gfiles/html5/idle-breakout/index.html",
@@ -2808,11 +2799,11 @@ var buttonArr21 = [
            "url": "gfiles/gfiles/flash/?swf=bloonstd5.swf",
            "img": "thumbnails/113.png",
        },
-       {
+       /*{
            "name": "Bobtherobber",
            "url": "gfiles/gfiles/flash/?swf=bobtherobber.swf",
            "img": "thumbnails/img114.jpg",
-       },
+       },*/
        {
            "name": "Boombot2",
            "url": "gfiles/gfiles/flash/?swf=boombot2.swf",
@@ -3911,14 +3902,7 @@ var buttonArr21 = [
     "url": "gfiles/gfiles/html5/pacman/index.html",
     
   },
-//here
-  {
-    "name": "13 Days in Hell",
-    "img": "thumbnails/dih.jpg",
-    "url": "gfiles/gfiles/flash/?swf=13-days-in-hell.swf",
-    
-  },
- 
+
   {
     "name": "3D Car Driver",
     "img": "thumbnails/3dcar.png",
@@ -4812,13 +4796,18 @@ var buttonArr21 = [
   //end gfiles
    {
 "name": "Roblox",
-"url": "" + url +"/uv.html#" + roblox,
+"url": url +"/uv.html#" + roblox,
 "img": "thumbnails/img59.png",
+},
+{
+  "name": "Fall Boys",
+  "url": "https://debbiewatermanphd.com/uploads/5/5/6/7/5567194/custom_themes/790846461828095114/fall-boys.html",
+  "img": 'thumbnails/fallguys.jpg',
 },
 {
 
    "name": "Krunker.io",
-   "url": "" + url +"uv.html#" + krunker,
+   "url": url +"uv.html#" + krunker,
    "img": "thumbnails/img65.png",
    },
 {
@@ -5054,23 +5043,23 @@ var buttonArr21 = [
 },
 {
    "name": "BasketBall Stars",
-   "url": "" + url +"/uv.html#" + BBstars,
+   "url": url +"/uv.html#" + BBstars,
    "img": "thumbnails/img215",
    },
 {
     "name": "Pokemon Silver",
-    "url": "" + url + "/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+    "url": url + "/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
     "img": "thumbnails/img217",
 },
 {
     "name": "Diep.io",
-    "url": "" + url + "/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
+    "url": url + "/uv.html#aHR0cHM6Ly9kaWVwLmlvCg==",
     "img": "thumbnails/img218",
 },
 
 {
     "name": "Subway Surfers",
-    "url": "" + url + "/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
+    "url": url + "/uv.html#aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==",
     "img": "thumbnails/img221",
 },
 {
@@ -5149,14 +5138,14 @@ var buttonArr21 = [
 },
 {
     "name": "MooMoo.io",
-    "url": "" + url + "/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
+    "url": url + "/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
     "img": "thumbnails/img219",
 },
 
 {
     
     "name": "Fortnite",
-    "url": "" + url + "/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
+    "url": url + "/uv.html#aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=",
     "img": "thumbnails/img220",
 },
  
@@ -5192,7 +5181,7 @@ var buttonArr21 = [
        },
        {
         "name": "Eagler Craft (Void)",
-        "url": "https://152-voidcraftsmp.v0idplayyz.repl.co/",
+        "url": "https://math.v0idplayyz.repl.co/",
         "img": "../images/grass.png",
        },
    
@@ -5284,9 +5273,7 @@ var randomlinks= [
  {
     "link":"gfiles/gfiles/flash/?swf=bloonstd5.swf",
  },
- {
-    "link":"gfiles/gfiles/flash/?swf=bobtherobber.swf",
- },
+
  {
     "link":"gfiles/gfiles/flash/?swf=boombot2.swf",
  },

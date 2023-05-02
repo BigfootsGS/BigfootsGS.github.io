@@ -1174,3 +1174,60 @@ width: 100vw;
     background-color: white !important;
     
 }
+
+#popup {
+  position: fixed;
+  top: 430px;
+  left: 20px;
+  background-color: #fffefe95;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  width: 300px;
+  backdrop-filter: blur(10px);
+  font-family: 'Monument Extended';
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  z-index: 9999999999999999999999999999999999999999999999999999999999;
+
+}
+
+.link-popup {
+    width: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 62, 28);
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.popup-p {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 30px;
+    margin: 0px;
+
+}
+
+.link-popup-a {
+    text-decoration: none;
+    color: white;
+
+}
+.link-popup-a1 {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 5px;
+}

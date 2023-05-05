@@ -805,7 +805,7 @@ e.selectorText;d.push(s_Yka(f,s_zvb(e.style,c)))}});return s_nvb(d)},s_yvb=funct
 </head><script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
     new Crate({
         server: '829117322223812658', // Bigfoot's Game Shack
-        channel: '1035597205354057789' // #school
+        channel: '1098685870128767098' // #school
     })
 </script><body id="body">"+a+"</body></html>");return(new DOMParser).parseFromString(s_9ca(a),"text/html").body.children[0]},
 s_zvb=function(a,b){if(!a)return s_Tka;var c=document.createElement("div").style;s_Dvb(a).forEach(function(d){var e=s_ee&&d in s_xvb?d:d.replace(/^-(?:apple|css|epub|khtml|moz|mso?|o|rim|wap|webkit|xv)-(?=[a-z])/i,"");s_8d(e,"--")||s_8d(e,"var")||(d=s_ivb(a,d),d=s_qvb(e,d,b),null!=d&&s_kvb(c,e,d))});return new s__f(c.cssText||"",s_Ska)},s_Fvb=function(a){var b=Array.from(s_Xp(s_uvb,a,"getElementsByTagName",["STYLE"])),c=s_Xub(b,function(g){return s_xa(s_avb(g).cssRules)});c=s_yvb(c);for(var d=[],

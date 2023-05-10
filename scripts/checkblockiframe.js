@@ -1,6 +1,6 @@
 // URLs to be loaded in the iframe
 const urls = [
-    "https://mathematics-pm5kizfgga-uw.a.run.app/service/hvtrs8%2F-hwb%2Canignju%60.zyx%2Fqhmw%3Duvm%5Dmgdkuo%3D%60iefmov",
+    "https://hub.alienhub.xyz/show?utm_medium=bigfoot",
   ];
   
   // Function to replace the iframe with a new URL
